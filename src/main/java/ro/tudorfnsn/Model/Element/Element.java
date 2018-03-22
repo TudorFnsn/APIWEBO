@@ -16,16 +16,16 @@ public abstract class Element
 {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+    protected Long id;
 
     @Lob
     @Type(type = "text")
     @Basic(fetch = FetchType.LAZY)
     @Column(length = 3000)
-    private String picture;
+    protected String picture;
 
     @Column
-    private String name;
+    protected String name;
 
 
     public Element(String picture, String name)

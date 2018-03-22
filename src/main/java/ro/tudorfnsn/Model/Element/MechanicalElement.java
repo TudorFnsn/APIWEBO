@@ -19,7 +19,7 @@ public abstract class MechanicalElement extends Element
 {
 
     @Column
-    private String series;
+    protected String series;
 
 
 

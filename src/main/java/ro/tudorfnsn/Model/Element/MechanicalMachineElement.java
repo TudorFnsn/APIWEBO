@@ -20,14 +20,14 @@ public abstract class MechanicalMachineElement extends MechanicalElement
 {
 
     @Column
-    private Status status;
+    protected Status status;
 
 
     @ManyToMany(targetEntity = SparePart.class, cascade = CascadeType.ALL) // every machine has more than one sparepart and every sparepart can be located in more than one machine
-    private List<SparePart> sparePartsList;
+    protected List<SparePart> sparePartsList;
 
     @Column
-    private String owner;
+    protected String owner;
 
     public MechanicalMachineElement(String picture, String name, String series, Status status, List<SparePart> sparePartsList, String owner)
     {
