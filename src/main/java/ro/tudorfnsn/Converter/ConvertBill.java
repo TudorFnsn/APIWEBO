@@ -1,5 +1,6 @@
 package ro.tudorfnsn.Converter;
 
+import org.springframework.stereotype.Component;
 import ro.tudorfnsn.Converter.ConverterInterface.ConverterInterface;
 import ro.tudorfnsn.DataTransferObject.DTOBill;
 import ro.tudorfnsn.Model.Bill;
@@ -7,6 +8,7 @@ import ro.tudorfnsn.Model.Bill;
 import java.util.ArrayList;
 import java.util.List;
 
+@Component
 public class ConvertBill implements ConverterInterface<Bill, DTOBill>
 {
     @Override

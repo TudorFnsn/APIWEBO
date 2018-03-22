@@ -1,5 +1,6 @@
 package ro.tudorfnsn.Converter;
 
+import org.springframework.stereotype.Component;
 import ro.tudorfnsn.Converter.ConverterInterface.ConverterInterface;
 import ro.tudorfnsn.DataTransferObject.DTOSparePart;
 import ro.tudorfnsn.Model.SparePart;
@@ -7,6 +8,7 @@ import ro.tudorfnsn.Model.SparePart;
 import java.util.ArrayList;
 import java.util.List;
 
+@Component
 public class ConvertSparePart implements ConverterInterface<SparePart, DTOSparePart>
 {
     @Override

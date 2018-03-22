@@ -3,7 +3,6 @@ package ro.tudorfnsn.Repository;
 import org.springframework.data.jpa.repository.JpaRepository;
 import ro.tudorfnsn.Enumerable.Status;
 import ro.tudorfnsn.Model.MachineIP;
-import ro.tudorfnsn.Model.MachineWaiting;
 
 import java.util.List;
 

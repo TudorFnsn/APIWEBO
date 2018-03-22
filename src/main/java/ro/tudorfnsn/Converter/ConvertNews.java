@@ -1,5 +1,6 @@
 package ro.tudorfnsn.Converter;
 
+import org.springframework.stereotype.Component;
 import ro.tudorfnsn.Converter.ConverterInterface.ConverterInterface;
 import ro.tudorfnsn.DataTransferObject.DTONews;
 import ro.tudorfnsn.Model.News;
@@ -7,6 +8,7 @@ import ro.tudorfnsn.Model.News;
 import java.util.ArrayList;
 import java.util.List;
 
+@Component
 public class ConvertNews implements ConverterInterface<News, DTONews>
 {
     @Override

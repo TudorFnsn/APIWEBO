@@ -1,5 +1,6 @@
 package ro.tudorfnsn.Converter;
 
+import org.springframework.stereotype.Component;
 import ro.tudorfnsn.Converter.ConverterInterface.ConverterInterface;
 import ro.tudorfnsn.DataTransferObject.DTOTask;
 import ro.tudorfnsn.Model.Task;
@@ -7,6 +8,7 @@ import ro.tudorfnsn.Model.Task;
 import java.util.ArrayList;
 import java.util.List;
 
+@Component
 public class ConvertTask implements ConverterInterface<Task, DTOTask>
 {
     @Override

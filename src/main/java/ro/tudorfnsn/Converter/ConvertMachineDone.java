@@ -1,5 +1,6 @@
 package ro.tudorfnsn.Converter;
 
+import org.springframework.stereotype.Component;
 import ro.tudorfnsn.Converter.ConverterInterface.ConverterInterface;
 import ro.tudorfnsn.DataTransferObject.DTOMachineDone;
 import ro.tudorfnsn.Enumerable.Status;
@@ -9,6 +10,7 @@ import ro.tudorfnsn.Model.MachineDone;
 import java.util.ArrayList;
 import java.util.List;
 
+@Component
 public class ConvertMachineDone implements ConverterInterface<MachineDone, DTOMachineDone>
 {
     @Override

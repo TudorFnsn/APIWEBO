@@ -1,5 +1,6 @@
 package ro.tudorfnsn.Converter;
 
+import org.springframework.stereotype.Component;
 import ro.tudorfnsn.Converter.ConverterInterface.ConverterInterface;
 import ro.tudorfnsn.DataTransferObject.DTOEmployee;
 import ro.tudorfnsn.Model.Employee;
@@ -7,6 +8,7 @@ import ro.tudorfnsn.Model.Employee;
 import java.util.ArrayList;
 import java.util.List;
 
+@Component
 public class ConvertEmployee implements ConverterInterface<Employee, DTOEmployee>
 {
     @Override

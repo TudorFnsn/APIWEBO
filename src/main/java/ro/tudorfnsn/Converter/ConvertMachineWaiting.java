@@ -1,5 +1,6 @@
 package ro.tudorfnsn.Converter;
 
+import org.springframework.stereotype.Component;
 import ro.tudorfnsn.Converter.ConverterInterface.ConverterInterface;
 import ro.tudorfnsn.DataTransferObject.DTOMachineWaiting;
 import ro.tudorfnsn.Enumerable.Status;
@@ -8,6 +9,8 @@ import ro.tudorfnsn.Model.MachineWaiting;
 
 import java.util.ArrayList;
 import java.util.List;
+
+@Component
 public class ConvertMachineWaiting implements ConverterInterface<MachineWaiting, DTOMachineWaiting>
 {
     @Override

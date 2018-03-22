@@ -1,5 +1,6 @@
 package ro.tudorfnsn.Converter;
 
+import org.springframework.stereotype.Component;
 import ro.tudorfnsn.Converter.ConverterInterface.ConverterInterface;
 import ro.tudorfnsn.DataTransferObject.DTOVacation;
 import ro.tudorfnsn.Model.Vacation;
@@ -7,6 +8,7 @@ import ro.tudorfnsn.Model.Vacation;
 import java.util.ArrayList;
 import java.util.List;
 
+@Component
 public class ConvertVacation implements ConverterInterface<Vacation, DTOVacation>
 {
     @Override

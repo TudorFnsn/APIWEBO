@@ -1,5 +1,6 @@
 package ro.tudorfnsn.Converter;
 
+import org.springframework.stereotype.Component;
 import ro.tudorfnsn.Converter.ConverterInterface.ConverterInterface;
 import ro.tudorfnsn.DataTransferObject.DTODaySchedule;
 import ro.tudorfnsn.Model.DaySchedule;
@@ -7,6 +8,7 @@ import ro.tudorfnsn.Model.DaySchedule;
 import java.util.ArrayList;
 import java.util.List;
 
+@Component
 public class ConvertDaySchedule implements ConverterInterface<DaySchedule, DTODaySchedule>
 {
     @Override
