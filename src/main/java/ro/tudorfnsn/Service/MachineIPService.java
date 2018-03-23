@@ -15,9 +15,11 @@ public class MachineIPService
     private ConvertMachineIP convertMachineIP;
 
     @Autowired
-    public MachineIPService(MachineIPRepository machineIPRepository)
+    public MachineIPService(MachineIPRepository machineIPRepository, ConvertMachineIP convertMachineIP)
     {
+
         this.machineIPRepository = machineIPRepository;
+        this.convertMachineIP = convertMachineIP;
     }
 
 
