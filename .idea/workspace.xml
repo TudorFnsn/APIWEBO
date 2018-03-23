@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64569b9d-340b-41a5-af09-be2f8b93a22d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7f0268cb-843f-457c-97e7-b49e017ac0ec.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/7f0268cb-843f-457c-97e7-b49e017ac0ec.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7f0268cb-843f-457c-97e7-b49e017ac0ec/storage_v2/_src_/database/webomatic_db._qCcMQ/schema/public.abK9xQ.meta" afterPath="$PROJECT_DIR$/.idea/dataSources/7f0268cb-843f-457c-97e7-b49e017ac0ec/storage_v2/_src_/database/webomatic_db._qCcMQ/schema/public.abK9xQ.meta" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/MachineIPService.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/MachineIPService.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -508,12 +506,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1521745991592</updated>
-      <workItem from="1521745996570" duration="6823000" />
+      <workItem from="1521745996570" duration="6968000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6823000" />
+    <option name="totallyTimeSpent" value="6968000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
