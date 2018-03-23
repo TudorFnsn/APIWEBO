@@ -11,8 +11,10 @@ public interface MachineIPRepository extends JpaRepository<MachineIP, Long>
     MachineIP findById(Long id);
     MachineIP findBySeries(String series);
     List<MachineIP> findByName(String name);
-    List<MachineIP> findByStatus(Status status);
-    List<MachineIP> findByOwner(String owner);
+
+    // redundant
+    MachineIP findByStatus(Status status);
+    MachineIP findByOwner(String owner);
     MachineIP removeBy(Long id);
 
 

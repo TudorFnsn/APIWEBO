@@ -15,6 +15,8 @@ public interface MachineDoneRepository extends JpaRepository<MachineDone, Long>
     MachineDone findFirstById(Long id);
     MachineDone findFirstBySeries(String series);
     List<MachineDone> findByName(String name);
-    List<MachineDone> findByStatus(Status status);
-    List<MachineDone> findByOwner(String owner);
+
+    // redundant
+    MachineDone findByStatus(Status status);
+    MachineDone findByOwner(String owner);
 }

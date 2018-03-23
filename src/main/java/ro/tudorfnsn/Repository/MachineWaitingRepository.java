@@ -11,6 +11,8 @@ public interface MachineWaitingRepository extends JpaRepository<MachineWaiting, 
     MachineWaiting findFirstById(Long id);
     MachineWaiting findFirstBySeries(String series);
     List<MachineWaiting> findByName(String name);
-    List<MachineWaiting> findByStatus(Status status);
-    List<MachineWaiting> findByOwner(String owner);
+
+    // nu e tare necesar findByStatus ca sunt frupate toate cu same status
+    MachineWaiting findByStatus(Status status);
+    MachineWaiting findByOwner(String owner);
 }

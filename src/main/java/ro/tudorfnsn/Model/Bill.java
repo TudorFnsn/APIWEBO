@@ -1,8 +1,10 @@
 package ro.tudorfnsn.Model;
 
 import lombok.*;
+import org.springframework.stereotype.Component;
 
 import javax.persistence.*;
+import java.util.Date;
 import java.util.List;
 
 @Entity
@@ -12,7 +14,7 @@ import java.util.List;
 @Setter
 @ToString
 @EqualsAndHashCode
-
+// Bill doesn't have owner field because we take the owner from the machineDone
 public class Bill
 {
     @Id
@@ -25,17 +27,21 @@ public class Bill
     @Column
     private Integer timeSpentOn;
 
+    @Column
+    private Date date;
+
     @ManyToMany(targetEntity = Employee.class, cascade = CascadeType.ALL)
     private List<Employee> employeeList;
 
     @Column
     private Float finalPrice;
 
-    public Bill(MachineDone machineDone, List<Employee> employeeList, Integer timeSpentOn, Float finalPrice)
+    public Bill(MachineDone machineDone, List<Employee> employeeList, Integer timeSpentOn, Date date, Float finalPrice)
     {
         this.machineDone = machineDone;
         this.employeeList = employeeList;
         this.timeSpentOn = timeSpentOn;
+        this.date = date;
         this.finalPrice = finalPrice;
     }
 
