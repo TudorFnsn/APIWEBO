@@ -2,6 +2,7 @@ package ro.tudorfnsn.Service;
 
 import jdk.nashorn.internal.runtime.doubleconv.DtoaBuffer;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import ro.tudorfnsn.Converter.ConvertMachineDone;
 import ro.tudorfnsn.Converter.ConvertMachineIP;
 import ro.tudorfnsn.Repository.MachineDoneRepository;
@@ -10,6 +11,7 @@ import ro.tudorfnsn.DataTransferObject.DTOMachineDone;
 
 import java.util.List;
 
+@Service
 public class MachineDoneService
 {
     private MachineDoneRepository machineDoneRepository;
