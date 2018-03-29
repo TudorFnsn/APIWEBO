@@ -22,7 +22,7 @@ public class MachineDone extends MechanicalMachineElement
 {
 
 
-  public MachineDone(String picture, String name, String series, List<SparePart> sparePartList, String owner)
+  public MachineDone(String picture, String name, String series, List<SparePart> sparePartList, Owner owner)
   {
       super(picture, name, series, Status.FINALIZED, sparePartList, owner);
 

@@ -3,6 +3,7 @@ package ro.tudorfnsn.Repository;
 import org.springframework.data.jpa.repository.JpaRepository;
 import ro.tudorfnsn.Enumerable.Status;
 import ro.tudorfnsn.Model.MachineIP;
+import ro.tudorfnsn.Model.Owner;
 
 import java.util.List;
 
@@ -14,7 +15,7 @@ public interface MachineIPRepository extends JpaRepository<MachineIP, Long>
 
     // redundant
     MachineIP findByStatus(Status status);
-    MachineIP findByOwner(String owner);
+    MachineIP findByOwner(Owner owner);
     MachineIP removeBy(Long id);
 
 

@@ -18,6 +18,7 @@ public class ConvertEmployee implements ConverterInterface<Employee, DTOEmployee
 
         dtoEmployee.setPicture(employee.getPicture());
         dtoEmployee.setName(employee.getName());
+        dtoEmployee.setDepartment(employee.getDepartment());
         dtoEmployee.setPosition(employee.getPosition());
 
         return dtoEmployee;
@@ -41,6 +42,7 @@ public class ConvertEmployee implements ConverterInterface<Employee, DTOEmployee
 
         employee.setPicture(dtoEmployee.getPicture());
         employee.setName(dtoEmployee.getName());
+        employee.setDepartment(dtoEmployee.getDepartment());
         employee.setPosition(dtoEmployee.getPosition());
 
         return employee;

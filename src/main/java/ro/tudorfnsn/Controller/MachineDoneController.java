@@ -21,7 +21,7 @@ public class MachineDoneController
         this.machineDoneService = machineDoneService;
     }
 
-    @RequestMapping(value = "/",method = RequestMethod.GET)
+    @RequestMapping(value = "/", method = RequestMethod.GET)
     public List<DTOMachineDone> getAll()
     {
         List<DTOMachineDone> dtoMachineDoneList = machineDoneService.getAllMachineDone();

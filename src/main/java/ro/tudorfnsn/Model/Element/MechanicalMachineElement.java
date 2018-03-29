@@ -4,6 +4,7 @@ package ro.tudorfnsn.Model.Element;
 
 import lombok.*;
 import ro.tudorfnsn.Enumerable.Status;
+import ro.tudorfnsn.Model.Owner;
 import ro.tudorfnsn.Model.SparePart;
 
 import javax.persistence.*;
@@ -27,9 +28,9 @@ public abstract class MechanicalMachineElement extends MechanicalElement
     protected List<SparePart> sparePartsList;
 
     @Column
-    protected String owner;
+    protected Owner owner;
 
-    public MechanicalMachineElement(String picture, String name, String series, Status status, List<SparePart> sparePartsList, String owner)
+    public MechanicalMachineElement(String picture, String name, String series, Status status, List<SparePart> sparePartsList, Owner owner)
     {
         super(picture, name, series);
 

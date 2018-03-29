@@ -3,6 +3,7 @@ package ro.tudorfnsn.Repository;
 import org.springframework.data.jpa.repository.JpaRepository;
 import ro.tudorfnsn.Enumerable.Status;
 import ro.tudorfnsn.Model.MachineWaiting;
+import ro.tudorfnsn.Model.Owner;
 
 import java.util.List;
 
@@ -14,5 +15,5 @@ public interface MachineWaitingRepository extends JpaRepository<MachineWaiting, 
 
     // nu e tare necesar findByStatus ca sunt frupate toate cu same status
     MachineWaiting findByStatus(Status status);
-    MachineWaiting findByOwner(String owner);
+    MachineWaiting findByOwner(Owner owner);
 }

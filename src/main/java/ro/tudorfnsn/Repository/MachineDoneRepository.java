@@ -3,6 +3,7 @@ package ro.tudorfnsn.Repository;
 import org.springframework.data.jpa.repository.JpaRepository;
 import ro.tudorfnsn.Enumerable.Status;
 import ro.tudorfnsn.Model.MachineDone;
+import ro.tudorfnsn.Model.Owner;
 
 
 import java.util.List;
@@ -18,5 +19,7 @@ public interface MachineDoneRepository extends JpaRepository<MachineDone, Long>
 
     // redundant
     MachineDone findByStatus(Status status);
-    MachineDone findByOwner(String owner);
+    //MachineDone findByOwner(Owner owner);
+    // sau
+    List<MachineDone> findByOwner(Owner owner);
 }
