@@ -22,7 +22,7 @@ public class MachineIP extends MechanicalMachineElement
 {
 
 
-    public MachineIP(String picture, String name, String series, List<SparePart> sparePartList, String owner)
+    public MachineIP(String picture, String name, String series, List<SparePart> sparePartList, Owner owner)
     {
         super(picture, name, series, Status.IN_PROGRESS, sparePartList, owner);
     }

@@ -11,7 +11,7 @@ public interface OwnerRepository extends JpaRepository<Owner, Long>
     Owner findFirstById (Long id);
     Owner findFirstByName (String name);
 
-    Owner findByMachineDoneList (MachineDone machineDone);
-    Owner findByMachineIPList (MachineIP machineIP);
-    Owner findByMachineWaitingList (MachineWaiting machineWaiting);
+    //Owner findByMachineDoneList (MachineDone machineDone);
+    //Owner findByMachineIPList (MachineIP machineIP);
+    //Owner findByMachineWaitingList (MachineWaiting machineWaiting);
 }

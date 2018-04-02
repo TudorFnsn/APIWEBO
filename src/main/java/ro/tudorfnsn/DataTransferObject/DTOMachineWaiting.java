@@ -2,6 +2,7 @@ package ro.tudorfnsn.DataTransferObject;
 
 import lombok.*;
 import ro.tudorfnsn.Enumerable.Status;
+import ro.tudorfnsn.Model.Owner;
 import ro.tudorfnsn.Model.SparePart;
 
 import java.util.Date;
@@ -21,6 +22,6 @@ public class DTOMachineWaiting
     String series;
     Status status;
     List<SparePart> sparePartList;
-    String owner;
+    Owner owner;
     Date arrivalDate;
 }

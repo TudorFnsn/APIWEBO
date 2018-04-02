@@ -5,8 +5,10 @@ import org.springframework.stereotype.Service;
 import ro.tudorfnsn.Converter.ConvertBill;
 import ro.tudorfnsn.DataTransferObject.DTOBill;
 import ro.tudorfnsn.Model.Bill;
+import ro.tudorfnsn.Model.MachineDone;
 import ro.tudorfnsn.Repository.BillRepository;
 
+import java.util.Date;
 import java.util.List;
 
 @Service
@@ -36,5 +38,32 @@ public class BillService
         List<DTOBill> dtoBillList = convertBill.ManyToDTO(billList);
 
         return dtoBillList;
+    }
+
+    public DTOBill getById(Long id)
+    {
+        Bill bill = billRepository.findById(id);
+
+        DTOBill dtoBill = convertBill.OneToDTO(bill);
+
+        return dtoBill;
+    }
+
+    public DTOBill getByDate(Date date)
+    {
+        Bill bill = billRepository.findByDate(date);
+
+        DTOBill dtoBill = convertBill.OneToDTO(bill);
+
+        return dtoBill;
+    }
+
+    public DTOBill getByMachineDone(MachineDone machineDone)
+    {
+        Bill bill = billRepository.findByMachineDone(machineDone);
+
+        DTOBill dtoBill = convertBill.OneToDTO(bill);
+
+        return dtoBill;
     }
 }

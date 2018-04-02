@@ -24,7 +24,7 @@ public class MachineWaiting extends MechanicalMachineElement
     @Column
     private Date arrivalDate;
 
-    public MachineWaiting(String picture, String name, String series, List<SparePart> sparePartList, String owner, Date arrivalDate)
+    public MachineWaiting(String picture, String name, String series, List<SparePart> sparePartList, Owner owner, Date arrivalDate)
     {
         super(picture, name, series, Status.WAITING, sparePartList, owner);
         this.arrivalDate = arrivalDate;

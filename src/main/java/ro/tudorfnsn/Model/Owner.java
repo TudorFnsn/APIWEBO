@@ -16,20 +16,20 @@ import java.util.List;
 @EqualsAndHashCode
 public class Owner extends Element
 {
-    @OneToMany(targetEntity = MachineIP.class, cascade = CascadeType.ALL)
-    private List<MachineIP> machineIPList;
+    //@OneToMany(targetEntity = MachineIP.class, cascade = CascadeType.ALL)
+   // private List<MachineIP> machineIPList;
 
-    @OneToMany(targetEntity = MachineDone.class, cascade = CascadeType.ALL)
-    private List<MachineDone> machineDoneList;
+    //@OneToMany(targetEntity = MachineDone.class, cascade = CascadeType.ALL)
+    //private List<MachineDone> machineDoneList;
 
-    @OneToMany(targetEntity = MachineWaiting.class, cascade = CascadeType.ALL)
-    private List<MachineWaiting> machineWaitingList;
+    //@OneToMany(targetEntity = MachineWaiting.class, cascade = CascadeType.ALL)
+    //private List<MachineWaiting> machineWaitingList;
 
-    public Owner(String picture, String name, List<MachineIP> machineIPList, List<MachineDone> machineDoneList, List<MachineWaiting> machineWaitingList)
+    public Owner(String picture, String name)
     {
         super(picture, name);
-        this.machineIPList = machineIPList;
-        this.machineDoneList = machineDoneList;
-        this.machineWaitingList = machineWaitingList;
+        //this.machineIPList = machineIPList;
+        //this.machineDoneList = machineDoneList;
+       // this.machineWaitingList = machineWaitingList;
     }
 }

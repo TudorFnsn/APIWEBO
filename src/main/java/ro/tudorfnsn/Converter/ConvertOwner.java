@@ -18,9 +18,9 @@ public class ConvertOwner implements ConverterInterface<Owner, DTOOwner>
 
         dtoOwner.setPicture(owner.getPicture());
         dtoOwner.setName(owner.getName());
-        dtoOwner.setMachineIPList(owner.getMachineIPList());
-        dtoOwner.setMachineDoneList(owner.getMachineDoneList());
-        dtoOwner.setMachineWaitingList(owner.getMachineWaitingList());
+       // dtoOwner.setMachineIPList(owner.getMachineIPList());
+       // dtoOwner.setMachineDoneList(owner.getMachineDoneList());
+       // dtoOwner.setMachineWaitingList(owner.getMachineWaitingList());
 
         return dtoOwner;
     }
@@ -44,9 +44,9 @@ public class ConvertOwner implements ConverterInterface<Owner, DTOOwner>
 
         owner.setPicture(dtoOwner.getPicture());
         owner.setName(dtoOwner.getName());
-        owner.setMachineIPList(dtoOwner.getMachineIPList());
-        owner.setMachineDoneList(dtoOwner.getMachineDoneList());
-        owner.setMachineWaitingList(dtoOwner.getMachineWaitingList());
+       // owner.setMachineIPList(dtoOwner.getMachineIPList());
+       // owner.setMachineDoneList(dtoOwner.getMachineDoneList());
+       // owner.setMachineWaitingList(dtoOwner.getMachineWaitingList());
 
         return owner;
 

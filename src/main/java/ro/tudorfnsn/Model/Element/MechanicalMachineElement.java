@@ -27,7 +27,7 @@ public abstract class MechanicalMachineElement extends MechanicalElement
     @ManyToMany(targetEntity = SparePart.class, cascade = CascadeType.ALL) // every machine has more than one sparepart and every sparepart can be located in more than one machine
     protected List<SparePart> sparePartsList;
 
-    @Column
+    @ManyToOne(targetEntity = Owner.class, cascade = CascadeType.ALL)
     protected Owner owner;
 
     public MechanicalMachineElement(String picture, String name, String series, Status status, List<SparePart> sparePartsList, Owner owner)
