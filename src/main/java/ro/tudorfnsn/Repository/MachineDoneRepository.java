@@ -4,6 +4,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import ro.tudorfnsn.Enumerable.Status;
 import ro.tudorfnsn.Model.MachineDone;
 import ro.tudorfnsn.Model.Owner;
+import ro.tudorfnsn.Model.MachineIP;
 
 
 import java.util.List;
@@ -17,9 +18,7 @@ public interface MachineDoneRepository extends JpaRepository<MachineDone, Long>
     MachineDone findFirstBySeries(String series);
     List<MachineDone> findByName(String name);
 
-    // redundant
-    MachineDone findByStatus(Status status);
-    //MachineDone findByOwner(Owner owner);
-    // sau
     List<MachineDone> findByOwner(Owner owner);
+
+    MachineDone deleteFirstById(Long id);
 }
