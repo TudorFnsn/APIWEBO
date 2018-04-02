@@ -2,10 +2,9 @@ package ro.tudorfnsn.Controller;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import ro.tudorfnsn.DataTransferObject.DTOEmployee;
+import ro.tudorfnsn.Enumerable.Department;
 import ro.tudorfnsn.Service.EmployeeService;
 
 import java.util.List;
@@ -29,4 +28,43 @@ public class EmployeeController
 
         return dtoEmployeeList;
     }
+
+    @RequestMapping(value = "/create", method = RequestMethod.POST)
+    public void create(@RequestBody DTOEmployee dtoEmployee)
+    {
+        employeeService.createEmployee(dtoEmployee);
+    }
+
+    @RequestMapping(value = "/getById/{id}", method = RequestMethod.GET)
+    public DTOEmployee getById(@PathVariable Long id)
+    {
+        DTOEmployee dtoEmployee = employeeService.getById(id);
+
+        return dtoEmployee;
+    }
+
+    @RequestMapping(value = "/getByName/{name}", method = RequestMethod.GET)
+    public DTOEmployee getByName(@PathVariable String name)
+    {
+        DTOEmployee dtoEmployee = employeeService.getByName(name);
+
+        return dtoEmployee;
+    }
+
+    @RequestMapping(value = "/getByDepartement/{departement}", method = RequestMethod.GET)
+    public List<DTOEmployee> getByDepartement(@PathVariable Department department)
+    {
+        List<DTOEmployee> dtoEmployeeList = employeeService.getByDepartement(department);
+
+        return dtoEmployeeList;
+    }
+
+    @RequestMapping(value = "/getByPosition/{position}")
+    public List<DTOEmployee> getByPosition(@PathVariable String position)
+    {
+        List<DTOEmployee> dtoEmployeeList = employeeService.getByPosition(position);
+
+        return dtoEmployeeList;
+    }
+
 }
