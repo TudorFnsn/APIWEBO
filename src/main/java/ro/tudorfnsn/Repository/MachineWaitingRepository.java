@@ -16,4 +16,5 @@ public interface MachineWaitingRepository extends JpaRepository<MachineWaiting, 
     // nu e tare necesar findByStatus ca sunt frupate toate cu same status
     MachineWaiting findByStatus(Status status);
     MachineWaiting findByOwner(Owner owner);
+    MachineWaiting deleteFirstById (Long id);
 }

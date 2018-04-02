@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64569b9d-340b-41a5-af09-be2f8b93a22d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Converter/ConvertModels.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/MachineDoneController.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/MachineDoneController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/MachineIPController.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/MachineIPController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/MachineDoneRepository.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/MachineDoneRepository.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/MachineIPRepository.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/MachineIPRepository.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/MachineDoneService.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/MachineDoneService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/MachineIPService.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/MachineIPService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/MachineWaitingController.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/MachineWaitingController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/MachineWaitingRepository.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/MachineWaitingRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/MachineWaitingService.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/MachineWaitingService.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,8 +66,8 @@
           <file leaf-file-name="MachineIPService.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/MachineIPService.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="215">
-                  <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+                <state relative-caret-position="-366">
+                  <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -104,7 +100,7 @@
           <file leaf-file-name="MachineIPController.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/MachineIPController.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="515">
+                <state relative-caret-position="477">
                   <caret line="72" column="37" lean-forward="true" selection-start-line="72" selection-start-column="37" selection-end-line="72" selection-end-column="37" />
                   <folding>
                     <element signature="e#950#951#0" expanded="true" />
@@ -131,7 +127,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="MachineDoneController.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="MachineDoneController.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/MachineDoneController.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="575">
@@ -139,6 +135,39 @@
                   <folding>
                     <element signature="e#2245#2246#0" expanded="true" />
                     <element signature="e#2301#2302#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="MachineWaitingRepository.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/MachineWaitingRepository.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="195">
+                  <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="MachineWaitingService.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/MachineWaitingService.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="291">
+                  <caret line="57" column="53" lean-forward="false" selection-start-line="57" selection-start-column="53" selection-end-line="57" selection-end-column="53" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="MachineWaitingController.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/MachineWaitingController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="292">
+                  <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+                  <folding>
+                    <element signature="e#1199#1200#0" expanded="true" />
+                    <element signature="e#1261#1262#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -173,11 +202,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/BillRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Element/Owner.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOOwner.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Application.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/MachineWaitingRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/DayScheduleRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/MachineDone.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Enumerable/Department.java" />
@@ -220,10 +246,13 @@
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Converter/ConvertModels.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/MachineIPController.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/MachineIPRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/MachineIPService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/MachineDoneRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/MachineDoneService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/MachineDoneController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/MachineWaitingRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/MachineIPService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/MachineWaitingService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/MachineWaitingController.java" />
       </list>
     </option>
   </component>
@@ -535,12 +564,21 @@
       <workItem from="1521745996570" duration="12953000" />
       <workItem from="1521883571002" duration="590000" />
       <workItem from="1521913122153" duration="2684000" />
-      <workItem from="1521917719072" duration="24488000" />
+      <workItem from="1521917719072" duration="24918000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40715000" />
+    <option name="totallyTimeSpent" value="41145000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -556,13 +594,13 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24484181" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31774417" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -591,24 +629,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/News.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/NewsRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/NewsService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="419">
@@ -916,14 +936,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/MachineWaitingService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOMachineIP.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -988,16 +1000,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Converter/ConvertModels.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-91">
-          <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/MachineDone.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
@@ -1035,10 +1037,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/MachineDoneController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="73" column="1" lean-forward="true" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
+          <folding>
+            <element signature="e#2245#2246#0" expanded="true" />
+            <element signature="e#2301#2302#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/MachineWaitingRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/MachineIPService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+        <state relative-caret-position="-366">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/MachineWaitingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="57" column="53" lean-forward="false" selection-start-line="57" selection-start-column="53" selection-end-line="57" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Converter/ConvertModels.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-91">
+          <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1047,7 +1086,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/MachineIPController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
+        <state relative-caret-position="477">
           <caret line="72" column="37" lean-forward="true" selection-start-line="72" selection-start-column="37" selection-end-line="72" selection-end-column="37" />
           <folding>
             <element signature="e#950#951#0" expanded="true" />
@@ -1056,13 +1095,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/MachineDoneController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/MachineWaitingController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="73" column="1" lean-forward="true" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
+        <state relative-caret-position="292">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
           <folding>
-            <element signature="e#2245#2246#0" expanded="true" />
-            <element signature="e#2301#2302#0" expanded="true" />
+            <element signature="e#1199#1200#0" expanded="true" />
+            <element signature="e#1261#1262#0" expanded="true" />
           </folding>
         </state>
       </provider>
