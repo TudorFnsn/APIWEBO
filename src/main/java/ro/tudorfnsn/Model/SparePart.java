@@ -13,7 +13,6 @@ import javax.persistence.Table;
 @Getter
 @Setter
 @ToString
-@EqualsAndHashCode
 
 public class SparePart extends MechanicalElement
 {

@@ -1,9 +1,7 @@
 package ro.tudorfnsn.Controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import ro.tudorfnsn.DataTransferObject.DTOTask;
 import ro.tudorfnsn.Service.TaskService;
 
@@ -29,5 +27,31 @@ public class TaskController
 
         return dtoTaskList;
     }
+
+    @RequestMapping(value = "/create", method = RequestMethod.POST)
+    public void create(@RequestBody DTOTask dtoTask)
+    {
+        taskService.createTask(dtoTask);
+    }
+
+    @RequestMapping(value = "/getById/{id}", method = RequestMethod.GET)
+    public DTOTask getById(@PathVariable Long id)
+    {
+        DTOTask dtoTask = taskService.getById(id);
+
+        return dtoTask;
+    }
+
+    @RequestMapping(value = "/getByStartHour/{startHour}", method = RequestMethod.GET)
+    public List<DTOTask> getByStartHour(@PathVariable Integer startHour)
+    {
+        List<DTOTask> dtoTaskList = taskService.getByStartHour(startHour);
+
+        return dtoTaskList;
+
+        // SAU ASAAAA!!!
+        //return taskService.getByStartHour(startHour);
+    }
+
 
 }

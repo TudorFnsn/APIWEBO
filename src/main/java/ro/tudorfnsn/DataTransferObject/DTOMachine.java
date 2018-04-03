@@ -5,7 +5,9 @@ import ro.tudorfnsn.Enumerable.Status;
 import ro.tudorfnsn.Model.Owner;
 import ro.tudorfnsn.Model.SparePart;
 
+import java.util.Date;
 import java.util.List;
+import java.util.Set;
 
 
 @AllArgsConstructor
@@ -14,7 +16,7 @@ import java.util.List;
 @Setter
 @EqualsAndHashCode
 @ToString
-public class DTOMachineIP
+public class DTOMachine
 {
     Long id;
     String picture;
@@ -22,6 +24,7 @@ public class DTOMachineIP
     String series;
     Status status;
     List<SparePart> sparePartList;
-    Owner owner;
+    Date arrivalDate;
+    Long owner_id;
 
 }

@@ -39,4 +39,22 @@ public class TaskService
         return dtoTaskList;
     }
 
+    public DTOTask getById(Long id)
+    {
+        Task task = taskRepository.findFirstById(id);
+
+        DTOTask dtoTask = convertTask.OneToDTO(task);
+
+        return dtoTask;
+    }
+
+    public List<DTOTask> getByStartHour(Integer startHour)
+    {
+        List<Task> taskList = taskRepository.findByStartHour(startHour);
+
+        List<DTOTask> dtoTaskList = convertTask.ManyToDTO(taskList);
+
+        return dtoTaskList;
+    }
+
 }

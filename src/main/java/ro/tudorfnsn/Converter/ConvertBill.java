@@ -17,7 +17,7 @@ public class ConvertBill implements ConverterInterface<Bill, DTOBill>
         DTOBill dtoBill = new DTOBill();
 
         dtoBill.setId(bill.getId());
-        dtoBill.setMachineDone(bill.getMachineDone());
+        dtoBill.setMachine(bill.getMachine());
         dtoBill.setTimeSpentOn(bill.getTimeSpentOn());
         dtoBill.setEmployeeList(bill.getEmployeeList());
         dtoBill.setFinalPrice(bill.getFinalPrice());
@@ -41,7 +41,7 @@ public class ConvertBill implements ConverterInterface<Bill, DTOBill>
     {
         Bill bill = new Bill();
 
-        bill.setMachineDone(dtoBill.getMachineDone());
+        bill.setMachine(dtoBill.getMachine());
         bill.setTimeSpentOn(dtoBill.getTimeSpentOn());
         bill.setEmployeeList(dtoBill.getEmployeeList());
         bill.setFinalPrice(dtoBill.getFinalPrice());

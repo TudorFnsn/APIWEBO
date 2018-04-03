@@ -1,12 +1,13 @@
 package ro.tudorfnsn.Controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import ro.tudorfnsn.DataTransferObject.DTOVacation;
+import ro.tudorfnsn.Enumerable.MotiveOfAbsence;
+import ro.tudorfnsn.Model.Employee;
 import ro.tudorfnsn.Service.VacationService;
 
+import java.util.Date;
 import java.util.List;
 
 @RestController
@@ -26,6 +27,36 @@ public class VacationController
     public List<DTOVacation> getAll()
     {
         List<DTOVacation> dtoVacationList = vacationService.getAllVacations();
+        return dtoVacationList;
+    }
+
+    @RequestMapping(value = "/create", method = RequestMethod.POST)
+    public void create(@RequestBody DTOVacation dtoVacation)
+    {
+        vacationService.createVacation(dtoVacation);
+    }
+
+    @RequestMapping(value = "/getByEmployee/{employee}", method = RequestMethod.GET)
+    public DTOVacation getByEmployee(@PathVariable Employee employee)
+    {
+        DTOVacation dtoVacation = vacationService.getByEmployee(employee);
+
+        return dtoVacation;
+    }
+
+    @RequestMapping(value = "/getByMotive/{motiveOfAbsence}", method = RequestMethod.GET)
+    public List<DTOVacation> getByMotive(@PathVariable MotiveOfAbsence motiveOfAbsence)
+    {
+        List<DTOVacation> dtoVacationList = vacationService.getByMotive(motiveOfAbsence);
+
+        return dtoVacationList;
+    }
+
+    @RequestMapping(value = "/getByLeave/{leave}", method = RequestMethod.GET)
+    public List<DTOVacation> getByLeave(@PathVariable Date leave)
+    {
+        List<DTOVacation> dtoVacationList = vacationService.getByLeave(leave);
+
         return dtoVacationList;
     }
 

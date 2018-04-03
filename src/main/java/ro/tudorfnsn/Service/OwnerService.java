@@ -38,4 +38,23 @@ public class OwnerService
 
         return dtoOwnerList;
     }
+
+    public DTOOwner getById(Long id)
+    {
+        Owner owner = ownerRepository.findFirstById(id);
+
+        DTOOwner dtoOwner = convertOwner.OneToDTO(owner);
+
+        return dtoOwner;
+    }
+
+    public DTOOwner getByName(String name)
+    {
+        Owner owner = ownerRepository.findFirstByName(name);
+
+        DTOOwner dtoOwner = convertOwner.OneToDTO(owner);
+
+        return dtoOwner;
+    }
+
 }

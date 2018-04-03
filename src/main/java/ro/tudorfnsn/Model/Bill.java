@@ -2,6 +2,7 @@ package ro.tudorfnsn.Model;
 
 import lombok.*;
 import org.springframework.stereotype.Component;
+import ro.tudorfnsn.Model.Element.Machine;
 
 import javax.persistence.*;
 import java.util.Date;
@@ -21,8 +22,8 @@ public class Bill
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    @OneToOne(targetEntity = MachineDone.class, cascade = CascadeType.ALL)
-    private MachineDone machineDone;
+    @OneToOne(targetEntity = Machine.class, cascade = CascadeType.ALL)
+    private Machine machine;
 
     @Column
     private Integer timeSpentOn;
@@ -36,9 +37,9 @@ public class Bill
     @Column
     private Float finalPrice;
 
-    public Bill(MachineDone machineDone, List<Employee> employeeList, Integer timeSpentOn, Date date, Float finalPrice)
+    public Bill(Machine machine, List<Employee> employeeList, Integer timeSpentOn, Date date, Float finalPrice)
     {
-        this.machineDone = machineDone;
+        this.machine = machine;
         this.employeeList = employeeList;
         this.timeSpentOn = timeSpentOn;
         this.date = date;

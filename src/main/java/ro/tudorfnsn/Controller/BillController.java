@@ -2,7 +2,7 @@ package ro.tudorfnsn.Controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import ro.tudorfnsn.DataTransferObject.DTOBill;
-import ro.tudorfnsn.Model.MachineDone;
+import ro.tudorfnsn.Model.Element.Machine;
 import ro.tudorfnsn.Service.BillService;
 
 import java.util.Date;
@@ -51,9 +51,9 @@ public class BillController
     }
 
     @RequestMapping(value = "/getByMachineDone", method = RequestMethod.GET)
-    public DTOBill getByMachineDone(@PathVariable MachineDone machineDone)
+    public DTOBill getByMachineDone(@PathVariable Machine machine)
     {
-        DTOBill dtoBill = billService.getByMachineDone(machineDone);
+        DTOBill dtoBill = billService.getByMachineDone(machine);
 
         return dtoBill;
     }

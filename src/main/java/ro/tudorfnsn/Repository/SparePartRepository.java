@@ -8,7 +8,7 @@ import java.util.List;
 public interface SparePartRepository extends JpaRepository<SparePart, Long>
 {
     SparePart findFirstById (Long id);
-    SparePart findByName (String name);
+    List<SparePart> findByName (String name);
     SparePart findBySeries (String series);
 
     List<SparePart> findByOrigin (String origin);

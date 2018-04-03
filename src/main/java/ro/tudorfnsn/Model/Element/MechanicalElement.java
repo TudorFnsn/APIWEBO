@@ -14,7 +14,6 @@ import javax.persistence.InheritanceType;
 @Getter
 @Setter
 @ToString
-@EqualsAndHashCode
 public abstract class MechanicalElement extends Element
 {
 

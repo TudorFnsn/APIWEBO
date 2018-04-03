@@ -1,11 +1,6 @@
 package ro.tudorfnsn.DataTransferObject;
 
 import lombok.*;
-import ro.tudorfnsn.Model.MachineDone;
-import ro.tudorfnsn.Model.MachineIP;
-import ro.tudorfnsn.Model.MachineWaiting;
-
-import java.util.List;
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -18,7 +13,7 @@ public class DTOOwner
     Long id;
     String picture;
     String name;
-    List<MachineIP> machineIPList;
-    List<MachineDone> machineDoneList;
-    List<MachineWaiting> machineWaitingList;
+    //List<MachineIP> machineIPList;
+    //List<MachineDone> machineDoneList;
+    //List<MachineWaiting> machineWaitingList;
 }

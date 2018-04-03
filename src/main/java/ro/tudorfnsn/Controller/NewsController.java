@@ -1,12 +1,11 @@
 package ro.tudorfnsn.Controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import ro.tudorfnsn.DataTransferObject.DTONews;
 import ro.tudorfnsn.Service.NewsService;
 
+import java.util.Date;
 import java.util.List;
 
 @RestController
@@ -26,6 +25,36 @@ public class NewsController
     public List<DTONews> getAll()
     {
         List<DTONews> dtoNewsList = newsService.getAllNews();
+
+        return dtoNewsList;
+    }
+
+    @RequestMapping(value = "/create", method = RequestMethod.POST)
+    public void create(@RequestBody DTONews dtoNews)
+    {
+        newsService.createNews(dtoNews);
+    }
+
+    @RequestMapping(value = "/getById/{id}", method = RequestMethod.GET)
+    public DTONews getById(@PathVariable Long id)
+    {
+        DTONews dtoNews = newsService.getById(id);
+
+        return dtoNews;
+    }
+
+    @RequestMapping(value = "/getByTitle/{title}", method = RequestMethod.GET)
+    public DTONews getByTitle(@PathVariable  String title)
+    {
+        DTONews dtoNews = newsService.getByTitle(title);
+
+        return dtoNews;
+    }
+
+    @RequestMapping(value = "/getByStartDate/{date}", method = RequestMethod.GET)
+    public List<DTONews> getByStartDate(@PathVariable Date date)
+    {
+        List<DTONews> dtoNewsList = newsService.getByStartDate(date);
 
         return dtoNewsList;
     }

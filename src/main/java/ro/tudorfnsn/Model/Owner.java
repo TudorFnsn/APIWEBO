@@ -13,7 +13,6 @@ import java.util.List;
 @Getter
 @Setter
 @ToString
-@EqualsAndHashCode
 public class Owner extends Element
 {
     //@OneToMany(targetEntity = MachineIP.class, cascade = CascadeType.ALL)

@@ -1,9 +1,7 @@
 package ro.tudorfnsn.Controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import ro.tudorfnsn.DataTransferObject.DTOSparePart;
 import ro.tudorfnsn.Service.SparePartService;
 
@@ -26,6 +24,36 @@ public class SparePartController
     public List<DTOSparePart> getAll()
     {
         List<DTOSparePart> dtoSparePartList = sparePartService.getAllSpareParts();
+
+        return dtoSparePartList;
+    }
+
+    @RequestMapping(value = "/create", method = RequestMethod.POST)
+    public void create(@RequestBody DTOSparePart dtoSparePart)
+    {
+        sparePartService.createSparePart(dtoSparePart);
+    }
+
+    @RequestMapping(value = "/getById/{id}", method = RequestMethod.GET)
+    public DTOSparePart getById(@PathVariable Long id)
+    {
+        DTOSparePart dtoSparePart = sparePartService.getById(id);
+
+        return dtoSparePart;
+    }
+
+    @RequestMapping(value = "/getBySeries/{series}", method = RequestMethod.GET)
+    public DTOSparePart getBySeries(@PathVariable String series)
+    {
+        DTOSparePart dtoSparePart = sparePartService.getBySeries(series);
+
+        return dtoSparePart;
+    }
+
+    @RequestMapping(value = "/getByOrigin/{origin}", method = RequestMethod.GET)
+    public List<DTOSparePart> getByOrigin(@PathVariable String origin)
+    {
+        List<DTOSparePart> dtoSparePartList = sparePartService.getByOrigin(origin);
 
         return dtoSparePartList;
     }

@@ -6,6 +6,7 @@ import ro.tudorfnsn.Model.Owner;
 import ro.tudorfnsn.Model.SparePart;
 
 import java.util.List;
+import java.util.Set;
 
 
 @AllArgsConstructor
@@ -23,5 +24,5 @@ public class DTOMachineDone
     String series;
     Status status;
     List<SparePart> sparePartList;
-    Owner owner;
+    Long owner_id;
 }

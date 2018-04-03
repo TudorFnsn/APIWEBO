@@ -7,6 +7,7 @@ import ro.tudorfnsn.DataTransferObject.DTONews;
 import ro.tudorfnsn.Model.News;
 import ro.tudorfnsn.Repository.NewsRepository;
 
+import java.util.Date;
 import java.util.List;
 
 @Service
@@ -37,5 +38,32 @@ public class NewsService
         List<DTONews> dtoNewsList = convertNews.ManyToDTO(newsList);
 
         return dtoNewsList;
+    }
+
+    public DTONews getByTitle(String title)
+    {
+        News news = newsRepository.findFirstByTitle(title);
+
+        DTONews dtoNews = convertNews.OneToDTO(news);
+
+        return dtoNews;
+    }
+
+    public List<DTONews> getByStartDate(Date date)
+    {
+        List<News> newsList = newsRepository.findByStartDate(date);
+
+        List<DTONews> dtoNewsList = convertNews.ManyToDTO(newsList);
+
+        return dtoNewsList;
+    }
+
+    public DTONews getById(Long id)
+    {
+        News news = newsRepository.findFirstById(id);
+
+        DTONews dtoNews = convertNews.OneToDTO(news);
+
+        return dtoNews;
     }
 }

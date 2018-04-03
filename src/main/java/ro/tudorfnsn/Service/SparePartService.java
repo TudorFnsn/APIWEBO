@@ -39,4 +39,41 @@ public class SparePartService
 
         return dtoSparePartList;
     }
+
+    public List<DTOSparePart> getByName(String name)
+    {
+        List<SparePart> sparePartList = sparePartRepository.findByName(name);
+
+        List<DTOSparePart> dtoSparePartList = convertSparePart.ManyToDTO(sparePartList);
+
+        return dtoSparePartList;
+
+    }
+
+    public DTOSparePart getBySeries(String series)
+    {
+        SparePart sparePart = sparePartRepository.findBySeries(series);
+
+        DTOSparePart dtoSparePart = convertSparePart.OneToDTO(sparePart);
+
+        return dtoSparePart;
+    }
+
+    public List<DTOSparePart> getByOrigin(String origin)
+    {
+        List<SparePart> sparePartList = sparePartRepository.findByOrigin(origin);
+
+        List<DTOSparePart> dtoSparePartList = convertSparePart.ManyToDTO(sparePartList);
+
+        return dtoSparePartList;
+    }
+
+    public DTOSparePart getById(Long id)
+    {
+        SparePart sparePart = sparePartRepository.findFirstById(id);
+
+        DTOSparePart dtoSparePart = convertSparePart.OneToDTO(sparePart);
+
+        return dtoSparePart;
+    }
 }

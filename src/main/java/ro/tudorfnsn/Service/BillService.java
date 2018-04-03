@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 import ro.tudorfnsn.Converter.ConvertBill;
 import ro.tudorfnsn.DataTransferObject.DTOBill;
 import ro.tudorfnsn.Model.Bill;
-import ro.tudorfnsn.Model.MachineDone;
+import ro.tudorfnsn.Model.Element.Machine;
 import ro.tudorfnsn.Repository.BillRepository;
 
 import java.util.Date;
@@ -58,9 +58,9 @@ public class BillService
         return dtoBill;
     }
 
-    public DTOBill getByMachineDone(MachineDone machineDone)
+    public DTOBill getByMachineDone(Machine machine)
     {
-        Bill bill = billRepository.findByMachineDone(machineDone);
+        Bill bill = billRepository.findByMachine(machine);
 
         DTOBill dtoBill = convertBill.OneToDTO(bill);
 
