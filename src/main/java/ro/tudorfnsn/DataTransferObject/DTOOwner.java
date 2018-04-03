@@ -15,6 +15,7 @@ import java.util.List;
 @ToString
 public class DTOOwner
 {
+    Long id;
     String picture;
     String name;
     List<MachineIP> machineIPList;

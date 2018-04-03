@@ -16,6 +16,7 @@ public class ConvertVacation implements ConverterInterface<Vacation, DTOVacation
     {
         DTOVacation dtoVacation = new DTOVacation();
 
+        dtoVacation.setId(vacation.getId());
         dtoVacation.setEmployee(vacation.getEmployee());
         dtoVacation.setLeave(vacation.getLeave());
         dtoVacation.setArrival(vacation.getArrival());

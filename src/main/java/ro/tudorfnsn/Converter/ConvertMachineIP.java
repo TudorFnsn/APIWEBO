@@ -18,6 +18,8 @@ public class ConvertMachineIP implements ConverterInterface<MachineIP,DTOMachine
         //set id needed???
 
         DTOMachineIP dtoMachineIP = new DTOMachineIP();
+
+        dtoMachineIP.setId(machineIP.getId());
         dtoMachineIP.setPicture(machineIP.getPicture());
         dtoMachineIP.setName(machineIP.getName());
         dtoMachineIP.setSeries(machineIP.getSeries());

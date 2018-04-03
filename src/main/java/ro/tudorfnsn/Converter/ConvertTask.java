@@ -16,6 +16,7 @@ public class ConvertTask implements ConverterInterface<Task, DTOTask>
     {
         DTOTask dtoTask = new DTOTask();
 
+        dtoTask.setId(task.getId());
         dtoTask.setStartHour(task.getStartHour());
         dtoTask.setEndHour(task.getEndHour());
         dtoTask.setDescription(task.getDescription());

@@ -16,6 +16,7 @@ public class ConvertSparePart implements ConverterInterface<SparePart, DTOSpareP
     {
         DTOSparePart dtoSparePart = new DTOSparePart();
 
+        dtoSparePart.setId(sparePart.getId());
         dtoSparePart.setPicture(sparePart.getPicture());
         dtoSparePart.setName(sparePart.getName());
         dtoSparePart.setSeries(sparePart.getSeries());

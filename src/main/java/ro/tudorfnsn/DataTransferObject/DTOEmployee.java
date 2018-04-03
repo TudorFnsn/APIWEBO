@@ -12,6 +12,7 @@ import ro.tudorfnsn.Enumerable.Department;
 
 public class DTOEmployee
 {
+    Long id;
     String picture;
     String name;
     Department department;

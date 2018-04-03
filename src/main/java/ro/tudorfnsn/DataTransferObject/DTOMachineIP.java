@@ -16,6 +16,7 @@ import java.util.List;
 @ToString
 public class DTOMachineIP
 {
+    Long id;
     String picture;
     String name;
     String series;

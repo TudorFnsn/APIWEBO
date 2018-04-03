@@ -13,6 +13,7 @@ import java.util.Date;
 
 public class DTONews
 {
+    Long id;
     String title;
     Date startDate;
     Date endDate;

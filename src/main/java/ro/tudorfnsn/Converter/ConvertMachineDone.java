@@ -19,6 +19,8 @@ public class ConvertMachineDone implements ConverterInterface<MachineDone, DTOMa
 
 
         DTOMachineDone dtoMachineDone = new DTOMachineDone();
+
+        dtoMachineDone.setId(machineDone.getId());
         dtoMachineDone.setPicture(machineDone.getPicture());
         dtoMachineDone.setName(machineDone.getName());
         dtoMachineDone.setSeries(machineDone.getSeries());

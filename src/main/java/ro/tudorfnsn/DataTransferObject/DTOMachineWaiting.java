@@ -17,6 +17,7 @@ import java.util.List;
 @ToString
 public class DTOMachineWaiting
 {
+    Long id;
     String picture;
     String name;
     String series;

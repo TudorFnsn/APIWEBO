@@ -17,6 +17,7 @@ import java.util.List;
 
 public class DTOMachineDone
 {
+    Long id;
     String picture;
     String name;
     String series;

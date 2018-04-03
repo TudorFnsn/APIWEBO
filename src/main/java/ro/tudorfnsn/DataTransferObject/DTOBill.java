@@ -17,6 +17,7 @@ import java.util.List;
 @ToString
 public class DTOBill
 {
+    Long id;
     MachineDone machineDone;
     Integer timeSpentOn;
     List<Employee> employeeList;

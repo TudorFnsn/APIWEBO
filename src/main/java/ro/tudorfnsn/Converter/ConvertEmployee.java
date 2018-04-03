@@ -16,6 +16,7 @@ public class ConvertEmployee implements ConverterInterface<Employee, DTOEmployee
     {
         DTOEmployee dtoEmployee = new DTOEmployee();
 
+        dtoEmployee.setId(employee.getId());
         dtoEmployee.setPicture(employee.getPicture());
         dtoEmployee.setName(employee.getName());
         dtoEmployee.setDepartment(employee.getDepartment());

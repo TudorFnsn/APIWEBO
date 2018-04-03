@@ -14,6 +14,7 @@ import java.util.Date;
 @ToString
 public class DTOVacation
 {
+    Long id;
     Employee employee;
     Date leave;
     Date arrival;

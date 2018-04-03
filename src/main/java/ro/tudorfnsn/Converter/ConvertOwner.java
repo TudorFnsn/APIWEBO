@@ -16,6 +16,7 @@ public class ConvertOwner implements ConverterInterface<Owner, DTOOwner>
     {
         DTOOwner dtoOwner = new DTOOwner();
 
+        dtoOwner.setId(owner.getId());
         dtoOwner.setPicture(owner.getPicture());
         dtoOwner.setName(owner.getName());
        // dtoOwner.setMachineIPList(owner.getMachineIPList());

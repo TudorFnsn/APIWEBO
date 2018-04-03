@@ -9,6 +9,7 @@ import ro.tudorfnsn.Converter.ConvertModels;
 import ro.tudorfnsn.DataTransferObject.DTOMachineWaiting;
 import ro.tudorfnsn.Model.MachineIP;
 import ro.tudorfnsn.Model.MachineWaiting;
+import ro.tudorfnsn.Model.Owner;
 import ro.tudorfnsn.Repository.MachineIPRepository;
 import ro.tudorfnsn.Repository.MachineWaitingRepository;
 
@@ -56,6 +57,42 @@ public class MachineWaitingService
         machineIPRepository.save(machineIP);
 
         machineWaitingRepository.deleteFirstById(id);
+    }
+
+    public DTOMachineWaiting getById(Long id)
+    {
+        MachineWaiting machineWaiting = machineWaitingRepository.findFirstById(id);
+
+        DTOMachineWaiting dtoMachineWaiting = convertMachineWaiting.OneToDTO(machineWaiting);
+
+        return dtoMachineWaiting;
+    }
+
+    public DTOMachineWaiting getBySeries(String series)
+    {
+        MachineWaiting machineWaiting = machineWaitingRepository.findFirstBySeries(series);
+
+        DTOMachineWaiting dtoMachineWaiting = convertMachineWaiting.OneToDTO(machineWaiting);
+
+        return dtoMachineWaiting;
+    }
+
+    public List<DTOMachineWaiting> getByName(String name)
+    {
+        List<MachineWaiting> machineWaitingList = machineWaitingRepository.findByName(name);
+
+        List<DTOMachineWaiting> dtoMachineWaitingList = convertMachineWaiting.ManyToDTO(machineWaitingList);
+
+        return dtoMachineWaitingList;
+    }
+
+    public List<DTOMachineWaiting> getByOwner(Owner owner)
+    {
+        List<MachineWaiting> machineWaitingList = machineWaitingRepository.findByOwner(owner);
+
+        List<DTOMachineWaiting> dtoMachineWaitingList = convertMachineWaiting.ManyToDTO(machineWaitingList);
+
+        return dtoMachineWaitingList;
     }
 
 }

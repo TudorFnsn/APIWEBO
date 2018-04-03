@@ -19,6 +19,7 @@ import java.util.List;
 
 public class DTODaySchedule
 {
+    Long id;
     Employee employee;
     News news;
     Date date;

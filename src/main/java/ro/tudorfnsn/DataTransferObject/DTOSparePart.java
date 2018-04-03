@@ -10,6 +10,7 @@ import lombok.*;
 @ToString
 public class DTOSparePart
 {
+    Long id;
     String picture;
     String name;
     String series;

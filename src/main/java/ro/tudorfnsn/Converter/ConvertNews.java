@@ -16,6 +16,7 @@ public class ConvertNews implements ConverterInterface<News, DTONews>
     {
         DTONews dtoNews = new DTONews();
 
+        dtoNews.setId(news.getId());
         dtoNews.setTitle(news.getTitle());
         dtoNews.setStartDate(news.getStartDate());
         dtoNews.setEndDate(news.getEndDate());

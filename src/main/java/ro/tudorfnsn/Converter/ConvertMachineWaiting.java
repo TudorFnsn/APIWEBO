@@ -18,6 +18,7 @@ public class ConvertMachineWaiting implements ConverterInterface<MachineWaiting,
     {
         DTOMachineWaiting dtoMachineWaiting = new DTOMachineWaiting();
 
+        dtoMachineWaiting.setId(machineWaiting.getId());
         dtoMachineWaiting.setPicture(machineWaiting.getPicture());
         dtoMachineWaiting.setName(machineWaiting.getName());
         dtoMachineWaiting.setSeries(machineWaiting.getSeries());

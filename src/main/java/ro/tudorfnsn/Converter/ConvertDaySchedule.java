@@ -16,6 +16,7 @@ public class ConvertDaySchedule implements ConverterInterface<DaySchedule, DTODa
     {
         DTODaySchedule dtoDaySchedule = new DTODaySchedule();
 
+        dtoDaySchedule.setId(daySchedule.getId());
         dtoDaySchedule.setEmployee(daySchedule.getEmployee());
         dtoDaySchedule.setNews(daySchedule.getNews());
         dtoDaySchedule.setDate(daySchedule.getDate());
