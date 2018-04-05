@@ -3,6 +3,7 @@ package ro.tudorfnsn.Service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import ro.tudorfnsn.Converter.ConvertEmployee;
+import ro.tudorfnsn.DataTransferObject.DTODaySchedule;
 import ro.tudorfnsn.DataTransferObject.DTOEmployee;
 import ro.tudorfnsn.Enumerable.Department;
 import ro.tudorfnsn.Model.Employee;
@@ -74,5 +75,21 @@ public class EmployeeService
         DTOEmployee dtoEmployee = convertEmployee.OneToDTO(employee);
 
         return dtoEmployee;
+    }
+
+    public void removeEmployee(Long id)
+    {
+        employeeRepository.deleteFirstById(id);
+    }
+
+    public void update(Long id, DTOEmployee dtoEmployee)
+    {
+        Employee newEmployee = convertEmployee.OneToModel(dtoEmployee);
+
+        Employee oldEmployee = employeeRepository.findFirstById(id);
+
+        newEmployee.setId(oldEmployee.getId());
+
+        employeeRepository.save(newEmployee);
     }
 }

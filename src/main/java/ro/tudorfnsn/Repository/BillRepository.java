@@ -11,6 +11,7 @@ public interface BillRepository extends JpaRepository<Bill, Long>
     Bill findById(Long id);
     Bill findByDate(Date date);
     Bill findByMachine(Machine machine);
+    Bill deleteFirstBy(Long id);
 
     // do findByDate
 }

@@ -91,7 +91,7 @@ public class MachineController
     }
 
     @RequestMapping(value = "/moveTo/{id}", method = RequestMethod.POST)
-    public void update(@PathVariable Long id, @RequestBody Status status)
+    public void move(@PathVariable Long id, @RequestBody Status status)
     {
         machineService.moveTo(id, status);
     }

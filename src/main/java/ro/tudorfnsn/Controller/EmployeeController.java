@@ -67,4 +67,16 @@ public class EmployeeController
         return dtoEmployeeList;
     }
 
+    @RequestMapping(value = "/deleteById/{id}", method = RequestMethod.DELETE)
+    public void delete(@PathVariable Long id)
+    {
+        employeeService.removeEmployee(id);
+    }
+
+    @RequestMapping(value = "/update/{id}", method = RequestMethod.POST)
+    public void update(@PathVariable Long id, @RequestBody DTOEmployee dtoEmployee)
+    {
+        employeeService.update(id, dtoEmployee);
+    }
+
 }

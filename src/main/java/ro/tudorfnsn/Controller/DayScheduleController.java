@@ -70,4 +70,17 @@ public class DayScheduleController
         return dtoDaySchedule;
     }
 
+    @RequestMapping(value = "/deleteById/{id}", method = RequestMethod.DELETE)
+    public void deleteById(@PathVariable Long id)
+    {
+        dayScheduleService.removeDaySchedule(id);
+    }
+
+    @RequestMapping(value = "/update/{id}", method = RequestMethod.POST)
+    public void update(@PathVariable Long id, @RequestBody DTODaySchedule dtoDaySchedule)
+    {
+        dayScheduleService.update(id, dtoDaySchedule);
+    }
+
+
 }

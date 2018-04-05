@@ -1,5 +1,6 @@
 package ro.tudorfnsn.Service;
 
+import ro.tudorfnsn.Model.Bill;
 import ro.tudorfnsn.Model.Employee;
 import ro.tudorfnsn.Model.News;
 import ro.tudorfnsn.Repository.DayScheduleRepository;
@@ -78,4 +79,23 @@ public class DayScheduleService
 
         return dtoDayScheduleList;
     }
+
+    public void removeDaySchedule(Long id)
+    {
+        dayScheduleRepository.deleteFirtstById(id);
+    }
+
+    public void update(Long id, DTODaySchedule dtoDaySchedule)
+    {
+        DaySchedule newDaySchedule = convertDaySchedule.OneToModel(dtoDaySchedule);
+
+        DaySchedule oldDaySchedule = dayScheduleRepository.findFirstById(id);
+
+        newDaySchedule.setId(oldDaySchedule.getId());
+
+        dayScheduleRepository.save(newDaySchedule);
+
+
+    }
+
 }

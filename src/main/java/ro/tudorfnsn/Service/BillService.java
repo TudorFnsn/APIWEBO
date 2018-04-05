@@ -66,4 +66,20 @@ public class BillService
 
         return dtoBill;
     }
+
+    public void removeBill(Long id)
+    {
+        billRepository.deleteFirstBy(id);
+    }
+
+    public void update(Long id, DTOBill dtoBill)
+    {
+        Bill newBill = convertBill.OneToModel(dtoBill);
+
+        Bill oldBill = billRepository.findById(id);
+
+        newBill.setId(oldBill.getId());
+
+        billRepository.save(newBill);
+    }
 }

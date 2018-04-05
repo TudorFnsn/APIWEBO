@@ -57,4 +57,17 @@ public class BillController
 
         return dtoBill;
     }
+
+    @RequestMapping(value = "/deleteById/{id}", method = RequestMethod.DELETE)
+    public void deleteById(@PathVariable Long id)
+    {
+        billService.removeBill(id);
+    }
+
+    @RequestMapping(value = "/update/{id}", method = RequestMethod.POST)
+    public void update(@PathVariable Long id, @RequestBody DTOBill dtoBill)
+    {
+        billService.update(id, dtoBill);
+    }
+
 }
