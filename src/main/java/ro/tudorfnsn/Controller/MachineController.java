@@ -22,6 +22,7 @@ public class MachineController
         this.machineService = machineService;
     }
 
+    // works
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public List<DTOMachine> getAll()
     {
@@ -30,18 +31,21 @@ public class MachineController
         return dtoMachineList;
     }
 
+    //works
     @RequestMapping(value = "/createIP", method = RequestMethod.POST)
     public void createIP(@RequestBody DTOMachine dtoMachine)
     {
         machineService.createMachineIP(dtoMachine);
     }
 
+    //waiting
     @RequestMapping(value = "/createWait", method = RequestMethod.POST)
     public void createWaiting(@RequestBody DTOMachine dtoMachine)
     {
         machineService.createMachineWaiting(dtoMachine);
     }
 
+    //works
     @RequestMapping(value = "/getByStatus/{status}", method = RequestMethod.GET)
     public List<DTOMachine> getByStatus(@PathVariable Status status)
     {
@@ -50,6 +54,8 @@ public class MachineController
         return dtoMachineList;
     }
 
+
+    //works
     @RequestMapping(value = "/getBySeries/{series}", method = RequestMethod.GET)
     public DTOMachine getBySeries(@PathVariable String series)
     {
@@ -58,6 +64,7 @@ public class MachineController
         return dtoMachine;
     }
 
+    //works
     @RequestMapping(value = "/getByName/{name}", method = RequestMethod.GET)
     public List<DTOMachine> getByName(@PathVariable String name)
     {
@@ -67,6 +74,7 @@ public class MachineController
 
     }
 
+    //works
     @RequestMapping(value = "/deleteById/{id}", method = RequestMethod.DELETE)
     public void deleteById(@PathVariable Long id)
     {
@@ -74,6 +82,7 @@ public class MachineController
 
     }
 
+    //works
     @RequestMapping(value = "/getById/{id}", method = RequestMethod.GET)
     public DTOMachine getById(@PathVariable Long id)
     {
@@ -82,6 +91,7 @@ public class MachineController
         return dtoMachine;
     }
 
+    //works -/idOwner (in PostMan)
     @RequestMapping(value = "/getByOwner/{owner}", method = RequestMethod.GET)
     public List<DTOMachine> getByOwner(@PathVariable Owner owner)
     {
@@ -90,12 +100,14 @@ public class MachineController
         return dtoMachineList;
     }
 
+    //works
     @RequestMapping(value = "/update/{id}", method = RequestMethod.POST)
     public void update(@PathVariable Long id, @RequestBody DTOMachine dtoMachine)
     {
         machineService.update(id, dtoMachine);
     }
 
+    // works -- when you do the POST request, you just give the "STATUS"
     @RequestMapping(value = "/moveTo/{id}", method = RequestMethod.POST)
     public void move(@PathVariable Long id, @RequestBody Status status)
     {

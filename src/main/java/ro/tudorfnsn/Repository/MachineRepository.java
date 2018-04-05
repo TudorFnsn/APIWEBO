@@ -1,11 +1,13 @@
 package ro.tudorfnsn.Repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Modifying;
 import ro.tudorfnsn.Enumerable.Status;
 import ro.tudorfnsn.Model.Machine;
 import ro.tudorfnsn.Model.Owner;
 
 
+import javax.transaction.Transactional;
 import java.util.List;
 
 public interface MachineRepository extends JpaRepository<Machine, Long>
@@ -19,6 +21,8 @@ public interface MachineRepository extends JpaRepository<Machine, Long>
 
     List<Machine> findByOwner(Owner owner);
 
+    @Modifying
+    @Transactional
     void deleteFirstById(Long id);
     List<Machine> findByStatus(Status status);
 }

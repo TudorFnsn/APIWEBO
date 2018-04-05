@@ -29,7 +29,7 @@ public class Machine extends MechanicalElement
     private Date arrivalDate;
 
 
-    @ManyToMany(cascade = {CascadeType.PERSIST, CascadeType.MERGE})
+    @ManyToMany(targetEntity = SparePart.class, cascade = CascadeType.ALL)
     //@JoinTable(name = "machine_part", joinColumns = {@JoinColumn(name = "machine_id")}, inverseJoinColumns = {@JoinColumn(name = "part_id")})
     private List<SparePart> sparePartsList;
 

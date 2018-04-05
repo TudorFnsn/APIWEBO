@@ -20,6 +20,12 @@ public class ConvertMachine implements ConverterInterface<Machine,DTOMachine>
     private SparePartRepository sparePartRepository;
     private OwnerRepository ownerRepository;
 
+    public ConvertMachine(SparePartRepository sparePartRepository, OwnerRepository ownerRepository)
+    {
+        this.sparePartRepository = sparePartRepository;
+        this.ownerRepository = ownerRepository;
+    }
+
     @Override
     public DTOMachine OneToDTO(Machine machine)
     {
