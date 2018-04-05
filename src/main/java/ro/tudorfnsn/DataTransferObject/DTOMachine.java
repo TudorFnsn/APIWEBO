@@ -24,7 +24,7 @@ public class DTOMachine
     String series;
     Status status;
     List<SparePart> sparePartList;
-    Date arrivalDate;
+    String arrivalDate;
     Long owner_id;
 
 }

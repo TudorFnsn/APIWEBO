@@ -1,8 +1,7 @@
 package ro.tudorfnsn.DataTransferObject;
 
 import lombok.*;
-import ro.tudorfnsn.Model.Element.Machine;
-import ro.tudorfnsn.Model.Employee;
+import ro.tudorfnsn.Model.Machine;
 
 
 import java.util.Date;
@@ -18,9 +17,9 @@ import java.util.List;
 public class DTOBill
 {
     Long id;
-    Machine machine;
+    Long machine_id;
     Integer timeSpentOn;
-    List<Employee> employeeList;
+    List<Long> employeeIdList;
     Date date;
     Float finalPrice;
 }

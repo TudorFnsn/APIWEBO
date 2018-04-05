@@ -2,7 +2,7 @@ package ro.tudorfnsn.Repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import ro.tudorfnsn.Model.Bill;
-import ro.tudorfnsn.Model.Element.Machine;
+import ro.tudorfnsn.Model.Machine;
 
 import java.util.Date;
 

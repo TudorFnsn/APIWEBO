@@ -3,8 +3,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import ro.tudorfnsn.Converter.ConvertMachine;
 import ro.tudorfnsn.DataTransferObject.DTOMachine;
+import ro.tudorfnsn.DataTransferObject.DTOMachineWaiting;
 import ro.tudorfnsn.Enumerable.Status;
-import ro.tudorfnsn.Model.Element.Machine;
+import ro.tudorfnsn.Model.Machine;
 import ro.tudorfnsn.Model.Owner;
 import ro.tudorfnsn.Repository.MachineRepository;
 import ro.tudorfnsn.Repository.OwnerRepository;
@@ -33,6 +34,16 @@ public class MachineService
         Machine machine = convertMachine.OneToModel(dtoMachine);
         machine.setOwner(ownerRepository.findFirstById(dtoMachine.getOwner_id()));
         machine.setStatus(Status.IN_PROGRESS);
+        //machine.setArrivalDate(dtoMachine.getArrivalDate().getDate());
+
+        machineRepository.save(machine);
+    }
+
+    public void createMachineWaiting(DTOMachine dtoMachine)
+    {
+        Machine machine = convertMachine.OneToModel(dtoMachine);
+        machine.setOwner(ownerRepository.findFirstById(dtoMachine.getOwner_id()));
+        machine.setStatus(Status.WAITING);
         machineRepository.save(machine);
     }
 

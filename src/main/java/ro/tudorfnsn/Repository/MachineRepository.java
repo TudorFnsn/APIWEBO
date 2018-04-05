@@ -2,7 +2,7 @@ package ro.tudorfnsn.Repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import ro.tudorfnsn.Enumerable.Status;
-import ro.tudorfnsn.Model.Element.Machine;
+import ro.tudorfnsn.Model.Machine;
 import ro.tudorfnsn.Model.Owner;
 
 

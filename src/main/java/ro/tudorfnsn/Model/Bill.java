@@ -1,8 +1,6 @@
 package ro.tudorfnsn.Model;
 
 import lombok.*;
-import org.springframework.stereotype.Component;
-import ro.tudorfnsn.Model.Element.Machine;
 
 import javax.persistence.*;
 import java.util.Date;

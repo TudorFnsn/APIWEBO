@@ -1,12 +1,13 @@
 package ro.tudorfnsn.Converter;
 
+
 import org.springframework.stereotype.Component;
 import ro.tudorfnsn.Converter.ConverterInterface.ConverterInterface;
 import ro.tudorfnsn.DataTransferObject.DTOMachine;
-import ro.tudorfnsn.Enumerable.Status;
-import ro.tudorfnsn.Model.Element.Machine;
-import ro.tudorfnsn.Model.Element.Machine;
+import ro.tudorfnsn.Model.Machine;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -28,7 +29,8 @@ public class ConvertMachine implements ConverterInterface<Machine,DTOMachine>
         dtoMachine.setSparePartList(machine.getSparePartsList());
         //dtoMachine.setSparePartList(machine.getSparePartList());
         dtoMachine.setOwner_id(machine.getOwner().getId());
-        dtoMachine.setArrivalDate(machine.getArrivalDate());
+        DateFormat newDateFormat = new SimpleDateFormat("yyyy-mm-dd");
+        dtoMachine.setArrivalDate(newDateFormat.format(machine.getArrivalDate()));
 
         return dtoMachine;
 
@@ -58,7 +60,15 @@ public class ConvertMachine implements ConverterInterface<Machine,DTOMachine>
         machine.setSeries(dtoMachine.getSeries());
         machine.setStatus(dtoMachine.getStatus());
         machine.setSparePartsList(dtoMachine.getSparePartList());
-        machine.setArrivalDate(dtoMachine.getArrivalDate());
+        DateFormat newDateFormat = new SimpleDateFormat("MM/dd/yyyy");
+        try
+        {
+            machine.setArrivalDate(newDateFormat.parse(dtoMachine.getArrivalDate()));
+        }
+        catch (Exception error)
+        {
+            System.out.println("INCORECT DATE");
+        }
         //machine.setSparePartList(dtoMachine.getSparePartList());
         //machine.setOwner(dtoMachine.getOwner());
 

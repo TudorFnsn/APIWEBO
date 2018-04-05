@@ -1,9 +1,10 @@
-package ro.tudorfnsn.Model.Element;
+package ro.tudorfnsn.Model;
 
 
 
 import lombok.*;
 import ro.tudorfnsn.Enumerable.Status;
+import ro.tudorfnsn.Model.Element.MechanicalElement;
 import ro.tudorfnsn.Model.Owner;
 import ro.tudorfnsn.Model.SparePart;
 

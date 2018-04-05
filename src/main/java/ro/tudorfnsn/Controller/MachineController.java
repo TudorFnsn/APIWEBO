@@ -30,10 +30,16 @@ public class MachineController
         return dtoMachineList;
     }
 
-    @RequestMapping(value = "/create/ip", method = RequestMethod.POST)
-    public void create(@RequestBody DTOMachine dtoMachine)
+    @RequestMapping(value = "/createIP", method = RequestMethod.POST)
+    public void createIP(@RequestBody DTOMachine dtoMachine)
     {
         machineService.createMachineIP(dtoMachine);
+    }
+
+    @RequestMapping(value = "/createWait", method = RequestMethod.POST)
+    public void createWaiting(@RequestBody DTOMachine dtoMachine)
+    {
+        machineService.createMachineWaiting(dtoMachine);
     }
 
     @RequestMapping(value = "/getByStatus/{status}", method = RequestMethod.GET)

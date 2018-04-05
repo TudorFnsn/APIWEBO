@@ -2,7 +2,7 @@ package ro.tudorfnsn.Controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import ro.tudorfnsn.DataTransferObject.DTOBill;
-import ro.tudorfnsn.Model.Element.Machine;
+import ro.tudorfnsn.Model.Machine;
 import ro.tudorfnsn.Service.BillService;
 
 import java.util.Date;
@@ -23,7 +23,7 @@ public class BillController
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public List<DTOBill> getAll()
     {
-        List<DTOBill> dtoBillList = billService.getAllBills();
+        List<DTOBill> dtoBillList = billService.getAll();
 
         return dtoBillList;
     }
