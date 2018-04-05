@@ -14,5 +14,5 @@ public interface DayScheduleRepository extends JpaRepository<DaySchedule, Long>
     DaySchedule findFirstByEmployee(Employee employee);
     DaySchedule findFirstByNews(News news);
     List<DaySchedule> findByDate (Date date);
-    DaySchedule deleteFirtstById(Long id);
+    void deleteFirtstById(Long id);
 }

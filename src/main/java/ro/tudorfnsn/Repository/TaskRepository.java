@@ -11,5 +11,5 @@ public interface TaskRepository extends JpaRepository<Task, Long>
 
     List<Task> findByStartHour (Integer startHour);
 
-    Task deleteFirstById (Long id);
+    void deleteFirstById (Long id);
 }

@@ -13,5 +13,5 @@ public interface SparePartRepository extends JpaRepository<SparePart, Long>
 
     List<SparePart> findByOrigin (String origin);
 
-    SparePart deleteById (Long id);
+    void deleteById (Long id);
 }

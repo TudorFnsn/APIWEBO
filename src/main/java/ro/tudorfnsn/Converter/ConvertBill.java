@@ -1,5 +1,6 @@
 package ro.tudorfnsn.Converter;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import ro.tudorfnsn.Converter.ConverterInterface.ConverterInterface;
 import ro.tudorfnsn.DataTransferObject.DTOBill;
@@ -17,6 +18,14 @@ public class ConvertBill implements ConverterInterface<Bill, DTOBill>
 {
     private MachineRepository machineRepository;
     private EmployeeRepository employeeRepository;
+
+    @Autowired
+    public ConvertBill(MachineRepository machineRepository, EmployeeRepository employeeRepository)
+    {
+        this.machineRepository = machineRepository;
+        this.employeeRepository = employeeRepository;
+    }
+
     @Override
     public DTOBill OneToDTO(Bill bill)
     {
@@ -66,10 +75,21 @@ public class ConvertBill implements ConverterInterface<Bill, DTOBill>
         }
         */
 
+
         for(Long id : dtoBill.getEmployeeIdList())
         {
             employees.add(employeeRepository.findFirstById(id));
+
         }
+
+        System.out.println(employees.size() + "hihi");
+
+
+
+        /*
+        for(Long id = ; id < dtoBill.getEmployeeIdList().size(); id++)
+            employees.add(employeeRepository.findFirstById(id));
+        */
 
        // Long id = dtoBill.getMachine_id();
        // bill.setMachine(machineRepository.findFirstById(dtoBill.getId()));

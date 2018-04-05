@@ -20,7 +20,7 @@ public class Bill
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    @OneToOne(targetEntity = Machine.class, cascade = CascadeType.ALL)
+    @OneToOne(targetEntity = Machine.class, cascade = CascadeType.DETACH)
     private Machine machine;
 
     @Column

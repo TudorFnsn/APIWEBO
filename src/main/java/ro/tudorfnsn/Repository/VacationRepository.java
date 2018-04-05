@@ -18,5 +18,5 @@ public interface VacationRepository extends JpaRepository<Vacation, Long>
 
     List<Vacation> findByLeave (Date leave);
 
-    Vacation deleteFirstById (Long id);
+    void deleteFirstById (Long id);
 }

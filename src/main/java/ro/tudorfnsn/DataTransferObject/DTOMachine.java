@@ -23,8 +23,8 @@ public class DTOMachine
     String name;
     String series;
     Status status;
-    List<SparePart> sparePartList;
-    String arrivalDate;
+    List<Long> sparePartIdList;
+    Date arrivalDate;
     Long owner_id;
 
 }

@@ -19,6 +19,6 @@ public interface MachineRepository extends JpaRepository<Machine, Long>
 
     List<Machine> findByOwner(Owner owner);
 
-    Machine deleteFirstById(Long id);
+    void deleteFirstById(Long id);
     List<Machine> findByStatus(Status status);
 }

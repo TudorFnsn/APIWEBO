@@ -16,5 +16,5 @@ public interface EmployeeRepository extends JpaRepository<Employee, Long>
 
     Employee findFirstByName (String name);
 
-    Employee deleteFirstById (Long id);
+    void deleteFirstById (Long id);
 }

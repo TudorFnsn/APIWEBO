@@ -7,7 +7,7 @@ public interface OwnerRepository extends JpaRepository<Owner, Long>
 {
     Owner findFirstById (Long id);
     Owner findFirstByName (String name);
-    Owner deleteFirstById (Long id);
+    void deleteFirstById (Long id);
 
     //Owner findByMachineDoneList (MachineDone machineDone);
     //Owner findByMachineIPList (MachineIP machineIP);

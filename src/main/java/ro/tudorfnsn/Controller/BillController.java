@@ -20,6 +20,7 @@ public class BillController
         this.billService = billService;
     }
 
+    // works
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public List<DTOBill> getAll()
     {
@@ -28,12 +29,14 @@ public class BillController
         return dtoBillList;
     }
 
+    // works
     @RequestMapping(value = "/create", method = RequestMethod.POST)
     public void create(@RequestBody DTOBill dtoBill)
     {
         billService.createBill(dtoBill);
     }
 
+    // works
     @RequestMapping(value = "/getById/{id}", method = RequestMethod.GET)
     public DTOBill getById(@PathVariable Long id)
     {
@@ -58,9 +61,11 @@ public class BillController
         return dtoBill;
     }
 
+    //works
     @RequestMapping(value = "/deleteById/{id}", method = RequestMethod.DELETE)
     public void deleteById(@PathVariable Long id)
     {
+        //System.out.println("relevant" + id.getClass().getSimpleName());
         billService.removeBill(id);
     }
 

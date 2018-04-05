@@ -9,6 +9,7 @@ import ro.tudorfnsn.Model.Machine;
 import ro.tudorfnsn.Model.Owner;
 import ro.tudorfnsn.Repository.MachineRepository;
 import ro.tudorfnsn.Repository.OwnerRepository;
+import ro.tudorfnsn.Repository.SparePartRepository;
 
 import java.util.List;
 
@@ -17,14 +18,16 @@ public class MachineService
 {
     private MachineRepository machineRepository;
     private OwnerRepository ownerRepository;
+    private SparePartRepository sparePartRepository;
     private ConvertMachine convertMachine;
 
     @Autowired
-    public MachineService(MachineRepository machineRepository, OwnerRepository ownerRepository, ConvertMachine convertMachine)
+    public MachineService(MachineRepository machineRepository, OwnerRepository ownerRepository,SparePartRepository sparePartRepository, ConvertMachine convertMachine)
     {
 
         this.machineRepository = machineRepository;
         this.ownerRepository = ownerRepository;
+        this.sparePartRepository = sparePartRepository;
         this.convertMachine = convertMachine;
     }
 
@@ -32,7 +35,7 @@ public class MachineService
     public void createMachineIP(DTOMachine dtoMachine)
     {
         Machine machine = convertMachine.OneToModel(dtoMachine);
-        machine.setOwner(ownerRepository.findFirstById(dtoMachine.getOwner_id()));
+        //machine.setOwner(ownerRepository.findFirstById(dtoMachine.getOwner_id()));
         machine.setStatus(Status.IN_PROGRESS);
         //machine.setArrivalDate(dtoMachine.getArrivalDate().getDate());
 
@@ -42,7 +45,7 @@ public class MachineService
     public void createMachineWaiting(DTOMachine dtoMachine)
     {
         Machine machine = convertMachine.OneToModel(dtoMachine);
-        machine.setOwner(ownerRepository.findFirstById(dtoMachine.getOwner_id()));
+        //machine.setOwner(ownerRepository.findFirstById(dtoMachine.getOwner_id()));
         machine.setStatus(Status.WAITING);
         machineRepository.save(machine);
     }
@@ -113,7 +116,7 @@ public class MachineService
     {
         Machine newmachine = convertMachine.OneToModel(dtomachine);
 
-        newmachine.setOwner(ownerRepository.findFirstById(dtomachine.getOwner_id()));
+        //newmachine.setOwner(ownerRepository.findFirstById(dtomachine.getOwner_id()));
 
         Machine oldmachine = machineRepository.findFirstById(id);
 

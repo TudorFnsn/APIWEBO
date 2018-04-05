@@ -1,6 +1,6 @@
 package ro.tudorfnsn.Service;
 
-import org.apache.tomcat.jni.BIOCallback;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import ro.tudorfnsn.Converter.ConvertBill;
@@ -131,7 +131,13 @@ public class BillService
 
     public void removeBill(Long id)
     {
-        billRepository.deleteFirstBy(id);
+        //billRepository.deleteById(id);
+        //billRepository.removeById(id);
+
+        //System.out.println("Relevant:" + id.getClass().getSimpleName());
+        billRepository.deleteFirstById(id);
+
+
     }
 
     public void update(Long id, DTOBill dtoBill)
