@@ -57,4 +57,20 @@ public class TaskService
         return dtoTaskList;
     }
 
+    public void removeTask(Long id)
+    {
+        taskRepository.deleteFirstById(id);
+    }
+
+    public void update(Long id, DTOTask dtoTask)
+    {
+        Task newTask = convertTask.OneToModel(dtoTask);
+
+        Task oldTask = taskRepository.findFirstById(id);
+
+        newTask.setId(oldTask.getId());
+
+        taskRepository.save(newTask);
+    }
+
 }

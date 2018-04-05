@@ -59,5 +59,19 @@ public class NewsController
         return dtoNewsList;
     }
 
+    @RequestMapping(value = "/deleteById/{id}", method = RequestMethod.DELETE)
+    public void delete(@PathVariable Long id)
+    {
+        newsService.removeById(id);
+    }
+
+    @RequestMapping(value = "/update/{id}", method = RequestMethod.POST)
+    public void update(@PathVariable Long id, @RequestBody DTONews dtoNews)
+    {
+        newsService.update(id, dtoNews);
+    }
+
+
+
 
 }

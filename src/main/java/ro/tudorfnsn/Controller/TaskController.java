@@ -53,5 +53,17 @@ public class TaskController
         //return taskService.getByStartHour(startHour);
     }
 
+    @RequestMapping(value = "/deleteById/{id}", method = RequestMethod.DELETE)
+    public void delete(@PathVariable Long id)
+    {
+        taskService.removeTask(id);
+    }
+
+    @RequestMapping(value = "/update/{id}", method = RequestMethod.POST)
+    public void update(@PathVariable Long id, @RequestBody DTOTask dtoTask)
+    {
+        taskService.update(id, dtoTask);
+    }
+
 
 }

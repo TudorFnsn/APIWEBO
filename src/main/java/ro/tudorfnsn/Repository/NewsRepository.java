@@ -13,4 +13,6 @@ public interface NewsRepository extends JpaRepository<News, Long>
     News findFirstByTitle (String title);
 
     List<News> findByStartDate (Date date);
+
+    News deleteFirstById (Long id);
 }

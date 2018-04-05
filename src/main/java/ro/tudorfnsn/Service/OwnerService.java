@@ -57,4 +57,21 @@ public class OwnerService
         return dtoOwner;
     }
 
+    public void deleteById(Long id)
+    {
+        ownerRepository.deleteFirstById(id);
+    }
+
+    public void update(Long id, DTOOwner dtoOwner)
+    {
+        Owner newOwner = convertOwner.OneToModel(dtoOwner);
+
+        Owner oldOwner = ownerRepository.findFirstById(id);
+
+        newOwner.setId(oldOwner.getId());
+
+        ownerRepository.save(newOwner);
+    }
+
+
 }

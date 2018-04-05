@@ -66,4 +66,20 @@ public class NewsService
 
         return dtoNews;
     }
+
+    public void removeById(Long id)
+    {
+        newsRepository.deleteFirstById(id);
+    }
+
+    public void update(Long id, DTONews dtoNews)
+    {
+        News freshNews = convertNews.OneToModel(dtoNews);
+
+        News oldNews = newsRepository.findFirstById(id);
+
+        freshNews.setId(oldNews.getId());
+
+        newsRepository.save(freshNews);
+    }
 }

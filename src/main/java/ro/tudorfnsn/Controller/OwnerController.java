@@ -48,4 +48,16 @@ public class OwnerController
 
         return dtoOwner;
     }
+
+    @RequestMapping(value = "/deleteById/{id}", method = RequestMethod.DELETE)
+    public void delete(@PathVariable Long id)
+    {
+        ownerService.deleteById(id);
+    }
+
+    @RequestMapping(value = "/update/{id}", method = RequestMethod.POST)
+    public void update(@PathVariable Long id, @RequestBody DTOOwner dtoOwner)
+    {
+        ownerService.update(id, dtoOwner);
+    }
 }

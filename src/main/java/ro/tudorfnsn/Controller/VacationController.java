@@ -60,4 +60,17 @@ public class VacationController
         return dtoVacationList;
     }
 
+    @RequestMapping(value = "/deleteById/{id}", method = RequestMethod.DELETE)
+    public void delete(@PathVariable Long id)
+    {
+        vacationService.removeVacation(id);
+    }
+
+    @RequestMapping(value = "/update/{id}", method = RequestMethod.POST)
+    public void update(@PathVariable Long id, @RequestBody DTOVacation dtoVacation)
+    {
+        vacationService.update(id, dtoVacation);
+    }
+
+
 }

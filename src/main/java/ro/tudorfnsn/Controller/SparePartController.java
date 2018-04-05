@@ -57,4 +57,16 @@ public class SparePartController
 
         return dtoSparePartList;
     }
+
+    @RequestMapping(value = "/deleteById/{id}", method = RequestMethod.DELETE)
+    public void delete(@PathVariable Long id)
+    {
+        sparePartService.removeSparePart(id);
+    }
+
+    @RequestMapping(value = "/update/{id}", method = RequestMethod.POST)
+    public void update(@PathVariable Long id, @RequestBody DTOSparePart dtoSparePart)
+    {
+        sparePartService.update(id, dtoSparePart);
+    }
 }

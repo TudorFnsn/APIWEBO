@@ -76,4 +76,20 @@ public class SparePartService
 
         return dtoSparePart;
     }
+
+    public void removeSparePart(Long id)
+    {
+        sparePartRepository.deleteById(id);
+    }
+
+    public void update(Long id, DTOSparePart dtoSparePart)
+    {
+        SparePart newSparePart = convertSparePart.OneToModel(dtoSparePart);
+
+        SparePart oldSparePart = sparePartRepository.findFirstById(id);
+
+        newSparePart.setId(oldSparePart.getId());
+
+        sparePartRepository.save(newSparePart);
+    }
 }

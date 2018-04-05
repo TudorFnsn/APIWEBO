@@ -70,4 +70,21 @@ public class VacationService
 
         return dtoVacationList;
     }
+
+    public void removeVacation(Long id)
+    {
+        vacationRepository.deleteFirstById(id);
+    }
+
+    public void update(Long id, DTOVacation dtoVacation)
+    {
+        Vacation newVacation = convertVacation.OneToModel(dtoVacation);
+
+        Vacation oldVacation = vacationRepository.findFirstById(id);
+
+        newVacation.setId(oldVacation.getId());
+
+        vacationRepository.save(newVacation);
+    }
+
 }
