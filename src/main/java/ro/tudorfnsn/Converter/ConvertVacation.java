@@ -4,6 +4,7 @@ import org.springframework.stereotype.Component;
 import ro.tudorfnsn.Converter.ConverterInterface.ConverterInterface;
 import ro.tudorfnsn.DataTransferObject.DTOVacation;
 import ro.tudorfnsn.Model.Vacation;
+import ro.tudorfnsn.Repository.EmployeeRepository;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,13 +12,20 @@ import java.util.List;
 @Component
 public class ConvertVacation implements ConverterInterface<Vacation, DTOVacation>
 {
+    private EmployeeRepository employeeRepository;
+
+    public ConvertVacation(EmployeeRepository employeeRepository)
+    {
+        this.employeeRepository = employeeRepository;
+    }
+
     @Override
     public DTOVacation OneToDTO(Vacation vacation)
     {
         DTOVacation dtoVacation = new DTOVacation();
 
         dtoVacation.setId(vacation.getId());
-        dtoVacation.setEmployee(vacation.getEmployee());
+        dtoVacation.setEmployeeId(vacation.getEmployee().getId());
         dtoVacation.setLeave(vacation.getLeave());
         dtoVacation.setArrival(vacation.getArrival());
         dtoVacation.setMotive(vacation.getMotive());
@@ -42,7 +50,7 @@ public class ConvertVacation implements ConverterInterface<Vacation, DTOVacation
     {
         Vacation vacation = new Vacation();
 
-        vacation.setEmployee(dtoVacation.getEmployee());
+        vacation.setEmployee(employeeRepository.findFirstById(dtoVacation.getEmployeeId()));
         vacation.setLeave(dtoVacation.getLeave());
         vacation.setArrival(dtoVacation.getArrival());
         vacation.setMotive(dtoVacation.getMotive());

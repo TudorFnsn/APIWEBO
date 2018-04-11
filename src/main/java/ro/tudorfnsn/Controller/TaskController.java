@@ -20,6 +20,7 @@ public class TaskController
         this.taskService = taskService;
     }
 
+    //works
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public List<DTOTask> getAll()
     {
@@ -28,12 +29,14 @@ public class TaskController
         return dtoTaskList;
     }
 
+    //works
     @RequestMapping(value = "/create", method = RequestMethod.POST)
     public void create(@RequestBody DTOTask dtoTask)
     {
         taskService.createTask(dtoTask);
     }
 
+    //works
     @RequestMapping(value = "/getById/{id}", method = RequestMethod.GET)
     public DTOTask getById(@PathVariable Long id)
     {
@@ -42,8 +45,10 @@ public class TaskController
         return dtoTask;
     }
 
+
+    //works
     @RequestMapping(value = "/getByStartHour/{startHour}", method = RequestMethod.GET)
-    public List<DTOTask> getByStartHour(@PathVariable Integer startHour)
+    public List<DTOTask> getByStartHour(@PathVariable String startHour)
     {
         List<DTOTask> dtoTaskList = taskService.getByStartHour(startHour);
 
@@ -53,12 +58,14 @@ public class TaskController
         //return taskService.getByStartHour(startHour);
     }
 
+
     @RequestMapping(value = "/deleteById/{id}", method = RequestMethod.DELETE)
     public void delete(@PathVariable Long id)
     {
         taskService.removeTask(id);
     }
 
+    //works
     @RequestMapping(value = "/update/{id}", method = RequestMethod.POST)
     public void update(@PathVariable Long id, @RequestBody DTOTask dtoTask)
     {

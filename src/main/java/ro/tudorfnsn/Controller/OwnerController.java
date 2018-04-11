@@ -19,6 +19,7 @@ public class OwnerController
         this.ownerService = ownerService;
     }
 
+    //works
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public List<DTOOwner> getAll()
     {
@@ -27,12 +28,14 @@ public class OwnerController
         return dtoOwnerList;
     }
 
+    //works
     @RequestMapping(value = "/create", method = RequestMethod.POST)
     public void create(@RequestBody DTOOwner dtoOwner)
     {
         ownerService.createOwner(dtoOwner);
     }
 
+    //works
     @RequestMapping(value = "/getById/{id}", method = RequestMethod.GET)
     public DTOOwner getById(@PathVariable Long id)
     {
@@ -41,6 +44,7 @@ public class OwnerController
         return dtoOwner;
     }
 
+    //works
     @RequestMapping(value = "/getByName/{name}", method = RequestMethod.GET)
     public DTOOwner getByName(@PathVariable String name)
     {
@@ -49,12 +53,17 @@ public class OwnerController
         return dtoOwner;
     }
 
+    //works
     @RequestMapping(value = "/deleteById/{id}", method = RequestMethod.DELETE)
     public void delete(@PathVariable Long id)
     {
         ownerService.deleteById(id);
     }
 
+
+
+
+    //works
     @RequestMapping(value = "/update/{id}", method = RequestMethod.POST)
     public void update(@PathVariable Long id, @RequestBody DTOOwner dtoOwner)
     {

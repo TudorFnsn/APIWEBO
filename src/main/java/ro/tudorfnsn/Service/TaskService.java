@@ -48,7 +48,7 @@ public class TaskService
         return dtoTask;
     }
 
-    public List<DTOTask> getByStartHour(Integer startHour)
+    public List<DTOTask> getByStartHour(String startHour)
     {
         List<Task> taskList = taskRepository.findByStartHour(startHour);
 

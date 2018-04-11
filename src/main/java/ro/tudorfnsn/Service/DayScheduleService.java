@@ -62,14 +62,14 @@ public class DayScheduleService
         return dtoDaySchedule;
     }
 
-    public DTODaySchedule getByNews(News news)
-    {
-        DaySchedule daySchedule = dayScheduleRepository.findFirstByNews(news);
-
-        DTODaySchedule dtoDaySchedule = convertDaySchedule.OneToDTO(daySchedule);
-
-        return dtoDaySchedule;
-    }
+//    public DTODaySchedule getByNews(News news)
+//    {
+//        DaySchedule daySchedule = dayScheduleRepository.findFirstByNews(news);
+//
+//        DTODaySchedule dtoDaySchedule = convertDaySchedule.OneToDTO(daySchedule);
+//
+//        return dtoDaySchedule;
+//    }
 
     public List<DTODaySchedule> getByDate(Date date)
     {
@@ -82,7 +82,7 @@ public class DayScheduleService
 
     public void removeDaySchedule(Long id)
     {
-        dayScheduleRepository.deleteFirtstById(id);
+        dayScheduleRepository.deleteFirstById(id);
     }
 
     public void update(Long id, DTODaySchedule dtoDaySchedule)

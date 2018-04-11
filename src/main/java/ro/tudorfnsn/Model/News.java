@@ -24,15 +24,18 @@ public class News
     private String title;
 
     @Column
+    @Temporal(TemporalType.DATE)
     private Date startDate;
 
     @Column
+    @Temporal(TemporalType.DATE)
     private Date endDate;
 
     @Column
-    private TextArea description;
+    private String description;
+    //private TextArea description;
 
-    public News(String title, Date startDate, Date endDate, TextArea description)
+    public News(String title, Date startDate, Date endDate, String description)
     {
         this.title = title;
         this.startDate = startDate;

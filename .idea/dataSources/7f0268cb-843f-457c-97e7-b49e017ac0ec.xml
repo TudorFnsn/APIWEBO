@@ -60,8 +60,8 @@
     </role>
     <schema id="14" parent="2" name="public">
       <ObjectId>2200</ObjectId>
-      <IntrospectionTimestamp>2018-04-05.17:18:57.924</IntrospectionTimestamp>
-      <IntrospectionStateNumber>1234</IntrospectionStateNumber>
+      <IntrospectionTimestamp>2018-04-10.16:06:00.595</IntrospectionTimestamp>
+      <IntrospectionStateNumber>1658</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -88,131 +88,132 @@
       <DataType>bigint</DataType>
     </sequence>
     <table id="21" parent="14" name="bill">
-      <ObjectId>24709</ObjectId>
-      <StateNumber>1226</StateNumber>
+      <ObjectId>25504</ObjectId>
+      <StateNumber>1658</StateNumber>
     </table>
     <table id="22" parent="14" name="bill_employee_list">
-      <ObjectId>24714</ObjectId>
-      <StateNumber>1226</StateNumber>
+      <ObjectId>25509</ObjectId>
+      <StateNumber>1563</StateNumber>
     </table>
     <table id="23" parent="14" name="employee">
-      <ObjectId>24717</ObjectId>
-      <StateNumber>1234</StateNumber>
+      <ObjectId>25512</ObjectId>
+      <StateNumber>1644</StateNumber>
     </table>
     <table id="24" parent="14" name="machine">
-      <ObjectId>24725</ObjectId>
-      <StateNumber>1229</StateNumber>
+      <ObjectId>25520</ObjectId>
+      <StateNumber>1658</StateNumber>
     </table>
     <table id="25" parent="14" name="machine_spare_parts_list">
-      <ObjectId>24733</ObjectId>
-      <StateNumber>1229</StateNumber>
+      <ObjectId>25528</ObjectId>
+      <StateNumber>1566</StateNumber>
     </table>
     <table id="26" parent="14" name="news">
-      <ObjectId>24736</ObjectId>
-      <StateNumber>1231</StateNumber>
+      <ObjectId>25531</ObjectId>
+      <StateNumber>1551</StateNumber>
     </table>
     <table id="27" parent="14" name="owner">
-      <ObjectId>24744</ObjectId>
-      <StateNumber>1227</StateNumber>
+      <ObjectId>25539</ObjectId>
+      <StateNumber>1564</StateNumber>
     </table>
     <table id="28" parent="14" name="schedule">
-      <ObjectId>24752</ObjectId>
-      <StateNumber>1233</StateNumber>
+      <ObjectId>25547</ObjectId>
+      <StateNumber>1569</StateNumber>
     </table>
     <table id="29" parent="14" name="schedule_task_list">
-      <ObjectId>24757</ObjectId>
-      <StateNumber>1233</StateNumber>
+      <ObjectId>25552</ObjectId>
+      <StateNumber>1569</StateNumber>
     </table>
     <table id="30" parent="14" name="spare_part">
-      <ObjectId>24760</ObjectId>
-      <StateNumber>1228</StateNumber>
+      <ObjectId>25555</ObjectId>
+      <StateNumber>1565</StateNumber>
     </table>
     <table id="31" parent="14" name="task">
-      <ObjectId>24768</ObjectId>
-      <StateNumber>1232</StateNumber>
+      <ObjectId>25563</ObjectId>
+      <StateNumber>1568</StateNumber>
     </table>
     <table id="32" parent="14" name="vacation">
-      <ObjectId>24776</ObjectId>
-      <StateNumber>1234</StateNumber>
+      <ObjectId>25631</ObjectId>
+      <StateNumber>1644</StateNumber>
     </table>
     <column id="33" parent="21" name="id">
       <Position>1</Position>
       <DataType>bigint|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>1210</StateNumber>
+      <StateNumber>1546</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <column id="34" parent="21" name="date">
       <Position>2</Position>
       <DataType>timestamp|0</DataType>
-      <StateNumber>1210</StateNumber>
+      <StateNumber>1546</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <column id="35" parent="21" name="final_price">
       <Position>3</Position>
       <DataType>real|0</DataType>
-      <StateNumber>1210</StateNumber>
+      <StateNumber>1546</StateNumber>
       <TypeId>700</TypeId>
     </column>
     <column id="36" parent="21" name="time_spent_on">
       <Position>4</Position>
       <DataType>integer|0</DataType>
-      <StateNumber>1210</StateNumber>
+      <StateNumber>1546</StateNumber>
       <TypeId>23</TypeId>
     </column>
     <column id="37" parent="21" name="machine_id">
       <Position>5</Position>
       <DataType>bigint|0</DataType>
-      <StateNumber>1210</StateNumber>
+      <StateNumber>1546</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <index id="38" parent="21" name="bill_pkey">
-      <ObjectId>24712</ObjectId>
+      <ObjectId>25507</ObjectId>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="39" parent="21" name="bill_pkey">
-      <ObjectId>24713</ObjectId>
+      <ObjectId>25508</ObjectId>
       <ColNames>id</ColNames>
       <UnderlyingIndexName>bill_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
     <foreign-key id="40" parent="21" name="fk2gd7urh97w1ukos5r4sx27j38">
-      <ObjectId>24786</ObjectId>
+      <ObjectId>25641</ObjectId>
       <ColNames>machine_id</ColNames>
-      <RefTableId>24725</RefTableId>
+      <RefTableId>25520</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>machine</RefTableName>
       <RefKeyName>machine_pkey</RefKeyName>
       <RefColNames>id</RefColNames>
+      <OnDelete>set-null</OnDelete>
     </foreign-key>
     <column id="41" parent="22" name="bill_id">
       <Position>1</Position>
       <DataType>bigint|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>1211</StateNumber>
+      <StateNumber>1547</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <column id="42" parent="22" name="employee_list_id">
       <Position>2</Position>
       <DataType>bigint|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>1211</StateNumber>
+      <StateNumber>1547</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <foreign-key id="43" parent="22" name="fk4mspblddd3q5rmtql7ypjnolc">
-      <ObjectId>24796</ObjectId>
+      <ObjectId>25591</ObjectId>
       <ColNames>bill_id</ColNames>
-      <RefTableId>24709</RefTableId>
+      <RefTableId>25504</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>bill</RefTableName>
       <RefKeyName>bill_pkey</RefKeyName>
       <RefColNames>id</RefColNames>
     </foreign-key>
     <foreign-key id="44" parent="22" name="fkk1n52my3654wj388t3db5nni4">
-      <ObjectId>24791</ObjectId>
+      <ObjectId>25586</ObjectId>
       <ColNames>employee_list_id</ColNames>
-      <RefTableId>24717</RefTableId>
+      <RefTableId>25512</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>employee</RefTableName>
       <RefKeyName>employee_pkey</RefKeyName>
@@ -222,40 +223,40 @@
       <Position>1</Position>
       <DataType>bigint|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>1212</StateNumber>
+      <StateNumber>1548</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <column id="46" parent="23" name="name">
       <Position>2</Position>
       <DataType>varchar(255)|0</DataType>
-      <StateNumber>1212</StateNumber>
+      <StateNumber>1548</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="47" parent="23" name="picture">
       <Position>3</Position>
       <DataType>text|0</DataType>
-      <StateNumber>1212</StateNumber>
+      <StateNumber>1548</StateNumber>
       <TypeId>25</TypeId>
     </column>
     <column id="48" parent="23" name="department">
       <Position>4</Position>
       <DataType>integer|0</DataType>
-      <StateNumber>1212</StateNumber>
+      <StateNumber>1548</StateNumber>
       <TypeId>23</TypeId>
     </column>
     <column id="49" parent="23" name="position">
       <Position>5</Position>
       <DataType>varchar(255)|0</DataType>
-      <StateNumber>1212</StateNumber>
+      <StateNumber>1548</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <index id="50" parent="23" name="employee_pkey">
-      <ObjectId>24723</ObjectId>
+      <ObjectId>25518</ObjectId>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="51" parent="23" name="employee_pkey">
-      <ObjectId>24724</ObjectId>
+      <ObjectId>25519</ObjectId>
       <ColNames>id</ColNames>
       <UnderlyingIndexName>employee_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
@@ -264,60 +265,60 @@
       <Position>1</Position>
       <DataType>bigint|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>1213</StateNumber>
+      <StateNumber>1549</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <column id="53" parent="24" name="name">
       <Position>2</Position>
       <DataType>varchar(255)|0</DataType>
-      <StateNumber>1213</StateNumber>
+      <StateNumber>1549</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="54" parent="24" name="picture">
       <Position>3</Position>
       <DataType>text|0</DataType>
-      <StateNumber>1213</StateNumber>
+      <StateNumber>1549</StateNumber>
       <TypeId>25</TypeId>
     </column>
     <column id="55" parent="24" name="series">
       <Position>4</Position>
       <DataType>varchar(255)|0</DataType>
-      <StateNumber>1213</StateNumber>
+      <StateNumber>1549</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="56" parent="24" name="arrival_date">
       <Position>5</Position>
       <DataType>timestamp|0</DataType>
-      <StateNumber>1213</StateNumber>
+      <StateNumber>1549</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <column id="57" parent="24" name="status">
       <Position>6</Position>
       <DataType>integer|0</DataType>
-      <StateNumber>1213</StateNumber>
+      <StateNumber>1549</StateNumber>
       <TypeId>23</TypeId>
     </column>
     <column id="58" parent="24" name="owner_id">
       <Position>7</Position>
       <DataType>bigint|0</DataType>
-      <StateNumber>1213</StateNumber>
+      <StateNumber>1549</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <index id="59" parent="24" name="machine_pkey">
-      <ObjectId>24731</ObjectId>
+      <ObjectId>25526</ObjectId>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="60" parent="24" name="machine_pkey">
-      <ObjectId>24732</ObjectId>
+      <ObjectId>25527</ObjectId>
       <ColNames>id</ColNames>
       <UnderlyingIndexName>machine_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
     <foreign-key id="61" parent="24" name="fk2r98k4iaob1q4flrieu1p2r9">
-      <ObjectId>24801</ObjectId>
+      <ObjectId>25596</ObjectId>
       <ColNames>owner_id</ColNames>
-      <RefTableId>24744</RefTableId>
+      <RefTableId>25539</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>owner</RefTableName>
       <RefKeyName>owner_pkey</RefKeyName>
@@ -327,29 +328,29 @@
       <Position>1</Position>
       <DataType>bigint|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>1214</StateNumber>
+      <StateNumber>1550</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <column id="63" parent="25" name="spare_parts_list_id">
       <Position>2</Position>
       <DataType>bigint|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>1214</StateNumber>
+      <StateNumber>1550</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <foreign-key id="64" parent="25" name="fkafp2kpefyowd918oylg9pcmx9">
-      <ObjectId>24811</ObjectId>
+      <ObjectId>25606</ObjectId>
       <ColNames>machine_id</ColNames>
-      <RefTableId>24725</RefTableId>
+      <RefTableId>25520</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>machine</RefTableName>
       <RefKeyName>machine_pkey</RefKeyName>
       <RefColNames>id</RefColNames>
     </foreign-key>
     <foreign-key id="65" parent="25" name="fkqmapi5m3bksicd4gnfsemj5d8">
-      <ObjectId>24806</ObjectId>
+      <ObjectId>25601</ObjectId>
       <ColNames>spare_parts_list_id</ColNames>
-      <RefTableId>24760</RefTableId>
+      <RefTableId>25555</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>spare_part</RefTableName>
       <RefKeyName>spare_part_pkey</RefKeyName>
@@ -359,40 +360,40 @@
       <Position>1</Position>
       <DataType>bigint|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>1215</StateNumber>
+      <StateNumber>1551</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <column id="67" parent="26" name="description">
       <Position>2</Position>
-      <DataType>bytea|0</DataType>
-      <StateNumber>1215</StateNumber>
-      <TypeId>17</TypeId>
+      <DataType>varchar(255)|0</DataType>
+      <StateNumber>1551</StateNumber>
+      <TypeId>1043</TypeId>
     </column>
     <column id="68" parent="26" name="end_date">
       <Position>3</Position>
       <DataType>timestamp|0</DataType>
-      <StateNumber>1215</StateNumber>
+      <StateNumber>1551</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <column id="69" parent="26" name="start_date">
       <Position>4</Position>
       <DataType>timestamp|0</DataType>
-      <StateNumber>1215</StateNumber>
+      <StateNumber>1551</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <column id="70" parent="26" name="title">
       <Position>5</Position>
       <DataType>varchar(255)|0</DataType>
-      <StateNumber>1215</StateNumber>
+      <StateNumber>1551</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <index id="71" parent="26" name="news_pkey">
-      <ObjectId>24742</ObjectId>
+      <ObjectId>25537</ObjectId>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="72" parent="26" name="news_pkey">
-      <ObjectId>24743</ObjectId>
+      <ObjectId>25538</ObjectId>
       <ColNames>id</ColNames>
       <UnderlyingIndexName>news_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
@@ -401,28 +402,28 @@
       <Position>1</Position>
       <DataType>bigint|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>1216</StateNumber>
+      <StateNumber>1552</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <column id="74" parent="27" name="name">
       <Position>2</Position>
       <DataType>varchar(255)|0</DataType>
-      <StateNumber>1216</StateNumber>
+      <StateNumber>1552</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="75" parent="27" name="picture">
       <Position>3</Position>
       <DataType>text|0</DataType>
-      <StateNumber>1216</StateNumber>
+      <StateNumber>1552</StateNumber>
       <TypeId>25</TypeId>
     </column>
     <index id="76" parent="27" name="owner_pkey">
-      <ObjectId>24750</ObjectId>
+      <ObjectId>25545</ObjectId>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="77" parent="27" name="owner_pkey">
-      <ObjectId>24751</ObjectId>
+      <ObjectId>25546</ObjectId>
       <ColNames>id</ColNames>
       <UnderlyingIndexName>owner_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
@@ -431,240 +432,225 @@
       <Position>1</Position>
       <DataType>bigint|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>1217</StateNumber>
+      <StateNumber>1553</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <column id="79" parent="28" name="date">
       <Position>2</Position>
       <DataType>timestamp|0</DataType>
-      <StateNumber>1217</StateNumber>
+      <StateNumber>1553</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <column id="80" parent="28" name="employee_id">
       <Position>3</Position>
       <DataType>bigint|0</DataType>
-      <StateNumber>1217</StateNumber>
+      <StateNumber>1553</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <column id="81" parent="28" name="news_id">
-      <Position>4</Position>
-      <DataType>bigint|0</DataType>
-      <StateNumber>1217</StateNumber>
-      <TypeId>20</TypeId>
-    </column>
-    <index id="82" parent="28" name="schedule_pkey">
-      <ObjectId>24755</ObjectId>
+    <index id="81" parent="28" name="schedule_pkey">
+      <ObjectId>25550</ObjectId>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="83" parent="28" name="schedule_pkey">
-      <ObjectId>24756</ObjectId>
+    <key id="82" parent="28" name="schedule_pkey">
+      <ObjectId>25551</ObjectId>
       <ColNames>id</ColNames>
       <UnderlyingIndexName>schedule_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="84" parent="28" name="fksodsj8c282vagj766ll9g8tdc">
-      <ObjectId>24816</ObjectId>
+    <foreign-key id="83" parent="28" name="fksodsj8c282vagj766ll9g8tdc">
+      <ObjectId>25611</ObjectId>
       <ColNames>employee_id</ColNames>
-      <RefTableId>24717</RefTableId>
+      <RefTableId>25512</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>employee</RefTableName>
       <RefKeyName>employee_pkey</RefKeyName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <foreign-key id="85" parent="28" name="fk8adcw1mcu2s8fqa2045l9xoms">
-      <ObjectId>24821</ObjectId>
-      <ColNames>news_id</ColNames>
-      <RefTableId>24736</RefTableId>
-      <RefColPositions>1</RefColPositions>
-      <RefTableName>news</RefTableName>
-      <RefKeyName>news_pkey</RefKeyName>
-      <RefColNames>id</RefColNames>
-    </foreign-key>
-    <column id="86" parent="29" name="day_schedule_id">
+    <column id="84" parent="29" name="day_schedule_id">
       <Position>1</Position>
       <DataType>bigint|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>1218</StateNumber>
+      <StateNumber>1554</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <column id="87" parent="29" name="task_list_id">
+    <column id="85" parent="29" name="task_list_id">
       <Position>2</Position>
       <DataType>bigint|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>1218</StateNumber>
+      <StateNumber>1554</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <index id="88" parent="29" name="uk_tmlafv1mayl70e58j3dypke52">
-      <ObjectId>24784</ObjectId>
+    <index id="86" parent="29" name="uk_tmlafv1mayl70e58j3dypke52">
+      <ObjectId>25579</ObjectId>
       <ColNames>task_list_id</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="89" parent="29" name="uk_tmlafv1mayl70e58j3dypke52">
-      <ObjectId>24785</ObjectId>
+    <key id="87" parent="29" name="uk_tmlafv1mayl70e58j3dypke52">
+      <ObjectId>25580</ObjectId>
       <ColNames>task_list_id</ColNames>
       <UnderlyingIndexName>uk_tmlafv1mayl70e58j3dypke52</UnderlyingIndexName>
     </key>
-    <foreign-key id="90" parent="29" name="fk9b3msib99drw7e2ff1cyig8uh">
-      <ObjectId>24831</ObjectId>
+    <foreign-key id="88" parent="29" name="fk9b3msib99drw7e2ff1cyig8uh">
+      <ObjectId>25621</ObjectId>
       <ColNames>day_schedule_id</ColNames>
-      <RefTableId>24752</RefTableId>
+      <RefTableId>25547</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>schedule</RefTableName>
       <RefKeyName>schedule_pkey</RefKeyName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <foreign-key id="91" parent="29" name="fk6ortlhv47rb65fee2756laj3q">
-      <ObjectId>24826</ObjectId>
+    <foreign-key id="89" parent="29" name="fk6ortlhv47rb65fee2756laj3q">
+      <ObjectId>25616</ObjectId>
       <ColNames>task_list_id</ColNames>
-      <RefTableId>24768</RefTableId>
+      <RefTableId>25563</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>task</RefTableName>
       <RefKeyName>task_pkey</RefKeyName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="92" parent="30" name="id">
+    <column id="90" parent="30" name="id">
       <Position>1</Position>
       <DataType>bigint|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>1219</StateNumber>
+      <StateNumber>1555</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <column id="93" parent="30" name="name">
+    <column id="91" parent="30" name="name">
       <Position>2</Position>
       <DataType>varchar(255)|0</DataType>
-      <StateNumber>1219</StateNumber>
+      <StateNumber>1555</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="94" parent="30" name="picture">
+    <column id="92" parent="30" name="picture">
       <Position>3</Position>
       <DataType>text|0</DataType>
-      <StateNumber>1219</StateNumber>
+      <StateNumber>1555</StateNumber>
       <TypeId>25</TypeId>
     </column>
-    <column id="95" parent="30" name="series">
+    <column id="93" parent="30" name="series">
       <Position>4</Position>
       <DataType>varchar(255)|0</DataType>
-      <StateNumber>1219</StateNumber>
+      <StateNumber>1555</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="96" parent="30" name="origin">
+    <column id="94" parent="30" name="origin">
       <Position>5</Position>
       <DataType>varchar(255)|0</DataType>
-      <StateNumber>1219</StateNumber>
+      <StateNumber>1555</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="97" parent="30" name="price">
+    <column id="95" parent="30" name="price">
       <Position>6</Position>
       <DataType>real|0</DataType>
-      <StateNumber>1219</StateNumber>
+      <StateNumber>1555</StateNumber>
       <TypeId>700</TypeId>
     </column>
-    <column id="98" parent="30" name="quantity">
+    <column id="96" parent="30" name="quantity">
       <Position>7</Position>
       <DataType>integer|0</DataType>
-      <StateNumber>1219</StateNumber>
+      <StateNumber>1555</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <index id="99" parent="30" name="spare_part_pkey">
-      <ObjectId>24766</ObjectId>
+    <index id="97" parent="30" name="spare_part_pkey">
+      <ObjectId>25561</ObjectId>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="100" parent="30" name="spare_part_pkey">
-      <ObjectId>24767</ObjectId>
+    <key id="98" parent="30" name="spare_part_pkey">
+      <ObjectId>25562</ObjectId>
       <ColNames>id</ColNames>
       <UnderlyingIndexName>spare_part_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <column id="101" parent="31" name="id">
+    <column id="99" parent="31" name="id">
       <Position>1</Position>
       <DataType>bigint|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>1220</StateNumber>
+      <StateNumber>1557</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <column id="102" parent="31" name="description">
+    <column id="100" parent="31" name="description">
       <Position>2</Position>
-      <DataType>bytea|0</DataType>
-      <StateNumber>1220</StateNumber>
-      <TypeId>17</TypeId>
+      <DataType>varchar(255)|0</DataType>
+      <StateNumber>1557</StateNumber>
+      <TypeId>1043</TypeId>
     </column>
-    <column id="103" parent="31" name="end_hour">
+    <column id="101" parent="31" name="end_hour">
       <Position>3</Position>
-      <DataType>integer|0</DataType>
-      <StateNumber>1220</StateNumber>
-      <TypeId>23</TypeId>
+      <DataType>varchar(255)|0</DataType>
+      <StateNumber>1557</StateNumber>
+      <TypeId>1043</TypeId>
     </column>
-    <column id="104" parent="31" name="start_hour">
+    <column id="102" parent="31" name="start_hour">
       <Position>4</Position>
-      <DataType>integer|0</DataType>
-      <StateNumber>1220</StateNumber>
-      <TypeId>23</TypeId>
+      <DataType>varchar(255)|0</DataType>
+      <StateNumber>1557</StateNumber>
+      <TypeId>1043</TypeId>
     </column>
-    <index id="105" parent="31" name="task_pkey">
-      <ObjectId>24774</ObjectId>
+    <index id="103" parent="31" name="task_pkey">
+      <ObjectId>25569</ObjectId>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="106" parent="31" name="task_pkey">
-      <ObjectId>24775</ObjectId>
+    <key id="104" parent="31" name="task_pkey">
+      <ObjectId>25570</ObjectId>
       <ColNames>id</ColNames>
       <UnderlyingIndexName>task_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <column id="107" parent="32" name="id">
+    <column id="105" parent="32" name="id">
       <Position>1</Position>
       <DataType>bigint|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>1221</StateNumber>
+      <StateNumber>1643</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <column id="108" parent="32" name="arrival">
+    <column id="106" parent="32" name="arrival">
       <Position>2</Position>
       <DataType>timestamp|0</DataType>
-      <StateNumber>1221</StateNumber>
+      <StateNumber>1643</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <column id="109" parent="32" name="description">
+    <column id="107" parent="32" name="description">
       <Position>3</Position>
-      <DataType>bytea|0</DataType>
-      <StateNumber>1221</StateNumber>
-      <TypeId>17</TypeId>
+      <DataType>varchar(255)|0</DataType>
+      <StateNumber>1643</StateNumber>
+      <TypeId>1043</TypeId>
     </column>
-    <column id="110" parent="32" name="leave">
+    <column id="108" parent="32" name="leave">
       <Position>4</Position>
       <DataType>timestamp|0</DataType>
-      <StateNumber>1221</StateNumber>
+      <StateNumber>1643</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <column id="111" parent="32" name="motive">
+    <column id="109" parent="32" name="motive">
       <Position>5</Position>
       <DataType>integer|0</DataType>
-      <StateNumber>1221</StateNumber>
+      <StateNumber>1643</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="112" parent="32" name="employee_id">
+    <column id="110" parent="32" name="employee_id">
       <Position>6</Position>
       <DataType>bigint|0</DataType>
-      <StateNumber>1221</StateNumber>
+      <StateNumber>1643</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <index id="113" parent="32" name="vacation_pkey">
-      <ObjectId>24782</ObjectId>
+    <index id="111" parent="32" name="vacation_pkey">
+      <ObjectId>25634</ObjectId>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="114" parent="32" name="vacation_pkey">
-      <ObjectId>24783</ObjectId>
+    <key id="112" parent="32" name="vacation_pkey">
+      <ObjectId>25635</ObjectId>
       <ColNames>id</ColNames>
       <UnderlyingIndexName>vacation_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="115" parent="32" name="fk6qrwq18c5kq468gvsmwm43cgp">
-      <ObjectId>24836</ObjectId>
+    <foreign-key id="113" parent="32" name="fk6qrwq18c5kq468gvsmwm43cgp">
+      <ObjectId>25636</ObjectId>
       <ColNames>employee_id</ColNames>
-      <RefTableId>24717</RefTableId>
+      <RefTableId>25512</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>employee</RefTableName>
       <RefKeyName>employee_pkey</RefKeyName>

@@ -23,6 +23,7 @@ public class DayScheduleController
         this.dayScheduleService = dayScheduleService;
     }
 
+    //works
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public List<DTODaySchedule> getAll()
     {
@@ -31,12 +32,14 @@ public class DayScheduleController
         return dtoDayScheduleList;
     }
 
+    //works
     @RequestMapping(value = "/create", method = RequestMethod.POST)
     public void create(@RequestBody DTODaySchedule dtoDaySchedule)
     {
         dayScheduleService.createDaySchedule(dtoDaySchedule);
     }
 
+    //works
     @RequestMapping(value = "/getById/{id}", method = RequestMethod.GET)
     public DTODaySchedule getById(@PathVariable Long id)
     {
@@ -54,6 +57,7 @@ public class DayScheduleController
 
     }
 
+    //works
     @RequestMapping(value = "/getByEmployee/{employee}", method = RequestMethod.GET)
     public DTODaySchedule getByEmployee(@PathVariable Employee employee)
     {
@@ -62,13 +66,14 @@ public class DayScheduleController
         return dtoDaySchedule;
     }
 
-    @RequestMapping(value = "/getByNews/{news}", method = RequestMethod.GET)
-    public DTODaySchedule getByNews(@PathVariable News news)
-    {
-        DTODaySchedule dtoDaySchedule = dayScheduleService.getByNews(news);
 
-        return dtoDaySchedule;
-    }
+//    @RequestMapping(value = "/getByNews/{news}", method = RequestMethod.GET)
+//    public DTODaySchedule getByNews(@PathVariable News news)
+//    {
+//        DTODaySchedule dtoDaySchedule = dayScheduleService.getByNews(news);
+//
+//        return dtoDaySchedule;
+//    }
 
     @RequestMapping(value = "/deleteById/{id}", method = RequestMethod.DELETE)
     public void deleteById(@PathVariable Long id)

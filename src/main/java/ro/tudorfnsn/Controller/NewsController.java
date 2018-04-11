@@ -15,12 +15,12 @@ public class NewsController
     private NewsService newsService;
 
     @Autowired
-
     public NewsController(NewsService newsService)
     {
         this.newsService = newsService;
     }
 
+    //works
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public List<DTONews> getAll()
     {
@@ -29,12 +29,14 @@ public class NewsController
         return dtoNewsList;
     }
 
+    //works
     @RequestMapping(value = "/create", method = RequestMethod.POST)
     public void create(@RequestBody DTONews dtoNews)
     {
         newsService.createNews(dtoNews);
     }
 
+    //works
     @RequestMapping(value = "/getById/{id}", method = RequestMethod.GET)
     public DTONews getById(@PathVariable Long id)
     {
@@ -43,6 +45,7 @@ public class NewsController
         return dtoNews;
     }
 
+    //works
     @RequestMapping(value = "/getByTitle/{title}", method = RequestMethod.GET)
     public DTONews getByTitle(@PathVariable  String title)
     {
@@ -51,6 +54,7 @@ public class NewsController
         return dtoNews;
     }
 
+    //pending
     @RequestMapping(value = "/getByStartDate/{date}", method = RequestMethod.GET)
     public List<DTONews> getByStartDate(@PathVariable Date date)
     {
@@ -59,12 +63,16 @@ public class NewsController
         return dtoNewsList;
     }
 
+
+
+    //works
     @RequestMapping(value = "/deleteById/{id}", method = RequestMethod.DELETE)
     public void delete(@PathVariable Long id)
     {
         newsService.removeById(id);
     }
 
+    //works
     @RequestMapping(value = "/update/{id}", method = RequestMethod.POST)
     public void update(@PathVariable Long id, @RequestBody DTONews dtoNews)
     {

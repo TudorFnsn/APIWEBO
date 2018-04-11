@@ -27,9 +27,10 @@ public class Bill
     private Integer timeSpentOn;
 
     @Column
+    @Temporal(TemporalType.DATE)
     private Date date;
 
-    @ManyToMany(targetEntity = Employee.class, cascade = CascadeType.ALL)
+    @ManyToMany(targetEntity = Employee.class, cascade = CascadeType.DETACH)
     private List<Employee> employeeList;
 
     @Column

@@ -43,13 +43,13 @@ public class VacationService
         return dtoVacationList;
     }
 
-    public DTOVacation getByEmployee(Employee employee)
+    public List<DTOVacation> getByEmployee(Employee employee)
     {
-        Vacation vacation = vacationRepository.findFirstByEmployee(employee);
+        List<Vacation> vacationList = vacationRepository.findByEmployee(employee);
 
-        DTOVacation dtoVacation = convertVacation.OneToDTO(vacation);
+        List<DTOVacation> dtoVacationList = convertVacation.ManyToDTO(vacationList);
 
-        return dtoVacation;
+        return dtoVacationList;
     }
 
     public List<DTOVacation> getByMotive(MotiveOfAbsence motiveOfAbsence)

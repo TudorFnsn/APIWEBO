@@ -23,6 +23,7 @@ public class VacationController
         this.vacationService = vacationService;
     }
 
+    //works
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public List<DTOVacation> getAll()
     {
@@ -30,20 +31,24 @@ public class VacationController
         return dtoVacationList;
     }
 
+    //works
     @RequestMapping(value = "/create", method = RequestMethod.POST)
     public void create(@RequestBody DTOVacation dtoVacation)
     {
         vacationService.createVacation(dtoVacation);
     }
 
+    //works -- aici nu ii prea bine cu FINDFIRST pentru ca un employee poate avea mai multe vacations
+    //ii rezolvat!!!
     @RequestMapping(value = "/getByEmployee/{employee}", method = RequestMethod.GET)
-    public DTOVacation getByEmployee(@PathVariable Employee employee)
+    public List<DTOVacation> getByEmployee(@PathVariable Employee employee)
     {
-        DTOVacation dtoVacation = vacationService.getByEmployee(employee);
+        List<DTOVacation> dtoVacationList = vacationService.getByEmployee(employee);
 
-        return dtoVacation;
+        return dtoVacationList;
     }
 
+    //works
     @RequestMapping(value = "/getByMotive/{motiveOfAbsence}", method = RequestMethod.GET)
     public List<DTOVacation> getByMotive(@PathVariable MotiveOfAbsence motiveOfAbsence)
     {
@@ -66,6 +71,7 @@ public class VacationController
         vacationService.removeVacation(id);
     }
 
+    //works
     @RequestMapping(value = "/update/{id}", method = RequestMethod.POST)
     public void update(@PathVariable Long id, @RequestBody DTOVacation dtoVacation)
     {

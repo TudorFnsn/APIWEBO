@@ -1,5 +1,6 @@
 package ro.tudorfnsn.DataTransferObject;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.*;
 import ro.tudorfnsn.Model.Employee;
 import ro.tudorfnsn.Model.News;
@@ -20,8 +21,10 @@ import java.util.List;
 public class DTODaySchedule
 {
     Long id;
-    Employee employee;
-    News news;
+    Long employeeId;
+    //News news;
+
+    @JsonFormat(shape=JsonFormat.Shape.STRING, pattern="dd-MM-yyyy")
     Date date;
-    List<Task> taskList;
+    List<Long> taskIdList;
 }

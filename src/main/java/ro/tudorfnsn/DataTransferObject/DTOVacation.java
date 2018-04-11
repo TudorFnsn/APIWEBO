@@ -1,4 +1,5 @@
 package ro.tudorfnsn.DataTransferObject;
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.*;
 import ro.tudorfnsn.Enumerable.MotiveOfAbsence;
 import ro.tudorfnsn.Model.Employee;
@@ -15,9 +16,11 @@ import java.util.Date;
 public class DTOVacation
 {
     Long id;
-    Employee employee;
+    Long employeeId;
+    @JsonFormat(shape=JsonFormat.Shape.STRING, pattern="dd-MM-yyyy")
     Date leave;
+    @JsonFormat(shape=JsonFormat.Shape.STRING, pattern="dd-MM-yyyy")
     Date arrival;
     MotiveOfAbsence motive;
-    TextArea description;
+    String description;
 }

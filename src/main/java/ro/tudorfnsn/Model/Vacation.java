@@ -22,22 +22,24 @@ public class Vacation
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    @OneToOne(cascade = CascadeType.ALL, targetEntity = Employee.class)
+    @OneToOne(cascade = CascadeType.DETACH, targetEntity = Employee.class)
     private Employee employee;
 
     @Column
+    @Temporal(TemporalType.DATE)
     private Date leave;
 
     @Column
+    @Temporal(TemporalType.DATE)
     private Date arrival;
 
     @Column
     private MotiveOfAbsence motive;
 
     @Column
-    private TextArea description;
+    private String description;
 
-    public Vacation(Employee employee, Date leave, Date arrival, MotiveOfAbsence motive, TextArea description)
+    public Vacation(Employee employee, Date leave, Date arrival, MotiveOfAbsence motive, String description)
     {
         this.employee = employee;
         this.leave = leave;

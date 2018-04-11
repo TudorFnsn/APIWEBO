@@ -2,11 +2,219 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64569b9d-340b-41a5-af09-be2f8b93a22d" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_nekohtml_nekohtml_1_9_21.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__nz_net_ultraq_thymeleaf_thymeleaf_layout_dialect_1_4_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ognl_ognl_3_0_8.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_4_12.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_1_5_6_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_2_1_5_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring4_2_1_5_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_0_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_10_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/css/main.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/css/util.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/Linearicons-Free-v1.0.0/icon-font.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/css/font-awesome.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/css/font-awesome.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/less/animated.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/less/bordered-pulled.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/less/core.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/less/fixed-width.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/less/font-awesome.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/less/icons.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/less/larger.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/less/list.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/less/mixins.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/less/path.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/less/rotated-flipped.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/less/screen-reader.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/less/stacked.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/less/variables.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/scss/_animated.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/scss/_core.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/scss/_icons.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/scss/_larger.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/scss/_list.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/scss/_mixins.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/scss/_path.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/scss/_stacked.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/scss/_variables.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/scss/font-awesome.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/iconic/css/material-design-iconic-font.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/iconic/css/material-design-iconic-font.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/iconic/fonts/Material-Design-Iconic-Font.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/iconic/fonts/Material-Design-Iconic-Font.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/iconic/fonts/Material-Design-Iconic-Font.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/iconic/fonts/Material-Design-Iconic-Font.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/iconic/fonts/Material-Design-Iconic-Font.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-Black.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-BlackItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-Bold.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-BoldItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-ExtraBold.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-ExtraBoldItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-ExtraLight.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-ExtraLightItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-Italic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-Light.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-LightItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-Medium.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-MediumItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-Regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-SemiBold.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-SemiBoldItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-Thin.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-ThinItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/ubuntu/UFL.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/ubuntu/Ubuntu-Bold.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/ubuntu/Ubuntu-BoldItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/ubuntu/Ubuntu-Italic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/ubuntu/Ubuntu-Light.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/ubuntu/Ubuntu-LightItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/ubuntu/Ubuntu-Medium.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/ubuntu/Ubuntu-MediumItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/ubuntu/Ubuntu-Regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/images/bg-01.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/images/compressed.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/images/icons/W.ico" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/images/icons/favicon.ico" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/js/main.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/animate/animate.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/animsition/css/animsition.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/animsition/css/animsition.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/animsition/js/animsition.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/animsition/js/animsition.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/css/bootstrap-grid.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/css/bootstrap-grid.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/css/bootstrap-grid.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/css/bootstrap-grid.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/css/bootstrap-reboot.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/css/bootstrap-reboot.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/css/bootstrap-reboot.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/css/bootstrap-reboot.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/css/bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/css/bootstrap.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/css/bootstrap.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/js/bootstrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/js/popper.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/js/popper.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/js/tooltip.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/countdowntime/countdowntime.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/css-hamburgers/hamburgers.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/css-hamburgers/hamburgers.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/daterangepicker/daterangepicker.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/daterangepicker/daterangepicker.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/daterangepicker/moment.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/daterangepicker/moment.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/jquery/jquery-3.2.1.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/perfect-scrollbar/perfect-scrollbar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/perfect-scrollbar/perfect-scrollbar.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/select2/select2.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/select2/select2.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/select2/select2.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/select2/select2.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/logo1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/Index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/styles.css" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7f0268cb-843f-457c-97e7-b49e017ac0ec.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/7f0268cb-843f-457c-97e7-b49e017ac0ec.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7f0268cb-843f-457c-97e7-b49e017ac0ec/storage_v2/_src_/database/webomatic_db._qCcMQ/schema/public.abK9xQ.meta" afterPath="$PROJECT_DIR$/.idea/dataSources/7f0268cb-843f-457c-97e7-b49e017ac0ec/storage_v2/_src_/database/webomatic_db._qCcMQ/schema/public.abK9xQ.meta" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/APIWebomatic.iml" afterPath="$PROJECT_DIR$/APIWebomatic.iml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/BillController.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/BillController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/DayScheduleController.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/DayScheduleController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/EmployeeController.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/EmployeeController.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/MachineController.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/MachineController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Converter/ConvertMachine.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Converter/ConvertMachine.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Enumerable/Status.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Enumerable/Status.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/NewsController.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/NewsController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/OwnerController.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/OwnerController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/SparePartController.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/SparePartController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/TaskController.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/TaskController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/VacationController.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/VacationController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Converter/ConvertBill.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Converter/ConvertBill.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Converter/ConvertDaySchedule.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Converter/ConvertDaySchedule.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Converter/ConvertTask.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Converter/ConvertTask.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Converter/ConvertVacation.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Converter/ConvertVacation.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOBill.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOBill.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTODaySchedule.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTODaySchedule.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOMachine.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOMachine.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTONews.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTONews.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOTask.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOTask.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOVacation.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOVacation.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Bill.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Bill.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/DaySchedule.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/DaySchedule.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Machine.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Machine.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/MachineRepository.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/MachineRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/News.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/News.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Task.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Task.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Vacation.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Vacation.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/DayScheduleRepository.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/DayScheduleRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/EmployeeRepository.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/EmployeeRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/NewsRepository.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/NewsRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/OwnerRepository.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/OwnerRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/SparePartRepository.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/SparePartRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/TaskRepository.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/TaskRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/VacationRepository.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/VacationRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/DayScheduleService.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/DayScheduleService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/TaskService.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/TaskService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/VacationService.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/VacationService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Controller/BillController.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Controller/BillController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Controller/DayScheduleController.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Controller/DayScheduleController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Controller/EmployeeController.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Controller/EmployeeController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Controller/MachineController.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Controller/MachineController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Controller/NewsController.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Controller/NewsController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Controller/OwnerController.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Controller/OwnerController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Controller/SparePartController.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Controller/SparePartController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Controller/TaskController.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Controller/TaskController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Controller/VacationController.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Controller/VacationController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Converter/ConvertBill.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Converter/ConvertBill.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Converter/ConvertDaySchedule.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Converter/ConvertDaySchedule.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Converter/ConvertNews.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Converter/ConvertNews.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Converter/ConvertTask.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Converter/ConvertTask.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Converter/ConvertVacation.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Converter/ConvertVacation.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/DataTransferObject/DTOBill.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/DataTransferObject/DTOBill.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/DataTransferObject/DTODaySchedule.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/DataTransferObject/DTODaySchedule.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/DataTransferObject/DTOMachine.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/DataTransferObject/DTOMachine.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/DataTransferObject/DTONews.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/DataTransferObject/DTONews.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/DataTransferObject/DTOTask.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/DataTransferObject/DTOTask.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/DataTransferObject/DTOVacation.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/DataTransferObject/DTOVacation.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Model/Bill.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Model/Bill.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Model/DaySchedule.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Model/DaySchedule.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Model/Machine.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Model/Machine.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Model/News.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Model/News.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Model/Task.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Model/Task.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Model/Vacation.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Model/Vacation.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Repository/DayScheduleRepository.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Repository/DayScheduleRepository.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Repository/EmployeeRepository.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Repository/EmployeeRepository.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Repository/NewsRepository.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Repository/NewsRepository.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Repository/OwnerRepository.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Repository/OwnerRepository.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Repository/SparePartRepository.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Repository/SparePartRepository.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Repository/TaskRepository.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Repository/TaskRepository.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Repository/VacationRepository.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Repository/VacationRepository.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Service/DayScheduleService.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Service/DayScheduleService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Service/TaskService.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Service/TaskService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Service/VacationService.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Service/VacationService.class" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,41 +240,6 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="webomatic_db@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="webomatic_db@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="webomatic_db@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="webomatic_db: database" type="6d9b600a:PostgresImplModel$Database" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="webomatic_db@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="webomatic_db: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="webomatic_db@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="webomatic_db: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="webomatic_db@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="webomatic_db: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="machine: table" type="a93d6ac6:PostgresImplModel$LocalTable" />
-      </path>
     </expand>
     <select />
   </component>
@@ -74,113 +247,81 @@
     <favorites_list name="APIWebomatic" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MachineService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/MachineService.java">
+    <leaf>
+      <file leaf-file-name="Index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/Index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="107" column="60" lean-forward="false" selection-start-line="107" selection-start-column="60" selection-end-line="107" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2653#2654#0" expanded="true" />
-                <element signature="e#2706#2707#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BillRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/BillRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="22" selection-end-column="18" />
+            <state relative-caret-position="58">
+              <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmployeeRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/EmployeeRepository.java">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+            <state relative-caret-position="135">
+              <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MachineController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/MachineController.java">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/login/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="102" column="11" lean-forward="false" selection-start-line="102" selection-start-column="11" selection-end-line="102" selection-end-column="11" />
+            <state relative-caret-position="-1154">
+              <caret line="232" column="1" lean-forward="false" selection-start-line="232" selection-start-column="1" selection-end-line="232" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/login/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="46" column="20" lean-forward="true" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
               <folding>
-                <element signature="e#548#549#0" expanded="true" />
-                <element signature="e#600#601#0" expanded="true" />
-                <element signature="e#980#981#0" expanded="true" />
-                <element signature="e#1038#1039#0" expanded="true" />
-                <element signature="e#1197#1198#0" expanded="true" />
-                <element signature="e#1260#1261#0" expanded="true" />
-                <element signature="e#3284#3285#0" expanded="true" />
-                <element signature="e#3333#3334#0" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DTOMachine.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOMachine.java">
+      <file leaf-file-name="bg-01.jpg" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/login/images/bg-01.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="news.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/news.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1062">
+              <caret line="71" column="29" lean-forward="false" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ViewConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/web/ViewConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="27" column="6" lean-forward="true" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BillController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/BillController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="machine" pinned="false" current-in-tab="false">
-        <entry file="das://table:/6b09865/7f0268cb-843f-457c-97e7-b49e017ac0ec/webomatic_db.public.machine">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Status.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Enumerable/Status.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="owner" pinned="false" current-in-tab="false">
-        <entry file="das://table:/6b09865/7f0268cb-843f-457c-97e7-b49e017ac0ec/webomatic_db.public.owner">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MachineRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/MachineRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="21" column="18" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+              <caret line="27" column="69" lean-forward="false" selection-start-line="27" selection-start-column="69" selection-end-line="27" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -194,6 +335,8 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -206,6 +349,17 @@
       <find>Owner</find>
       <find>Integer</find>
       <find>Sim</find>
+      <find>Text</find>
+      <find>uuid</find>
+      <find>col</find>
+      <find>fav</find>
+      <find>back</find>
+      <find>bg</find>
+      <find>we</find>
+      <find>Login V</find>
+      <find>WEBOMA</find>
+      <find>Enter</find>
+      <find>comp</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -224,57 +378,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/MachineDone.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/MachineIP.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/MachineWaiting.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Converter/ConvertMachineIP.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Converter/ConvertMachineWaiting.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/MachineIPRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/MachineIPService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Converter/ConvertModels.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/MachineDoneController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOMachineDone.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/MachineDoneService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Converter/ConvertMachineDone.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Element/MechanicalMachineElement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Element/Machine.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/MachineDoneRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOMachineIP.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/DayScheduleService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/DayScheduleController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/EmployeeController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/NewsService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/NewsController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/OwnerService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/OwnerController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/SparePartService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/SparePartRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/SparePartController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/NewsRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/NewsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Converter/ConvertTask.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/TaskService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/TaskController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/OwnerRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/TaskRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Converter/ConvertDaySchedule.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/DayScheduleController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/DayScheduleRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/DayScheduleService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Converter/ConvertVacation.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/VacationService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/VacationController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOBill.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOEmployee.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/EmployeeService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Converter/ConvertBill.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Bill.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/BillRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/BillService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/BillController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOMachine.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/DayScheduleRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/EmployeeRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/NewsRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/OwnerRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/SparePartRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/TaskRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/VacationRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/MachineService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Bill.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOBill.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Converter/ConvertBill.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTODaySchedule.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTONews.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOVacation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/DaySchedule.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Machine.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Converter/ConvertMachine.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Enumerable/Status.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/MachineRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/News.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Task.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Vacation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/web/GeneratorHTMLCRUD.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/MachineController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOMachine.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/machine.html" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/web/WebpageGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/vacation.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/bill.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/employee.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/news.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/owner.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/schedule.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/sparepart.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/task.html" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/web/ViewConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/styles.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/Index.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/vendor/animsition/css/animsition.min.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/login/css/main.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/login/index.html" />
       </list>
     </option>
   </component>
@@ -292,10 +446,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
+    <option name="x" value="642" />
+    <option name="width" value="638" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -314,8 +467,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -437,21 +588,83 @@
               <item name="APIWEBO" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tudorfnsn" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="APIWebomatic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APIWEBO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="APIWebomatic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APIWEBO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="APIWebomatic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APIWEBO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="APIWebomatic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APIWEBO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="APIWebomatic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APIWEBO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="APIWebomatic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APIWEBO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="icons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="APIWebomatic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APIWEBO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Lombok plugin" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -463,11 +676,25 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="plugin&#9;ACTION&#9;WelcomeScreen.Plugins" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/login/images/icons" />
+      <recent name="$PROJECT_DIR$/src/main/resources/login/images" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="login" />
       <recent name="ro.tudorfnsn.Model" />
       <recent name="ro.tudorfnsn.Repository" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/login/images" />
+      <recent name="$PROJECT_DIR$/src/main/resources/login" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -589,12 +816,16 @@
       <workItem from="1521913122153" duration="2684000" />
       <workItem from="1521917719072" duration="38707000" />
       <workItem from="1522760059456" duration="11658000" />
-      <workItem from="1522851316218" duration="32598000" />
+      <workItem from="1522851316218" duration="33184000" />
+      <workItem from="1522960441925" duration="98000" />
+      <workItem from="1522960584021" duration="7276000" />
+      <workItem from="1523285789574" duration="16931000" />
+      <workItem from="1523442428393" duration="7593000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99190000" />
+    <option name="totallyTimeSpent" value="131674000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -607,41 +838,76 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5129241" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1914378" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19709209" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39889959" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39889959" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24484181" sideWeight="0.49676898" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31911966" sideWeight="0.48707592" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31911966" sideWeight="0.48707592" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31774417" sideWeight="0.49676898" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1365105" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31774417" sideWeight="0.49676898" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23182553" sideWeight="0.49292928" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22132471" sideWeight="0.5070707" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5129241" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19063005" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39889959" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24484181" sideWeight="0.49676898" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31911966" sideWeight="0.48707592" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31774417" sideWeight="0.49676898" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22455573" sideWeight="0.49292928" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22132471" sideWeight="0.5070707" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -651,289 +917,72 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="13" />
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/NewsController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOSparePart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding>
-            <element signature="e#1728#1729#0" expanded="false" />
-            <element signature="e#1770#1771#0" expanded="false" />
-            <element signature="e#1926#1927#0" expanded="false" />
-            <element signature="e#1973#1974#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/OwnerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="66" column="7" lean-forward="true" selection-start-line="66" selection-start-column="7" selection-end-line="72" selection-end-column="39" />
-          <folding>
-            <element signature="e#1471#1472#0" expanded="false" />
-            <element signature="e#1522#1523#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/SparePartService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-          <folding>
-            <element signature="e#2245#2246#0" expanded="false" />
-            <element signature="e#2295#2296#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/TaskService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="73" column="5" lean-forward="true" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
-          <folding>
-            <element signature="e#1467#1468#0" expanded="false" />
-            <element signature="e#1517#1518#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/TaskController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="64" column="38" lean-forward="false" selection-start-line="64" selection-start-column="38" selection-end-line="64" selection-end-column="38" />
-          <folding>
-            <element signature="e#1573#1574#0" expanded="false" />
-            <element signature="e#1615#1616#0" expanded="false" />
-            <element signature="e#1771#1772#0" expanded="false" />
-            <element signature="e#1818#1819#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/VacationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="89" column="1" lean-forward="true" selection-start-line="89" selection-start-column="1" selection-end-line="89" selection-end-column="1" />
-          <folding>
-            <element signature="e#2101#2102#0" expanded="false" />
-            <element signature="e#2155#2156#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/DayScheduleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="82" column="5" lean-forward="true" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
-          <folding>
-            <element signature="e#2324#2325#0" expanded="false" />
-            <element signature="e#2380#2381#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/EmployeeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
-          <folding>
-            <element signature="e#2183#2184#0" expanded="false" />
-            <element signature="e#2233#2234#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/DayScheduleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="95" column="51" lean-forward="false" selection-start-line="95" selection-start-column="51" selection-end-line="95" selection-end-column="51" />
-          <folding>
-            <element signature="e#2541#2542#0" expanded="false" />
-            <element signature="e#2599#2600#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/VacationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
-          <folding>
-            <element signature="e#2102#2103#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1804">
-          <caret line="130" column="13" lean-forward="false" selection-start-line="130" selection-start-column="13" selection-end-line="130" selection-end-column="13" />
+        <state relative-caret-position="150">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTODaySchedule.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOVacation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="300">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOMachineDone.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="95">
           <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOMachineWaiting.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/News.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="324">
+          <caret line="30" column="32" lean-forward="false" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Owner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/SparePart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Vacation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="22" />
+        <state relative-caret-position="163">
+          <caret line="32" column="32" lean-forward="false" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOBill.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Bill.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        <state relative-caret-position="152">
+          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOEmployee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6b09865/7f0268cb-843f-457c-97e7-b49e017ac0ec/webomatic_db.public.employee">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6b09865/7f0268cb-843f-457c-97e7-b49e017ac0ec/webomatic_db.public.bill_employee_list">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-          <column-attributes>
-            <column name="ctid" enabled="false" />
-          </column-attributes>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Enumerable/Department.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://DATABASE/7f0268cb-843f-457c-97e7-b49e017ac0ec">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>7f0268cb-843f-457c-97e7-b49e017ac0ec</OriginalElement>
-          <nodes>
-            <node x="371.5" y="380.0">7f0268cb-843f-457c-97e7-b49e017ac0ec.TABLE:webomatic_db.public.employee</node>
-            <node x="771.75" y="0.0">7f0268cb-843f-457c-97e7-b49e017ac0ec.TABLE:webomatic_db.public.owner</node>
-            <node x="78.75" y="782.0">7f0268cb-843f-457c-97e7-b49e017ac0ec.TABLE:webomatic_db.public.schedule_task_list</node>
-            <node x="544.5" y="146.0">7f0268cb-843f-457c-97e7-b49e017ac0ec.TABLE:webomatic_db.public.spare_part</node>
-            <node x="579.5" y="413.5">7f0268cb-843f-457c-97e7-b49e017ac0ec.TABLE:webomatic_db.public.machine_spare_parts_list</node>
-            <node x="758.25" y="614.5">7f0268cb-843f-457c-97e7-b49e017ac0ec.TABLE:webomatic_db.public.bill_employee_list</node>
-            <node x="811.5" y="380.0">7f0268cb-843f-457c-97e7-b49e017ac0ec.TABLE:webomatic_db.public.bill</node>
-            <node x="758.25" y="146.0">7f0268cb-843f-457c-97e7-b49e017ac0ec.TABLE:webomatic_db.public.machine</node>
-            <node x="379.0" y="570.0">7f0268cb-843f-457c-97e7-b49e017ac0ec.TABLE:webomatic_db.public.vacation</node>
-            <node x="186.0" y="592.0">7f0268cb-843f-457c-97e7-b49e017ac0ec.TABLE:webomatic_db.public.schedule</node>
-            <node x="0.0" y="592.0">7f0268cb-843f-457c-97e7-b49e017ac0ec.TABLE:webomatic_db.public.task</node>
-            <node x="136.25" y="380.0">7f0268cb-843f-457c-97e7-b49e017ac0ec.TABLE:webomatic_db.public.news</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="7f0268cb-843f-457c-97e7-b49e017ac0ec.TABLE:webomatic_db.public.bill_employee_list" target="7f0268cb-843f-457c-97e7-b49e017ac0ec.TABLE:webomatic_db.public.bill">
-              <point x="49.75" y="-36.5" />
-              <point x="0.0" y="70.0" />
-            </edge>
-            <edge source="7f0268cb-843f-457c-97e7-b49e017ac0ec.TABLE:webomatic_db.public.bill" target="7f0268cb-843f-457c-97e7-b49e017ac0ec.TABLE:webomatic_db.public.machine">
-              <point x="0.0" y="-70.0" />
-              <point x="49.75" y="92.0" />
-            </edge>
-            <edge source="7f0268cb-843f-457c-97e7-b49e017ac0ec.TABLE:webomatic_db.public.schedule_task_list" target="7f0268cb-843f-457c-97e7-b49e017ac0ec.TABLE:webomatic_db.public.task">
-              <point x="-49.5" y="-36.5" />
-              <point x="128.25" y="757.0" />
-              <point x="83.0" y="757.0" />
-              <point x="0.0" y="59.0" />
-            </edge>
-            <edge source="7f0268cb-843f-457c-97e7-b49e017ac0ec.TABLE:webomatic_db.public.machine" target="7f0268cb-843f-457c-97e7-b49e017ac0ec.TABLE:webomatic_db.public.owner">
-              <point x="0.0" y="-92.0" />
-              <point x="0.0" y="48.0" />
-            </edge>
-            <edge source="7f0268cb-843f-457c-97e7-b49e017ac0ec.TABLE:webomatic_db.public.machine_spare_parts_list" target="7f0268cb-843f-457c-97e7-b49e017ac0ec.TABLE:webomatic_db.public.machine">
-              <point x="53.0" y="-36.5" />
-              <point x="738.5" y="355.0" />
-              <point x="808.0" y="355.0" />
-              <point x="-49.75" y="92.0" />
-            </edge>
-            <edge source="7f0268cb-843f-457c-97e7-b49e017ac0ec.TABLE:webomatic_db.public.schedule" target="7f0268cb-843f-457c-97e7-b49e017ac0ec.TABLE:webomatic_db.public.news">
-              <point x="-43.25" y="-59.0" />
-              <point x="0.0" y="70.0" />
-            </edge>
-            <edge source="7f0268cb-843f-457c-97e7-b49e017ac0ec.TABLE:webomatic_db.public.machine_spare_parts_list" target="7f0268cb-843f-457c-97e7-b49e017ac0ec.TABLE:webomatic_db.public.spare_part">
-              <point x="-53.0" y="-36.5" />
-              <point x="0.0" y="92.0" />
-            </edge>
-            <edge source="7f0268cb-843f-457c-97e7-b49e017ac0ec.TABLE:webomatic_db.public.schedule_task_list" target="7f0268cb-843f-457c-97e7-b49e017ac0ec.TABLE:webomatic_db.public.schedule">
-              <point x="49.5" y="-36.5" />
-              <point x="227.25" y="757.0" />
-              <point x="272.5" y="757.0" />
-              <point x="0.0" y="59.0" />
-            </edge>
-            <edge source="7f0268cb-843f-457c-97e7-b49e017ac0ec.TABLE:webomatic_db.public.vacation" target="7f0268cb-843f-457c-97e7-b49e017ac0ec.TABLE:webomatic_db.public.employee">
-              <point x="0.0" y="-81.0" />
-              <point x="0.0" y="70.0" />
-            </edge>
-            <edge source="7f0268cb-843f-457c-97e7-b49e017ac0ec.TABLE:webomatic_db.public.bill_employee_list" target="7f0268cb-843f-457c-97e7-b49e017ac0ec.TABLE:webomatic_db.public.employee">
-              <point x="-49.75" y="-36.5" />
-              <point x="808.0" y="545.0" />
-              <point x="528.1666666666666" y="545.0" />
-              <point x="62.66666666666663" y="70.0" />
-            </edge>
-            <edge source="7f0268cb-843f-457c-97e7-b49e017ac0ec.TABLE:webomatic_db.public.schedule" target="7f0268cb-843f-457c-97e7-b49e017ac0ec.TABLE:webomatic_db.public.employee">
-              <point x="43.25" y="-59.0" />
-              <point x="315.75" y="545.0" />
-              <point x="402.83333333333337" y="545.0" />
-              <point x="-62.666666666666686" y="70.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.1368207310267857" x="734.1150803726372" y="355.1150803726372" />
-          <SelectedNodes>
-            <node>7f0268cb-843f-457c-97e7-b49e017ac0ec.TABLE:webomatic_db.public.news</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Key columns</Category>
-            <Category>Columns</Category>
-          </Categories>
         </state>
       </provider>
     </entry>
@@ -944,243 +993,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOSparePart.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="206">
+          <caret line="60" column="20" lean-forward="false" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6b09865/7f0268cb-843f-457c-97e7-b49e017ac0ec/webomatic_db.public.schedule_task_list">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-          <column-attributes>
-            <column name="ctid" enabled="false" />
-          </column-attributes>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/SparePartController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="25" column="35" lean-forward="false" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-          <folding>
-            <element signature="e#918#919#0" expanded="false" />
-            <element signature="e#980#981#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/DayScheduleRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/NewsRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/OwnerRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/SparePartRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/TaskRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/VacationRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/EmployeeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="80" column="39" lean-forward="true" selection-start-line="80" selection-start-column="39" selection-end-line="80" selection-end-column="39" />
-          <folding>
-            <element signature="e#2359#2360#0" expanded="false" />
-            <element signature="e#2413#2414#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/BillService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="113" column="19" lean-forward="false" selection-start-line="113" selection-start-column="19" selection-end-line="113" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Bill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="22" column="72" lean-forward="false" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Machine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="31" column="73" lean-forward="false" selection-start-line="31" selection-start-column="73" selection-end-line="31" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOOwner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/OwnerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="30" column="54" lean-forward="false" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
-          <folding>
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#841#842#0" expanded="true" />
-            <element signature="e#891#892#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Converter/ConvertBill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6b09865/7f0268cb-843f-457c-97e7-b49e017ac0ec/webomatic_db.public.spare_part">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6b09865/7f0268cb-843f-457c-97e7-b49e017ac0ec/webomatic_db.public.machine_spare_parts_list">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-          <column-attributes>
-            <column name="ctid" enabled="false" />
-          </column-attributes>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Converter/ConvertMachine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-940">
-          <caret line="25" column="47" lean-forward="false" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/BillRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="22" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/EmployeeRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/MachineService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="107" column="60" lean-forward="false" selection-start-line="107" selection-start-column="60" selection-end-line="107" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2653#2654#0" expanded="true" />
-            <element signature="e#2706#2707#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/MachineRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="21" column="18" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6b09865/7f0268cb-843f-457c-97e7-b49e017ac0ec/webomatic_db.public.owner">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Enumerable/Status.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="105">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/BillController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Enumerable/ScheduleDescription.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        <state relative-caret-position="90">
+          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Machine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="28" column="32" lean-forward="false" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOBill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="68" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOMachine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="27" column="6" lean-forward="true" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+        <state relative-caret-position="270">
+          <caret line="26" column="15" lean-forward="false" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -1192,21 +1048,271 @@
         </state>
       </provider>
     </entry>
+    <entry file="das://table:/6b09865/7f0268cb-843f-457c-97e7-b49e017ac0ec/webomatic_db.public.spare_part">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/6b09865/7f0268cb-843f-457c-97e7-b49e017ac0ec/webomatic_db.public.owner">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Converter/ConvertMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/MachineController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="102" column="11" lean-forward="false" selection-start-line="102" selection-start-column="11" selection-end-line="102" selection-end-column="11" />
+        <state relative-caret-position="148">
+          <caret line="107" column="25" lean-forward="true" selection-start-line="107" selection-start-column="25" selection-end-line="107" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/SparePartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/machine.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2283">
+          <caret line="160" column="62" lean-forward="true" selection-start-line="160" selection-start-column="62" selection-end-line="160" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/bill.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="71" column="29" lean-forward="false" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/owner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="71" column="29" lean-forward="false" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTONews.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" column="68" lean-forward="false" selection-start-line="20" selection-start-column="68" selection-end-line="20" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/employee.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="745">
+          <caret line="50" column="9" lean-forward="false" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/DaySchedule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="23" column="11" lean-forward="false" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="745">
+          <caret line="71" column="29" lean-forward="false" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/schedule.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="745">
+          <caret line="71" column="29" lean-forward="false" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/sparepart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/vacation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2366">
+          <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/web/GeneratorHTMLCRUD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/web/WebpageGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="56" lean-forward="false" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
           <folding>
-            <element signature="e#548#549#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#980#981#0" expanded="true" />
-            <element signature="e#1038#1039#0" expanded="true" />
-            <element signature="e#1197#1198#0" expanded="true" />
-            <element signature="e#1260#1261#0" expanded="true" />
-            <element signature="e#3284#3285#0" expanded="true" />
-            <element signature="e#3333#3334#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/web/ViewConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="27" column="69" lean-forward="false" selection-start-line="27" selection-start-column="69" selection-end-line="27" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1062">
+          <caret line="71" column="29" lean-forward="false" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/Index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/vendor/jquery/jquery-3.2.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/vendor/animsition/css/animsition.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="358" column="16" lean-forward="true" selection-start-line="358" selection-start-column="16" selection-end-line="358" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/login/images/icons/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/login/images/icons/W.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/login/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1154">
+          <caret line="232" column="1" lean-forward="false" selection-start-line="232" selection-start-column="1" selection-end-line="232" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/login/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="46" column="20" lean-forward="true" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/login/images/WEBOMATIC-WEB.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/login/images/compressed.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/login/images/bg-01.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>

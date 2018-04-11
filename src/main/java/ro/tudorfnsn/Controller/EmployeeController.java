@@ -21,6 +21,7 @@ public class EmployeeController
         this.employeeService = employeeService;
     }
 
+    //works
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public List<DTOEmployee> getAll()
     {
@@ -29,12 +30,14 @@ public class EmployeeController
         return dtoEmployeeList;
     }
 
+    //works
     @RequestMapping(value = "/create", method = RequestMethod.POST)
     public void create(@RequestBody DTOEmployee dtoEmployee)
     {
         employeeService.createEmployee(dtoEmployee);
     }
 
+    //works
     @RequestMapping(value = "/getById/{id}", method = RequestMethod.GET)
     public DTOEmployee getById(@PathVariable Long id)
     {
@@ -43,6 +46,7 @@ public class EmployeeController
         return dtoEmployee;
     }
 
+    //works - am facut in repo getFirstByName de aia returneaza primul
     @RequestMapping(value = "/getByName/{name}", method = RequestMethod.GET)
     public DTOEmployee getByName(@PathVariable String name)
     {
@@ -51,14 +55,17 @@ public class EmployeeController
         return dtoEmployee;
     }
 
-    @RequestMapping(value = "/getByDepartement/{departement}", method = RequestMethod.GET)
-    public List<DTOEmployee> getByDepartement(@PathVariable Department department)
+
+    //works
+    @RequestMapping(value = "/getByDepartment/{department}", method = RequestMethod.GET)
+    public List<DTOEmployee> getByDepartment(@PathVariable Department department)
     {
         List<DTOEmployee> dtoEmployeeList = employeeService.getByDepartement(department);
 
         return dtoEmployeeList;
     }
 
+    //works
     @RequestMapping(value = "/getByPosition/{position}")
     public List<DTOEmployee> getByPosition(@PathVariable String position)
     {
@@ -67,12 +74,15 @@ public class EmployeeController
         return dtoEmployeeList;
     }
 
+    //works
     @RequestMapping(value = "/deleteById/{id}", method = RequestMethod.DELETE)
     public void delete(@PathVariable Long id)
     {
         employeeService.removeEmployee(id);
     }
 
+
+    //works
     @RequestMapping(value = "/update/{id}", method = RequestMethod.POST)
     public void update(@PathVariable Long id, @RequestBody DTOEmployee dtoEmployee)
     {

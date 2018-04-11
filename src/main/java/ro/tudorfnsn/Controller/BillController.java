@@ -69,6 +69,7 @@ public class BillController
         billService.removeBill(id);
     }
 
+    //works
     @RequestMapping(value = "/update/{id}", method = RequestMethod.POST)
     public void update(@PathVariable Long id, @RequestBody DTOBill dtoBill)
     {

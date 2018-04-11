@@ -20,6 +20,7 @@ public class SparePartController
         this.sparePartService = sparePartService;
     }
 
+    //works
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public List<DTOSparePart> getAll()
     {
@@ -28,12 +29,15 @@ public class SparePartController
         return dtoSparePartList;
     }
 
+
+    //works
     @RequestMapping(value = "/create", method = RequestMethod.POST)
     public void create(@RequestBody DTOSparePart dtoSparePart)
     {
         sparePartService.createSparePart(dtoSparePart);
     }
 
+    //works
     @RequestMapping(value = "/getById/{id}", method = RequestMethod.GET)
     public DTOSparePart getById(@PathVariable Long id)
     {
@@ -42,6 +46,8 @@ public class SparePartController
         return dtoSparePart;
     }
 
+
+    //works
     @RequestMapping(value = "/getBySeries/{series}", method = RequestMethod.GET)
     public DTOSparePart getBySeries(@PathVariable String series)
     {
@@ -50,6 +56,7 @@ public class SparePartController
         return dtoSparePart;
     }
 
+    //works
     @RequestMapping(value = "/getByOrigin/{origin}", method = RequestMethod.GET)
     public List<DTOSparePart> getByOrigin(@PathVariable String origin)
     {
@@ -58,12 +65,15 @@ public class SparePartController
         return dtoSparePartList;
     }
 
+
+    //works
     @RequestMapping(value = "/deleteById/{id}", method = RequestMethod.DELETE)
     public void delete(@PathVariable Long id)
     {
         sparePartService.removeSparePart(id);
     }
 
+    //works
     @RequestMapping(value = "/update/{id}", method = RequestMethod.POST)
     public void update(@PathVariable Long id, @RequestBody DTOSparePart dtoSparePart)
     {

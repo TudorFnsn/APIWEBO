@@ -13,7 +13,7 @@ import java.awt.*;
 public class DTOTask
 {
     Long id;
-    Integer startHour;
-    Integer endHour;
-    TextArea description;
+    String startHour;
+    String endHour;
+    String description;
 }

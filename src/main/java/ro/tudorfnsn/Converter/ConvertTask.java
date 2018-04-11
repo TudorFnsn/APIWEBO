@@ -5,7 +5,9 @@ import ro.tudorfnsn.Converter.ConverterInterface.ConverterInterface;
 import ro.tudorfnsn.DataTransferObject.DTOTask;
 import ro.tudorfnsn.Model.Task;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 @Component
@@ -17,8 +19,12 @@ public class ConvertTask implements ConverterInterface<Task, DTOTask>
         DTOTask dtoTask = new DTOTask();
 
         dtoTask.setId(task.getId());
+
         dtoTask.setStartHour(task.getStartHour());
         dtoTask.setEndHour(task.getEndHour());
+
+
+
         dtoTask.setDescription(task.getDescription());
 
         return dtoTask;
@@ -41,8 +47,11 @@ public class ConvertTask implements ConverterInterface<Task, DTOTask>
     {
         Task task = new Task();
 
+
         task.setStartHour(dtoTask.getStartHour());
         task.setEndHour(dtoTask.getEndHour());
+
+
         task.setDescription(dtoTask.getDescription());
 
         return task;

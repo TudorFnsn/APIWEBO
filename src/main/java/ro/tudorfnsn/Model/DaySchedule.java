@@ -25,15 +25,16 @@ public class DaySchedule
 
 
     //@OneToOne(targetEntity = Employee.class, cascade = CascadeType.ALL)
-    @OneToOne(cascade = CascadeType.ALL, targetEntity = Employee.class)
+    @OneToOne(cascade = CascadeType.DETACH, targetEntity = Employee.class)
     private Employee employee;
 
 
-    @OneToOne
-    private News news;
+//    @OneToMany(targetEntity = News.class, cascade = CascadeType.ALL)
+//    private List<News> newsList;
 
 
     @Column
+    @Temporal(TemporalType.DATE)
     private Date date;
 
     @OneToMany(targetEntity = Task.class, cascade = CascadeType.ALL)

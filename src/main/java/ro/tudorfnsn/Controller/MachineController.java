@@ -11,6 +11,7 @@ import ro.tudorfnsn.Service.MachineService;
 import java.util.List;
 
 @RestController
+@CrossOrigin
 @RequestMapping(value = "/machine")
 public class MachineController
 {
@@ -100,7 +101,7 @@ public class MachineController
         return dtoMachineList;
     }
 
-    //works
+    //works -- nu trebuie dat id-ul (exclude field-ul total) -- il stie lua din antet
     @RequestMapping(value = "/update/{id}", method = RequestMethod.POST)
     public void update(@PathVariable Long id, @RequestBody DTOMachine dtoMachine)
     {

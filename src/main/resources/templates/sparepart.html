@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'/>
+    <meta name='viewport' content='width=device-width, initial-scale=1'/>
+    <title>sparepart</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'></link>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+    <link rel='stylesheet'
+          href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'></link>
+
+    <style>
+        body {
+            background: fixed;
+            background-image: url("https://wallpaperscraft.com/image/city_street_house_sidewalk_58870_1920x1200.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        table {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: aliceblue;
+        }
+
+        #tableContainer {
+            padding-left: 5vw;
+            padding-right: 5vw
+        }
+
+        .table-hover tbody tr:hover td {
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+
+        .modal-content {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: aliceblue;
+            border-color: aliceblue;
+            border-width: 1px;
+        }
+
+        .modal {
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .table-hover tbody tr {
+            height: 10vh;
+        }
+
+        .close {
+            color: aliceblue;
+            opacity: 1;
+        }
+
+        .jumbotron {
+            color: aliceblue;
+            background-color: black;
+            padding-left: 5vw;
+        }
+
+        .btn {
+            width: 90%;
+        }
+    </style>
+
+    <script>
+
+        var apiUrl = 'http://localhost:8080';
+        var elementsPath = '/sparepart';
+
+        function getElementsList() {
+            $('#tableDTOSparePart tbody').empty();
+            $.getJSON(apiUrl + elementsPath + '/', null, function (data) {
+                $.each(data, function (index, item) {
+                    var row = '<tr>';
+                    row = row + '<td class="dataid" >' + item.id + '</td>';
+                    row = row + '<td class="datapicture" >' + item.picture + '</td>';
+                    row = row + '<td class="dataname" >' + item.name + '</td>';
+                    row = row + '<td class="dataseries" >' + item.series + '</td>';
+                    row = row + '<td class="dataprice" >' + item.price + '</td>';
+                    row = row + '<td class="dataquantity" >' + item.quantity + '</td>';
+                    row = row + '<td class="dataorigin" >' + item.origin + '</td>';
+                    row = row + '<td><button class="btn btn-primary edit-item editMenu_item">Edit</button></td>';
+                    row = row + '<td><button class="btn btn-danger remove-item deleteMenu_item">Delete</button></td>';
+                    row = row + '</tr>';
+                    $('#tableDTOSparePart tbody:last-child').append(row);
+                });
+            });
+        }
+
+
+        $(document).ready(
+            function () {
+                getElementsList();
+                $(document).on('click', '.editMenu_item', function () {
+                    var iddata = ($(this).parent().parent()).find('.dataid').html();
+                    $('#editid').val(iddata);
+                    var picturedata = ($(this).parent().parent()).find('.datapicture').html();
+                    $('#editpicture').val(picturedata);
+                    var namedata = ($(this).parent().parent()).find('.dataname').html();
+                    $('#editname').val(namedata);
+                    var seriesdata = ($(this).parent().parent()).find('.dataseries').html();
+                    $('#editseries').val(seriesdata);
+                    var pricedata = ($(this).parent().parent()).find('.dataprice').html();
+                    $('#editprice').val(pricedata);
+                    var quantitydata = ($(this).parent().parent()).find('.dataquantity').html();
+                    $('#editquantity').val(quantitydata);
+                    var origindata = ($(this).parent().parent()).find('.dataorigin').html();
+                    $('#editorigin').val(origindata);
+                    $('#edit-item').modal('show');
+                });
+
+                $(document).on('click', '.deleteMenu_item', function () {
+                    var iddata = ($(this).parent().parent()).find('.dataid').html();
+                    $.ajax({
+                        url: apiUrl + elementsPath + '/' + iddata,
+                        type: 'DELETE',
+                        success: function (result) {
+                            getElementsList();
+                            alert(result);
+                        }, error: function (xhr, textStatus, errorThrown) {
+                            alert(xhr.responseText);
+                        }
+                    });
+                });
+
+                $(document).on('click', '#add_button', function () {
+                    var iddata = $('#createid').val();
+                    var picturedata = $('#createpicture').val();
+                    var namedata = $('#createname').val();
+                    var seriesdata = $('#createseries').val();
+                    var pricedata = $('#createprice').val();
+                    var quantitydata = $('#createquantity').val();
+                    var origindata = $('#createorigin').val();
+
+                    var jsonCreate = '{"id":"' + iddata + '","picture":"' + picturedata + '","name":"' + namedata + '","series":"' + seriesdata + '","price":"' + pricedata + '","quantity":"' + quantitydata + '","origin":"' + origindata + '"}';
+                    $.ajax({
+                        headers: {
+                            'Accept': 'application/json',
+                            'Content-Type': 'application/json'
+                        },
+                        url: apiUrl + elementsPath + '/',
+                        type: 'POST',
+                        data: jsonCreate,
+                        dataType: 'text',
+                        success: function (result) {
+                            getElementsList();
+                            alert(result);
+                        }
+                    });
+                });
+                $(document).on('click', '#update_button', function () {
+                    var iddata = $('#editid').val();
+                    var picturedata = $('#editpicture').val();
+                    var namedata = $('#editname').val();
+                    var seriesdata = $('#editseries').val();
+                    var pricedata = $('#editprice').val();
+                    var quantitydata = $('#editquantity').val();
+                    var origindata = $('#editorigin').val();
+
+                    var jsonEdit = '{"id":"' + iddata + '","picture":"' + picturedata + '","name":"' + namedata + '","series":"' + seriesdata + '","price":"' + pricedata + '","quantity":"' + quantitydata + '","origin":"' + origindata + '"}';
+                    $.ajax({
+                        headers: {
+                            'Accept': 'application/json',
+                            'Content-Type': 'application/json'
+                        },
+                        url: apiUrl + elementsPath + '/' + iddata,
+                        type: 'POST',
+                        data: jsonEdit,
+                        dataType: 'text',
+                        success: function (result) {
+                            getElementsList();
+                            alert(result);
+                        }
+                    });
+                });
+                $(document).on('click', '#refresh_menu_button', function () {
+                    getElementsList();
+                });
+            });
+
+
+    </script>
+
+</head>
+
+<body>
+<div class='jumbotron'>
+    <h1>DTOSparePart
+        <small> administration</small>
+    </h1>
+</div>
+<div id='tableContainer'>
+    <table id='tableDTOSparePart' class='table table-boarded table-hover'>
+        <thead>
+        <tr>
+            <th>id</th>
+            <th>picture</th>
+            <th>name</th>
+            <th>series</th>
+            <th>price</th>
+            <th>quantity</th>
+            <th>origin</th>
+            <th>
+                <button type='button' class='btn btn-success' data-toggle='modal' data-target='#create-item'
+                        id='add_menu_button'>Create Item
+                </button>
+            </th>
+            <th>
+                <button type='button' class='btn btn-success' id='refresh_menu_button'>Refresh</button>
+            </th>
+        </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>
+
+
+<div class='modal fade' id='create-item' tabindex='-1' role='dialog' aria-labelledby='myModalLabel'>
+    <div class='modal-content'>
+        <div class='modal-header'>
+            <button type='button' class='close' data-dismiss='modal' aria-label='Close'><span
+                    aria-hidden='true'>◊</span></button>
+            <h4 class='modal-title' id='myModalLabel'>Create Item</h4>
+        </div>
+        <div class='modal-body'>
+            <form id='add_input'>
+                <table class='table table-hover'>
+                    <tr>
+                        <td>id</td>
+                        <td><input id='createid' type='text' class='form-control' name="id">.</input></td>
+                    </tr>
+                    <tr>
+                        <td>picture</td>
+                        <td><input id='createpicture' type='text' class='form-control' name="picture">.</input></td>
+                    </tr>
+                    <tr>
+                        <td>name</td>
+                        <td><input id='createname' type='text' class='form-control' name="name">.</input></td>
+                    </tr>
+                    <tr>
+                        <td>series</td>
+                        <td><input id='createseries' type='text' class='form-control' name="series">.</input></td>
+                    </tr>
+                    <tr>
+                        <td>price</td>
+                        <td><input id='createprice' type='text' class='form-control' name="price">.</input></td>
+                    </tr>
+                    <tr>
+                        <td>quantity</td>
+                        <td><input id='createquantity' type='text' class='form-control' name="quantity">.</input></td>
+                    </tr>
+                    <tr>
+                        <td>origin</td>
+                        <td><input id='createorigin' type='text' class='form-control' name="origin">.</input></td>
+                    </tr>
+                    <tr>
+                        <td colspan='2' align='center'>
+                            <div class='form-group'>
+                                <button type='button' class='btn btn-primary' id='add_button' data-dismiss='modal'
+                                        aria-label='Close'>Add
+                                </button>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+</div>
+<div class='modal fade' id='edit-item' tabindex='-1' role='dialog' aria-labelledby='myModalLabel'>
+    <div class='modal-content'>
+        <div class='modal-header'>
+            <button type='button' class='close' data-dismiss='modal' aria-label='Close'><span
+                    aria-hidden='true'>◊</span></button>
+            <h4 class='modal-title' id='myEditLabel'>Edit Item</h4>
+        </div>
+        <div class='modal-body'>
+            <form id='edit_input'>
+                <table class='table table-hover'>
+                    <tr>
+                        <td>id</td>
+                        <td><input id='editid' type='text' class='form-control' name="id">.</input></td>
+                    </tr>
+                    <tr>
+                        <td>picture</td>
+                        <td><input id='editpicture' type='text' class='form-control' name="picture">.</input></td>
+                    </tr>
+                    <tr>
+                        <td>name</td>
+                        <td><input id='editname' type='text' class='form-control' name="name">.</input></td>
+                    </tr>
+                    <tr>
+                        <td>series</td>
+                        <td><input id='editseries' type='text' class='form-control' name="series">.</input></td>
+                    </tr>
+                    <tr>
+                        <td>price</td>
+                        <td><input id='editprice' type='text' class='form-control' name="price">.</input></td>
+                    </tr>
+                    <tr>
+                        <td>quantity</td>
+                        <td><input id='editquantity' type='text' class='form-control' name="quantity">.</input></td>
+                    </tr>
+                    <tr>
+                        <td>origin</td>
+                        <td><input id='editorigin' type='text' class='form-control' name="origin">.</input></td>
+                    </tr>
+                    <tr>
+                        <td colspan='2' align='center'>
+                            <div class='form-group'>
+                                <button type='button' class='btn btn-primary' id='update_button' data-dismiss='modal'
+                                        aria-label='Close'>Edit
+                                </button>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

@@ -4,6 +4,8 @@ import lombok.*;
 
 import javax.persistence.*;
 import java.awt.*;
+import java.text.SimpleDateFormat;
+
 
 
 @Entity
@@ -20,15 +22,15 @@ public class Task
     private Long id;
 
     @Column
-    private Integer startHour;
+    private  String startHour;
 
     @Column
-    private Integer endHour;
+    private String endHour;
 
     @Column
-    private TextArea description;
+    private String description;
 
-    public Task(Integer startHour, Integer endHour, TextArea description)
+    public Task(String startHour, String endHour, String description)
     {
         this.startHour = startHour;
         this.endHour = endHour;

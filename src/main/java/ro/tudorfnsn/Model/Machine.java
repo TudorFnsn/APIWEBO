@@ -26,10 +26,11 @@ public class Machine extends MechanicalElement
     protected Status status;
 
     @Column
+    @Temporal(TemporalType.DATE)
     private Date arrivalDate;
 
 
-    @ManyToMany(targetEntity = SparePart.class, cascade = CascadeType.ALL)
+    @ManyToMany(targetEntity = SparePart.class, cascade = CascadeType.DETACH)
     //@JoinTable(name = "machine_part", joinColumns = {@JoinColumn(name = "machine_id")}, inverseJoinColumns = {@JoinColumn(name = "part_id")})
     private List<SparePart> sparePartsList;
 

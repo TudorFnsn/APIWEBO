@@ -1,4 +1,5 @@
 package ro.tudorfnsn.DataTransferObject;
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.*;
 
 import java.awt.*;
@@ -15,7 +16,10 @@ public class DTONews
 {
     Long id;
     String title;
+    @JsonFormat(shape=JsonFormat.Shape.STRING, pattern="dd-MM-yyyy")
     Date startDate;
+    @JsonFormat(shape=JsonFormat.Shape.STRING, pattern="dd-MM-yyyy")
     Date endDate;
-    TextArea description;
+    //TextArea description;
+    String description;
 }

@@ -1,5 +1,6 @@
 package ro.tudorfnsn.DataTransferObject;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.*;
 import ro.tudorfnsn.Model.Machine;
 
@@ -20,6 +21,8 @@ public class DTOBill
     Long machine_id;
     Integer timeSpentOn;
     List<Long> employeeIdList;
+
+    @JsonFormat(shape=JsonFormat.Shape.STRING, pattern="dd-MM-yyyy")
     Date date;
     Float finalPrice;
 }

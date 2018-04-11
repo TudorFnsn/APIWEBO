@@ -1,5 +1,6 @@
 package ro.tudorfnsn.DataTransferObject;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.*;
 import ro.tudorfnsn.Enumerable.Status;
 import ro.tudorfnsn.Model.Owner;
@@ -24,6 +25,8 @@ public class DTOMachine
     String series;
     Status status;
     List<Long> sparePartIdList;
+
+    @JsonFormat(shape=JsonFormat.Shape.STRING, pattern="dd-MM-yyyy")
     Date arrivalDate;
     Long owner_id;
 
