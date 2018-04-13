@@ -2,219 +2,279 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64569b9d-340b-41a5-af09-be2f8b93a22d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_nekohtml_nekohtml_1_9_21.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__nz_net_ultraq_thymeleaf_thymeleaf_layout_dialect_1_4_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ognl_ognl_3_0_8.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_4_12.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_1_5_6_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_2_1_5_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring4_2_1_5_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_0_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_10_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/css/main.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/css/util.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/Linearicons-Free-v1.0.0/icon-font.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/css/font-awesome.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/css/font-awesome.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/less/animated.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/less/bordered-pulled.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/less/core.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/less/fixed-width.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/less/font-awesome.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/less/icons.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/less/larger.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/less/list.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/less/mixins.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/less/path.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/less/rotated-flipped.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/less/screen-reader.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/less/stacked.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/less/variables.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/scss/_animated.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/scss/_core.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/scss/_icons.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/scss/_larger.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/scss/_list.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/scss/_mixins.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/scss/_path.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/scss/_stacked.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/scss/_variables.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/scss/font-awesome.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/iconic/css/material-design-iconic-font.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/iconic/css/material-design-iconic-font.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/iconic/fonts/Material-Design-Iconic-Font.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/iconic/fonts/Material-Design-Iconic-Font.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/iconic/fonts/Material-Design-Iconic-Font.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/iconic/fonts/Material-Design-Iconic-Font.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/iconic/fonts/Material-Design-Iconic-Font.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-Black.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-BlackItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-Bold.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-BoldItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-ExtraBold.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-ExtraBoldItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-ExtraLight.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-ExtraLightItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-Italic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-Light.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-LightItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-Medium.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-MediumItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-Regular.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-SemiBold.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-SemiBoldItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-Thin.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-ThinItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/ubuntu/UFL.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/ubuntu/Ubuntu-Bold.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/ubuntu/Ubuntu-BoldItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/ubuntu/Ubuntu-Italic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/ubuntu/Ubuntu-Light.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/ubuntu/Ubuntu-LightItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/ubuntu/Ubuntu-Medium.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/ubuntu/Ubuntu-MediumItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/fonts/ubuntu/Ubuntu-Regular.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/images/bg-01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/images/compressed.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/images/icons/W.ico" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/images/icons/favicon.ico" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/js/main.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/animate/animate.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/animsition/css/animsition.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/animsition/css/animsition.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/animsition/js/animsition.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/animsition/js/animsition.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/css/bootstrap-grid.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/css/bootstrap-grid.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/css/bootstrap-grid.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/css/bootstrap-grid.min.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/css/bootstrap-reboot.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/css/bootstrap-reboot.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/css/bootstrap-reboot.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/css/bootstrap-reboot.min.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/css/bootstrap.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/css/bootstrap.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/css/bootstrap.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/css/bootstrap.min.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/js/bootstrap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/js/bootstrap.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/js/popper.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/js/popper.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/js/tooltip.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/countdowntime/countdowntime.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/css-hamburgers/hamburgers.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/css-hamburgers/hamburgers.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/daterangepicker/daterangepicker.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/daterangepicker/daterangepicker.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/daterangepicker/moment.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/daterangepicker/moment.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/jquery/jquery-3.2.1.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/perfect-scrollbar/perfect-scrollbar.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/perfect-scrollbar/perfect-scrollbar.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/select2/select2.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/select2/select2.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/select2/select2.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/login/vendor/select2/select2.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/logo1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/Index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/styles.css" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7f0268cb-843f-457c-97e7-b49e017ac0ec.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/7f0268cb-843f-457c-97e7-b49e017ac0ec.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7f0268cb-843f-457c-97e7-b49e017ac0ec/storage_v2/_src_/database/webomatic_db._qCcMQ/schema/public.abK9xQ.meta" afterPath="$PROJECT_DIR$/.idea/dataSources/7f0268cb-843f-457c-97e7-b49e017ac0ec/storage_v2/_src_/database/webomatic_db._qCcMQ/schema/public.abK9xQ.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/comeon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/hihihi.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/images/icons/W.ico" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/css/main.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/css/util.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/Linearicons-Free-v1.0.0/icon-font.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/font-awesome-4.7.0/css/font-awesome.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/font-awesome-4.7.0/css/font-awesome.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/font-awesome-4.7.0/less/animated.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/font-awesome-4.7.0/less/bordered-pulled.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/font-awesome-4.7.0/less/core.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/font-awesome-4.7.0/less/fixed-width.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/font-awesome-4.7.0/less/font-awesome.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/font-awesome-4.7.0/less/icons.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/font-awesome-4.7.0/less/larger.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/font-awesome-4.7.0/less/list.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/font-awesome-4.7.0/less/mixins.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/font-awesome-4.7.0/less/path.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/font-awesome-4.7.0/less/rotated-flipped.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/font-awesome-4.7.0/less/screen-reader.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/font-awesome-4.7.0/less/stacked.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/font-awesome-4.7.0/less/variables.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/font-awesome-4.7.0/scss/_animated.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/font-awesome-4.7.0/scss/_core.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/font-awesome-4.7.0/scss/_icons.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/font-awesome-4.7.0/scss/_larger.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/font-awesome-4.7.0/scss/_list.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/font-awesome-4.7.0/scss/_mixins.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/font-awesome-4.7.0/scss/_path.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/font-awesome-4.7.0/scss/_stacked.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/font-awesome-4.7.0/scss/_variables.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/font-awesome-4.7.0/scss/font-awesome.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/iconic/css/material-design-iconic-font.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/iconic/css/material-design-iconic-font.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/iconic/fonts/Material-Design-Iconic-Font.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/iconic/fonts/Material-Design-Iconic-Font.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/iconic/fonts/Material-Design-Iconic-Font.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/iconic/fonts/Material-Design-Iconic-Font.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/iconic/fonts/Material-Design-Iconic-Font.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/poppins/Poppins-Black.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/poppins/Poppins-BlackItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/poppins/Poppins-Bold.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/poppins/Poppins-BoldItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/poppins/Poppins-ExtraBold.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/poppins/Poppins-ExtraBoldItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/poppins/Poppins-ExtraLight.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/poppins/Poppins-ExtraLightItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/poppins/Poppins-Italic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/poppins/Poppins-Light.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/poppins/Poppins-LightItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/poppins/Poppins-Medium.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/poppins/Poppins-MediumItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/poppins/Poppins-Regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/poppins/Poppins-SemiBold.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/poppins/Poppins-SemiBoldItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/poppins/Poppins-Thin.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/poppins/Poppins-ThinItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/ubuntu/UFL.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/ubuntu/Ubuntu-Bold.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/ubuntu/Ubuntu-BoldItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/ubuntu/Ubuntu-Italic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/ubuntu/Ubuntu-Light.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/ubuntu/Ubuntu-LightItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/ubuntu/Ubuntu-Medium.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/ubuntu/Ubuntu-MediumItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/ubuntu/Ubuntu-Regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/images/bg-01.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/images/compressed.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/images/icons/W.ico" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/images/icons/favicon.ico" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/images/png.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/js/main.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/vendor/bootstrap/css/bootstrap-grid.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/vendor/bootstrap/css/bootstrap-grid.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/vendor/bootstrap/css/bootstrap-grid.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/vendor/bootstrap/css/bootstrap-grid.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/vendor/bootstrap/css/bootstrap-reboot.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/vendor/bootstrap/css/bootstrap-reboot.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/vendor/bootstrap/css/bootstrap-reboot.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/vendor/bootstrap/css/bootstrap-reboot.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/vendor/bootstrap/css/bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/vendor/bootstrap/css/bootstrap.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/vendor/bootstrap/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/vendor/bootstrap/css/bootstrap.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/vendor/bootstrap/js/bootstrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/vendor/bootstrap/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/vendor/bootstrap/js/popper.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/vendor/bootstrap/js/popper.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/vendor/bootstrap/js/tooltip.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/logoMare.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/navbar.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/newLogoPNG.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/vendor/animate/animate.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/vendor/animsition/css/animsition.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/vendor/animsition/css/animsition.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/vendor/animsition/js/animsition.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/vendor/animsition/js/animsition.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/vendor/bootstrap/css/bootstrap-grid.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/vendor/bootstrap/css/bootstrap-grid.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/vendor/bootstrap/css/bootstrap-grid.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/vendor/bootstrap/css/bootstrap-grid.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/vendor/bootstrap/css/bootstrap-reboot.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/vendor/bootstrap/css/bootstrap-reboot.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/vendor/bootstrap/css/bootstrap-reboot.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/vendor/bootstrap/css/bootstrap-reboot.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/vendor/bootstrap/css/bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/vendor/bootstrap/css/bootstrap.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/vendor/bootstrap/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/vendor/bootstrap/css/bootstrap.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/vendor/bootstrap/js/bootstrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/vendor/bootstrap/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/vendor/bootstrap/js/popper.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/vendor/bootstrap/js/popper.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/vendor/bootstrap/js/tooltip.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/vendor/countdowntime/countdowntime.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/vendor/css-hamburgers/hamburgers.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/vendor/css-hamburgers/hamburgers.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/vendor/daterangepicker/daterangepicker.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/vendor/daterangepicker/daterangepicker.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/vendor/daterangepicker/moment.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/vendor/daterangepicker/moment.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/vendor/jquery/jquery-3.2.1.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/vendor/perfect-scrollbar/perfect-scrollbar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/vendor/perfect-scrollbar/perfect-scrollbar.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/vendor/select2/select2.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/vendor/select2/select2.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/vendor/select2/select2.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/vendor/select2/select2.min.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/APIWebomatic.iml" afterPath="$PROJECT_DIR$/APIWebomatic.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/BillController.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/BillController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/DayScheduleController.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/DayScheduleController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/EmployeeController.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/EmployeeController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/MachineController.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/MachineController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/NewsController.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/NewsController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/OwnerController.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/OwnerController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/SparePartController.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/SparePartController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/TaskController.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/TaskController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/VacationController.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/VacationController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Converter/ConvertBill.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Converter/ConvertBill.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Converter/ConvertDaySchedule.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Converter/ConvertDaySchedule.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Converter/ConvertTask.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Converter/ConvertTask.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Converter/ConvertVacation.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Converter/ConvertVacation.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOBill.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOBill.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTODaySchedule.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTODaySchedule.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOMachine.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOMachine.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTONews.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTONews.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOTask.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOTask.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOVacation.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOVacation.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Bill.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Bill.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/DaySchedule.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/DaySchedule.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Machine.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Machine.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/News.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/News.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Task.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Task.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Vacation.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Vacation.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/DayScheduleRepository.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/DayScheduleRepository.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/EmployeeRepository.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/EmployeeRepository.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/NewsRepository.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/NewsRepository.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/OwnerRepository.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/OwnerRepository.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/SparePartRepository.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/SparePartRepository.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/TaskRepository.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/TaskRepository.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/VacationRepository.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/VacationRepository.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/DayScheduleService.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/DayScheduleService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/TaskService.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/TaskService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/VacationService.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/VacationService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Controller/BillController.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Controller/BillController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Controller/DayScheduleController.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Controller/DayScheduleController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Controller/EmployeeController.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Controller/EmployeeController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Controller/MachineController.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Controller/MachineController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Controller/NewsController.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Controller/NewsController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Controller/OwnerController.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Controller/OwnerController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Controller/SparePartController.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Controller/SparePartController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Controller/TaskController.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Controller/TaskController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Controller/VacationController.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Controller/VacationController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Converter/ConvertBill.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Converter/ConvertBill.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Converter/ConvertDaySchedule.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Converter/ConvertDaySchedule.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Converter/ConvertNews.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Converter/ConvertNews.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Converter/ConvertTask.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Converter/ConvertTask.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Converter/ConvertVacation.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Converter/ConvertVacation.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/DataTransferObject/DTOBill.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/DataTransferObject/DTOBill.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/DataTransferObject/DTODaySchedule.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/DataTransferObject/DTODaySchedule.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/DataTransferObject/DTOMachine.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/DataTransferObject/DTOMachine.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/DataTransferObject/DTONews.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/DataTransferObject/DTONews.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/DataTransferObject/DTOTask.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/DataTransferObject/DTOTask.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/DataTransferObject/DTOVacation.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/DataTransferObject/DTOVacation.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Model/Bill.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Model/Bill.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Model/DaySchedule.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Model/DaySchedule.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Model/Machine.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Model/Machine.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Model/News.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Model/News.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Model/Task.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Model/Task.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Model/Vacation.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Model/Vacation.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Repository/DayScheduleRepository.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Repository/DayScheduleRepository.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Repository/EmployeeRepository.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Repository/EmployeeRepository.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Repository/NewsRepository.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Repository/NewsRepository.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Repository/OwnerRepository.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Repository/OwnerRepository.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Repository/SparePartRepository.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Repository/SparePartRepository.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Repository/TaskRepository.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Repository/TaskRepository.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Repository/VacationRepository.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Repository/VacationRepository.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Service/DayScheduleService.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Service/DayScheduleService.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Service/TaskService.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Service/TaskService.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Service/VacationService.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Service/VacationService.class" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/css/main.css" afterPath="$PROJECT_DIR$/src/main/resources/templates/css/main.css" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/css/util.css" afterPath="$PROJECT_DIR$/src/main/resources/templates/css/util.css" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.eot" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.eot" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.svg" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.svg" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.ttf" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.ttf" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff2" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff2" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/Linearicons-Free-v1.0.0/icon-font.min.css" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/Linearicons-Free-v1.0.0/icon-font.min.css" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/css/font-awesome.css" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/font-awesome-4.7.0/css/font-awesome.css" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/font-awesome-4.7.0/css/font-awesome.min.css" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/less/animated.less" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/font-awesome-4.7.0/less/animated.less" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/less/bordered-pulled.less" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/font-awesome-4.7.0/less/bordered-pulled.less" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/less/core.less" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/font-awesome-4.7.0/less/core.less" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/less/fixed-width.less" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/font-awesome-4.7.0/less/fixed-width.less" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/less/font-awesome.less" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/font-awesome-4.7.0/less/font-awesome.less" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/less/icons.less" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/font-awesome-4.7.0/less/icons.less" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/less/larger.less" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/font-awesome-4.7.0/less/larger.less" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/less/list.less" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/font-awesome-4.7.0/less/list.less" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/less/mixins.less" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/font-awesome-4.7.0/less/mixins.less" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/less/path.less" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/font-awesome-4.7.0/less/path.less" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/less/rotated-flipped.less" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/font-awesome-4.7.0/less/rotated-flipped.less" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/less/screen-reader.less" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/font-awesome-4.7.0/less/screen-reader.less" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/less/stacked.less" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/font-awesome-4.7.0/less/stacked.less" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/less/variables.less" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/font-awesome-4.7.0/less/variables.less" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/scss/_animated.scss" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/font-awesome-4.7.0/scss/_animated.scss" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/scss/_core.scss" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/font-awesome-4.7.0/scss/_core.scss" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/scss/_icons.scss" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/font-awesome-4.7.0/scss/_icons.scss" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/scss/_larger.scss" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/font-awesome-4.7.0/scss/_larger.scss" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/scss/_list.scss" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/font-awesome-4.7.0/scss/_list.scss" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/scss/_mixins.scss" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/font-awesome-4.7.0/scss/_mixins.scss" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/scss/_path.scss" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/font-awesome-4.7.0/scss/_path.scss" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/scss/_stacked.scss" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/font-awesome-4.7.0/scss/_stacked.scss" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/scss/_variables.scss" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/font-awesome-4.7.0/scss/_variables.scss" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/font-awesome-4.7.0/scss/font-awesome.scss" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/font-awesome-4.7.0/scss/font-awesome.scss" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/iconic/css/material-design-iconic-font.css" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/iconic/css/material-design-iconic-font.css" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/iconic/css/material-design-iconic-font.min.css" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/iconic/css/material-design-iconic-font.min.css" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/iconic/fonts/Material-Design-Iconic-Font.eot" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/iconic/fonts/Material-Design-Iconic-Font.eot" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/iconic/fonts/Material-Design-Iconic-Font.svg" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/iconic/fonts/Material-Design-Iconic-Font.svg" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/iconic/fonts/Material-Design-Iconic-Font.ttf" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/iconic/fonts/Material-Design-Iconic-Font.ttf" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/iconic/fonts/Material-Design-Iconic-Font.woff" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/iconic/fonts/Material-Design-Iconic-Font.woff" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/iconic/fonts/Material-Design-Iconic-Font.woff2" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/iconic/fonts/Material-Design-Iconic-Font.woff2" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-Black.ttf" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/poppins/Poppins-Black.ttf" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-BlackItalic.ttf" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/poppins/Poppins-BlackItalic.ttf" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-Bold.ttf" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/poppins/Poppins-Bold.ttf" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-BoldItalic.ttf" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/poppins/Poppins-BoldItalic.ttf" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-ExtraBold.ttf" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/poppins/Poppins-ExtraBold.ttf" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-ExtraBoldItalic.ttf" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/poppins/Poppins-ExtraBoldItalic.ttf" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-ExtraLight.ttf" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/poppins/Poppins-ExtraLight.ttf" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-ExtraLightItalic.ttf" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/poppins/Poppins-ExtraLightItalic.ttf" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-Italic.ttf" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/poppins/Poppins-Italic.ttf" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-Light.ttf" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/poppins/Poppins-Light.ttf" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-LightItalic.ttf" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/poppins/Poppins-LightItalic.ttf" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-Medium.ttf" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/poppins/Poppins-Medium.ttf" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-MediumItalic.ttf" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/poppins/Poppins-MediumItalic.ttf" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-Regular.ttf" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/poppins/Poppins-Regular.ttf" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-SemiBold.ttf" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/poppins/Poppins-SemiBold.ttf" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-SemiBoldItalic.ttf" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/poppins/Poppins-SemiBoldItalic.ttf" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-Thin.ttf" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/poppins/Poppins-Thin.ttf" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/poppins/Poppins-ThinItalic.ttf" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/poppins/Poppins-ThinItalic.ttf" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/ubuntu/UFL.txt" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/ubuntu/UFL.txt" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/ubuntu/Ubuntu-Bold.ttf" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/ubuntu/Ubuntu-Bold.ttf" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/ubuntu/Ubuntu-BoldItalic.ttf" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/ubuntu/Ubuntu-BoldItalic.ttf" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/ubuntu/Ubuntu-Italic.ttf" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/ubuntu/Ubuntu-Italic.ttf" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/ubuntu/Ubuntu-Light.ttf" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/ubuntu/Ubuntu-Light.ttf" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/ubuntu/Ubuntu-LightItalic.ttf" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/ubuntu/Ubuntu-LightItalic.ttf" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/ubuntu/Ubuntu-Medium.ttf" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/ubuntu/Ubuntu-Medium.ttf" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/ubuntu/Ubuntu-MediumItalic.ttf" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/ubuntu/Ubuntu-MediumItalic.ttf" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/fonts/ubuntu/Ubuntu-Regular.ttf" afterPath="$PROJECT_DIR$/src/main/resources/templates/fonts/ubuntu/Ubuntu-Regular.ttf" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/images/bg-01.jpg" afterPath="$PROJECT_DIR$/src/main/resources/templates/images/bg-01.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/images/compressed.gif" afterPath="$PROJECT_DIR$/src/main/resources/templates/images/compressed.gif" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/images/icons/W.ico" afterPath="$PROJECT_DIR$/src/main/resources/templates/W.ico" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/images/icons/favicon.ico" afterPath="$PROJECT_DIR$/src/main/resources/templates/images/icons/favicon.ico" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/index.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/index.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/js/main.js" afterPath="$PROJECT_DIR$/src/main/resources/templates/js/main.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/vendor/animate/animate.css" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/vendor/animate/animate.css" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/vendor/animsition/css/animsition.css" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/vendor/animsition/css/animsition.css" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/vendor/animsition/css/animsition.min.css" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/vendor/animsition/css/animsition.min.css" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/vendor/animsition/js/animsition.js" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/vendor/animsition/js/animsition.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/vendor/animsition/js/animsition.min.js" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/vendor/animsition/js/animsition.min.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/css/bootstrap-grid.css" afterPath="$PROJECT_DIR$/src/main/resources/templates/bootstrap/css/bootstrap-grid.css" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/css/bootstrap-grid.css.map" afterPath="$PROJECT_DIR$/src/main/resources/templates/bootstrap/css/bootstrap-grid.css.map" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/css/bootstrap-grid.min.css" afterPath="$PROJECT_DIR$/src/main/resources/templates/bootstrap/css/bootstrap-grid.min.css" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/css/bootstrap-grid.min.css.map" afterPath="$PROJECT_DIR$/src/main/resources/templates/bootstrap/css/bootstrap-grid.min.css.map" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/css/bootstrap-reboot.css" afterPath="$PROJECT_DIR$/src/main/resources/templates/bootstrap/css/bootstrap-reboot.css" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/css/bootstrap-reboot.css.map" afterPath="$PROJECT_DIR$/src/main/resources/templates/bootstrap/css/bootstrap-reboot.css.map" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/css/bootstrap-reboot.min.css" afterPath="$PROJECT_DIR$/src/main/resources/templates/bootstrap/css/bootstrap-reboot.min.css" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/css/bootstrap-reboot.min.css.map" afterPath="$PROJECT_DIR$/src/main/resources/templates/bootstrap/css/bootstrap-reboot.min.css.map" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/src/main/resources/templates/bootstrap/css/bootstrap.css" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/src/main/resources/templates/bootstrap/css/bootstrap.css.map" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/src/main/resources/templates/bootstrap/css/bootstrap.min.css" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/css/bootstrap.min.css.map" afterPath="$PROJECT_DIR$/src/main/resources/templates/bootstrap/css/bootstrap.min.css.map" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/src/main/resources/templates/bootstrap/js/bootstrap.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/src/main/resources/templates/bootstrap/js/bootstrap.min.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/js/popper.js" afterPath="$PROJECT_DIR$/src/main/resources/templates/bootstrap/js/popper.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/js/popper.min.js" afterPath="$PROJECT_DIR$/src/main/resources/templates/bootstrap/js/popper.min.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/vendor/bootstrap/js/tooltip.js" afterPath="$PROJECT_DIR$/src/main/resources/templates/bootstrap/js/tooltip.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/vendor/countdowntime/countdowntime.js" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/vendor/countdowntime/countdowntime.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/vendor/css-hamburgers/hamburgers.css" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/vendor/css-hamburgers/hamburgers.css" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/vendor/css-hamburgers/hamburgers.min.css" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/vendor/css-hamburgers/hamburgers.min.css" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/vendor/daterangepicker/daterangepicker.css" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/vendor/daterangepicker/daterangepicker.css" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/vendor/daterangepicker/daterangepicker.js" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/vendor/daterangepicker/daterangepicker.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/vendor/daterangepicker/moment.js" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/vendor/daterangepicker/moment.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/vendor/daterangepicker/moment.min.js" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/vendor/daterangepicker/moment.min.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/vendor/jquery/jquery-3.2.1.min.js" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/vendor/jquery/jquery-3.2.1.min.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/vendor/perfect-scrollbar/perfect-scrollbar.css" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/vendor/perfect-scrollbar/perfect-scrollbar.css" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/vendor/perfect-scrollbar/perfect-scrollbar.min.js" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/vendor/perfect-scrollbar/perfect-scrollbar.min.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/vendor/select2/select2.css" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/vendor/select2/select2.css" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/vendor/select2/select2.js" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/vendor/select2/select2.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/vendor/select2/select2.min.css" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/vendor/select2/select2.min.css" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login/vendor/select2/select2.min.js" afterPath="$PROJECT_DIR$/src/main/resources/templates/login/vendor/select2/select2.min.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/Index.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/Index.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/machine.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/machine.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/styles.css" afterPath="$PROJECT_DIR$/src/main/resources/templates/styles.css" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/Index.html" afterPath="$PROJECT_DIR$/target/classes/templates/Index.html" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/machine.html" afterPath="$PROJECT_DIR$/target/classes/templates/machine.html" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -247,83 +307,84 @@
     <favorites_list name="APIWebomatic" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/Index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            <state relative-caret-position="1179">
+              <caret line="112" column="31" lean-forward="true" selection-start-line="112" selection-start-column="31" selection-end-line="112" selection-end-column="31" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DTONews.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTONews.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
+      <file leaf-file-name="machine.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/machine.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            <state relative-caret-position="-1011">
+              <caret line="221" column="41" lean-forward="false" selection-start-line="221" selection-start-column="41" selection-end-line="221" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="89" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/login/css/main.css">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1154">
-              <caret line="232" column="1" lean-forward="false" selection-start-line="232" selection-start-column="1" selection-end-line="232" selection-end-column="1" />
+            <state relative-caret-position="7515">
+              <caret line="501" column="1" lean-forward="false" selection-start-line="501" selection-start-column="1" selection-end-line="501" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/login/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="46" column="20" lean-forward="true" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bg-01.jpg" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/login/images/bg-01.jpg">
+      <file leaf-file-name="W.ico" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/images/icons/W.ico">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-              <folding />
-            </state>
+      <file leaf-file-name="bg-01.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/images/bg-01.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="news.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/news.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1062">
-              <caret line="71" column="29" lean-forward="false" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
-              <folding />
-            </state>
+      <file leaf-file-name="compressed.gif" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/images/compressed.gif">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ViewConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/web/ViewConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="27" column="69" lean-forward="false" selection-start-line="27" selection-start-column="69" selection-end-line="27" selection-end-column="69" />
-              <folding />
-            </state>
+      <file leaf-file-name="favicon.ico" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/images/icons/favicon.ico">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -337,6 +398,7 @@
         <option value="Class" />
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -360,12 +422,17 @@
       <find>WEBOMA</find>
       <find>Enter</find>
       <find>comp</find>
+      <find>HI</find>
+      <find>gly</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>Task</replace>
       <replace>Vacation</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/main/resources/templates</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -378,10 +445,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/SparePartRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/SparePartController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/NewsRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/NewsController.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOTask.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Converter/ConvertTask.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/TaskService.java" />
@@ -412,7 +475,6 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/MachineController.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOMachine.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/machine.html" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/web/WebpageGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/vacation.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/bill.html" />
@@ -423,12 +485,17 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/sparepart.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/task.html" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/web/ViewConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/styles.css" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/Index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
         <option value="$PROJECT_DIR$/src/main/resources/vendor/animsition/css/animsition.min.css" />
         <option value="$PROJECT_DIR$/src/main/resources/login/css/main.css" />
         <option value="$PROJECT_DIR$/src/main/resources/login/index.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/navbar.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/styles.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/css/main.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/login/index.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/machine.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/login/vendor/bootstrap/css/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/Index.html" />
       </list>
     </option>
   </component>
@@ -466,7 +533,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -605,6 +671,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="APIWebomatic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APIWEBO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="login" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -613,7 +688,41 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="APIWebomatic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APIWEBO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="APIWebomatic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APIWEBO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="APIWebomatic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APIWEBO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -622,8 +731,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="login" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap.css" type="620a8d5e:NestingTreeNode" />
             </path>
             <path>
               <item name="APIWebomatic" type="b2602c69:ProjectViewProjectNode" />
@@ -631,8 +744,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="APIWebomatic" type="b2602c69:ProjectViewProjectNode" />
@@ -640,9 +753,20 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="icons" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="APIWebomatic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APIWEBO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="APIWebomatic" type="b2602c69:ProjectViewProjectNode" />
@@ -654,9 +778,10 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -681,20 +806,22 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/login/images/icons" />
-      <recent name="$PROJECT_DIR$/src/main/resources/login/images" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="login" />
       <recent name="ro.tudorfnsn.Model" />
       <recent name="ro.tudorfnsn.Repository" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/src/main/resources/templates/login/images" />
+      <recent name="$PROJECT_DIR$/src/main/resources/templates/login" />
       <recent name="$PROJECT_DIR$/src/main/resources/login/images" />
       <recent name="$PROJECT_DIR$/src/main/resources/login" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/main/resources/static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/src/main/resources/login/images/icons" />
+      <recent name="$PROJECT_DIR$/src/main/resources/login/images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -820,12 +947,13 @@
       <workItem from="1522960441925" duration="98000" />
       <workItem from="1522960584021" duration="7276000" />
       <workItem from="1523285789574" duration="16931000" />
-      <workItem from="1523442428393" duration="7593000" />
+      <workItem from="1523442428393" duration="17298000" />
+      <workItem from="1523620151874" duration="9004000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131674000" />
+    <option name="totallyTimeSpent" value="150383000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -838,6 +966,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5129241" order="6" side_tool="true" content_ui="tabs" />
@@ -856,11 +985,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31911966" sideWeight="0.48707592" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31911966" sideWeight="0.48707592" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31774417" sideWeight="0.49676898" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23182553" sideWeight="0.49292928" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31774417" sideWeight="0.49676898" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23505655" sideWeight="0.49292928" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22132471" sideWeight="0.5070707" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -922,70 +1051,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOSparePart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOVacation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/News.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="30" column="32" lean-forward="false" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Owner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/SparePart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Vacation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="32" column="32" lean-forward="false" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Bill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://table:/6b09865/7f0268cb-843f-457c-97e7-b49e017ac0ec/webomatic_db.public.bill">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1005,7 +1070,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1013,7 +1077,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1066,7 +1129,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
           <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1086,19 +1148,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/machine.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2283">
-          <caret line="160" column="62" lean-forward="true" selection-start-line="160" selection-start-column="62" selection-end-line="160" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/bill.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="71" column="29" lean-forward="false" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1106,15 +1159,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="71" column="29" lean-forward="false" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTONews.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="68" lean-forward="false" selection-start-line="20" selection-start-column="68" selection-end-line="20" selection-end-column="68" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1122,7 +1166,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="745">
           <caret line="50" column="9" lean-forward="false" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1146,7 +1189,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="745">
           <caret line="71" column="29" lean-forward="false" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1154,7 +1196,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="745">
           <caret line="71" column="29" lean-forward="false" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1170,7 +1211,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="113">
           <caret line="11" column="0" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1178,7 +1218,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2366">
           <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1216,31 +1255,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/news.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1062">
           <caret line="71" column="29" lean-forward="false" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/Index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/vendor/jquery/jquery-3.2.1.min.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/vendor/animsition/css/animsition.min.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/css/main.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/login/images/icons/W.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/login/images/WEBOMATIC-WEB.gif" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        <state relative-caret-position="135">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/navbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/vendor/jquery/jquery-3.2.1.min.js">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="10" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/images/icons/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/images/compressed.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/images/bg-01.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/images/icons/W.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login/vendor/jquery/jquery-3.2.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1248,71 +1325,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/vendor/animsition/css/animsition.min.css">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="18" />
+        <state relative-caret-position="7515">
+          <caret line="501" column="1" lean-forward="false" selection-start-line="501" selection-start-column="1" selection-end-line="501" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="358" column="16" lean-forward="true" selection-start-line="358" selection-start-column="16" selection-end-line="358" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/login/images/icons/favicon.ico">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/logoMare.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/login/images/icons/W.png">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/newLogoPNG.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/machine.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="-1011">
+          <caret line="221" column="41" lean-forward="false" selection-start-line="221" selection-start-column="41" selection-end-line="221" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/login/css/main.css">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/bootstrap/js/popper.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1154">
-          <caret line="232" column="1" lean-forward="false" selection-start-line="232" selection-start-column="1" selection-end-line="232" selection-end-column="1" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/login/index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login/vendor/bootstrap/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="46" column="20" lean-forward="true" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+        <state relative-caret-position="248">
+          <caret line="2031" column="3" lean-forward="false" selection-start-line="2031" selection-start-column="3" selection-end-line="2031" selection-end-column="3" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#59037#59237#2" expanded="true" />
+            <element signature="e#59377#59526#2" expanded="true" />
+            <element signature="e#59694#59840#2" expanded="true" />
+            <element signature="e#60368#60531#1" expanded="true" />
+            <element signature="e#71919#72162#2" expanded="true" />
+            <element signature="e#73011#73260#2" expanded="true" />
+            <element signature="e#103620#103807#2" expanded="true" />
+            <element signature="e#103863#104052#2" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/login/images/WEBOMATIC-WEB.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/Index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1179">
+          <caret line="112" column="31" lean-forward="true" selection-start-line="112" selection-start-column="31" selection-end-line="112" selection-end-column="31" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/login/images/compressed.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTONews.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/login/images/bg-01.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="89" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

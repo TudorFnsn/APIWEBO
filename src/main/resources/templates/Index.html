@@ -1,36 +1,166 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:object-fit="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>WEBOMATIC</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'/>
     <title>sparepart</title>
-    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'></link>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
     <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
     <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
     <link rel='stylesheet'
-          href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'></link>
+          href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="/templates/vendor/bootstrap/css/bootstrap.min.css">
+    <!--<link rel="stylesheet" type="text/css" href="styles.css">-->
+    <!--<script src="navbar.js"></script>-->
 
 
     <style>
-        .navbar-fixed-top
-        {
-            height: fit-content;
-            width: fit-content;
+        .affix {
+            top: 0;
+            width: 100%;
+            z-index: 9999 !important;
         }
 
+        .affix + .container-fluid {
+            padding-top: 70px;
+        }
+
+        .responsive {
+            width: 100%;
+            height: auto;
+        }
+
+        .colortime {
+            color: #ffffff;
+            text-align-all: right;
+        }
+
+        .sticky {
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+        .sticky + .content {
+            padding-top: 60px;
+        }
+        .badge-notify{
+            background: #d40100;
+            position:relative;
+            top: -10px;
+            left: -40px;
+            font-size: 10px;
+
+        }
+
+
     </style>
+    <script>
+        var monthName = new Array('January', 'Febuary', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December');
+        var hourap = new Array(12, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11);
+
+        function showTime() {
+            var dateObj = new Date();
+            var day = dateObj.getDate(), month = dateObj.getMonth(), year = dateObj.getFullYear(),
+                hour = dateObj.getHours(),
+                minutes = (dateObj.getMinutes() <= 9 ? '0' + dateObj.getMinutes() : dateObj.getMinutes());
+            var string = monthName[month] +
+                ' ' + day +
+                ', ' + year +
+                '<br />' + hourap[hour] +
+                ':' + minutes +
+                ' ' + (hour <= 11 ? 'am' : 'pm');
+            var timeDiv = document.getElementById('time');
+            if (timeDiv !== null) {
+                timeDiv.innerHTML = string;
+                timeDiv.setAttribute('datetime', year + '-' + (month + 1 <= 9 ? '0' + (month + 1) : month + 1) + '-' + day + ' ' + hour + ':' + minutes);
+
+            }
+            ;
+        };
+        setInterval(showTime, 1000);
+
+    </script>
 
 </head>
-<body>
-<nav class="navbar navbar-light bg-light">
-    <a class="navbar-brand" href="#">
-        <img src="../static/logo1.png" width="481" height="120" alt="">
-    </a>
-    <a>
-      lol
-    </a>
+<body onload="startTime()">
+<div class="text-center" style="background-color:#a93231;height:110px;">
+
+    <img src="comeon.png" class="img-fluid">
+    <!--<div align="right">-->
+    <!--<time id="time"></time>-->
+    <!--</div>-->
+
+    <!--!!!-->
+    <!--<time id="time" class="colortime" ></time>-->
+
+</div>
+<nav class="navbar navbar-default" id="navbar">
+    <div class="container-fluid">
+        <!--<div class="navbar-header">-->
+            <!--&lt;!&ndash;<a class="navbar-brand" href="#">&ndash;&gt;-->
+            <!--&lt;!&ndash;<img alt="Brand" src="W.ico">&ndash;&gt;-->
+            <!--&lt;!&ndash;</a>&ndash;&gt;-->
+            <!--<a href="#" class="navbar-brand">-->
+
+                <!--<span class="glyphicon active glyphicon-home fa-lg" aria-hidden="true"></span>-->
+            <!--</a>-->
+            <!--<a href="#" class=""></a>-->
+        <!--</div>-->
+        <ul class="nav navbar-nav">
+            <li class="active">
+                <a href="#" class="navbar-brand">
+
+                <span class="glyphicon active glyphicon-home fa-lg" aria-hidden="true"></span>
+            </a>
+            </li>
+            <li class=""><a href="#">Machines</a></li>
+            <li><a href="#">Spare Parts</a></li>
+            <li><a href="#">Bills</a></li>
+            <li><a href="#">Employees</a></li>
+            <li><a href="#">News</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+                <a href="#">
+                    <span class="glyphicon glyphicon-user fa-lg"></span>
+                    <span class="badge badge-notify fa-xs">3</span>username
+                </a>
+            </li>
+            <li><a href="#"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+        </ul>
+    </div>
 </nav>
+
+
+<div class="navbar navbar-default navbar-fixed-bottom">
+    <div class="container">
+        <p class="navbar-text pull-left">© 2018 - Site Built By Tudor Fenesan
+            <!--<a href="http://webomatic.de/en/" target="_blank" >Webomatic</a>-->
+        </p>
+
+        <a href="http://webomatic.de/en/" class="navbar-btn btn-default btn-sm pull-right">
+            <span class="glyphicon glyphicon-check"></span> Check our our site: Webomatic </a>
+    </div>
+</div>
+<script>
+    window.onscroll = function () {
+        myFunction()
+    };
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
+        }
+    }
+</script>
 
 </body>
 </html>
