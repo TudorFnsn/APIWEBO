@@ -1,0 +1,45 @@
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+
+.affix + .container-fluid {
+    padding-top: 70px;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.colortime {
+    color: #ffffff;
+    text-align-all: right;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
+.badge-notify{
+    background: #d40100;
+    position:relative;
+    top: -10px;
+    left: -40px;
+    font-size: 10px;
+
+}
+#logo{
+    width: 40%;
+
+
+}
+
+

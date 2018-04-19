@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:object-fit="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>WEBOMATIC</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'/>
+    <title>sparepart</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+    <link rel='stylesheet'
+          href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="/templates/vendor/bootstrap/css/bootstrap.min.css">
+    <!--<link rel="stylesheet" type="text/css" href="styles.css">-->
+    <link rel="stylesheet" type="text/css" href="navbarCSS.css">
+    <script type="text/javascript" src="navbar.js"></script>
+    <script type="application/json" src="MachineJS.js"></script>
+    <link rel="stylesheet" type="text/css" href="MachineCSS.css">
+
+
+</head>
+<body>
+<div class="text-center" style="background-color:#a93231;height:110px;">
+
+    <img src="comeon.png" class="img-fluid" id="logo">
+    <!--<div align="right">-->
+    <!--<time id="time"></time>-->
+    <!--</div>-->
+
+    <!--!!!-->
+    <!--<time id="time" class="colortime" ></time>-->
+
+</div>
+
+<!--*** Start Navbar ***-->
+<nav class="navbar navbar-default" id="navbar">
+    <div class="container-fluid">
+        <ul class="nav navbar-nav">
+            <li class="active">
+                <a href="#" class="navbar-brand">
+
+                <span class="glyphicon active glyphicon-home fa-lg" aria-hidden="true"></span>
+            </a>
+            </li>
+            <li class=""><a href="#">Machines</a></li>
+            <li><a href="#">Spare Parts</a></li>
+            <li><a href="#">Bills</a></li>
+            <li><a href="#">Employees</a></li>
+            <li><a href="#">News</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+                <a href="#">
+                    <span class="glyphicon glyphicon-user fa-lg"></span>
+                    <span class="badge badge-notify fa-xs">3</span>username
+                </a>
+            </li>
+            <li><a href="#"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+        </ul>
+    </div>
+</nav>
+<!--*** End Navbar ***-->
+
+<!--*** Start ***-->
+
+<script type="text/javascript" src="MachineJS.js"></script>
+
+<div id='tableContainer'>
+    <table id='tableDTOMachine' class='table table-boarded table-hover'>
+        <thead>
+        <tr>
+            <th>id</th>
+            <th>picture</th>
+            <th>name</th>
+            <th>series</th>
+            <th>status</th>
+            <th>sparePartIdList</th>
+            <th>arrivalDate</th>
+            <th>owner_id</th>
+            <th>
+                <button type='button' class='btn btn-success' data-toggle='modal' data-target='#create-item'
+                        id='add_menu_button'>Create Item
+                </button>
+            </th>
+            <th>
+                <button type='button' class='btn btn-success' id='refresh_menu_button'>Refresh</button>
+            </th>
+        </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>
+
+<!--*** End ***-->
+
+
+
+
+
+
+<!--*** Start Footer ***-->
+<div class="navbar navbar-default navbar-fixed-bottom">
+    <div class="container">
+        <p class="navbar-text pull-left">© 2018 - Site Built By Tudor Fenesan
+            <!--<a href="http://webomatic.de/en/" target="_blank" >Webomatic</a>-->
+        </p>
+
+        <a href="http://webomatic.de/en/" class="navbar-btn btn-default btn-sm pull-right">
+            <span class="glyphicon glyphicon-check"></span> Check our our site: Webomatic </a>
+    </div>
+</div>
+<!--*** End Navbar ***-->
+<script>
+    // window.onscroll = function () {
+    //     myFunction()
+    // };
+    //
+    // var navbar = document.getElementById("navbar");
+    // var sticky = navbar.offsetTop;
+    //
+    // function myFunction() {
+    //     if (window.pageYOffset >= sticky) {
+    //         navbar.classList.add("sticky")
+    //     } else {
+    //         navbar.classList.remove("sticky");
+    //     }
+    // }
+</script>
+
+</body>
+</html>
