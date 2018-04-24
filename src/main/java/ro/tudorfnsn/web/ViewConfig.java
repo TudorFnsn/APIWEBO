@@ -26,6 +26,8 @@ public class ViewConfig extends WebMvcConfigurerAdapter
     public void addResourceHandlers(ResourceHandlerRegistry resourceHandlerRegistry)
     {
         resourceHandlerRegistry.addResourceHandler("/static/**").addResourceLocations("classpath:/static/");
+        //resourceHandlerRegistry.addResourceHandler("/templates/**").addResourceLocations("classpath:/templates/");
+        resourceHandlerRegistry.addResourceHandler("/resources/**").addResourceLocations("classpath:/resources/");
     }
 
 }
