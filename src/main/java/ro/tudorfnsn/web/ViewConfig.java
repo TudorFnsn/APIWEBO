@@ -2,11 +2,13 @@ package ro.tudorfnsn.web;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
 @Configuration
+
 public class ViewConfig extends WebMvcConfigurerAdapter
 {
     @Autowired
@@ -18,16 +20,17 @@ public class ViewConfig extends WebMvcConfigurerAdapter
 
     public void addViewControllers(ViewControllerRegistry registry)
     {
-        registry.addViewController("/machine").setViewName("IndexMachine");
-        registry.addViewController("/").setViewName("index");
+        registry.addViewController("/machine").setViewName("MachinePage");
+        registry.addViewController("/").setViewName("LoginPage");
     }
 
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry resourceHandlerRegistry)
     {
-        resourceHandlerRegistry.addResourceHandler("/static/**").addResourceLocations("classpath:/static/");
-        //resourceHandlerRegistry.addResourceHandler("/templates/**").addResourceLocations("classpath:/templates/");
-        resourceHandlerRegistry.addResourceHandler("/resources/**").addResourceLocations("classpath:/resources/");
+
+        resourceHandlerRegistry.addResourceHandler("/sources/**").addResourceLocations("classpath:/sources/");
+        //resourceHandlerRegistry.addResourceHandler("/Users/mac/WeboApplication/APIWEBO/src/main/resources/templates/**").addResourceLocations("classpath:/resources/templates/");
+        //resourceHandlerRegistry.addResourceHandler("/resources/**").addResourceLocations("classpath:/resources/");
     }
 
 }
