@@ -8,6 +8,7 @@ import ro.tudorfnsn.Enumerable.Status;
 import ro.tudorfnsn.Model.Owner;
 import ro.tudorfnsn.Service.MachineService;
 
+import java.util.Arrays;
 import java.util.List;
 
 @RestController
@@ -30,12 +31,15 @@ public class MachineController
         List<DTOMachine> dtoMachineList = machineService.getAllMachine();
 
         return dtoMachineList;
+
     }
 
     //works
     @RequestMapping(value = "/createIP", method = RequestMethod.POST)
     public void createIP(@RequestBody DTOMachine dtoMachine)
     {
+        System.out.println(dtoMachine);
+        dtoMachine.setStatus(Status.EMPTY);
         machineService.createMachineIP(dtoMachine);
     }
 
@@ -43,8 +47,17 @@ public class MachineController
     @RequestMapping(value = "/createWait", method = RequestMethod.POST)
     public void createWaiting(@RequestBody DTOMachine dtoMachine)
     {
+        dtoMachine.setStatus(Status.EMPTY);
         machineService.createMachineWaiting(dtoMachine);
     }
+
+    @RequestMapping(value = "/createFinish", method = RequestMethod.POST)
+    public void createFinished(@RequestBody DTOMachine dtoMachine)
+    {
+        dtoMachine.setStatus(Status.EMPTY);
+        machineService.createMachineFinished(dtoMachine);
+    }
+
 
     //works
     @RequestMapping(value = "/getByStatus/{status}", method = RequestMethod.GET)
@@ -83,6 +96,8 @@ public class MachineController
 
     }
 
+
+
     //works
     @RequestMapping(value = "/getById/{id}", method = RequestMethod.GET)
     public DTOMachine getById(@PathVariable Long id)
@@ -113,6 +128,14 @@ public class MachineController
     public void move(@PathVariable Long id, @RequestBody Status status)
     {
         machineService.moveTo(id, status);
+    }
+
+    @RequestMapping(value = "/getAllStatus/", method = RequestMethod.GET)
+    public List<Status> getAllStatus()
+    {
+        List<Status> statusList = Arrays.asList(Status.values());
+
+        return statusList;
     }
 
 

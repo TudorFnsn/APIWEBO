@@ -50,6 +50,14 @@ public class MachineService
         machineRepository.save(machine);
     }
 
+    public void createMachineFinished(DTOMachine dtoMachine)
+    {
+        Machine machine = convertMachine.OneToModel(dtoMachine);
+        //machine.setOwner(ownerRepository.findFirstById(dtoMachine.getOwner_id()));
+        machine.setStatus(Status.FINALIZED);
+        machineRepository.save(machine);
+    }
+
     public List<DTOMachine> getAllMachine()
     {
         List<Machine> machineList = machineRepository.findAll();

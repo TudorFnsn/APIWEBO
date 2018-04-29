@@ -1,7 +1,3 @@
-window.onscroll = function ()
-{
-    myFunction()
-};
 
 //var navbar = $("#navbar");
 // var navbar = document.getElementById("navbar");
@@ -16,7 +12,7 @@ var sticky;
 function myFunction() {
     if (window.pageYOffset >= sticky)
     {
-        navbar.classList.add("sticky")
+        navbar.classList.add("sticky");
     }
     else
         {
@@ -28,7 +24,6 @@ $(document).ready(function () {
 
 
     navbar = document.getElementById("navbar");
-    console.log(document.getElementById("puta"));
     console.log(document.getElementById("navbar"));
     console.log("communication");
     sticky = navbar.offsetTop;
@@ -38,7 +33,7 @@ $(document).ready(function () {
          myFunction();
      };
 
-    //navbar.css()
+
 });
 
 
