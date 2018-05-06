@@ -77,6 +77,7 @@ public class SparePartService
         return dtoSparePart;
     }
 
+
     public void removeSparePart(Long id)
     {
         sparePartRepository.deleteById(id);

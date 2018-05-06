@@ -2,7 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64569b9d-340b-41a5-af09-be2f8b93a22d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/APIWebomatic.iml" afterPath="$PROJECT_DIR$/APIWebomatic.iml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/MachineController.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/MachineController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/SparePartController.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/SparePartController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/MachineRepository.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/MachineRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/SparePartRepository.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/SparePartRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/MachineService.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/MachineService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/SparePartService.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/SparePartService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/web/ViewConfig.java" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/web/ViewConfig.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/MachinePage.html" afterPath="$PROJECT_DIR$/src/main/resources/pages/MachinePage.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sources/machine/MachineCSS.css" afterPath="$PROJECT_DIR$/src/main/resources/sources/machine/MachineCSS.css" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sources/machine/MachineJS.js" afterPath="$PROJECT_DIR$/src/main/resources/sources/machine/MachineJS.js" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/MachinePage.html" afterPath="$PROJECT_DIR$/target/classes/pages/MachinePage.html" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Controller/MachineController.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Controller/MachineController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Repository/SparePartRepository.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Repository/SparePartRepository.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Service/MachineService.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Service/MachineService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Service/SparePartService.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Service/SparePartService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/web/ViewConfig.class" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/web/ViewConfig.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sources/machine/MachineCSS.css" afterPath="$PROJECT_DIR$/target/classes/sources/machine/MachineCSS.css" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sources/machine/MachineJS.js" afterPath="$PROJECT_DIR$/target/classes/sources/machine/MachineJS.js" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,32 +48,6 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="webomatic_db@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="webomatic_db@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="webomatic_db@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="webomatic_db: database" type="6d9b600a:PostgresImplModel$Database" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="webomatic_db@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="webomatic_db: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="webomatic_db@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="webomatic_db: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
     </expand>
     <select />
   </component>
@@ -62,24 +56,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DTOMachine.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOMachine.java">
+      <file leaf-file-name="MachineController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/MachineController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+            <state relative-caret-position="441">
+              <caret line="50" column="43" lean-forward="false" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="43" />
+              <folding>
+                <element signature="e#4272#4273#0" expanded="true" />
+                <element signature="e#4328#4329#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmployeeController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/EmployeeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5">
+              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Status.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Enumerable/Status.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MachinePage.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/pages/MachinePage.html">
+      <file leaf-file-name="MachineJS.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/sources/machine/MachineJS.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="143" column="135" lean-forward="true" selection-start-line="143" selection-start-column="135" selection-end-line="143" selection-end-column="173" />
+            <state relative-caret-position="212">
+              <caret line="49" column="113" lean-forward="true" selection-start-line="49" selection-start-column="113" selection-end-line="49" selection-end-column="113" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#tr#4;n#table#0;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1525622338000" expanded="true" signature="1655:1677" ph="data:" />
+                <marker date="1525622338000" expanded="true" signature="1655:1678" ph="data:" />
               </folding>
             </state>
           </provider>
@@ -88,77 +107,18 @@
       <file leaf-file-name="MachineCSS.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/sources/machine/MachineCSS.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
-              <caret line="63" column="1" lean-forward="true" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
+            <state relative-caret-position="79">
+              <caret line="60" column="8" lean-forward="true" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MachineController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/MachineController.java">
+      <file leaf-file-name="MachinePage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/pages/MachinePage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="57" column="45" lean-forward="false" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MachineJS.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/sources/machine/MachineJS.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="286" column="30" lean-forward="true" selection-start-line="286" selection-start-column="30" selection-end-line="286" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SparePartController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/SparePartController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-82">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="navbar.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/sources/navbar/navbar.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="30" column="4" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="33" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="navbarCSS.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/sources/navbar/navbarCSS.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="machine" pinned="false" current-in-tab="false">
-        <entry file="das://table:/6b09865/7f0268cb-843f-457c-97e7-b49e017ac0ec/webomatic_db.public.machine">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Status.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Enumerable/Status.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="1259">
+              <caret line="131" column="25" lean-forward="false" selection-start-line="131" selection-start-column="25" selection-end-line="131" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -180,36 +140,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Owner</find>
-      <find>Integer</find>
-      <find>Sim</find>
-      <find>Text</find>
-      <find>uuid</find>
-      <find>col</find>
-      <find>fav</find>
-      <find>back</find>
-      <find>bg</find>
-      <find>we</find>
-      <find>Login V</find>
-      <find>WEBOMA</find>
-      <find>Enter</find>
-      <find>comp</find>
-      <find>HI</find>
-      <find>gly</find>
-      <find>api</find>
-      <find>main.c</find>
-      <find>jum</find>
-      <find>close</find>
-      <find>moda</find>
-      <find>Delete</find>
-      <find>Edit</find>
-      <find>createid</find>
-      <find>form-con</find>
-      <find>index§</find>
       <find>btn</find>
       <find>btn-gr</find>
-      <find>dataid</find>
       <find>owner_id</find>
+      <find>datasparePartIdList</find>
+      <find>createsparePartIdList</find>
+      <find>createitem</find>
+      <find>create-item</find>
+      <find>listSpa</find>
+      <find>addIP</find>
+      <find>selectpicker</find>
+      <find>getElementsListIP</find>
+      <find>plugins</find>
+      <find>modal-bof</find>
+      <find>edit-item</find>
+      <find>getSpa</find>
+      <find>dataid</find>
+      <find>script</find>
+      <find>&lt;scr</find>
+      <find>mdb</find>
+      <find>.chose</find>
+      <find>refreshWai</find>
+      <find>MachineCSS</find>
+      <find>conso</find>
+      <find>refr</find>
+      <find>editMenu</find>
+      <find>create</find>
+      <find>getBase</find>
+      <find>.picture</find>
+      <find>createpictu</find>
+      <find>imageBo</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -231,11 +191,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/VacationController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/VacationRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Bill.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOBill.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Converter/ConvertBill.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTODaySchedule.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTONews.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOVacation.java" />
@@ -269,18 +224,23 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/machine.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/MachineCSS.css" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/navbar.js" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/web/ViewConfig.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/IndexMachine.html" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/employee.html" />
         <option value="$PROJECT_DIR$/src/main/resources/sources/CRUD/MachineCRUD.js" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/bootstrap/css/bootstrap.min.css" />
-        <option value="$PROJECT_DIR$/src/main/resources/sources/machine/MachineCSS.css" />
         <option value="$PROJECT_DIR$/src/main/resources/sources/navbar/navbar.js" />
         <option value="$PROJECT_DIR$/src/main/resources/sources/navbar/navbarCSS.css" />
+        <option value="$PROJECT_DIR$/package-lock.json" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/SparePartRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/MachineRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/MachineService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/SparePartController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/SparePartService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/web/ViewConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/MachineController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/pages/MachinePage.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/sources/machine/MachineCSS.css" />
         <option value="$PROJECT_DIR$/src/main/resources/sources/machine/MachineJS.js" />
       </list>
     </option>
@@ -297,6 +257,20 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="APIWebomatic" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="10" />
@@ -320,8 +294,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -371,6 +347,25 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tudorfnsn" type="462c0819:PsiDirectoryNode" />
+              <item name="Converter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="APIWebomatic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APIWEBO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tudorfnsn" type="462c0819:PsiDirectoryNode" />
+              <item name="Converter" type="462c0819:PsiDirectoryNode" />
+              <item name="ConverterInterface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="APIWebomatic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APIWEBO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tudorfnsn" type="462c0819:PsiDirectoryNode" />
               <item name="DataTransferObject" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -381,6 +376,34 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tudorfnsn" type="462c0819:PsiDirectoryNode" />
               <item name="Enumerable" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="APIWebomatic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APIWEBO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tudorfnsn" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="APIWebomatic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APIWEBO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tudorfnsn" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+              <item name="Element" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="APIWebomatic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APIWEBO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tudorfnsn" type="462c0819:PsiDirectoryNode" />
+              <item name="Repository" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="APIWebomatic" type="b2602c69:ProjectViewProjectNode" />
@@ -430,6 +453,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="sources" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="APIWebomatic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APIWEBO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="sources" type="462c0819:PsiDirectoryNode" />
               <item name="machine" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -447,7 +479,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="APIWebomatic" type="b2602c69:ProjectViewProjectNode" />
@@ -456,28 +488,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="APIWebomatic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="APIWEBO" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="APIWebomatic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="APIWEBO" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap.css" type="620a8d5e:NestingTreeNode" />
             </path>
             <path>
               <item name="APIWebomatic" type="b2602c69:ProjectViewProjectNode" />
@@ -485,20 +495,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="APIWebomatic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APIWEBO" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -511,16 +524,16 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="plugin&#9;ACTION&#9;WelcomeScreen.Plugins" />
+    <property name="SearchEverywhereHistoryKey" value="plugins&#9;ACTION&#9;WelcomeScreen.Plugins&#10;plugin&#9;ACTION&#9;WelcomeScreen.Plugins" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/sources" />
+      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
       <recent name="$PROJECT_DIR$/src/main/resources/sources/navbar" />
       <recent name="$PROJECT_DIR$/src/main/resources/static" />
       <recent name="$PROJECT_DIR$/src/main/resources/sources/images" />
-      <recent name="$PROJECT_DIR$/src/main/resources/sources/machine" />
-      <recent name="$PROJECT_DIR$/src/main/resources/pages" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="resources" />
@@ -529,8 +542,8 @@
       <recent name="ro.tudorfnsn.Repository" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/sources/loginCSS" />
       <recent name="$PROJECT_DIR$/src/main/resources/sources" />
+      <recent name="$PROJECT_DIR$/src/main/resources/sources/loginCSS" />
       <recent name="$PROJECT_DIR$/src/main/resources/static" />
       <recent name="$PROJECT_DIR$/src/main/resources/templates" />
       <recent name="$PROJECT_DIR$/src/main/resources/templates/login/images" />
@@ -666,12 +679,18 @@
       <workItem from="1524121415669" duration="6038000" />
       <workItem from="1524568240871" duration="692000" />
       <workItem from="1524635499588" duration="5800000" />
-      <workItem from="1524817914990" duration="43686000" />
+      <workItem from="1524817914990" duration="43726000" />
+      <workItem from="1525194092304" duration="4674000" />
+      <workItem from="1525200545458" duration="8324000" />
+      <workItem from="1525260434130" duration="1764000" />
+      <workItem from="1525284688505" duration="36747000" />
+      <workItem from="1525511251887" duration="1412000" />
+      <workItem from="1525520635720" duration="12698000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216925000" />
+    <option name="totallyTimeSpent" value="282584000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -684,14 +703,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5129241" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31911966" sideWeight="0.51615506" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25121164" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25121164" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -702,11 +722,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31911966" sideWeight="0.4838449" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31911966" sideWeight="0.48707592" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31774417" sideWeight="0.49676898" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2584814" sideWeight="0.49292928" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31774417" sideWeight="0.49676898" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22374798" sideWeight="0.49292928" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22132471" sideWeight="0.5070707" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -728,265 +748,16 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="15" />
+      <option name="time" value="17" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login/images/icons/favicon.ico">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login/images/icons/W.ico">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/EmployeeRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/EmployeeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Element/Element.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="37" column="36" lean-forward="true" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.10.RELEASE/spring-webmvc-4.3.10.RELEASE.jar!/org/springframework/web/servlet/config/annotation/ViewControllerRegistration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="50" lean-forward="false" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.10.RELEASE/spring-webmvc-4.3.10.RELEASE.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-491">
-          <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/bootstrap/js/popper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/web/WebpageGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="56" lean-forward="false" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/web/GeneratorHTMLCRUD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-137">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-917">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/bootstrap/js/popper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2839">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/loginCSS/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/images/bg-01.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/images/compressed.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/logo1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/logoMare.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2535">
-          <caret line="501" column="1" lean-forward="false" selection-start-line="501" selection-start-column="1" selection-end-line="501" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/images/comeon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/IndexMachine.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="115" column="8" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="115" selection-end-column="8" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/web/ViewConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="30" column="106" lean-forward="false" selection-start-line="30" selection-start-column="106" selection-end-line="30" selection-end-column="106" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="14911" column="12" lean-forward="false" selection-start-line="14911" selection-start-column="12" selection-end-line="14911" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/login/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-803">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/employee.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="92" column="8" lean-forward="false" selection-start-line="92" selection-start-column="8" selection-end-line="92" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/CRUD/MachineCRUD.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/pages/LoginPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/machine.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="255" column="66" lean-forward="false" selection-start-line="255" selection-start-column="62" selection-end-line="255" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/CRUD/MachineCRUD.js" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/OwnerController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -997,18 +768,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/6b09865/7f0268cb-843f-457c-97e7-b49e017ac0ec/webomatic_db.public.spare_part">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Converter/ConvertMachine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
           <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1016,16 +779,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
           <caret line="2458" column="23" lean-forward="true" selection-start-line="2458" selection-start-column="23" selection-end-line="2458" selection-end-column="23" />
-          <folding>
-            <element signature="e#59037#59237#2" expanded="false" />
-            <element signature="e#59377#59526#2" expanded="false" />
-            <element signature="e#59694#59840#2" expanded="false" />
-            <element signature="e#60368#60531#1" expanded="false" />
-            <element signature="e#71919#72162#2" expanded="false" />
-            <element signature="e#73011#73260#2" expanded="false" />
-            <element signature="e#103620#103807#2" expanded="false" />
-            <element signature="e#103863#104052#2" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1033,15 +786,180 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2504">
           <caret line="219" column="28" lean-forward="false" selection-start-line="219" selection-start-column="28" selection-end-line="219" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-455">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Enumerable/Status.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/bootstrap-select-master/README.md" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/bootstrap-select-master/test.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/MDB Free/js/mdb.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/MDB Free/README.txt" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/MDB Free/license.txt" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/MDB Free/img/overlays/01.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/MDB Free/css/style.min.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/MDB Free/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOMachine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="360">
+          <caret line="32" column="1" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOMachineWaiting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOMachineDone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/TaskRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/SparePartRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Machine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/SparePart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/MachineRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/SparePartService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/SparePartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/MachineService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="158" column="0" lean-forward="true" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/bootstrap/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-122265">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOSparePart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/chosen-1.8.5/README.md" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/chosen-1.8.5/public/docsupport/prototype-1.7.0.0.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/chosen-1.8.5/package.json" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/chosen-1.8.5/package-lock.json" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/chosen-1.8.5/public/index.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/chosen-1.8.5/public/options.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/chosen-1.8.5/public/index.proto.html" />
+    <entry file="das://table:/6b09865/7f0268cb-843f-457c-97e7-b49e017ac0ec/webomatic_db.public.spare_part">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/pages/LoginPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="80" lean-forward="false" selection-start-line="7" selection-start-column="80" selection-end-line="7" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/web/ViewConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/navbar/navbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="30" column="4" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="33" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/navbar/navbarCSS.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1052,77 +970,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/navbar/navbar.js">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_ajax.googleapis.com_ajax_libs_jquery_3.3.1_jquery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="30" column="4" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="33" selection-end-column="7" />
+        <state relative-caret-position="282">
+          <caret line="10342" column="8" lean-forward="false" selection-start-line="10342" selection-start-column="8" selection-end-line="10342" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/navbar/navbarCSS.css">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Enumerable/Status.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        <state relative-caret-position="60">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/machine/MachineCSS.css">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/machine.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="63" column="1" lean-forward="true" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/MachineService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="56" column="42" lean-forward="false" selection-start-line="56" selection-start-column="42" selection-end-line="56" selection-end-column="42" />
+        <state relative-caret-position="3510">
+          <caret line="234" column="36" lean-forward="true" selection-start-line="234" selection-start-column="36" selection-end-line="234" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/MachineController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="57" column="45" lean-forward="false" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
-          <folding />
+        <state relative-caret-position="441">
+          <caret line="50" column="43" lean-forward="false" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="43" />
+          <folding>
+            <element signature="e#4272#4273#0" expanded="true" />
+            <element signature="e#4328#4329#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/SparePartController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/EmployeeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-82">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="5">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOMachine.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/machine/MachineCSS.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/machine/MachineJS.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="286" column="30" lean-forward="true" selection-start-line="286" selection-start-column="30" selection-end-line="286" selection-end-column="30" />
+        <state relative-caret-position="79">
+          <caret line="60" column="8" lean-forward="true" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/pages/MachinePage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="143" column="135" lean-forward="true" selection-start-line="143" selection-start-column="135" selection-end-line="143" selection-end-column="173" />
+        <state relative-caret-position="1259">
+          <caret line="131" column="25" lean-forward="false" selection-start-line="131" selection-start-column="25" selection-end-line="131" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/machine/MachineJS.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="49" column="113" lean-forward="true" selection-start-line="49" selection-start-column="113" selection-end-line="49" selection-end-column="113" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#tr#4;n#table#0;n#form#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1525622338000" expanded="true" signature="1655:1677" ph="data:" />
+            <marker date="1525622338000" expanded="true" signature="1655:1678" ph="data:" />
           </folding>
         </state>
       </provider>
@@ -1156,6 +1071,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>bootstrap</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

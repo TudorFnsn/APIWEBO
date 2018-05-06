@@ -15,6 +15,8 @@ public interface MachineRepository extends JpaRepository<Machine, Long>
     // if there are no validation it's better to use findFirstBy... in case there are registered (by mistake ) a machine
     // with the same id
 
+
+
     Machine findFirstById(Long id);
     Machine findFirstBySeries(String series);
     List<Machine> findByName(String name);

@@ -2,11 +2,14 @@ package ro.tudorfnsn.Service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import ro.tudorfnsn.Converter.ConvertMachine;
+import ro.tudorfnsn.Converter.ConvertSparePart;
 import ro.tudorfnsn.DataTransferObject.DTOMachine;
 import ro.tudorfnsn.DataTransferObject.DTOMachineWaiting;
+import ro.tudorfnsn.DataTransferObject.DTOSparePart;
 import ro.tudorfnsn.Enumerable.Status;
 import ro.tudorfnsn.Model.Machine;
 import ro.tudorfnsn.Model.Owner;
+import ro.tudorfnsn.Model.SparePart;
 import ro.tudorfnsn.Repository.MachineRepository;
 import ro.tudorfnsn.Repository.OwnerRepository;
 import ro.tudorfnsn.Repository.SparePartRepository;
@@ -20,15 +23,17 @@ public class MachineService
     private OwnerRepository ownerRepository;
     private SparePartRepository sparePartRepository;
     private ConvertMachine convertMachine;
+    private ConvertSparePart convertSparePart;
 
     @Autowired
-    public MachineService(MachineRepository machineRepository, OwnerRepository ownerRepository,SparePartRepository sparePartRepository, ConvertMachine convertMachine)
+    public MachineService(MachineRepository machineRepository, OwnerRepository ownerRepository,SparePartRepository sparePartRepository, ConvertMachine convertMachine, ConvertSparePart convertSparePart)
     {
 
         this.machineRepository = machineRepository;
         this.ownerRepository = ownerRepository;
         this.sparePartRepository = sparePartRepository;
         this.convertMachine = convertMachine;
+        this.convertSparePart = convertSparePart;
     }
 
 
@@ -88,6 +93,8 @@ public class MachineService
         return dtoMachine;
     }
 
+
+
     public void removeMachine(Long id)
     {
         machineRepository.deleteFirstById(id);
@@ -141,6 +148,15 @@ public class MachineService
 
         machineRepository.save(oldmachine);
     }
+
+    public List<DTOSparePart> getSparePartOf(Long id)
+    {
+        Machine machine = machineRepository.findFirstById(id);
+        List<SparePart> sparePartList = machine.getSparePartsList();
+        List<DTOSparePart> dtoSparePartList = convertSparePart.ManyToDTO(sparePartList);
+        return dtoSparePartList;
+    }
+
 
 
 }

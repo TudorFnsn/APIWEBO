@@ -4,6 +4,7 @@ package ro.tudorfnsn.Controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import ro.tudorfnsn.DataTransferObject.DTOMachine;
+import ro.tudorfnsn.DataTransferObject.DTOSparePart;
 import ro.tudorfnsn.Enumerable.Status;
 import ro.tudorfnsn.Model.Owner;
 import ro.tudorfnsn.Service.MachineService;
@@ -35,7 +36,7 @@ public class MachineController
     }
 
     //works
-    @RequestMapping(value = "/createIP", method = RequestMethod.POST)
+    @RequestMapping(value = "/createIN_PROGRESS", method = RequestMethod.POST)
     public void createIP(@RequestBody DTOMachine dtoMachine)
     {
         System.out.println(dtoMachine);
@@ -44,14 +45,14 @@ public class MachineController
     }
 
     //waiting
-    @RequestMapping(value = "/createWait", method = RequestMethod.POST)
+    @RequestMapping(value = "/createWAITING", method = RequestMethod.POST)
     public void createWaiting(@RequestBody DTOMachine dtoMachine)
     {
         dtoMachine.setStatus(Status.EMPTY);
         machineService.createMachineWaiting(dtoMachine);
     }
 
-    @RequestMapping(value = "/createFinish", method = RequestMethod.POST)
+    @RequestMapping(value = "/createFINALIZED", method = RequestMethod.POST)
     public void createFinished(@RequestBody DTOMachine dtoMachine)
     {
         dtoMachine.setStatus(Status.EMPTY);
@@ -137,6 +138,14 @@ public class MachineController
 
         return statusList;
     }
+
+    @RequestMapping(value = "/sparePartsOf/{id}", method = RequestMethod.GET)
+    public List<DTOSparePart> sparePartsOf(@PathVariable Long id)
+    {
+        return machineService.getSparePartOf(id);
+    }
+
+
 
 
 

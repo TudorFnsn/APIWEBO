@@ -107,5 +107,8 @@
     <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy:2.4.12" level="project" />
     <orderEntry type="library" name="bootstrap" level="application" />
     <orderEntry type="library" name="jquery" level="application" />
+    <orderEntry type="library" name="bootstrap-select" level="application" />
+    <orderEntry type="library" name="bootstrap-multiselect" level="application" />
+    <orderEntry type="library" name="chosen.jquery" level="application" />
   </component>
 </module>
