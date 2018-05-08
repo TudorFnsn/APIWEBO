@@ -41,7 +41,7 @@
 <!--*** Logo ***-->
 <div class="text-center" style="background-color:#a93231;height:110px;">
 
-    <img src="/sources/images/comeon.png" class="img-fluid" id="logo">
+    <img src="/sources/images/comeon.png" class="img-fluid" id="">
 
 </div>
 
@@ -131,7 +131,7 @@
                         <td><input id='createid' type='text' class='form-control' name="id"> </input></td>
                     </tr>
                         <td>Picture</td>
-                        <td><img id="createpicture" class="picture" src=""></td>
+                    <td><img id="createpicture" class="imgPic thumbnail" src="" onerror="this.src='/sources/images/User-Interface-Plus-icon.png'"></td>
                     </tr>
                     <tr>
                         <td>Name</td>
@@ -238,7 +238,7 @@
 </div>
 
 <!--*** Show Spare Parts ***-->
-<div class='modal fade' id='spareParts-item' tabindex='-1' role='dialog' aria-labelledby='myModalLabel'>
+<div class='modal modal-lg fade' id='spareParts-item' tabindex='-1' role='dialog' aria-labelledby='myModalLabel'>
     <div class='modal-content'>
         <div class='modal-header'>
             <button type='button' class='close' data-dismiss='modal' aria-label='Close'><span
@@ -261,9 +261,28 @@
 
         </div>
 
-        </div>
+
     </div>
 </div>
+
+
+<!--****---->
+<div class='modal fade' id='showPicture-item' tabindex='-1' role='dialog' aria-labelledby='myModalLabel'>
+    <div  class='modal-content'>
+        <div class='modal-header'>
+            <button type='button' class='close' data-dismiss='modal' aria-label='Close'><span aria-hidden='true'>X</span></button>
+            <h4 class='modal-title'>Picture Enhanced</h4>
+        </div>
+
+        <div class='modal-body'>
+
+            <img class="img-responsive" id="ideal" src="">
+        </div>
+
+
+    </div>
+</div>
+
 
 <!--*** End Content ***-->
 

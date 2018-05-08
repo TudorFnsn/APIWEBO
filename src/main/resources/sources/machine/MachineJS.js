@@ -41,7 +41,7 @@ function getElementsListIP() {
             var row = '<tr>';
             row = row + '<td class="dataid" >' + item.id + '</td>';
             // row = row + '<td class="datapicture" >' + item.picture + '</td>';
-            row = row + '<td class="datapicture"><img src="data:image/jpeg;base64,' + item.picture + '"></td>';
+            row = row + '<td class="datapicture"><img class="imgPic" src="data:image/jpeg;base64,' + item.picture + '"></td>';
             //row = row + '<div class="imageBox">'+ '<img src="data:image/jpeg;base64," >' + ' </div>';
             row = row + '<td class="dataname" >' + item.name + '</td>';
             row = row + '<td class="dataseries" >' + item.series + '</td>';
@@ -245,6 +245,7 @@ $(document).ready(
         listOwner();
         listSpareParts();
         getElements(stat);
+        //modalPicture();
 
         $(document).on('click', '#add_button', function () {
             var iddata = $('#createid').val();
@@ -281,7 +282,6 @@ $(document).ready(
         $(document).on('click', '.sparePartsShow_item', function () {
 
             var index = ($(this).parent().parent()).find('.dataid').html();
-
 
             $('#tableSpareParts tbody').empty();
             $.getJSON(apiUrl + elementsPath + '/sparePartsOf/' + index, null, function (data)
@@ -331,6 +331,7 @@ $(document).ready(
                 success: function (result) {
                     getElements(stat);
                     alert(result);
+                    //modalPicture();
                 }, error: function (xhr, textStatus, errorThrown) {
                     alert(xhr.responseText);
                 }
@@ -373,13 +374,15 @@ $(document).ready(
 
         // drag and drop
 
-        $(document).on('dragover dragenter', ".picture", function (e) {
+        $(document).on('dragover dragenter', ".thumbnail", function (e) {
             e.preventDefault();
             e.stopPropagation();
 
         });
 
-        $(document).on('drop', ".picture", function (e) {
+
+
+        $(document).on('drop', ".thumbnail", function (e) {
             var dataTransfer = e.originalEvent.dataTransfer;
             if (dataTransfer && dataTransfer.files.length) {
                 e.preventDefault();
@@ -389,15 +392,12 @@ $(document).ready(
                     reader.onload = $.proxy(function (file, $holder, event) {
                         var imgPath;
 
-                        if (file.type.match("image/jpeg")) {
+                        if (file.type.match("image/jpeg") || file.type.match("image/png"))
+                        {
                             imgPath = event.target.result + "";
-                            console.log(imgPath);
                         }
 
-                        var item1 = $(e.target).find("img.picture");
-                        console.log(item1);
-
-                        item1.attr("src", imgPath);
+                        $(e.target).attr('src', imgPath);
                     }, this, file, e.target);
 
                     reader.readAsDataURL(file);
@@ -405,7 +405,17 @@ $(document).ready(
             }
         });
 
+        $(document).on('click', '.datapicture', function () {
 
+
+
+
+            $("#ideal").attr("src",$(this).find("img").attr("src"));
+            $('#showPicture-item').modal('show');
+
+
+
+        });
 
     });
 
@@ -568,14 +578,6 @@ function getElements(stat)
         console.log(stat);
     }
 
-    // by default
-    //getElementsListIP();
-
-
-    // drag and drop functions
-
-
-
 
 
 }
@@ -585,4 +587,52 @@ function getBase64(path)
     return path.replace(/^data.*base64,/g, "");
 }
 
+
+// function modalPicture()
+// {
+//     var modal = document.getElementById('modal-picture');
+//
+//
+//     var idRow = ($(this).parent().parent()).find('.dataid').html();
+//     //var pictureIdOfRow = ($(this).parent().parent()).find('.datapicture').html();
+//     var indexPicture = ($(this).parent().parent()).find('.datapicture').html();
+//
+//     var image = document.getElementById(indexPicture);
+//
+//     var indexModalPicture = indexPicture + idRow;
+//
+//     var modalPictureElem = document.getElementById("generic");
+//     modalPictureElem.id = indexModalPicture;
+//     //var enhancedImage = '<img class="modal-content" id="image.indexOf() + indexPicture ">';
+//     //var enhancedImage = '<img class="modal-content" id="'image.indexOf()'+'indexPicture'">';
+//     //$('#modal-picture').append(enhancedImage);
+//     // src="data:image/jpeg;base64,' + item.picture + '">
+//
+//
+//
+//     // image.onclick = function(){
+//     //     modal.style.display = "block";
+//     //     modalPictureElem.src = this.src;
+//     //     //captionText.innerHTML = this.alt;
+//     //  };
+//
+//     modal.style.display = "block";
+//     modalPictureElem.src = this.src;
+//
+//
+//
+//
+// // Get the <span> element that closes the modal
+//     var span = document.getElementsByClassName("close")[0];
+//
+// // When the user clicks on <span> (x), close the modal
+//     span.onclick = function() {
+//         modal.style.display = "none";
+//     }
+//
+//
+//
+//
+//
+// }
 

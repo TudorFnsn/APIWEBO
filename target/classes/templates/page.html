@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'/>
+    <meta name='viewport' content='width=device-width, initial-scale=1'/>
+    <title>house</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'></link>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+    <link rel='stylesheet'
+          href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'></link>
+
+    <style>
+        img {
+            width: 10vh;
+            heigth: 10vh;
+        }
+
+        #buttonSideMenu {
+            width: 2%;
+            height: 40vh;
+            position: fixed;
+            padding-top: 20vh;
+            margin-top: 30vh;
+            padding-left: 0.5vw;
+            right: 0px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: aliceblue;
+        }
+
+        #sideMenu {
+            width: 30vw;
+            height: 98vh;
+            position: fixed;
+            padding-top: 9vh;
+            padding-left: 0.5vw;
+            right: 0px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: aliceblue;
+        }
+
+        #sideMenu tr {
+            width: 100%;
+        }
+
+        #sideMenu td:hover {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        #dropdownListParentCreate {
+            color: black
+        }
+
+        #dropdownListParentUpdate {
+            color: black
+        }
+
+        body {
+            background: fixed;
+            background-image: url("https://wallpaperscraft.com/image/city_street_house_sidewalk_58870_1920x1200.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        table {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: aliceblue;
+        }
+
+        #tableContainer {
+            padding-left: 5vw;
+            padding-right: 5vw
+        }
+
+        .table-hover tbody tr:hover td {
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+
+        .modal-content {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: aliceblue;
+            border-color: aliceblue;
+            border-width: 1px;
+        }
+
+        .modal {
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .table-hover tbody tr {
+            height: 10vh;
+        }
+
+        .close {
+            color: aliceblue;
+            opacity: 1;
+        }
+
+        .jumbotron {
+            color: aliceblue;
+            background-color: black;
+            padding-left: 5vw;
+        }
+
+        .btn {
+            width: 90%;
+        }
+    </style>
+
+    <script>
+
+        var apiUrl = 'http://localhost:9090/';
+        var elementsPath = 'house';
+
+        function functionGetBase64(path) {
+            return path.replace(/^data.*base64,/g, "");
+        }
+
+        function getElementsList() {
+            $('#tableHouseDTO tbody').empty();
+            $.getJSON(apiUrl + elementsPath + '/', null, function (data) {
+                $.each(data, function (index, item) {
+                    var row = '<tr>';
+                    row = row + '<td class="dataaccessType" >' + item.accessType + '</td>';
+                    row = row + '<td class="dataparentUuid" >' + item.parentUuid + '</td>';
+                    row = row + '<td class="dataname" >' + item.name + '</td>';
+                    row = row + '<td class="datalocationType" >' + item.locationType + '</td>';
+                    row = row + '<td class= "datathumbnail"><img src="data:image/jpeg;base64,' + item.thumbnail + '" >.</img></td>';
+                    row = row + '<td class="datauuid" >' + item.uuid + '</td>';
+                    row = row + '<td><button class="btn btn-primary edit-item editMenu_item">Edit</button></td>';
+                    row = row + '<td><button class="btn btn-danger remove-item deleteMenu_item">Delete</button></td>';
+                    row = row + '</tr>';
+                    $('#tableHouseDTO tbody:last-child').append(row);
+                });
+            });
+        }
+
+
+        $(document).ready(
+            function () {
+                $(document).on('dragover dragenter', ".thumbnail", function (e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+
+                });
+
+                $(document).on('drop', ".thumbnail", function (e) {
+                    var dataTransfer = e.originalEvent.dataTransfer;
+                    if (dataTransfer && dataTransfer.files.length) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        $.each(dataTransfer.files, function (i, file) {
+                            var reader = new FileReader();
+                            reader.onload = $.proxy(function (file, $holder, event) {
+                                var imgPath;
+
+                                if (file.type.match("image/jpeg")) {
+                                    imgPath = event.target.result + "";
+                                }
+
+                                $(e.target).attr('src', imgPath);
+                            }, this, file, e.target);
+
+                            reader.readAsDataURL(file);
+                        });
+                    }
+                });
+                $('#sideMenu').hide();
+                $('#buttonSideMenu').on('mouseenter', function () {
+                    $('#sideMenu').show();
+                });
+                $('#sideMenu').on('mouseleave', function () {
+                    $('#sideMenu').hide();
+                });
+                $.getJSON(apiUrl + 'city' + '/', null, function (data) {
+                    $.each(data, function (index, item) { // Iterates through a collection
+                        $("#dropdownListParentCreate").append( // Append an object to the inside of the select box
+                            $("<option></option>") // Yes you can do this.
+                                .text(item.name)
+                                .val(item.uuid)
+                        );
+                    });
+                });
+                $.getJSON(apiUrl + 'city' + '/', null, function (data) {
+                    $.each(data, function (index, item) { // Iterates through a collection
+                        $("#dropdownListParentUpdate").append( // Append an object to the inside of the select box
+                            $("<option></option>") // Yes you can do this.
+                                .text(item.name)
+                                .val(item.uuid)
+                        );
+                    });
+                });
+                getElementsList();
+                $(document).on('click', '.editMenu_item', function () {
+                    var accessTypedata = ($(this).parent().parent()).find('.dataaccessType').html();
+                    $('#editaccessType').val(accessTypedata);
+                    var parentUuiddata = ($(this).parent().parent()).find('.dataparentUuid').html();
+                    $('#dropdownListParentUpdate').val(parentUuiddata);
+                    var namedata = ($(this).parent().parent()).find('.dataname').html();
+                    $('#editname').val(namedata);
+                    var locationTypedata = ($(this).parent().parent()).find('.datalocationType').html();
+                    $('#editlocationType').val(locationTypedata);
+                    var thumbnaildata = ($(this).parent().parent()).find('img').attr('src');
+                    $('#editthumbnail').attr('src', thumbnaildata);
+                    var uuiddata = ($(this).parent().parent()).find('.datauuid').html();
+                    $('#edituuid').val(uuiddata);
+                    $('#edit-item').modal('show');
+                });
+
+                $(document).on('click', '.deleteMenu_item', function () {
+                    var uuiddata = ($(this).parent().parent()).find('.datauuid').html();
+                    $.ajax({
+                        url: apiUrl + elementsPath + '/' + uuiddata,
+                        type: 'DELETE',
+                        success: function (result) {
+                            getElementsList();
+                            alert(result);
+                        }, error: function (xhr, textStatus, errorThrown) {
+                            alert(xhr.responseText);
+                        }
+                    });
+                });
+
+                $(document).on('click', '#add_button', function () {
+                    var accessTypedata = $('#createaccessType').val();
+                    var parentUuiddata = $('#dropdownListParentCreate option:selected').val();
+                    var namedata = $('#createname').val();
+                    var locationTypedata = 'Empty';
+                    var thumbnaildata = functionGetBase64($('#createthumbnail').attr('src'));
+                    var uuiddata = 'Empty';
+
+                    var jsonCreate = '{"accessType":"' + accessTypedata + '","parentUuid":"' + parentUuiddata + '","name":"' + namedata + '","locationType":"' + locationTypedata + '","thumbnail":"' + thumbnaildata + '","uuid":"' + uuiddata + '"}';
+                    $.ajax({
+                        headers: {
+                            'Accept': 'application/json',
+                            'Content-Type': 'application/json'
+                        },
+                        url: apiUrl + elementsPath + '/',
+                        type: 'POST',
+                        data: jsonCreate,
+                        dataType: 'text',
+                        success: function (result) {
+                            getElementsList();
+                            alert(result);
+                        }
+                    });
+                });
+                $(document).on('click', '#update_button', function () {
+                    var accessTypedata = $('#editaccessType').val();
+                    var parentUuiddata = $('#dropdownListParentUpdate option:selected').val();
+                    var namedata = $('#editname').val();
+                    var locationTypedata = 'Empty';
+                    var thumbnaildata = functionGetBase64($('#editthumbnail').attr('src'));
+                    var uuiddata = $('#edituuid').val();
+
+                    var jsonEdit = '{"accessType":"' + accessTypedata + '","parentUuid":"' + parentUuiddata + '","name":"' + namedata + '","locationType":"' + locationTypedata + '","thumbnail":"' + thumbnaildata + '","uuid":"' + uuiddata + '"}';
+                    $.ajax({
+                        headers: {
+                            'Accept': 'application/json',
+                            'Content-Type': 'application/json'
+                        },
+                        url: apiUrl + elementsPath + '/' + uuiddata,
+                        type: 'POST',
+                        data: jsonEdit,
+                        dataType: 'text',
+                        success: function (result) {
+                            getElementsList();
+                            alert(result);
+                        }
+                    });
+                });
+                $(document).on('click', '#refresh_menu_button', function () {
+                    getElementsList();
+                });
+            });
+
+
+    </script>
+
+</head>
+
+<body>
+<div id='buttonSideMenu'> <</div>
+<div id='sideMenu'>
+    <table id='sideMenuOptions' class='table table-hover'>
+        <tr onclick="location.replace('/continent')">
+            <td>Continent</td>
+        </tr>
+        <tr onclick="location.replace('/country')">
+            <td>Country</td>
+        </tr>
+        <tr onclick="location.replace('/region')">
+            <td>Region</td>
+        </tr>
+        <tr onclick="location.replace('/city')">
+            <td>City</td>
+        </tr>
+        <tr onclick="location.replace('/house')">
+            <td>House</td>
+        </tr>
+        <tr onclick="location.replace('/user')">
+            <td>Users</td>
+        </tr>
+        <tr onclick="location.replace('/background')">
+            <td>Background</td>
+        </tr>
+        <tr onclick="location.replace('/')">
+            <td>Homepage</td>
+        </tr>
+        <tr onclick="location.replace('/logout')">
+            <td>Logout</td>
+        </tr>
+    </table>
+</div>
+
+<div class='jumbotron'>
+    <h1>HouseDTO
+        <small> administration</small>
+    </h1>
+</div>
+<div id='tableContainer'>
+    <table id='tableHouseDTO' class='table table-boarded table-hover'>
+        <thead>
+        <tr>
+            <th>accessType</th>
+            <th>parentUuid</th>
+            <th>name</th>
+            <th>locationType</th>
+            <th>thumbnail</th>
+            <th>uuid</th>
+            <th>
+                <button type='button' class='btn btn-success' data-toggle='modal' data-target='#create-item'
+                        id='add_menu_button'>Create Item
+                </button>
+            </th>
+            <th>
+                <button type='button' class='btn btn-success' id='refresh_menu_button'>Refresh</button>
+            </th>
+        </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>
+
+
+<div class='modal fade' id='create-item' tabindex='-1' role='dialog' aria-labelledby='myModalLabel'>
+    <div class='modal-content'>
+        <div class='modal-header'>
+            <button type='button' class='close' data-dismiss='modal' aria-label='Close'><span
+                    aria-hidden='true'>×</span></button>
+            <h4 class='modal-title' id='myModalLabel'>Create Item</h4>
+        </div>
+        <div class='modal-body'>
+            <form id='add_input'>
+                <table class='table table-hover'>
+                    <tr>
+                        <td>accessType</td>
+                        <td><input id='createaccessType' type='text' class='form-control' name="accessType">.</input>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>parentUuid</td>
+                        <td><select id="dropdownListParentCreate">
+                            <option selected disabled value="none">Select parent</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td>name</td>
+                        <td><input id='createname' type='text' class='form-control' name="name">.</input></td>
+                    </tr>
+
+                    <tr>
+                        <td>thumbnail</td>
+                        <td><img id='createthumbnail' class='thumbnail' src="">.</img></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan='2' align='center'>
+                            <div class='form-group'>
+                                <button type='button' class='btn btn-primary' id='add_button' data-dismiss='modal'
+                                        aria-label='Close'>Add
+                                </button>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+</div>
+<div class='modal fade' id='edit-item' tabindex='-1' role='dialog' aria-labelledby='myModalLabel'>
+    <div class='modal-content'>
+        <div class='modal-header'>
+            <button type='button' class='close' data-dismiss='modal' aria-label='Close'><span
+                    aria-hidden='true'>×</span></button>
+            <h4 class='modal-title' id='myEditLabel'>Edit Item</h4>
+        </div>
+        <div class='modal-body'>
+            <form id='edit_input'>
+                <table class='table table-hover'>
+                    <tr>
+                        <td>accessType</td>
+                        <td><input id='editaccessType' type='text' class='form-control' name="accessType">.</input></td>
+                    </tr>
+                    <tr>
+                        <td>parentUuid</td>
+                        <td><select id="dropdownListParentUpdate">
+                            <option selected disabled value="none">Select parent</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td>name</td>
+                        <td><input id='editname' type='text' class='form-control' name="name">.</input></td>
+                    </tr>
+                    <tr>
+                        <td>locationType</td>
+                        <td><input id='editlocationType' type='text' class='form-control' name="locationType"
+                                   readonly="readonly">.</input></td>
+                    </tr>
+                    <tr>
+                        <td>thumbnail</td>
+                        <td><img id='editthumbnail' class='thumbnail' src="">.</img></td>
+                    </tr>
+                    <tr>
+                        <td>uuid</td>
+                        <td><input id='edituuid' type='text' class='form-control' name="uuid"
+                                   readonly="readonly">.</input></td>
+                    </tr>
+                    <tr>
+                        <td colspan='2' align='center'>
+                            <div class='form-group'>
+                                <button type='button' class='btn btn-primary' id='update_button' data-dismiss='modal'
+                                        aria-label='Close'>Edit
+                                </button>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
