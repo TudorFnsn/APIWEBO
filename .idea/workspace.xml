@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64569b9d-340b-41a5-af09-be2f8b93a22d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/pages/MachinePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/MachinePage.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -122,8 +121,8 @@
       <file leaf-file-name="MachinePage.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/pages/MachinePage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="284" column="4" selection-start-line="284" selection-start-column="4" selection-end-line="284" selection-end-column="4" />
+            <state relative-caret-position="318">
+              <caret line="285" column="4" selection-start-line="285" selection-start-column="4" selection-end-line="285" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -512,12 +511,12 @@
       <workItem from="1525691385868" duration="12060000" />
       <workItem from="1525765686576" duration="3309000" />
       <workItem from="1525783312788" duration="218000" />
-      <workItem from="1525783577737" duration="5696000" />
+      <workItem from="1525783577737" duration="5797000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="306749000" />
+    <option name="totallyTimeSpent" value="306850000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -551,9 +550,9 @@
       <window_info anchor="bottom" id="Java Enterprise" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.3287483" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.48142165" visible="true" weight="0.31862068" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.48142165" weight="0.31862068" />
       <window_info anchor="bottom" id="Spring" order="4" weight="0.3287483" />
-      <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.49676898" weight="0.31724137" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="5" sideWeight="0.49676898" visible="true" weight="0.31724137" />
       <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49190283" visible="true" weight="0.21405493" />
       <window_info anchor="right" id="Bean Validation" order="4" weight="0.32956383" />
       <window_info id="Web" order="3" sideWeight="0.5080972" side_tool="true" weight="0.13327949" />
@@ -883,8 +882,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/pages/MachinePage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="284" column="4" selection-start-line="284" selection-start-column="4" selection-end-line="284" selection-end-column="4" />
+        <state relative-caret-position="318">
+          <caret line="285" column="4" selection-start-line="285" selection-start-column="4" selection-end-line="285" selection-end-column="4" />
         </state>
       </provider>
     </entry>
