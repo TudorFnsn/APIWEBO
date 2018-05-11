@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64569b9d-340b-41a5-af09-be2f8b93a22d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/MachineController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/MachineController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/MachineService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/MachineService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/pages/MachinePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/MachinePage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sources/machine/MachineJS.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sources/machine/MachineJS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/MachinePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/MachinePage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Controller/MachineController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Controller/MachineController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Service/MachineService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Service/MachineService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sources/machine/MachineJS.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sources/machine/MachineJS.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,15 +70,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MachineController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MachineController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/MachineController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="50" column="43" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="43" />
+            <state relative-caret-position="210">
+              <caret line="138" column="13" lean-forward="true" selection-start-line="138" selection-start-column="13" selection-end-line="138" selection-end-column="13" />
               <folding>
-                <element signature="e#4272#4273#0" expanded="true" />
-                <element signature="e#4328#4329#0" expanded="true" />
+                <element signature="e#3852#3853#0" expanded="true" />
+                <element signature="e#3901#3902#0" expanded="true" />
+                <element signature="e#4155#4156#0" expanded="true" />
+                <element signature="e#4198#4199#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MachineService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/MachineService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2445">
+              <caret line="163" column="5" selection-start-line="163" selection-start-column="5" selection-end-line="163" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -78,20 +97,8 @@
       <file leaf-file-name="EmployeeController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/EmployeeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="195">
               <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Status.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Enumerable/Status.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -99,7 +106,7 @@
       <file leaf-file-name="MachineCSS.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/sources/machine/MachineCSS.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
+            <state relative-caret-position="1530">
               <caret line="102" selection-start-line="102" selection-end-line="108" />
             </state>
           </provider>
@@ -108,21 +115,41 @@
       <file leaf-file-name="MachineJS.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/sources/machine/MachineJS.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="413" column="22" selection-start-line="413" selection-start-column="22" selection-end-line="413" selection-end-column="22" />
+            <state relative-caret-position="132">
+              <caret line="590" column="20" selection-start-line="590" selection-start-column="9" selection-end-line="590" selection-end-column="20" />
               <folding>
-                <marker date="1525786398000" expanded="true" signature="1670:1692" ph="data:" />
-                <marker date="1525786398000" expanded="true" signature="1670:1693" ph="data:" />
+                <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
+                <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
+                <marker date="1526039068000" expanded="true" signature="1670:1692" ph="data:" />
+                <marker date="1526039068000" expanded="true" signature="1670:1693" ph="data:" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MachinePage.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MachinePage.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/pages/MachinePage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="285" column="4" selection-start-line="285" selection-start-column="4" selection-end-line="285" selection-end-column="4" />
+            <state relative-caret-position="148">
+              <caret line="196" column="42" lean-forward="true" selection-start-line="196" selection-start-column="42" selection-end-line="196" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginPage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/pages/LoginPage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="80" selection-start-line="7" selection-start-column="80" selection-end-line="7" selection-end-column="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ViewConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/web/ViewConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -143,14 +170,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>create</find>
-      <find>getBase</find>
-      <find>.picture</find>
-      <find>createpictu</find>
-      <find>imageBo</find>
-      <find>img</find>
-      <find>span cl</find>
-      <find>document.ge</find>
       <find>modal-context</find>
       <find>modalPi</find>
       <find>refre</find>
@@ -173,6 +192,14 @@
       <find>showPicture</find>
       <find>img-res</find>
       <find>showPi</find>
+      <find>elementsPath</find>
+      <find>getElementsList</find>
+      <find>refr</find>
+      <find>refreshIP</find>
+      <find>upda</find>
+      <find>i</find>
+      <find>datapi</find>
+      <find>getElements</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -231,15 +258,15 @@
         <option value="$PROJECT_DIR$/package-lock.json" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/SparePartRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/MachineRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/MachineService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/SparePartController.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/SparePartService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/web/ViewConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/MachineController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/page.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/sources/machine/MachineJS.js" />
         <option value="$PROJECT_DIR$/src/main/resources/sources/machine/MachineCSS.css" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/MachineService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/pages/MachinePage.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/sources/machine/MachineJS.js" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/MachineController.java" />
       </list>
     </option>
   </component>
@@ -275,7 +302,7 @@
       <path value="$PROJECT_DIR$/node_modules/bootstrap-select/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -287,6 +314,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -325,6 +354,24 @@
               <item name="APIWEBO" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tudorfnsn" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="APIWebomatic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APIWEBO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tudorfnsn" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="APIWebomatic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APIWEBO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -347,9 +394,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -511,12 +556,13 @@
       <workItem from="1525691385868" duration="12060000" />
       <workItem from="1525765686576" duration="3309000" />
       <workItem from="1525783312788" duration="218000" />
-      <workItem from="1525783577737" duration="5797000" />
+      <workItem from="1525783577737" duration="14200000" />
+      <workItem from="1526033962392" duration="3858000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="306850000" />
+    <option name="totallyTimeSpent" value="319111000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -550,18 +596,18 @@
       <window_info anchor="bottom" id="Java Enterprise" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.3287483" />
-      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.48142165" weight="0.31862068" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.48142165" visible="true" weight="0.31862068" />
       <window_info anchor="bottom" id="Spring" order="4" weight="0.3287483" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="5" sideWeight="0.49676898" visible="true" weight="0.31724137" />
+      <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.49676898" weight="0.31724137" />
       <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49190283" visible="true" weight="0.21405493" />
       <window_info anchor="right" id="Bean Validation" order="4" weight="0.32956383" />
       <window_info id="Web" order="3" sideWeight="0.5080972" side_tool="true" weight="0.13327949" />
-      <window_info anchor="bottom" id="Find" order="9" weight="0.3287483" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
       <window_info anchor="right" id="Commander" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Database Console" order="7" weight="0.32965517" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.3287483" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
@@ -583,22 +629,22 @@
       <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.3287483" />
       <window_info anchor="right" id="Commander" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.5177706" side_tool="true" weight="0.31862068" />
-      <window_info anchor="bottom" id="Messages" order="1" sideWeight="0.49676898" weight="0.24413793" />
+      <window_info anchor="bottom" id="Statistic" order="10" weight="0.32827586" />
       <window_info anchor="bottom" id="TODO" order="16" weight="0.3287483" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="2" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.3287483" />
       <window_info anchor="right" id="Maven Projects" order="0" weight="0.32956383" />
       <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49190283" visible="true" weight="0.134895" />
+      <window_info anchor="bottom" id="Messages" order="1" sideWeight="0.49676898" weight="0.24413793" />
       <window_info anchor="right" id="Database" order="1" visible="true" weight="0.25121164" />
       <window_info anchor="bottom" id="Message" order="9" />
       <window_info id="Web" order="3" sideWeight="0.5080972" side_tool="true" weight="0.13327949" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info anchor="bottom" id="Statistic" order="10" weight="0.32827586" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Inspection" order="15" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="11" weight="0.3287483" />
       <window_info anchor="right" id="Bean Validation" order="4" weight="0.32956383" />
@@ -731,13 +777,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/MachineService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="158" lean-forward="true" selection-start-line="158" selection-end-line="158" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/sources/bootstrap/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-122265" />
@@ -771,20 +810,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/pages/LoginPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="80" selection-start-line="7" selection-start-column="80" selection-end-line="7" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/web/ViewConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/sources/navbar/navbar.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -806,38 +831,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Enumerable/Status.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/machine.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3510">
           <caret line="234" column="36" lean-forward="true" selection-start-line="234" selection-start-column="36" selection-end-line="234" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/MachineController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="50" column="43" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="43" />
-          <folding>
-            <element signature="e#4272#4273#0" expanded="true" />
-            <element signature="e#4328#4329#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/EmployeeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -862,28 +859,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/pages/LoginPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="80" selection-start-line="7" selection-start-column="80" selection-end-line="7" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/web/ViewConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Enumerable/Status.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/EmployeeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/sources/machine/MachineCSS.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
+        <state relative-caret-position="1530">
           <caret line="102" selection-start-line="102" selection-end-line="108" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/machine/MachineJS.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/MachineService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="413" column="22" selection-start-line="413" selection-start-column="22" selection-end-line="413" selection-end-column="22" />
-          <folding>
-            <marker date="1525786398000" expanded="true" signature="1670:1692" ph="data:" />
-            <marker date="1525786398000" expanded="true" signature="1670:1693" ph="data:" />
-          </folding>
+        <state relative-caret-position="2445">
+          <caret line="163" column="5" selection-start-line="163" selection-start-column="5" selection-end-line="163" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/pages/MachinePage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="285" column="4" selection-start-line="285" selection-start-column="4" selection-end-line="285" selection-end-column="4" />
+        <state relative-caret-position="148">
+          <caret line="196" column="42" lean-forward="true" selection-start-line="196" selection-start-column="42" selection-end-line="196" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/machine/MachineJS.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="590" column="20" selection-start-line="590" selection-start-column="9" selection-end-line="590" selection-end-column="20" />
+          <folding>
+            <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
+            <marker date="1526039068000" expanded="true" signature="1670:1692" ph="data:" />
+            <marker date="1526039068000" expanded="true" signature="1670:1693" ph="data:" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/MachineController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="138" column="13" lean-forward="true" selection-start-line="138" selection-start-column="13" selection-end-line="138" selection-end-column="13" />
+          <folding>
+            <element signature="e#3852#3853#0" expanded="true" />
+            <element signature="e#3901#3902#0" expanded="true" />
+            <element signature="e#4155#4156#0" expanded="true" />
+            <element signature="e#4198#4199#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

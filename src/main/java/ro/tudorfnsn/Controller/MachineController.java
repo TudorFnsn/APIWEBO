@@ -131,6 +131,22 @@ public class MachineController
         machineService.moveTo(id, status);
     }
 
+    // am inversat path-ul pentru ca in JS ne luam dupa status -- daca face requestul pe moveWAITING trece IP in WAITING
+    //works
+    @RequestMapping(value="/moveWAITING/{id}", method = RequestMethod.POST)
+    public void moveToIP(@PathVariable Long id)
+    {
+        machineService.moveToIP(id);
+    }
+
+    // am inversat path-ul pentru ca in JS ne luam dupa status -- daca face requestul pe moveIN_PROGRESS trece WAITING in IP
+    //works
+    @RequestMapping(value = "/moveIN_PROGRESS/{id}", method = RequestMethod.POST)
+    public void moveToFinalized(@PathVariable Long id)
+    {
+        machineService.moveToFinalizaed(id);
+    }
+
     @RequestMapping(value = "/getAllStatus/", method = RequestMethod.GET)
     public List<Status> getAllStatus()
     {

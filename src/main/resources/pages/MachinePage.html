@@ -130,6 +130,7 @@
                         <td>Id</td>
                         <td><input id='createid' type='text' class='form-control' name="id"> </input></td>
                     </tr>
+                    <tr>
                         <td>Picture</td>
                     <td><img id="createpicture" class="imgPic thumbnail" src="" onerror="this.src='/sources/images/User-Interface-Plus-icon.png'"></td>
                     </tr>
@@ -193,7 +194,7 @@
                     </tr>
                     <tr>
                         <td>Picture</td>
-                        <td><input id='editpicture' type='text' class='form-control' name="picture">.</input></td>
+                        <td><img id="editpicture" class="imgPic thumbnail" src="" onerror="this.src='/sources/images/User-Interface-Plus-icon.png'"></td>
                     </tr>
                     <tr>
                         <td>Name</td>
@@ -227,6 +228,9 @@
                             <div class='form-group'>
                                 <button type='button' class='btn btn-primary' id='update_button' data-dismiss='modal'
                                         aria-label='Close'>Edit
+                                </button>
+                                <button type='button' class='btn btn-warning' id='move_button' data-dismiss='modal'
+                                        aria-label='Close'>Move
                                 </button>
                             </div>
                         </td>

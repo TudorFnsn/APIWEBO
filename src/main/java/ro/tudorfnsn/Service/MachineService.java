@@ -149,6 +149,19 @@ public class MachineService
         machineRepository.save(oldmachine);
     }
 
+    public void moveToIP(Long id)
+    {
+        Machine oldMachine = machineRepository.findFirstById(id);
+        oldMachine.setStatus(Status.IN_PROGRESS);
+        machineRepository.save(oldMachine);
+    }
+
+    public void moveToFinalizaed(Long id)
+    {
+        Machine oldMachine = machineRepository.findFirstById(id);
+        oldMachine.setStatus(Status.FINALIZED);
+        machineRepository.save(oldMachine);
+    }
     public List<DTOSparePart> getSparePartOf(Long id)
     {
         Machine machine = machineRepository.findFirstById(id);

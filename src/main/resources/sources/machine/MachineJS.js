@@ -73,7 +73,7 @@ function getElementsListWaiting() {
         $.each(data, function (index, item) {
             var row = '<tr>';
             row = row + '<td class="dataid" >' + item.id + '</td>';
-            row = row + '<td class="datapicture" >' + item.picture + '</td>';
+            row = row + '<td class="datapicture"><img class="imgPic" src="data:image/jpeg;base64,' + item.picture + '"></td>';
             row = row + '<td class="dataname" >' + item.name + '</td>';
             row = row + '<td class="dataseries" >' + item.series + '</td>';
             row = row + '<td class="datastatus" >' + item.status + '</td>';
@@ -99,7 +99,7 @@ function getElementsListFinished() {
         $.each(data, function (index, item) {
             var row = '<tr>';
             row = row + '<td class="dataid" >' + item.id + '</td>';
-            row = row + '<td class="datapicture" >' + item.picture + '</td>';
+            row = row + '<td class="datapicture"><img class="imgPic" src="data:image/jpeg;base64,' + item.picture + '"></td>';
             row = row + '<td class="dataname" >' + item.name + '</td>';
             row = row + '<td class="dataseries" >' + item.series + '</td>';
             row = row + '<td class="datastatus" >' + item.status + '</td>';
@@ -305,8 +305,8 @@ $(document).ready(
         $(document).on('click', '.editMenu_item', function () {
             var iddata = ($(this).parent().parent()).find('.dataid').html();
             $('#editid').val(iddata);
-            var picturedata = ($(this).parent().parent()).find('.datapicture').html();
-            $('#editpicture').val(picturedata);
+            var picturedata = ($(this).parent().parent()).find('.imgPic').attr('src');
+            $('#editpicture').attr('src', picturedata);
             var namedata = ($(this).parent().parent()).find('.dataname').html();
             $('#editname').val(namedata);
             var seriesdata = ($(this).parent().parent()).find('.dataseries').html();
@@ -341,7 +341,7 @@ $(document).ready(
 
         $(document).on('click', '#update_button', function () {
             var iddata = $('#editid').val();
-            var picturedata = $('#editpicture').val();
+            var picturedata = getBase64($('#editpicture').attr('src'));
             var namedata = $('#editname').val();
             var seriesdata = $('#editseries').val();
             var statusdata = $('#editstatus').val();
@@ -350,6 +350,7 @@ $(document).ready(
             var owner_iddata = $('#editowner_id').val();
 
             var jsonEdit = '{"id":"' + iddata + '","picture":"' + picturedata + '","name":"' + namedata + '","series":"' + seriesdata + '","status":"' + statusdata + '","sparePartIdList":[' + sparePartIdListdata + '],"arrivalDate":"' + arrivalDatedata + '","owner_id":"' + owner_iddata + '"}';
+            console.log(jsonEdit);
             $.ajax({
                 headers: {
                     'Accept': 'application/json',
@@ -360,7 +361,7 @@ $(document).ready(
                 data: jsonEdit,
                 dataType: 'text',
                 success: function (result) {
-                    getElementsList();
+                    getElements(stat);
                     alert(result);
                     //console.log(document.status.toString());
                 }
@@ -415,6 +416,35 @@ $(document).ready(
 
 
 
+        });
+
+
+        $(document).on('click', '#move_button', function () {
+            var iddata = $('#editid').val();
+            var picturedata = $('#editpicture').val();
+            var namedata = $('#editname').val();
+            var seriesdata = $('#editseries').val();
+            var statusdata = $('#editstatus').val();
+            var sparePartIdListdata = $('#editsparePartIdList').val();
+            var arrivalDatedata = $('#editarrivalDate').val();
+            var owner_iddata = $('#editowner_id').val();
+
+            var jsonEdit = '{"id":"' + iddata + '","picture":"' + picturedata + '","name":"' + namedata + '","series":"' + seriesdata + '","status":"' + statusdata + '","sparePartIdList":[' + sparePartIdListdata + '],"arrivalDate":"' + arrivalDatedata + '","owner_id":"' + owner_iddata + '"}';
+            $.ajax({
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                },
+                url: apiUrl + elementsPath + '/move'+ stat +'/'+ iddata,
+                type: 'POST',
+                data: jsonEdit,
+                dataType: 'text',
+                success: function (result) {
+                    getElements(stat);
+                    alert(result);
+                    //console.log(document.status.toString());
+                }
+            });
         });
 
     });
