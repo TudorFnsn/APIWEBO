@@ -3,6 +3,7 @@ package ro.tudorfnsn.Controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import ro.tudorfnsn.DataTransferObject.DTOSparePart;
+import ro.tudorfnsn.Enumerable.Origin;
 import ro.tudorfnsn.Service.SparePartService;
 
 import java.util.List;
@@ -37,6 +38,25 @@ public class SparePartController
         sparePartService.createSparePart(dtoSparePart);
     }
 
+
+    //works
+    @RequestMapping(value = "/createROMANIA", method = RequestMethod.POST)
+    public void createRomanian(@RequestBody DTOSparePart dtoSparePart)
+    {
+        dtoSparePart.setOrigin(Origin.ROMANIA);
+        sparePartService.createSparePartRomania(dtoSparePart);
+    }
+
+    //works
+    @RequestMapping(value = "/createGERMANY", method = RequestMethod.POST)
+    public void createGerman(@RequestBody DTOSparePart dtoSparePart)
+    {
+        dtoSparePart.setOrigin(Origin.GERMANY);
+        sparePartService.createSparePartRomania(dtoSparePart);
+    }
+
+
+
     //works
     @RequestMapping(value = "/getById/{id}", method = RequestMethod.GET)
     public DTOSparePart getById(@PathVariable Long id)
@@ -58,7 +78,7 @@ public class SparePartController
 
     //works
     @RequestMapping(value = "/getByOrigin/{origin}", method = RequestMethod.GET)
-    public List<DTOSparePart> getByOrigin(@PathVariable String origin)
+    public List<DTOSparePart> getByOrigin(@PathVariable Origin origin)
     {
         List<DTOSparePart> dtoSparePartList = sparePartService.getByOrigin(origin);
 

@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import ro.tudorfnsn.Converter.ConvertSparePart;
 import ro.tudorfnsn.DataTransferObject.DTOSparePart;
+import ro.tudorfnsn.Enumerable.Origin;
 import ro.tudorfnsn.Model.SparePart;
 import ro.tudorfnsn.Repository.SparePartRepository;
 
@@ -28,6 +29,20 @@ public class SparePartService
     {
         SparePart sparePart = convertSparePart.OneToModel(dtoSparePart);
 
+        sparePartRepository.save(sparePart);
+    }
+
+    public void createSparePartRomania(DTOSparePart dtoSparePart)
+    {
+        SparePart sparePart = convertSparePart.OneToModel(dtoSparePart);
+        sparePart.setOrigin(Origin.ROMANIA);
+        sparePartRepository.save(sparePart);
+    }
+
+    public void createSparePartGermany(DTOSparePart dtoSparePart)
+    {
+        SparePart sparePart = convertSparePart.OneToModel(dtoSparePart);
+        sparePart.setOrigin(Origin.GERMANY);
         sparePartRepository.save(sparePart);
     }
 
@@ -59,7 +74,7 @@ public class SparePartService
         return dtoSparePart;
     }
 
-    public List<DTOSparePart> getByOrigin(String origin)
+    public List<DTOSparePart> getByOrigin(Origin origin)
     {
         List<SparePart> sparePartList = sparePartRepository.findByOrigin(origin);
 
@@ -93,4 +108,6 @@ public class SparePartService
 
         sparePartRepository.save(newSparePart);
     }
+
+
 }

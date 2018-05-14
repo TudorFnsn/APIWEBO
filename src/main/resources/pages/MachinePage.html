@@ -66,7 +66,7 @@
                     <li><a onclick="getElementsListFinished()">Finished Machines</a></li>
                 </ul>
             </li>
-            <li><a href="#">Spare Parts</a></li>
+            <li><a href="/spareparts">Spare Parts</a></li>
             <li><a href="#">Bills</a></li>
             <li><a href="#">Employees</a></li>
             <li><a href="#">News</a></li>
@@ -146,11 +146,16 @@
                         <!--<td>Status</td>-->
                         <!--<td><select id='createstatus_id' name="createstatus_id" class='form-control'> </select></td>-->
                     <!--</tr>-->
+                    <!--<tr>-->
+                        <!--<td>Spare Parts</td>-->
+                        <!--<td><select  name="createsparePartIdList" id='createsparePartIdList' class="form-control mdb-select colorful-select dropdown-primary" multiple ></select>-->
+                        <!--</td>-->
+
+                    <!--</tr>-->
                     <tr>
                         <td>Spare Parts</td>
-                        <td><select  name="createsparePartIdList" id='createsparePartIdList' class="form-control mdb-select colorful-select dropdown-primary" multiple ></select>
-                        </td>
-
+                        <td><button class="btn sparePartsShowAdd-item"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span></button>
+                        <!--<td><button onclick="return listToAddSpareParts()">Z</button></td>-->
                     </tr>
                     <tr>
                         <td>Arrival Date</td>
@@ -257,6 +262,7 @@
                         <th>Picture</th>
                         <th>Name</th>
                         <th>Series</th>
+                        <th>Quantity</th>
                      </tr>
                 </thead>
                 <tbody></tbody>
@@ -270,7 +276,40 @@
 </div>
 
 
-<!--****---->
+<!--*** Start Spare Parts Select ***-->
+
+<div class='modal modal-lg fade' id='sparePartsAdd-item' tabindex='-1' role='dialog' aria-labelledby='myModalLabel'>
+    <div class='modal-content'>
+        <div class='modal-header'>
+            <button type='button' class='close' data-dismiss='modal' aria-label='Close'><span
+                    aria-hidden='true'>X</span></button>
+            <h4 class='modal-title' id='mySparePartsLabelAdd'>Add Spare Parts</h4>
+        </div>
+        <div class='modal-body'>
+            <table id="tableSparePartsAdd" class='table'>
+                <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Picture</th>
+                    <th>Name</th>
+                    <th>Series</th>
+                    <th>Quantity</th>
+                    <th>Add</th>
+                </tr>
+                </thead>
+                <tbody></tbody>
+
+            </table>
+
+        </div>
+
+
+    </div>
+</div>
+
+<!--*** End Spare Parts Select ***-->
+
+<!--*** Start Image Enhancer ***---->
 <div class='modal fade' id='showPicture-item' tabindex='-1' role='dialog' aria-labelledby='myModalLabel'>
     <div  class='modal-content'>
         <div class='modal-header'>
@@ -288,6 +327,7 @@
 </div>
 <br>
 <br>
+<!--*** End Image Enhancer ***-->
 
 <!--*** End Content ***-->
 

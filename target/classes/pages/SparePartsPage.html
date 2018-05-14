@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
     <link rel="stylesheet" href="../sources/navbar/navbarCSS.css" >
-    <link rel="stylesheet" href="/sources/machine/MachineCSS.css">
+    <link rel="stylesheet" href="/sources/spareparts/SparePartsCSS.css">
 
 
 
@@ -22,7 +22,7 @@
     <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
     <!--<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>-->
     <script type="text/javascript" src="/sources/navbar/navbar.js"></script>
-    <script src="/sources/machine/MachineJS.js"></script>
+    <script src="/sources/spareparts/SparePartsJS.js"></script>
     <!--<script src="/sources/machine/MachineCSS.css" type="text/css"></script>-->
     <!--<script src="/sources/navbar/navbarCSS.css"></script>-->
 
@@ -55,18 +55,18 @@
                     <span class="glyphicon glyphicon-home fa-lg" aria-hidden="true"></span>
                 </a>
             </li>
+            <li><a href="/machine">Machines</a></li>
             <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Machines
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Spare Parts
                     <span class="caret"></span>
                 </a>
                 <ul class="dropdown-menu">
-                    <li><a id="id1" onclick="getElementsListIP()">Machines In Progress</a></li>
-                    <li><a onclick="getElementsListWaiting()">Machine Waiting</a></li>
+                    <li><a id="id1" onclick="getElementsListRomania()">Romanian Spare Parts</a></li>
+                    <li><a onclick="getElementsListGermany()">German Spare Parts</a></li>
                     <li role="separator" class="divider"></li>
-                    <li><a onclick="getElementsListFinished()">Finished Machines</a></li>
+                    <li><a onclick="getElementsList()">All Spare Parts</a></li>
                 </ul>
             </li>
-            <li><a href="/spareparts">Spare Parts</a></li>
             <li><a href="#">Bills</a></li>
             <li><a href="#">Employees</a></li>
             <li><a href="#">News</a></li>
@@ -90,20 +90,19 @@
 <!--*** Main Table ***-->
 
 <div id='tableContainer'>
-    <table id='tableDTOMachine' class='table table-striped table-hover'>
+    <table id='tableDTOSparePart' class='table table-boarded table-hover'>
         <thead>
         <tr>
             <th>Id</th>
             <th>Picture</th>
             <th>Name</th>
             <th>Series</th>
-            <th>Status</th>
-            <th>Spare Parts</th>
-            <th>Arrival Date</th>
-            <th>Owner</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Origin</th>
             <th>
                 <button type='button' class='btn menuBtn btn-success' data-toggle='modal' data-target='#create-item'
-                        id='add_menu_button'>Add Machine
+                        id='add_menu_button'>Add Spare Part
                 </button>
             </th>
             <th>
@@ -125,47 +124,38 @@
         </div>
         <div class='modal-body'>
             <form id='add_input'>
-                <table class='table '>
+                <table class='table table-hover'>
                     <tr>
                         <td>Id</td>
-                        <td><input id='createid' type='text' class='form-control' name="id"> </input></td>
+                        <td><input id='createid' type='text' class='form-control' name="id">.</input></td>
                     </tr>
                     <tr>
                         <td>Picture</td>
-                    <td><img id="createpicture" class="imgPic thumbnail" src="" onerror="this.src='/sources/images/User-Interface-Plus-icon.png'"></td>
+                        <td><img id="createpicture" class="imgPic thumbnail" src="" onerror="this.src='/sources/images/User-Interface-Plus-icon.png'"></td>
                     </tr>
                     <tr>
                         <td>Name</td>
-                        <td><input id='createname' type='text' class='form-control' name="name"> </input></td>
+                        <td><input id='createname' type='text' class='form-control' name="name">.</input></td>
                     </tr>
                     <tr>
                         <td>Series</td>
-                        <td><input id='createseries' type='text' class='form-control' name="series"> </input></td>
+                        <td><input id='createseries' type='text' class='form-control' name="series">.</input></td>
                     </tr>
-                    <!--<tr style="visibility: hidden">-->
-                        <!--<td>Status</td>-->
-                        <!--<td><select id='createstatus_id' name="createstatus_id" class='form-control'> </select></td>-->
+                    <tr>
+                        <td>Price</td>
+                        <td><input id='createprice' type='text' class='form-control' name="price">.</input></td>
+                    </tr>
+                    <tr>
+                        <td>Quantity</td>
+                        <td><input id='createquantity' type='text' class='form-control' name="quantity">.</input></td>
+                    </tr>
+                    <!--<tr id="originId">-->
+                        <!--<td>Origin</td>-->
+                        <!--<td><input id='createorigin' type='text' class='form-control' name="origin">.</input></td>-->
                     <!--</tr>-->
-                    <!--<tr>-->
-                        <!--<td>Spare Parts</td>-->
-                        <!--<td><select  name="createsparePartIdList" id='createsparePartIdList' class="form-control mdb-select colorful-select dropdown-primary" multiple ></select>-->
-                        <!--</td>-->
-
-                    <!--</tr>-->
-                    <tr>
-                        <td>Spare Parts</td>
-                        <td><button class="btn sparePartsShowAdd-item"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span></button>
-                        <!--<td><button onclick="return listToAddSpareParts()">Z</button></td>-->
-                    </tr>
-                    <tr>
-                        <td>Arrival Date</td>
-                        <td><input id='createarrivalDate' type='text' class='form-control' name="arrivalDate">.</input>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Owner</td>
-                        <!--<td><input id='createowner_id' type='text' class='form-control' name="owner_id">.</input></td>-->
-                        <td><select id='createowner_id' name='owner_id' class='form-control'></select></td>
+                    <tr id="originId">
+                        <td>Origin</td>
+                        <td><select id='createorigin' name='origin' class='form-control'></select></td>
                     </tr>
                     <tr>
                         <td colspan='2' align='center'>
@@ -210,32 +200,22 @@
                         <td><input id='editseries' type='text' class='form-control' name="series">.</input></td>
                     </tr>
                     <tr>
-                        <td>Status</td>
-                        <td><input id='editstatus' type='text' class='form-control' name="status">.</input></td>
+                        <td>Price</td>
+                        <td><input id='editprice' type='text' class='form-control' name="price">.</input></td>
                     </tr>
                     <tr>
-                        <td>Spare Parts</td>
-                        <td><select name="editsparePartIdList" id='editsparePartIdList' class="chosen-select form-control dropdown-primary" multiple searchable="Search here.."></select>
-                        </td>
-
+                        <td>Quantity</td>
+                        <td><input id='editquantity' type='text' class='form-control' name="quantity">.</input></td>
                     </tr>
                     <tr>
-                        <td>Arrival Date</td>
-                        <td><input id='editarrivalDate' type='text' class='form-control' name="arrivalDate">.</input>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Owner</td>
-                        <td><select id='editowner_id' name='owner_id' class='form-control'></select>.</input></td>
+                        <td>Origin</td>
+                        <td><input id='editorigin' type='text' class='form-control' name="origin">.</input></td>
                     </tr>
                     <tr>
                         <td colspan='2' align='center'>
                             <div class='form-group'>
                                 <button type='button' class='btn btn-primary' id='update_button' data-dismiss='modal'
                                         aria-label='Close'>Edit
-                                </button>
-                                <button type='button' class='btn btn-warning' id='move_button' data-dismiss='modal'
-                                        aria-label='Close'>Move
                                 </button>
                             </div>
                         </td>
@@ -246,70 +226,7 @@
     </div>
 </div>
 
-<!--*** Show Spare Parts ***-->
-<div class='modal modal-lg fade' id='spareParts-item' tabindex='-1' role='dialog' aria-labelledby='myModalLabel'>
-    <div class='modal-content'>
-        <div class='modal-header'>
-            <button type='button' class='close' data-dismiss='modal' aria-label='Close'><span
-                    aria-hidden='true'>X</span></button>
-            <h4 class='modal-title' id='mySparePartsLabel'>Spare Parts</h4>
-        </div>
-        <div class='modal-body'>
-            <table id="tableSpareParts" class='table'>
-                <thead>
-                    <tr>
-                        <th>Id</th>
-                        <th>Picture</th>
-                        <th>Name</th>
-                        <th>Series</th>
-                        <th>Quantity</th>
-                     </tr>
-                </thead>
-                <tbody></tbody>
-
-            </table>
-
-        </div>
-
-
-    </div>
-</div>
-
-
-<!--*** Start Spare Parts Select ***-->
-
-<div class='modal modal-lg fade' id='sparePartsAdd-item' tabindex='-1' role='dialog' aria-labelledby='myModalLabel'>
-    <div class='modal-content'>
-        <div class='modal-header'>
-            <button type='button' class='close' data-dismiss='modal' aria-label='Close'><span
-                    aria-hidden='true'>X</span></button>
-            <h4 class='modal-title' id='mySparePartsLabelAdd'>Add Spare Parts</h4>
-        </div>
-        <div class='modal-body'>
-            <table id="tableSparePartsAdd" class='table'>
-                <thead>
-                <tr>
-                    <th>Id</th>
-                    <th>Picture</th>
-                    <th>Name</th>
-                    <th>Series</th>
-                    <th>Quantity</th>
-                    <th>Add</th>
-                </tr>
-                </thead>
-                <tbody></tbody>
-
-            </table>
-
-        </div>
-
-
-    </div>
-</div>
-
-<!--*** End Spare Parts Select ***-->
-
-<!--*** Start Image Enhancer ***---->
+<!--*** Image Enhancer ***---->
 <div class='modal fade' id='showPicture-item' tabindex='-1' role='dialog' aria-labelledby='myModalLabel'>
     <div  class='modal-content'>
         <div class='modal-header'>
@@ -327,7 +244,6 @@
 </div>
 <br>
 <br>
-<!--*** End Image Enhancer ***-->
 
 <!--*** End Content ***-->
 

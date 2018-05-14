@@ -1,11 +1,11 @@
 package ro.tudorfnsn.Model;
 
 import lombok.*;
+import ro.tudorfnsn.Enumerable.Origin;
 import ro.tudorfnsn.Model.Element.MechanicalElement;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Table(name = "sparePart")
@@ -23,9 +23,16 @@ public class SparePart extends MechanicalElement
     private Integer quantity;
 
     @Column
-    private String origin;
+    private Origin origin;
 
-    public SparePart(String picture, String name, String series, Float price, Integer quantity, String origin)
+    //new
+    //@ManyToMany(mappedBy = "sparePartsList",cascade = CascadeType.PERSIST)
+    //private List<Machine> machineList;
+    @ManyToMany(fetch = FetchType.LAZY, cascade = {CascadeType.PERSIST, CascadeType.MERGE}, mappedBy = "sparePartsList")
+    private List<Machine> machineList;
+
+
+    public SparePart(String picture, String name, String series, Float price, Integer quantity, Origin origin)
     {
         super(picture,name,series);
         this.price = price;

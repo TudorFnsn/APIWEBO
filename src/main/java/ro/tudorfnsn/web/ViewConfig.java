@@ -20,6 +20,7 @@ public class ViewConfig extends WebMvcConfigurerAdapter
     {
         registry.addViewController("/machine").setViewName("MachinePage");
         registry.addViewController("/").setViewName("LoginPage");
+        registry.addViewController("/spareparts").setViewName("SparePartsPage");
     }
 
     @Override

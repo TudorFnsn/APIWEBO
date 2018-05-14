@@ -30,8 +30,20 @@ public class Machine extends MechanicalElement
     private Date arrivalDate;
 
 
+
+    //new
+    //previously it was only @ManyToMany
+    //@ManyToMany(targetEntity = SparePart.class, cascade = CascadeType.DETACH)
+    //@JoinTable(name = "machine_spare_parts_list", joinColumns = @JoinColumn(name = "machine_id", referencedColumnName = COLUMN_ID_A), inverseJoinColumns = @JoinColumn(name = COLUMN_REF_B, referencedColumnName = COLUMN_ID_B))
+    //@JoinTable(name = "machine_spare_parts_list", joinColumns = { @JoinColumn(name = "machine_id") }, inverseJoinColumns = { @JoinColumn(name = "spare_parts_list_id") })
+
+    /* THE ORIGINAL
     @ManyToMany(targetEntity = SparePart.class, cascade = CascadeType.DETACH)
-    //@JoinTable(name = "machine_part", joinColumns = {@JoinColumn(name = "machine_id")}, inverseJoinColumns = {@JoinColumn(name = "part_id")})
+    private List<SparePart> sparePartsList;
+    */
+
+    @ManyToMany(fetch = FetchType.LAZY, cascade = {CascadeType.PERSIST, CascadeType.MERGE})
+    @JoinTable(name = "machine_spare_parts_list", joinColumns = { @JoinColumn(name = "machine_id") }, inverseJoinColumns = { @JoinColumn(name = "spare_parts_list_id") })
     private List<SparePart> sparePartsList;
 
     @ManyToOne

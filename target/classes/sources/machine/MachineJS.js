@@ -239,6 +239,7 @@ function addFinished()
 $(document).ready(
     function ()
     {
+        var quantitiy=0;
         stat = "IN_PROGRESS";
         console.log("BY DEFAULT:" + stat);
         // load the select options to choose owner and spare parts
@@ -290,9 +291,10 @@ $(document).ready(
                 {
                     var row = '<tr>';
                     row = row + '<td class="dataid">' + item.id +'</td>';
-                    row = row + '<td class="datapicture">' + item.picture + '</td>';
+                    row = row + '<td class="datapicture"><img class="imgPic" src="data:image/jpeg;base64,' + item.picture + '"></td>';
                     row = row + '<td class="dataname">' + item.name +'</td>';
                     row = row + '<td class="dataseries">' + item.series +'</td>';
+                    row = row + '<td class="dataquantity" >' + item.quantity + '</td>';
                     row = row + '</tr>';
                     $('#tableSpareParts tbody:last-child').append(row);
 
@@ -301,6 +303,42 @@ $(document).ready(
             });
             $('#spareParts-item').modal('show');
         });
+
+
+
+        // ***
+
+          $(document).on('click', '.sparePartsShowAdd-item', function () {
+            //listToAddSpareParts();
+
+            //var index = ($(this).parent().parent()).find('.dataid').html();
+            console.log("IIIIIIII");
+
+            $('#tableSparePartsAdd tbody').empty();
+            $.getJSON(apiUrl + sparePartsPath + '/', null, function (data)
+            {
+                $.each(data, function (index, item)
+                {
+                    var row = '<tr>';
+                    row = row + '<td class="dataid">' + item.id +'</td>';
+                    row = row + '<td class="datapicture"><img class="imgPic" src="data:image/jpeg;base64,' + item.picture + '"></td>';
+                    row = row + '<td class="dataname">' + item.name +'</td>';
+                    row = row + '<td class="dataseries">' + item.series +'</td>';
+                    row = row + '<td class="dataquantity" >' + item.quantity + '</td>';
+                    row = row + '<td class="dataquantity" ><div class="col-md-2>"><div class="input-group"><span class="input-group-btn"><button type="button" class="quantity-left-minus btn btn-danger btn-number"  data-type="minus" data-field=""><span class="glyphicon glyphicon-minus"></span></button></span><input type="text" id="quantity" name="quantity" class="form-control input-number" value="0" min="1" max=' + item.quantity + '><span class="input-group-btn"><button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus" data-field=""><span class="glyphicon glyphicon-plus"></span></button></span></div></div></td>';
+                    row = row + '</tr>';
+                    $('#tableSparePartsAdd tbody:last-child').append(row);
+
+                })
+
+            });
+            $('#sparePartsAdd-item').modal('show');
+
+
+            return false;
+        });
+
+
 
         $(document).on('click', '.editMenu_item', function () {
             var iddata = ($(this).parent().parent()).find('.dataid').html();
@@ -447,6 +485,39 @@ $(document).ready(
             });
         });
 
+        // add button
+        $(document).on('click','.quantity-right-plus', function(e){
+
+            // Stop acting like a button
+            e.preventDefault();
+            // Get the field name
+            var quantity = parseInt($('#quantity').val());
+
+            // If is not undefined
+
+            $('#quantity').val(quantity + 1);
+
+
+            // Increment
+
+        });
+
+        // minus button
+
+        $(document).on('click','.quantity-left-minus', function(e){
+            // Stop acting like a button
+            e.preventDefault();
+            // Get the field name
+            var quantity = parseInt($('#quantity').val());
+
+            // If is not undefined
+
+            // Increment
+            if(quantity>0){
+                $('#quantity').val(quantity - 1);
+            }
+        });
+
     });
 
 function listOwner()
@@ -470,11 +541,43 @@ function listSpareParts()
     {
         $.each(data, function (index, item)
         {
-            $('#createsparePartIdList').append("<option class='active' value = '" + item.id + "'>" + item.name + "</option>");
+            //$('#createsparePartIdList').append("<option class='active' value = '" + item.id + "'>" + item.name + "</option>");
+            $('#createsparePartIdList').append("<option class='active' value = '" + item.id + "'><div><span>" + item.name + "</span>" + " <span>100</span></div></option>");
+            //$('#createsparePartIdList').append("<div class='input-group'>");
+
             $('#editsparePartIdList').append("<option class='active' value = '" + item.id + "'>" + item.name + "</option>");
         });
     });
 
+
+}
+
+function listToAddSpareParts()
+{
+
+    $('#tableSparePartsAdd tbody').empty();
+
+    $.getJSON(apiUrl + sparePartsPath + '/', null, function (data)
+    {
+        $.each(data, function (index, item)
+        {
+            var row = '<tr>';
+            row = row + '<td class="dataid">' + item.id +'</td>';
+            row = row + '<td class="datapicture"><img class="imgPic" src="data:image/jpeg;base64,' + item.picture + '"></td>';
+            row = row + '<td class="dataname">' + item.name +'</td>';
+            row = row + '<td class="dataseries">' + item.series +'</td>';
+            row = row + '<td class="dataquantity" >' + item.quantity + '</td>';
+            row = row + '<td class="dataquantity" ><div class="col-md-2>"><div class="input-group"><span class="input-group-btn"><button type="button" class="quantity-left-minus btn btn-danger btn-number"  data-type="minus" data-field=""><span class="glyphicon glyphicon-minus"></span></button></span><input type="text" id="quantity" name="quantity" class="form-control input-number" value="0" min="1" max=' + item.quantity + '><span class="input-group-btn"><button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus" data-field=""><span class="glyphicon glyphicon-plus"></span></button></span></div></div></td>';
+            row = row + '</tr>';
+            $('#tableSparePartsAdd tbody:last-child').append(row);
+
+        })
+
+    });
+
+    $('#sparePartsAdd-item').modal('show');
+
+    return false;
 
 }
 
@@ -615,6 +718,18 @@ function getElements(stat)
 function getBase64(path)
 {
     return path.replace(/^data.*base64,/g, "");
+}
+
+function adjustCount(diff)
+{
+    var sel = document.getElementById('listboxstock');
+
+    if (sel.selectedIndex < 0)
+        return; // nothing selected
+    var opt = sel.options[sel.selectedIndex];
+    opt.textContent = opt.textContent.replace(/\d+/, function (m) {
+        return Math.max(0, +m + diff); // adjust, but not below 0
+    });
 }
 
 

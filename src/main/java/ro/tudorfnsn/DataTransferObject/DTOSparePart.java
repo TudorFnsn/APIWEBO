@@ -1,6 +1,7 @@
 package ro.tudorfnsn.DataTransferObject;
 
 import lombok.*;
+import ro.tudorfnsn.Enumerable.Origin;
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -16,5 +17,5 @@ public class DTOSparePart
     String series;
     Float price;
     Integer quantity;
-    String origin;
+    Origin origin;
 }

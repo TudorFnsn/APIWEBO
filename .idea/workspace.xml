@@ -2,28 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64569b9d-340b-41a5-af09-be2f8b93a22d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_1_5_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/ControllerUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Converter/ConverterUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/RoleEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/UserEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/RepositoryRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/RepositoryUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Security/Success.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Security/UserDetailsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Security/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/ServiceUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Enumerable/Origin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pages/SparePartsPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sources/spareparts/SparePartsCSS.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sources/spareparts/SparePartsJS.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/7f0268cb-843f-457c-97e7-b49e017ac0ec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7f0268cb-843f-457c-97e7-b49e017ac0ec.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/7f0268cb-843f-457c-97e7-b49e017ac0ec/storage_v2/_src_/database/webomatic_db._qCcMQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7f0268cb-843f-457c-97e7-b49e017ac0ec/storage_v2/_src_/database/webomatic_db._qCcMQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APIWebomatic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/APIWebomatic.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/LoginPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/LoginPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/SparePartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/SparePartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOSparePart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOSparePart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Machine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Machine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/SparePart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/SparePart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/SparePartRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/SparePartRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Security/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/SparePartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/SparePartService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/web/ViewConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/web/ViewConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/pages/MachinePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/MachinePage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sources/machine/MachineJS.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sources/machine/MachineJS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/MachinePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/MachinePage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Controller/SparePartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Controller/SparePartController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Converter/ConvertSparePart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Converter/ConvertSparePart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/DataTransferObject/DTOSparePart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/DataTransferObject/DTOSparePart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Model/Machine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Model/Machine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Model/SparePart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Model/SparePart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Repository/SparePartRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Repository/SparePartRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Security/WebSecurityConfig$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Security/WebSecurityConfig$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Security/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Security/WebSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Service/SparePartService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Service/SparePartService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/web/ViewConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/web/ViewConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sources/machine/MachineJS.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sources/machine/MachineJS.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -92,22 +99,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Success.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Security/Success.java">
+      <file leaf-file-name="MachineController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/MachineController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+            <state relative-caret-position="1815">
+              <caret line="138" column="13" selection-start-line="138" selection-start-column="13" selection-end-line="138" selection-end-column="13" />
+              <folding>
+                <element signature="e#3852#3853#0" expanded="true" />
+                <element signature="e#3901#3902#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServiceUser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/ServiceUser.java">
+      <file leaf-file-name="MachineJS.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/sources/machine/MachineJS.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="81" column="66" lean-forward="true" selection-start-line="81" selection-start-column="66" selection-end-line="81" selection-end-column="66" />
+            <state relative-caret-position="304">
+              <caret line="506" column="59" selection-start-line="506" selection-start-column="59" selection-end-line="506" selection-end-column="59" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
+                <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
+                <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
+                <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
+                <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
+                <marker date="1526327299000" expanded="true" signature="1670:1692" ph="data:" />
+                <marker date="1526327299000" expanded="true" signature="1670:1693" ph="data:" />
               </folding>
             </state>
           </provider>
@@ -116,74 +133,20 @@
       <file leaf-file-name="MachinePage.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/pages/MachinePage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="83" column="6" lean-forward="true" selection-start-line="83" selection-start-column="6" selection-end-line="83" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="users" pinned="false" current-in-tab="false">
-        <entry file="das://7f0268cb-843f-457c-97e7-b49e017ac0ec/database/webomatic_db/schema/public/table/users">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginPage.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/pages/LoginPage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="287">
+              <caret line="166" column="72" selection-start-line="166" selection-start-column="72" selection-end-line="166" selection-end-column="72" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login/index.html">
+      <file leaf-file-name="MachineCSS.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/sources/machine/MachineCSS.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-41">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebSecurityConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Security/WebSecurityConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="51" column="2" lean-forward="true" selection-start-line="51" selection-start-column="2" selection-end-line="51" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ViewConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/web/ViewConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user_role" pinned="false" current-in-tab="false">
-        <entry file="das://7f0268cb-843f-457c-97e7-b49e017ac0ec/database/webomatic_db/schema/public/table/user_role">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+            <state relative-caret-position="15">
+              <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -193,30 +156,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>modalPi</find>
-      <find>refre</find>
-      <find>thumbnai</find>
-      <find>thu</find>
-      <find>#show</find>
-      <find>document.get</find>
-      <find>showP</find>
-      <find>coolIma</find>
-      <find>onclick</find>
-      <find>show-picture</find>
-      <find>imgPic</find>
-      <find>.datapicture</find>
-      <find>show</find>
       <find>sho</find>
       <find>logo</find>
       <find>imgpi</find>
@@ -234,6 +184,19 @@
       <find>datapi</find>
       <find>getElements</find>
       <find>email</find>
+      <find>navbar</find>
+      <find>id</find>
+      <find>X</find>
+      <find>◊</find>
+      <find>owner_id</find>
+      <find>/ROMA</find>
+      <find>create</find>
+      <find>add_menu</find>
+      <find>sparePartsAdd_item</find>
+      <find>sparePartsShow_item</find>
+      <find>sparePartsShow-item</find>
+      <find>spareParts-item</find>
+      <find>listSpa</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -251,14 +214,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/templates/bill.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/news.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/owner.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/schedule.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/sparepart.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/task.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/vendor/animsition/css/animsition.min.css" />
         <option value="$PROJECT_DIR$/src/main/resources/login/css/main.css" />
         <option value="$PROJECT_DIR$/src/main/resources/login/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/styles.css" />
@@ -279,15 +234,10 @@
         <option value="$PROJECT_DIR$/src/main/resources/sources/navbar/navbar.js" />
         <option value="$PROJECT_DIR$/src/main/resources/sources/navbar/navbarCSS.css" />
         <option value="$PROJECT_DIR$/package-lock.json" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/SparePartRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/MachineRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/SparePartController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/SparePartService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/web/ViewConfig.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/page.html" />
         <option value="$PROJECT_DIR$/src/main/resources/sources/machine/MachineCSS.css" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/MachineService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/sources/machine/MachineJS.js" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/MachineController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/UserEntity.java" />
@@ -299,9 +249,22 @@
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/UserDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Converter/ConverterUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/ServiceUser.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/pages/MachinePage.html" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Security/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/src/main/resources/pages/LoginPage.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/pages/page.html" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Enumerable/Origin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOSparePart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/SparePartRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/web/ViewConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/sources/spareparts/SparePartsCSS.css" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Security/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/SparePartService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/SparePartController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/pages/SparePartsPage.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/sources/spareparts/SparePartsJS.js" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Machine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/SparePart.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/pages/MachinePage.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/sources/machine/MachineJS.js" />
       </list>
     </option>
   </component>
@@ -337,7 +300,7 @@
       <path value="$PROJECT_DIR$/node_modules/bootstrap-select/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -349,7 +312,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -495,7 +460,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="sources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="APIWebomatic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APIWEBO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="sources" type="462c0819:PsiDirectoryNode" />
+              <item name="machine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="APIWebomatic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APIWEBO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="sources" type="462c0819:PsiDirectoryNode" />
+              <item name="spareparts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="APIWebomatic" type="b2602c69:ProjectViewProjectNode" />
@@ -504,24 +487,11 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="APIWebomatic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="APIWEBO" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -672,12 +642,13 @@
       <workItem from="1525783312788" duration="218000" />
       <workItem from="1525783577737" duration="14200000" />
       <workItem from="1526033962392" duration="3985000" />
-      <workItem from="1526040262620" duration="7544000" />
+      <workItem from="1526040262620" duration="30315000" />
+      <workItem from="1526325977652" duration="1272000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="326782000" />
+    <option name="totallyTimeSpent" value="350825000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -693,78 +664,41 @@
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.51857835" side_tool="true" weight="0.31862068" />
+      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.5193861" side_tool="true" weight="0.21793103" />
       <window_info anchor="right" id="Maven Projects" order="0" weight="0.32956383" />
-      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="0" />
-      <window_info anchor="bottom" id="Statistic" order="8" weight="0.32827586" />
+      <window_info anchor="bottom" id="Statistic" order="10" weight="0.32827586" />
       <window_info anchor="right" id="Database" order="1" weight="0.25121164" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
       <window_info id="UI Designer" order="1" />
-      <window_info anchor="bottom" id="Debug" order="11" weight="0.39889959" />
-      <window_info anchor="bottom" id="TODO" order="14" weight="0.3287483" />
+      <window_info anchor="bottom" id="Debug" order="13" weight="0.39889959" />
+      <window_info anchor="bottom" id="TODO" order="16" weight="0.3287483" />
       <window_info anchor="bottom" id="Messages" order="1" sideWeight="0.49676898" weight="0.24413793" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.3287483" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.48142165" visible="true" weight="0.25241378" />
+      <window_info active="true" anchor="bottom" id="Run" order="12" sideWeight="0.4806139" visible="true" weight="0.18620689" />
       <window_info anchor="bottom" id="Spring" order="4" weight="0.32827586" />
       <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.49676898" weight="0.31724137" />
-      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32965517" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49190283" visible="true" weight="0.13812602" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49190283" visible="true" weight="0.13004847" />
       <window_info anchor="right" id="Bean Validation" order="4" weight="0.32956383" />
       <window_info id="Web" order="3" sideWeight="0.5080972" side_tool="true" weight="0.13327949" />
-      <window_info anchor="bottom" id="Find" order="9" weight="0.3287483" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="15" weight="0.4" />
       <window_info anchor="right" id="Commander" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32965517" />
+      <window_info anchor="bottom" id="Find" order="11" weight="0.32827586" />
+      <window_info anchor="bottom" id="Cvs" order="14" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.3287483" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Designer" order="0" />
-      <window_info anchor="right" id="Palette" order="6" />
-      <window_info anchor="bottom" id="Spring" order="4" weight="0.3287483" />
-      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32965517" />
-      <window_info active="true" anchor="bottom" id="Run" order="12" sideWeight="0.4822294" visible="true" weight="0.31862068" />
-      <window_info anchor="bottom" id="Cvs" order="14" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
-      <window_info id="UI Designer" order="1" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.49676898" weight="0.31774417" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.3287483" />
-      <window_info anchor="right" id="Commander" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.5177706" side_tool="true" weight="0.31862068" />
-      <window_info anchor="bottom" id="Messages" order="1" sideWeight="0.49676898" weight="0.24413793" />
-      <window_info anchor="bottom" id="TODO" order="16" weight="0.3287483" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Java Enterprise" order="2" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="3" weight="0.3287483" />
-      <window_info anchor="right" id="Maven Projects" order="0" weight="0.32956383" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49190283" visible="true" weight="0.134895" />
-      <window_info anchor="right" id="Database" order="1" visible="true" weight="0.25121164" />
-      <window_info anchor="bottom" id="Message" order="9" />
-      <window_info id="Web" order="3" sideWeight="0.5080972" side_tool="true" weight="0.13327949" />
-      <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info anchor="bottom" id="Statistic" order="10" weight="0.32827586" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Inspection" order="15" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="11" weight="0.3287483" />
-      <window_info anchor="right" id="Bean Validation" order="4" weight="0.32956383" />
-      <window_info anchor="bottom" id="Debug" order="13" weight="0.39889959" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -778,183 +712,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/chosen-1.8.5/README.md" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/chosen-1.8.5/public/docsupport/prototype-1.7.0.0.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/chosen-1.8.5/package.json" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/chosen-1.8.5/package-lock.json" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/chosen-1.8.5/public/index.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/chosen-1.8.5/public/options.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/chosen-1.8.5/public/index.proto.html" />
-    <entry file="das://table:/6b09865/7f0268cb-843f-457c-97e7-b49e017ac0ec/webomatic_db.public.spare_part">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/navbar/navbar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="33" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/navbar/navbarCSS.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_ajax.googleapis.com_ajax_libs_jquery_3.3.1_jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="10342" column="8" selection-start-line="10342" selection-start-column="8" selection-end-line="10342" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/machine.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3510">
-          <caret line="234" column="36" lean-forward="true" selection-start-line="234" selection-start-column="36" selection-end-line="234" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.10.RELEASE/spring-webmvc-4.3.10.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-558">
-          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6b09865/7f0268cb-843f-457c-97e7-b49e017ac0ec/webomatic_db.public.machine">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Enumerable/Status.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/EmployeeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/machine/MachineCSS.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="102" selection-start-line="102" selection-end-line="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/machine/MachineJS.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8850">
-          <caret line="590" column="20" selection-start-line="590" selection-start-column="9" selection-end-line="590" selection-end-column="20" />
-          <folding>
-            <marker date="1526039068000" expanded="true" signature="1670:1692" ph="data:" />
-            <marker date="1526039068000" expanded="true" signature="1670:1693" ph="data:" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-555" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/MachineService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="163" column="5" selection-start-line="163" selection-start-column="5" selection-end-line="163" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://7f0268cb-843f-457c-97e7-b49e017ac0ec/database/webomatic_db/schema/public/table/employee">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/RoleEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Converter/ConverterInterface/ConverterInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/UserEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Converter/ConvertMachine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-398">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Converter/ConvertEmployee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="27" column="2" lean-forward="true" selection-start-line="27" selection-start-column="2" selection-end-line="36" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Security/UserDetailsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/TaskRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/MachineController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1819">
-          <caret line="138" column="13" selection-start-line="138" selection-start-column="13" selection-end-line="138" selection-end-column="13" />
-          <folding>
-            <element signature="e#3852#3853#0" expanded="true" />
-            <element signature="e#3901#3902#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -976,9 +737,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1005,9 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1022,9 +777,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1032,47 +784,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="48" column="85" selection-start-line="48" selection-start-column="85" selection-end-line="48" selection-end-column="85" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/ServiceUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="81" column="66" lean-forward="true" selection-start-line="81" selection-start-column="66" selection-end-line="81" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://7f0268cb-843f-457c-97e7-b49e017ac0ec/database/webomatic_db/schema/public/table/user_role">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://7f0268cb-843f-457c-97e7-b49e017ac0ec/database/webomatic_db/schema/public/table/users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/web/ViewConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Security/Success.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -1080,27 +791,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="60" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/pages/MachinePage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="83" column="6" lean-forward="true" selection-start-line="83" selection-start-column="6" selection-end-line="83" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Security/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="51" column="2" lean-forward="true" selection-start-line="51" selection-start-column="2" selection-end-line="51" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -1118,8 +808,285 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
           <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://7f0268cb-843f-457c-97e7-b49e017ac0ec/database/webomatic_db/schema/public/table/users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/ServiceUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="81" column="66" lean-forward="true" selection-start-line="81" selection-start-column="66" selection-end-line="81" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://7f0268cb-843f-457c-97e7-b49e017ac0ec/database/webomatic_db/schema/public/table/user_role">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Element/Element.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Converter/ConvertSparePart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-368">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Converter/ConvertMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Element/MechanicalElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" column="54" lean-forward="true" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/pages/page.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/SparePartRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/postgresql/postgresql/9.4.1212.jre7/postgresql-9.4.1212.jre7.jar!/org/postgresql/core/v3/QueryExecutorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="1547" selection-start-line="1547" selection-end-line="1547" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Enumerable/Status.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://7f0268cb-843f-457c-97e7-b49e017ac0ec/database/webomatic_db/schema/public/table/machine">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOSparePart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/sparepart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-465">
+          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/MachineRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/web/ViewConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Security/Success.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Security/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="67" column="46" selection-start-line="67" selection-start-column="46" selection-end-line="67" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Security/UserDetailsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-65">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/spareparts/SparePartsCSS.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Enumerable/Origin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://7f0268cb-843f-457c-97e7-b49e017ac0ec/database/webomatic_db/schema/public/table/spare_part">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/MachineController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1815">
+          <caret line="138" column="13" selection-start-line="138" selection-start-column="13" selection-end-line="138" selection-end-column="13" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#3852#3853#0" expanded="true" />
+            <element signature="e#3901#3902#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/pages/SparePartsPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="63" column="35" lean-forward="true" selection-start-line="63" selection-start-column="35" selection-end-line="63" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://7f0268cb-843f-457c-97e7-b49e017ac0ec/database/webomatic_db/schema/public/table/machine_id">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+          <column-attributes>
+            <column name="ctid" enabled="false" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/SparePart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://7f0268cb-843f-457c-97e7-b49e017ac0ec/database/webomatic_db/schema/public/table/machine_spare_parts_list">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+          <column-attributes>
+            <column name="ctid" enabled="false" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Machine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="46" column="43" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/spareparts/SparePartsJS.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/SparePartService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/MachineService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="97" column="38" lean-forward="true" selection-start-line="97" selection-start-column="38" selection-end-line="97" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/SparePartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1245">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+          <folding>
+            <element signature="e#982#983#0" expanded="true" />
+            <element signature="e#1044#1045#0" expanded="true" />
+            <element signature="e#2626#2627#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/machine/MachineCSS.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/pages/MachinePage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="166" column="72" selection-start-line="166" selection-start-column="72" selection-end-line="166" selection-end-column="72" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/machine/MachineJS.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="506" column="59" selection-start-line="506" selection-start-column="59" selection-end-line="506" selection-end-column="59" />
+          <folding>
+            <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
+            <marker date="1526327299000" expanded="true" signature="1670:1692" ph="data:" />
+            <marker date="1526327299000" expanded="true" signature="1670:1693" ph="data:" />
           </folding>
         </state>
       </provider>

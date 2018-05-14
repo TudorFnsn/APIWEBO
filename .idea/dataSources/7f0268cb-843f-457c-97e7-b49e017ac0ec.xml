@@ -82,8 +82,8 @@
     <schema id="19" parent="7" name="public">
       <ObjectId>2200</ObjectId>
       <Comment>standard public schema</Comment>
-      <IntrospectionTimestamp>2018-05-11.20:21:08.931</IntrospectionTimestamp>
-      <IntrospectionStateNumber>1854</IntrospectionStateNumber>
+      <IntrospectionTimestamp>2018-05-14.18:38:46.723</IntrospectionTimestamp>
+      <IntrospectionStateNumber>1895</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -150,11 +150,11 @@
     </table>
     <table id="30" parent="19" name="machine">
       <ObjectId>25520</ObjectId>
-      <StateNumber>1658</StateNumber>
+      <StateNumber>1895</StateNumber>
     </table>
     <table id="31" parent="19" name="machine_spare_parts_list">
-      <ObjectId>25528</ObjectId>
-      <StateNumber>1566</StateNumber>
+      <ObjectId>32848</ObjectId>
+      <StateNumber>1895</StateNumber>
     </table>
     <table id="32" parent="19" name="news">
       <ObjectId>25531</ObjectId>
@@ -177,8 +177,8 @@
       <StateNumber>1569</StateNumber>
     </table>
     <table id="37" parent="19" name="spare_part">
-      <ObjectId>25555</ObjectId>
-      <StateNumber>1565</StateNumber>
+      <ObjectId>32801</ObjectId>
+      <StateNumber>1894</StateNumber>
     </table>
     <table id="38" parent="19" name="task">
       <ObjectId>25563</ObjectId>
@@ -389,18 +389,18 @@
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>1550</StateNumber>
+      <StateNumber>1893</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <column id="72" parent="31" name="spare_parts_list_id">
       <Position>2</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>1550</StateNumber>
+      <StateNumber>1893</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <foreign-key id="73" parent="31" name="fkafp2kpefyowd918oylg9pcmx9">
-      <ObjectId>25606</ObjectId>
+      <ObjectId>32856</ObjectId>
       <ColNames>machine_id</ColNames>
       <RefTableId>25520</RefTableId>
       <RefColPositions>1</RefColPositions>
@@ -409,9 +409,9 @@
       <RefColNames>id</RefColNames>
     </foreign-key>
     <foreign-key id="74" parent="31" name="fkqmapi5m3bksicd4gnfsemj5d8">
-      <ObjectId>25601</ObjectId>
+      <ObjectId>32851</ObjectId>
       <ColNames>spare_parts_list_id</ColNames>
-      <RefTableId>25555</RefTableId>
+      <RefTableId>32801</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>spare_part</RefTableName>
       <RefKeyName>spare_part_pkey</RefKeyName>
@@ -598,52 +598,52 @@
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>1555</StateNumber>
+      <StateNumber>1868</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <column id="104" parent="37" name="name">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
-      <StateNumber>1555</StateNumber>
+      <StateNumber>1868</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="105" parent="37" name="picture">
       <Position>3</Position>
       <DataType>text|0s</DataType>
-      <StateNumber>1555</StateNumber>
+      <StateNumber>1868</StateNumber>
       <TypeId>25</TypeId>
     </column>
     <column id="106" parent="37" name="series">
       <Position>4</Position>
       <DataType>varchar(255)|0s</DataType>
-      <StateNumber>1555</StateNumber>
+      <StateNumber>1868</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="107" parent="37" name="origin">
       <Position>5</Position>
-      <DataType>varchar(255)|0s</DataType>
-      <StateNumber>1555</StateNumber>
-      <TypeId>1043</TypeId>
+      <DataType>integer|0s</DataType>
+      <StateNumber>1868</StateNumber>
+      <TypeId>23</TypeId>
     </column>
     <column id="108" parent="37" name="price">
       <Position>6</Position>
       <DataType>real|0s</DataType>
-      <StateNumber>1555</StateNumber>
+      <StateNumber>1868</StateNumber>
       <TypeId>700</TypeId>
     </column>
     <column id="109" parent="37" name="quantity">
       <Position>7</Position>
       <DataType>integer|0s</DataType>
-      <StateNumber>1555</StateNumber>
+      <StateNumber>1868</StateNumber>
       <TypeId>23</TypeId>
     </column>
     <index id="110" parent="37" name="spare_part_pkey">
-      <ObjectId>25561</ObjectId>
+      <ObjectId>32807</ObjectId>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="111" parent="37" name="spare_part_pkey">
-      <ObjectId>25562</ObjectId>
+      <ObjectId>32808</ObjectId>
       <ColNames>id</ColNames>
       <UnderlyingIndexName>spare_part_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
