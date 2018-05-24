@@ -3,8 +3,10 @@ package ro.tudorfnsn.Controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import ro.tudorfnsn.DataTransferObject.DTOTask;
+import ro.tudorfnsn.Model.Employee;
 import ro.tudorfnsn.Service.TaskService;
 
+import java.util.Date;
 import java.util.List;
 
 @RestController
@@ -72,5 +74,22 @@ public class TaskController
         taskService.update(id, dtoTask);
     }
 
+
+    @RequestMapping(value = "/getByDate/{date}", method = RequestMethod.GET)
+    public List<DTOTask> getByDate(@PathVariable Date date)
+    {
+        List<DTOTask> DTOTaskList = taskService.getByDate(date);
+
+        return DTOTaskList;
+
+    }
+
+    @RequestMapping(value = "/getByEmployee/{employee}", method = RequestMethod.GET)
+    public List<DTOTask> getByEmployee(@PathVariable Employee employee)
+    {
+        List<DTOTask> dtoTaskList = taskService.getByEmployee(employee);
+
+        return dtoTaskList;
+    }
 
 }

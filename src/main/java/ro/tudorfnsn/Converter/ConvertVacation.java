@@ -26,6 +26,7 @@ public class ConvertVacation implements ConverterInterface<Vacation, DTOVacation
 
         dtoVacation.setId(vacation.getId());
         dtoVacation.setEmployeeId(vacation.getEmployee().getId());
+        //dtoVacation.setEmployeeId(vacation.getEmployee().getId());
         dtoVacation.setLeave(vacation.getLeave());
         dtoVacation.setArrival(vacation.getArrival());
         dtoVacation.setMotive(vacation.getMotive());
@@ -51,6 +52,7 @@ public class ConvertVacation implements ConverterInterface<Vacation, DTOVacation
         Vacation vacation = new Vacation();
 
         vacation.setEmployee(employeeRepository.findFirstById(dtoVacation.getEmployeeId()));
+        //vacation.setEmployee(employeeRepository.findFirstById(dtoVacation.getEmployeeId()));
         vacation.setLeave(dtoVacation.getLeave());
         vacation.setArrival(dtoVacation.getArrival());
         vacation.setMotive(dtoVacation.getMotive());

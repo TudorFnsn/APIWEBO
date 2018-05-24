@@ -18,7 +18,11 @@ function myFunction() {
         {
         navbar.classList.remove("sticky");
     }
+    
+
 }
+
+
 
 $(document).ready(function () {
 
@@ -32,6 +36,8 @@ $(document).ready(function () {
      {
          myFunction();
      };
+
+
 
 
 });

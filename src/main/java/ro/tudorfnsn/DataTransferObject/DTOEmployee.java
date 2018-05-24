@@ -3,6 +3,8 @@ package ro.tudorfnsn.DataTransferObject;
 import lombok.*;
 import ro.tudorfnsn.Enumerable.Department;
 
+import java.util.List;
+
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
@@ -17,4 +19,6 @@ public class DTOEmployee
     String name;
     Department department;
     String position;
+    //List<Long> taskListId;
+    //List<Long> vacationListId;
 }

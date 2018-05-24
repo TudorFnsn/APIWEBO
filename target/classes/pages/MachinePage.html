@@ -67,15 +67,15 @@
                 </ul>
             </li>
             <li><a href="/spareparts">Spare Parts</a></li>
-            <li><a href="#">Bills</a></li>
-            <li><a href="#">Employees</a></li>
+            <!--<li><a href="#">Bills</a></li>-->
+            <li><a href="/employee">Employees</a></li>
             <li><a href="#">News</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
             <li>
                 <a href="#">
                     <span class="glyphicon glyphicon-user fa-lg"></span>
-                    <span class="badge badge-notify fa-xs">3</span>username
+                    ADMIN
                 </a>
             </li>
             <li><a><span class="glyphicon glyphicon-log-out" onclick="location.replace('/logout')"></span> Logout</a></li>
@@ -127,10 +127,6 @@
             <form id='add_input'>
                 <table class='table '>
                     <tr>
-                        <td>Id</td>
-                        <td><input id='createid' type='text' class='form-control' name="id"> </input></td>
-                    </tr>
-                    <tr>
                         <td>Picture</td>
                     <td><img id="createpicture" class="imgPic thumbnail" src="" onerror="this.src='/sources/images/User-Interface-Plus-icon.png'"></td>
                     </tr>
@@ -146,17 +142,17 @@
                         <!--<td>Status</td>-->
                         <!--<td><select id='createstatus_id' name="createstatus_id" class='form-control'> </select></td>-->
                     <!--</tr>-->
-                    <!--<tr>-->
-                        <!--<td>Spare Parts</td>-->
-                        <!--<td><select  name="createsparePartIdList" id='createsparePartIdList' class="form-control mdb-select colorful-select dropdown-primary" multiple ></select>-->
-                        <!--</td>-->
-
-                    <!--</tr>-->
                     <tr>
                         <td>Spare Parts</td>
-                        <td><button class="btn sparePartsShowAdd-item"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span></button>
-                        <!--<td><button onclick="return listToAddSpareParts()">Z</button></td>-->
+                        <td><select  name="createsparePartIdList" id='createsparePartIdList' class="form-control mdb-select colorful-select dropdown-primary" multiple ></select>
+                        </td>
+
                     </tr>
+                    <!--<tr>-->
+                        <!--<td>Spare Parts</td>-->
+                        <!--<td><button class="btn sparePartsShowAdd-item"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span></button>-->
+                        <!--&lt;!&ndash;<td><button onclick="return listToAddSpareParts()">Z</button></td>&ndash;&gt;-->
+                    <!--</tr>-->
                     <tr>
                         <td>Arrival Date</td>
                         <td><input id='createarrivalDate' type='text' class='form-control' name="arrivalDate">.</input>
@@ -193,7 +189,7 @@
         <div class='modal-body'>
             <form id='edit_input'>
                 <table class='table table-hover'>
-                    <tr>
+                    <tr style="display: none">
                         <td>Id</td>
                         <td><input id='editid' type='text' class='form-control' name="id">.</input></td>
                     </tr>
@@ -262,7 +258,6 @@
                         <th>Picture</th>
                         <th>Name</th>
                         <th>Series</th>
-                        <th>Quantity</th>
                      </tr>
                 </thead>
                 <tbody></tbody>
@@ -339,7 +334,7 @@
         </p>
 
         <a href="http://webomatic.de/en/" class="navbar-btn btn-default btn-sm pull-right">
-            <span class="glyphicon glyphicon-check"></span> Check out our site: Webomatic </a>
+            <span class="glyphicon glyphicon-check"></span> Go to site: Webomatic </a>
     </div>
 </div>
 <!--*** End Footer ***-->

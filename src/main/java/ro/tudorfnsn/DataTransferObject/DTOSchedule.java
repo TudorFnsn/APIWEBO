@@ -18,7 +18,7 @@ import java.util.List;
 @EqualsAndHashCode
 @ToString
 
-public class DTODaySchedule
+public class DTOSchedule
 {
     Long id;
     Long employeeId;

@@ -13,7 +13,7 @@ public class WebpageGenerator
         String apiUrl = "http://localhost:8080";
         //new GeneratorHTMLCRUD(DTOMachine.class, apiUrl, "machine").create();
 //        new GeneratorHTMLCRUD(DTOBill.class, apiUrl, "bill").create();
-//        new GeneratorHTMLCRUD(DTODaySchedule.class, apiUrl, "schedule").create();
+//        new GeneratorHTMLCRUD(DTOSchedule.class, apiUrl, "schedule").create();
 //        new GeneratorHTMLCRUD(DTOEmployee.class, apiUrl, "employee").create();
 //        new GeneratorHTMLCRUD(DTOMachine.class, apiUrl, "news").create();
 //        new GeneratorHTMLCRUD(DTOOwner.class, apiUrl, "owner").create();

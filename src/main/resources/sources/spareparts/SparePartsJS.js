@@ -19,7 +19,7 @@ function getElementsList() {
             row = row + '<td class="dataquantity" >' + item.quantity + '</td>';
             row = row + '<td class="dataorigin" >' + item.origin + '</td>';
             row = row + '<td><button class="btn edit-item editMenu_item"><span class="glyphicon active glyphicon-pencil" aria-hidden="true"></span></button></td>';
-            row = row + '<td><button class="btn btn-danger remove-item deleteMenu_item"><span class="glyphicon active glyphicon-remove" aria-hidden="true"></span></button></td>';
+            row = row + '<td><button class="btn btn-danger remove-item deleteMenu_item"><span class="glyphicon active glyphicon-trash" aria-hidden="true"></span></button></td>';
             row = row + '</tr>';
             $('#tableDTOSparePart tbody:last-child').append(row);
         });
@@ -42,7 +42,7 @@ function getElementsListRomania() {
             row = row + '<td class="dataquantity" >' + item.quantity + '</td>';
             row = row + '<td class="dataorigin" >' + item.origin + '</td>';
             row = row + '<td><button class="btn edit-item editMenu_item"><span class="glyphicon active glyphicon-pencil" aria-hidden="true"></span></button></td>';
-            row = row + '<td><button class="btn btn-danger remove-item deleteMenu_item"><span class="glyphicon active glyphicon-remove" aria-hidden="true"></span></button></td>';
+            row = row + '<td><button class="btn btn-danger remove-item deleteMenu_item"><span class="glyphicon active glyphicon-trash" aria-hidden="true"></span></button></td>';
             row = row + '</tr>';
             $('#tableDTOSparePart tbody:last-child').append(row);
         });
@@ -66,7 +66,7 @@ function getElementsListGermany() {
             row = row + '<td class="dataquantity" >' + item.quantity + '</td>';
             row = row + '<td class="dataorigin" >' + item.origin + '</td>';
             row = row + '<td><button class="btn edit-item editMenu_item"><span class="glyphicon active glyphicon-pencil" aria-hidden="true"></span></button></td>';
-            row = row + '<td><button class="btn btn-danger remove-item deleteMenu_item"><span class="glyphicon active glyphicon-remove" aria-hidden="true"></span></button></td>';
+            row = row + '<td><button class="btn btn-danger remove-item deleteMenu_item"><span class="glyphicon active glyphicon-trash" aria-hidden="true"></span></button></td>';
             row = row + '</tr>';
             $('#tableDTOSparePart tbody:last-child').append(row);
         });
@@ -140,7 +140,8 @@ $(document).ready(
 
 
         $(document).on('click', '#add_button', function () {
-            var iddata = $('#createid').val();
+            // var iddata = $('#createid').val();
+            var iddata = 1;
             var picturedata = getBase64($('#createpicture').attr('src'));
             var namedata = $('#createname').val();
             var seriesdata = $('#createseries').val();
@@ -176,6 +177,8 @@ $(document).ready(
                 }
             });
         });
+
+
         $(document).on('click', '#update_button', function () {
             var iddata = $('#editid').val();
             var picturedata = getBase64($('#editpicture').attr('src'));

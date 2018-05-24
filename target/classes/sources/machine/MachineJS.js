@@ -53,7 +53,7 @@ function getElementsListIP() {
             row = row + '<td class="dataarrivalDate" >' + item.arrivalDate + '</td>';
             row = row + '<td class="dataowner_id" >' + item.owner_id + '</td>';
             row = row + '<td><button class="btn edit-item editMenu_item"><span class="glyphicon active glyphicon-pencil" aria-hidden="true"></span></button></td>';
-            row = row + '<td><button class="btn btn-danger remove-item deleteMenu_item"><span class="glyphicon active glyphicon-remove" aria-hidden="true"></span></button></td>';
+            row = row + '<td><button class="btn btn-danger remove-item deleteMenu_item"><span class="glyphicon active glyphicon-trash" aria-hidden="true"></span></button></td>';
             row = row + '</tr>';
             $('#tableDTOMachine tbody:last-child').append(row);
         });
@@ -82,7 +82,7 @@ function getElementsListWaiting() {
             row = row + '<td class="dataarrivalDate" >' + item.arrivalDate + '</td>';
             row = row + '<td class="dataowner_id" >' + item.owner_id + '</td>';
             row = row + '<td><button class="btn edit-item editMenu_item"><span class="glyphicon active glyphicon-pencil" aria-hidden="true"></span></button></td>';
-            row = row + '<td><button class="btn btn-danger remove-item deleteMenu_item"><span class="glyphicon active glyphicon-remove" aria-hidden="true"></span></button></td>';
+            row = row + '<td><button class="btn btn-danger remove-item deleteMenu_item"><span class="glyphicon active glyphicon-trash" aria-hidden="true"></span></button></td>';
             row = row + '</tr>';
             $('#tableDTOMachine tbody:last-child').append(row);
         });
@@ -108,7 +108,7 @@ function getElementsListFinished() {
             row = row + '<td class="dataarrivalDate" >' + item.arrivalDate + '</td>';
             row = row + '<td class="dataowner_id" >' + item.owner_id + '</td>';
             row = row + '<td><button class="btn edit-item editMenu_item"><span class="glyphicon active glyphicon-pencil" aria-hidden="true"></span></button></td>';
-            row = row + '<td><button class="btn btn-danger remove-item deleteMenu_item"><span class="glyphicon active glyphicon-remove" aria-hidden="true"></span></button></td>';
+            row = row + '<td><button class="btn btn-danger remove-item deleteMenu_item"><span class="glyphicon active glyphicon-trash" aria-hidden="true"></span></button></td>';
             row = row + '</tr>';
             $('#tableDTOMachine tbody:last-child').append(row);
         });
@@ -249,7 +249,8 @@ $(document).ready(
         //modalPicture();
 
         $(document).on('click', '#add_button', function () {
-            var iddata = $('#createid').val();
+            //var iddata = $('#createid').val();
+            var iddata = 1;
             var picturedata = getBase64($('#createpicture').attr('src'));
             var namedata = $('#createname').val();
             var seriesdata = $('#createseries').val();
@@ -272,6 +273,7 @@ $(document).ready(
                 success: function (result) {
                     //listSpareParts();
                     getElements(stat);
+                    console.log(jsonCreate.toString());
                     alert(result);
                     //console.log(result+"*************");
                 }
@@ -283,6 +285,7 @@ $(document).ready(
         $(document).on('click', '.sparePartsShow_item', function () {
 
             var index = ($(this).parent().parent()).find('.dataid').html();
+            //console.log(index);
 
             $('#tableSpareParts tbody').empty();
             $.getJSON(apiUrl + elementsPath + '/sparePartsOf/' + index, null, function (data)
@@ -294,7 +297,6 @@ $(document).ready(
                     row = row + '<td class="datapicture"><img class="imgPic" src="data:image/jpeg;base64,' + item.picture + '"></td>';
                     row = row + '<td class="dataname">' + item.name +'</td>';
                     row = row + '<td class="dataseries">' + item.series +'</td>';
-                    row = row + '<td class="dataquantity" >' + item.quantity + '</td>';
                     row = row + '</tr>';
                     $('#tableSpareParts tbody:last-child').append(row);
 
@@ -308,35 +310,35 @@ $(document).ready(
 
         // ***
 
-          $(document).on('click', '.sparePartsShowAdd-item', function () {
-            //listToAddSpareParts();
-
-            //var index = ($(this).parent().parent()).find('.dataid').html();
-            console.log("IIIIIIII");
-
-            $('#tableSparePartsAdd tbody').empty();
-            $.getJSON(apiUrl + sparePartsPath + '/', null, function (data)
-            {
-                $.each(data, function (index, item)
-                {
-                    var row = '<tr>';
-                    row = row + '<td class="dataid">' + item.id +'</td>';
-                    row = row + '<td class="datapicture"><img class="imgPic" src="data:image/jpeg;base64,' + item.picture + '"></td>';
-                    row = row + '<td class="dataname">' + item.name +'</td>';
-                    row = row + '<td class="dataseries">' + item.series +'</td>';
-                    row = row + '<td class="dataquantity" >' + item.quantity + '</td>';
-                    row = row + '<td class="dataquantity" ><div class="col-md-2>"><div class="input-group"><span class="input-group-btn"><button type="button" class="quantity-left-minus btn btn-danger btn-number"  data-type="minus" data-field=""><span class="glyphicon glyphicon-minus"></span></button></span><input type="text" id="quantity" name="quantity" class="form-control input-number" value="0" min="1" max=' + item.quantity + '><span class="input-group-btn"><button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus" data-field=""><span class="glyphicon glyphicon-plus"></span></button></span></div></div></td>';
-                    row = row + '</tr>';
-                    $('#tableSparePartsAdd tbody:last-child').append(row);
-
-                })
-
-            });
-            $('#sparePartsAdd-item').modal('show');
-
-
-            return false;
-        });
+        //   $(document).on('click', '.sparePartsShowAdd-item', function () {
+        //     //listToAddSpareParts();
+        //
+        //     //var index = ($(this).parent().parent()).find('.dataid').html();
+        //     console.log("IIIIIIII");
+        //
+        //     $('#tableSparePartsAdd tbody').empty();
+        //     $.getJSON(apiUrl + sparePartsPath + '/', null, function (data)
+        //     {
+        //         $.each(data, function (index, item)
+        //         {
+        //             var row = '<tr>';
+        //             row = row + '<td class="dataid">' + item.id +'</td>';
+        //             row = row + '<td class="datapicture"><img class="imgPic" src="data:image/jpeg;base64,' + item.picture + '"></td>';
+        //             row = row + '<td class="dataname">' + item.name +'</td>';
+        //             row = row + '<td class="dataseries">' + item.series +'</td>';
+        //             row = row + '<td class="dataquantity" >' + item.quantity + '</td>';
+        //             row = row + '<td class="dataquantity" ><div class="col-md-2>"><div class="input-group"><span class="input-group-btn"><button type="button" class="quantity-left-minus btn btn-danger btn-number"  data-type="minus" data-field=""><span class="glyphicon glyphicon-minus"></span></button></span><input type="text" id="quantity" name="quantity" class="form-control input-number inputel" value="0" min="1" max="'+item.quantity+'"><span class="input-group-btn"><button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus" data-field=""><span class="glyphicon glyphicon-plus"></span></button></span></div></div></td>';
+        //             row = row + '</tr>';
+        //             $('#tableSparePartsAdd tbody:last-child').append(row);
+        //
+        //         })
+        //
+        //     });
+        //     $('#sparePartsAdd-item').modal('show');
+        //
+        //
+        //     return false;
+        // });
 
 
 
@@ -378,32 +380,35 @@ $(document).ready(
 
 
         $(document).on('click', '#update_button', function () {
-            var iddata = $('#editid').val();
-            var picturedata = getBase64($('#editpicture').attr('src'));
-            var namedata = $('#editname').val();
-            var seriesdata = $('#editseries').val();
-            var statusdata = $('#editstatus').val();
-            var sparePartIdListdata = $('#editsparePartIdList').val();
-            var arrivalDatedata = $('#editarrivalDate').val();
-            var owner_iddata = $('#editowner_id').val();
 
-            var jsonEdit = '{"id":"' + iddata + '","picture":"' + picturedata + '","name":"' + namedata + '","series":"' + seriesdata + '","status":"' + statusdata + '","sparePartIdList":[' + sparePartIdListdata + '],"arrivalDate":"' + arrivalDatedata + '","owner_id":"' + owner_iddata + '"}';
-            console.log(jsonEdit);
-            $.ajax({
-                headers: {
-                    'Accept': 'application/json',
-                    'Content-Type': 'application/json'
-                },
-                url: apiUrl + elementsPath + '/update/' + iddata,
-                type: 'POST',
-                data: jsonEdit,
-                dataType: 'text',
-                success: function (result) {
-                    getElements(stat);
-                    alert(result);
-                    //console.log(document.status.toString());
-                }
-            });
+            //console.log($("#move_button"));
+                var iddata = $('#editid').val();
+                var picturedata = getBase64($('#editpicture').attr('src'));
+                var namedata = $('#editname').val();
+                var seriesdata = $('#editseries').val();
+                var statusdata = $('#editstatus').val();
+                var sparePartIdListdata = $('#editsparePartIdList').val();
+                var arrivalDatedata = $('#editarrivalDate').val();
+                var owner_iddata = $('#editowner_id').val();
+
+                var jsonEdit = '{"id":"' + iddata + '","picture":"' + picturedata + '","name":"' + namedata + '","series":"' + seriesdata + '","status":"' + statusdata + '","sparePartIdList":[' + sparePartIdListdata + '],"arrivalDate":"' + arrivalDatedata + '","owner_id":"' + owner_iddata + '"}';
+                console.log(jsonEdit);
+                $.ajax({
+                    headers: {
+                        'Accept': 'application/json',
+                        'Content-Type': 'application/json'
+                    },
+                    url: apiUrl + elementsPath + '/update/' + iddata,
+                    type: 'POST',
+                    data: jsonEdit,
+                    dataType: 'text',
+                    success: function (result) {
+                        getElements(stat);
+                        alert(result);
+                        //console.log(document.status.toString());
+                    }
+                });
+
         });
 
         $(document).on('click', '#refresh_menu_button', function () {
@@ -458,65 +463,90 @@ $(document).ready(
 
 
         $(document).on('click', '#move_button', function () {
-            var iddata = $('#editid').val();
-            var picturedata = $('#editpicture').val();
-            var namedata = $('#editname').val();
-            var seriesdata = $('#editseries').val();
-            var statusdata = $('#editstatus').val();
-            var sparePartIdListdata = $('#editsparePartIdList').val();
-            var arrivalDatedata = $('#editarrivalDate').val();
-            var owner_iddata = $('#editowner_id').val();
-
-            var jsonEdit = '{"id":"' + iddata + '","picture":"' + picturedata + '","name":"' + namedata + '","series":"' + seriesdata + '","status":"' + statusdata + '","sparePartIdList":[' + sparePartIdListdata + '],"arrivalDate":"' + arrivalDatedata + '","owner_id":"' + owner_iddata + '"}';
-            $.ajax({
-                headers: {
-                    'Accept': 'application/json',
-                    'Content-Type': 'application/json'
-                },
-                url: apiUrl + elementsPath + '/move'+ stat +'/'+ iddata,
-                type: 'POST',
-                data: jsonEdit,
-                dataType: 'text',
-                success: function (result) {
-                    getElements(stat);
-                    alert(result);
-                    //console.log(document.status.toString());
-                }
-            });
-        });
-
-        // add button
-        $(document).on('click','.quantity-right-plus', function(e){
-
-            // Stop acting like a button
-            e.preventDefault();
-            // Get the field name
-            var quantity = parseInt($('#quantity').val());
-
-            // If is not undefined
-
-            $('#quantity').val(quantity + 1);
-
-
-            // Increment
-
-        });
-
-        // minus button
-
-        $(document).on('click','.quantity-left-minus', function(e){
-            // Stop acting like a button
-            e.preventDefault();
-            // Get the field name
-            var quantity = parseInt($('#quantity').val());
-
-            // If is not undefined
-
-            // Increment
-            if(quantity>0){
-                $('#quantity').val(quantity - 1);
+            // var moveButton = document.getElementById('move_button');
+            //
+            if(stat === 'FINALIZED')
+            {
+                //var moveButton = document.getElementById('move_button');
+                //moveButton.style.display = 'none';
+                $("#move_button").hidden = true;
             }
+
+
+                var iddata = $('#editid').val();
+                var picturedata = $('#editpicture').val();
+                var namedata = $('#editname').val();
+                var seriesdata = $('#editseries').val();
+                var statusdata = $('#editstatus').val();
+                var sparePartIdListdata = $('#editsparePartIdList').val();
+                var arrivalDatedata = $('#editarrivalDate').val();
+                var owner_iddata = $('#editowner_id').val();
+
+                var jsonEdit = '{"id":"' + iddata + '","picture":"' + picturedata + '","name":"' + namedata + '","series":"' + seriesdata + '","status":"' + statusdata + '","sparePartIdList":[' + sparePartIdListdata + '],"arrivalDate":"' + arrivalDatedata + '","owner_id":"' + owner_iddata + '"}';
+                console.log(jsonEdit);
+
+
+                $.ajax({
+                    headers: {
+                        'Accept': 'application/json',
+                        'Content-Type': 'application/json'
+                    },
+                    url: apiUrl + elementsPath + '/move' + stat + '/' + iddata,
+                    type: 'POST',
+                    data: jsonEdit,
+                    dataType: 'text',
+                    success: function (result) {
+                        getElements(stat);
+                        // console.log(jsonEdit);
+                        alert(result);
+                        //console.log(document.status.toString());
+                    }
+                });
+
         });
+
+        // // add button
+        // $(document).on('click','.quantity-right-plus', function(e){
+        //
+        //     // Stop acting like a button
+        //     e.preventDefault();
+        //
+        //     // Get the field name
+        //     var quantity = parseInt($('#quantity').val());
+        //
+        //     // If is not undefined
+        //
+        //     $('#quantity').val(quantity + 1);
+        //
+        //
+        //     // Increment
+        //
+        //     var all = ($(this).parent()).parent();
+        //
+        //     //var input = all.find('.inputel');
+        //     var input = all.find('quantity');
+        //
+        //     console.log(input.valueOf());
+        //
+        //
+        //
+        // });
+        //
+        // // minus button
+        //
+        // $(document).on('click','.quantity-left-minus', function(e){
+        //     // Stop acting like a button
+        //     e.preventDefault();
+        //     // Get the field name
+        //     var quantity = parseInt($('#quantity').val());
+        //
+        //     // If is not undefined
+        //
+        //     // Increment
+        //     if(quantity>0){
+        //         $('#quantity').val(quantity - 1);
+        //     }
+        // });
 
     });
 
@@ -709,6 +739,7 @@ function getElements(stat)
     {
         getElementsListFinished();
         console.log(stat);
+        //hideMoveButton();
     }
 
 
@@ -781,3 +812,8 @@ function adjustCount(diff)
 //
 // }
 
+// function hideMoveButton()
+// {
+//     $("#move_button").hide('fast');
+//
+// }

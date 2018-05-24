@@ -43,14 +43,14 @@ public class VacationService
         return dtoVacationList;
     }
 
-    public List<DTOVacation> getByEmployee(Employee employee)
-    {
-        List<Vacation> vacationList = vacationRepository.findByEmployee(employee);
-
-        List<DTOVacation> dtoVacationList = convertVacation.ManyToDTO(vacationList);
-
-        return dtoVacationList;
-    }
+//    public List<DTOVacation> getByEmployee(Employee employee)
+//    {
+//        List<Vacation> vacationList = vacationRepository.findByEmployee(employee);
+//
+//        List<DTOVacation> dtoVacationList = convertVacation.ManyToDTO(vacationList);
+//
+//        return dtoVacationList;
+//    }
 
     public List<DTOVacation> getByMotive(MotiveOfAbsence motiveOfAbsence)
     {
@@ -86,5 +86,15 @@ public class VacationService
 
         vacationRepository.save(newVacation);
     }
+
+    public List<DTOVacation> getByEmployee(Employee employee)
+    {
+        List<Vacation> vacationList = vacationRepository.findByEmployee(employee);
+
+        List<DTOVacation> dtoVacationList = convertVacation.ManyToDTO(vacationList);
+
+        return dtoVacationList;
+    }
+
 
 }

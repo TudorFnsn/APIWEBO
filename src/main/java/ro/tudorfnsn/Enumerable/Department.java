@@ -4,5 +4,6 @@ public enum Department
 {
     MANAGEMENT,
     SALES,
-    SERVICE
+    SERVICE,
+    EMPTY
 }

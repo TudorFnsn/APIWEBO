@@ -22,7 +22,7 @@ public class Vacation
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    @OneToOne(cascade = CascadeType.DETACH, targetEntity = Employee.class)
+    @ManyToOne(targetEntity = Employee.class, cascade = CascadeType.ALL)
     private Employee employee;
 
     @Column
@@ -41,6 +41,7 @@ public class Vacation
 
     public Vacation(Employee employee, Date leave, Date arrival, MotiveOfAbsence motive, String description)
     {
+
         this.employee = employee;
         this.leave = leave;
         this.arrival = arrival;

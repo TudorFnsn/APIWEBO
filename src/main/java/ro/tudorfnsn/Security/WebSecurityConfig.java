@@ -63,6 +63,11 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter
         http.authorizeRequests().antMatchers("/SparePartsPage**").hasAnyRole("ADMIN");
         http.authorizeRequests().antMatchers("/spareparts/**").hasAnyRole("ADMIN");
 
+        http.authorizeRequests().antMatchers("/EmployeesPage**").hasAnyRole("ADMIN");
+        http.authorizeRequests().antMatchers("/employee/**").hasAnyRole("ADMIN");
+
+
+
 
 //        http.authorizeRequests().antMatchers(HttpMethod.POST, "/" + controllerName + "/").hasAnyRole(role);
 //        http.authorizeRequests().antMatchers(HttpMethod.DELETE, "/" + controllerName + "/{id}").hasAnyRole(role);

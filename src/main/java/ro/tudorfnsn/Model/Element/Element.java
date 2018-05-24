@@ -1,6 +1,7 @@
 package ro.tudorfnsn.Model.Element;
 
 import lombok.*;
+import org.hibernate.annotations.NaturalId;
 import org.hibernate.annotations.Type;
 
 import javax.persistence.*;
@@ -24,7 +25,11 @@ public abstract class Element
     @Column(length = 3000)
     protected String picture;
 
+    // @NaturalId is new
+
+
     @Column
+    @NaturalId
     protected String name;
 
 

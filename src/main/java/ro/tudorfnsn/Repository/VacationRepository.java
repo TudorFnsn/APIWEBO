@@ -14,11 +14,13 @@ public interface VacationRepository extends JpaRepository<Vacation, Long>
 {
     Vacation findFirstById (Long id);
 
-    List<Vacation> findByEmployee(Employee employee);
+    //List<Vacation> findByEmployee(Employee employee);
 
     List<Vacation> findByMotive (MotiveOfAbsence motiveOfAbsence);
 
     List<Vacation> findByLeave (Date leave);
+
+    List<Vacation> findByEmployee(Employee employee);
 
     @Modifying
     @Transactional

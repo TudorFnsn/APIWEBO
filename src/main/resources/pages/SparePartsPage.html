@@ -67,15 +67,15 @@
                     <li><a onclick="getElementsList()">All Spare Parts</a></li>
                 </ul>
             </li>
-            <li><a href="#">Bills</a></li>
-            <li><a href="#">Employees</a></li>
+            <!--<li><a href="#">Bills</a></li>-->
+            <li><a href="/employee">Employees</a></li>
             <li><a href="#">News</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
             <li>
                 <a href="#">
                     <span class="glyphicon glyphicon-user fa-lg"></span>
-                    <span class="badge badge-notify fa-xs">3</span>username
+                    ADMIN
                 </a>
             </li>
             <li><a><span class="glyphicon glyphicon-log-out" onclick="location.replace('/logout')"></span> Logout</a></li>
@@ -209,7 +209,7 @@
                     </tr>
                     <tr>
                         <td>Origin</td>
-                        <td><input id='editorigin' type='text' class='form-control' name="origin">.</input></td>
+                        <td><select id='editorigin' name='origin' class='form-control'></select></td>
                     </tr>
                     <tr>
                         <td colspan='2' align='center'>
@@ -255,7 +255,7 @@
         </p>
 
         <a href="http://webomatic.de/en/" class="navbar-btn btn-default btn-sm pull-right">
-            <span class="glyphicon glyphicon-check"></span> Check out our site: Webomatic </a>
+            <span class="glyphicon glyphicon-check"></span> Go to site: Webomatic </a>
     </div>
 </div>
 <!--*** End Footer ***-->
