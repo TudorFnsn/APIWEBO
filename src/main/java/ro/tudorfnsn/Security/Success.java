@@ -24,7 +24,7 @@ public class Success extends SimpleUrlAuthenticationSuccessHandler implements Au
             throws IOException
     {
 
-        response.sendRedirect("/machine");
+        response.sendRedirect("/index");
         clearAuthenticationAttributes(request);
     }
 

@@ -1,0 +1,24 @@
+/*img {*/
+    /*width: 900px;*/
+/*}*/
+
+
+.imgSlide{
+    width: 800px;
+}
+
+.slider {
+    margin: 10px ;
+    width: 800px; /* Update to your slider width */
+    height: 450px; /* Update to your slider height */
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.slider li {
+    display: none;
+    position: absolute;
+    top: 15px;
+    left: 0;
+}
