@@ -101,8 +101,14 @@ function getElementsListService() {
 }
 
 
-function getTaskElementsList()
+function emptyEmployee()
 {
+    $('#createpicture').attr('src', '');
+    $('#createname').val('');
+    $('#createposition').val('');
+
+
+
 
 }
 
@@ -110,7 +116,7 @@ $(document).ready(
     function () {
 
 
-        stat ="";
+        stat = "";
 
         getElementsList(stat);
 
@@ -136,19 +142,6 @@ $(document).ready(
         });
 
 
-        // $(document).on('click', '.confirm_item', function () {
-        //     var iddata = ($(this).parent().parent()).find('.dataid').html();
-        //     $('#editid').val(iddata);
-        //     var datedata = ($(this).parent().parent()).find('.datadate').html();
-        //     $('#editpicture').val(picturedata);
-        //     var namedata = ($(this).parent().parent()).find('.dataname').html();
-        //     $('#editname').val(namedata);
-        //     var departmentdata = ($(this).parent().parent()).find('.datadepartment').html();
-        //     $('#editdepartment').val(departmentdata);
-        //     var positiondata = ($(this).parent().parent()).find('.dataposition').html();
-        //     $('#editposition').val(positiondata);
-        //     $('#edit-item').modal('show');
-        // });
 
 
 
@@ -172,7 +165,6 @@ $(document).ready(
                 url: apiUrl + tasksPath + '/deleteById/' + iddata,
                 type: 'DELETE',
                 success: function (result) {
-                    //getElementsList();
                     $('#tasks-item').modal('toggle');
                     alert(result);
                 }, error: function (xhr, textStatus, errorThrown) {
@@ -200,8 +192,7 @@ $(document).ready(
 
             if(stat === 'MANAGEMENT' || stat === 'SALES' || stat === 'SERVICE')
             {
-                //document.getElementById('originId').style.display = 'none';
-                //document.getElementById('departmentId').style.visibility = 'hidden';
+
                 document.getElementById('departmentId').style.display = 'none';
                 console.log("Intra?");
             }
@@ -213,10 +204,9 @@ $(document).ready(
         });
 
         $(document).on('click', '#add_button', function () {
-            var iddata = $('#createid').val();
+            var iddata = 1;
             var picturedata = getBase64($('#createpicture').attr('src'));
             var namedata = $('#createname').val();
-            //var departmentdata = $('#createdepartment').val();
             var departmentdata;
             var positiondata = $('#createposition').val();
 
@@ -228,11 +218,12 @@ $(document).ready(
             }
             else
             {
-                document.getElementById('originId').style.visibility = 'visible';
+                document.getElementById('departmentId').style.visibility = 'visible';
                 departmentdata = $('#createdepartment').val();
             }
 
             var jsonCreate = '{"id":"' + iddata + '","picture":"' + picturedata + '","name":"' + namedata + '","department":"' + departmentdata + '","position":"' + positiondata + '"}';
+            console.log(jsonCreate);
             $.ajax({
                 headers: {
                     'Accept': 'application/json',
@@ -242,8 +233,10 @@ $(document).ready(
                 type: 'POST',
                 data: jsonCreate,
                 dataType: 'text',
-                success: function (result) {
+                success: function (result)
+                {
                     getElementsList(stat);
+                    emptyEmployee();
                     alert(result);
                 }
             });
@@ -267,7 +260,7 @@ $(document).ready(
                 data: jsonEdit,
                 dataType: 'text',
                 success: function (result) {
-                    getElementsList();
+                    getElementsList(stat);
                     alert(result);
                 }
             });
@@ -293,9 +286,9 @@ $(document).ready(
                 type: 'POST',
                 data: jsonEdit,
                 dataType: 'text',
-                success: function (result) {
-                    //getElementsList();
-                    //$('.taskShow_item').trigger('click');
+                success: function (result)
+                {
+
                     $('#tasks-item').modal('toggle');
 
 
@@ -337,7 +330,6 @@ $(document).ready(
                     else
                     {
                         console.log("ESTE?");
-                        //document.getElementById(".confirm_item").disabled = true;
                         row = row + '<td><button class="btn btn-primary confirm_item" disabled><span class="glyphicon active glyphicon-ok-circle" aria-hidden="true"></span></button></td>';
                     }
 
@@ -432,7 +424,6 @@ function getElementsList(stat)
     {
         getElementsListAll();
         console.log(stat);
-        // document.getElementById('originId').style.display = 'visible';
     }
 
     if(stat === "MANAGEMENT")
@@ -472,18 +463,4 @@ function listDepartment()
     //for editing
     $('#editowner_id').append("<option class='active' value = 1>" + "ROMANIA" + "</option>");
     $('#editowner_id').append("<option class='active' value = 0>" + "GERMANY" + "</option>");
-}
-
-function setToYes(index)
-{
-    //item.completed = 'YES';
-    //item.set(completed, 'YES');
-    //var index = ($(this).parent().parent().parent()).find('.dataid').html();
-    // console.log("Index in functie:" + index);
-    // //this.completed = 'YES';
-    // index.completed = 'YES';
-    //
-    // console.log("Asta este functia: "+index.completed);
-    // console.log("Oare ia bine motivul? : " + index.motive);
-    console.log("Set To Yes: " + index);
 }

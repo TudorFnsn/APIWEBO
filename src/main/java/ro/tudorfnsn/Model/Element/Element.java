@@ -25,11 +25,7 @@ public abstract class Element
     @Column(length = 3000)
     protected String picture;
 
-    // @NaturalId is new
-
-
     @Column
-    @NaturalId
     protected String name;
 
 

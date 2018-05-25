@@ -20,11 +20,10 @@
 
     <!-- scripts -->
     <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
-    <!--<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>-->
+
     <script type="text/javascript" src="/sources/navbar/navbar.js"></script>
     <script src="/sources/employees/EmployeesJS.js"></script>
-    <!--<script src="/sources/machine/MachineCSS.css" type="text/css"></script>-->
-    <!--<script src="/sources/navbar/navbarCSS.css"></script>-->
+
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -60,7 +59,6 @@
             </li>
             <li><a href="/machine">Machines</a></li>
             <li><a href="/spareparts">Spare Parts</a></li>
-            <!--<li><a href="#">Bills</a></li>-->
             <li class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">Employees
                     <span class="caret"></span>
@@ -129,16 +127,12 @@
             <form id='add_input'>
                 <table class='table table-hover'>
                     <tr>
-                        <td>Id</td>
-                        <td><input id='createid' type='text' class='form-control' name="id">.</input></td>
-                    </tr>
-                    <tr>
                         <td>Picture</td>
                         <td><img id="createpicture" class="imgPic thumbnail" src="" onerror="this.src='/sources/images/User-Interface-Plus-icon.png'"></td>
                     </tr>
                     <tr>
                         <td>Name</td>
-                        <td><input id='createname' type='text' class='form-control' name="name">.</input></td>
+                        <td><input id='createname' type='text' class='form-control' name="name"> </input></td>
                     </tr>
                     <tr id="departmentId">
                         <td>Department</td>
@@ -147,7 +141,7 @@
                     </tr>
                     <tr>
                         <td>Position</td>
-                        <td><input id='createposition' type='text' class='form-control' name="position">.</input></td>
+                        <td><input id='createposition' type='text' class='form-control' name="position"> </input></td>
                     </tr>
                     <tr>
                         <td colspan='2' align='center'>
@@ -175,9 +169,9 @@
         <div class='modal-body'>
             <form id='edit_input'>
                 <table class='table table-hover'>
-                    <tr>
+                    <tr style="display: none">
                         <td>Id</td>
-                        <td><input id='editid' type='text' class='form-control' name="id">.</input></td>
+                        <td><input id='editid' type='text' class='form-control' name="id"> </input></td>
                     </tr>
                     <tr>
                         <td>Picture</td>
@@ -185,15 +179,15 @@
                     </tr>
                     <tr>
                         <td>Name</td>
-                        <td><input id='editname' type='text' class='form-control' name="name">.</input></td>
+                        <td><input id='editname' type='text' class='form-control' name="name"> </input></td>
                     </tr>
                     <tr>
                         <td>Department</td>
-                        <td><input id='editdepartment' type='text' class='form-control' name="quantity">.</input></td>
+                        <td><input id='editdepartment' type='text' class='form-control' name="quantity"> </input></td>
                     </tr>
                     <tr>
                         <td>Position</td>
-                        <td><input id='editposition' type='text' class='form-control' name="position">.</input></td>
+                        <td><input id='editposition' type='text' class='form-control' name="position"> </input></td>
                     </tr>
                     <tr>
                         <td colspan='2' align='center'>
@@ -301,7 +295,6 @@
 <div class="navbar navbar-default navbar-fixed-bottom">
     <div class="container">
         <p class="navbar-text pull-left">© 2018 - Site Built By Tudor Fenesan
-            <!--<a href="http://webomatic.de/en/" target="_blank" >Webomatic</a>-->
         </p>
 
         <a href="http://webomatic.de/en/" class="navbar-btn btn-default btn-sm pull-right">

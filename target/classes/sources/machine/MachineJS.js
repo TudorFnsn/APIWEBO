@@ -1,7 +1,3 @@
-
-
-//***********
-
 var apiUrl = 'http://localhost:8080';
 var ownerPath = '/owner';
 var elementsPath = '/machine';
@@ -25,19 +21,13 @@ function getElementsListIP() {
     $('#tableDTOMachine tbody').empty();
     $.getJSON(apiUrl + elementsPath + '/getByStatus/IN_PROGRESS', null, function (data) {
         $.each(data, function (index, item) {
-            //console.log(item.sparePartIdList);
             var row = '<tr>';
             row = row + '<td class="dataid" >' + item.id + '</td>';
-            // row = row + '<td class="datapicture" >' + item.picture + '</td>';
             row = row + '<td class="datapicture"><img class="imgPic" src="data:image/jpeg;base64,' + item.picture + '"></td>';
-            //row = row + '<div class="imageBox">'+ '<img src="data:image/jpeg;base64," >' + ' </div>';
             row = row + '<td class="dataname" >' + item.name + '</td>';
             row = row + '<td class="dataseries" >' + item.series + '</td>';
             row = row + '<td class="datastatus" >' + item.status + '</td>';
-            // row = row + '<td class="datasparePartIdList" >' + item.sparePartIdList+ '</td>';
             row = row + '<td class="datasparePartIdList"><button class="btn spareParts-item sparePartsShow_item"><span class="glyphicon active glyphicon-list-alt" aria-hidden="true"></span></button></td>';
-
-            //row = row  + '<td class="datastatus" ><button type="button" ></button></td>';
             row = row + '<td class="dataarrivalDate" >' + item.arrivalDate + '</td>';
             row = row + '<td class="dataowner_id" >' + item.owner_id + '</td>';
             row = row + '<td><button class="btn edit-item editMenu_item"><span class="glyphicon active glyphicon-pencil" aria-hidden="true"></span></button></td>';
@@ -65,7 +55,6 @@ function getElementsListWaiting() {
             row = row + '<td class="dataname" >' + item.name + '</td>';
             row = row + '<td class="dataseries" >' + item.series + '</td>';
             row = row + '<td class="datastatus" >' + item.status + '</td>';
-            // row = row + '<td class="datasparePartIdList" >' + item.sparePartIdList + '</td>';
             row = row + '<td class="datasparePartIdList"><button class="btn spareParts-item sparePartsShow_item"><span class="glyphicon active glyphicon-list-alt" aria-hidden="true"></span></button></td>';
             row = row + '<td class="dataarrivalDate" >' + item.arrivalDate + '</td>';
             row = row + '<td class="dataowner_id" >' + item.owner_id + '</td>';
@@ -78,7 +67,6 @@ function getElementsListWaiting() {
 
     stat = "WAITING";
     console.log(stat);
-    //addWaiting();
 }
 
 function getElementsListFinished() {
@@ -91,7 +79,6 @@ function getElementsListFinished() {
             row = row + '<td class="dataname" >' + item.name + '</td>';
             row = row + '<td class="dataseries" >' + item.series + '</td>';
             row = row + '<td class="datastatus" >' + item.status + '</td>';
-            // row = row + '<td class="datasparePartIdList" >' + item.sparePartIdList + '</td>';
             row = row + '<td class="datasparePartIdList"><button class="btn spareParts-item sparePartsShow_item"><span class="glyphicon active glyphicon-list-alt" aria-hidden="true"></span></button></td>';
             row = row + '<td class="dataarrivalDate" >' + item.arrivalDate + '</td>';
             row = row + '<td class="dataowner_id" >' + item.owner_id + '</td>';
@@ -104,7 +91,7 @@ function getElementsListFinished() {
 
     stat = "FINALIZED";
     console.log(stat);
-    //addFinished();
+
 }
 
 
@@ -113,17 +100,16 @@ function getElementsListFinished() {
 $(document).ready(
     function ()
     {
-        var quantitiy=0;
+
         stat = "IN_PROGRESS";
         console.log("BY DEFAULT:" + stat);
         // load the select options to choose owner and spare parts
         listOwner();
         listSpareParts();
         getElements(stat);
-        //modalPicture();
 
         $(document).on('click', '#add_button', function () {
-            //var iddata = $('#createid').val();
+
             var iddata = 1;
             var picturedata = getBase64($('#createpicture').attr('src'));
             var namedata = $('#createname').val();
@@ -134,7 +120,7 @@ $(document).ready(
             var owner_iddata = $('#createowner_id').val();
 
             var jsonCreate = '{"id":"' + iddata + '","picture":"' + picturedata + '","name":"' + namedata + '","series":"' + seriesdata + '","status":"' + statusdata + '","sparePartIdList":[' + sparePartIdListdata + '],"arrivalDate":"' + arrivalDatedata + '","owner_id":"' + owner_iddata + '"}';
-            //console.log(jsonCreate);
+
             $.ajax({
                 headers: {
                     'Accept': 'application/json',
@@ -144,13 +130,12 @@ $(document).ready(
                 type: 'POST',
                 data: jsonCreate,
                 dataType: 'text',
-                success: function (result) {
-                    //listSpareParts();
+                success: function (result)
+                {
                     getElements(stat);
                     emptyMachine();
                     console.log(jsonCreate.toString());
                     alert(result);
-                    //console.log(result+"*************");
                 }
             });
         });
@@ -160,7 +145,6 @@ $(document).ready(
         $(document).on('click', '.sparePartsShow_item', function () {
 
             var index = ($(this).parent().parent()).find('.dataid').html();
-            //console.log(index);
 
             $('#tableSpareParts tbody').empty();
             $.getJSON(apiUrl + elementsPath + '/sparePartsOf/' + index, null, function (data)
@@ -194,6 +178,7 @@ $(document).ready(
             else {
                 document.getElementById("move_button").style.display = '';
             }
+
             var iddata = ($(this).parent().parent()).find('.dataid').html();
             $('#editid').val(iddata);
             var picturedata = ($(this).parent().parent()).find('.imgPic').attr('src');
@@ -222,7 +207,6 @@ $(document).ready(
                 success: function (result) {
                     getElements(stat);
                     alert(result);
-                    //modalPicture();
                 }, error: function (xhr, textStatus, errorThrown) {
                     alert(xhr.responseText);
                 }
@@ -232,7 +216,6 @@ $(document).ready(
 
         $(document).on('click', '#update_button', function () {
 
-            //console.log($("#move_button"));
                 var iddata = $('#editid').val();
                 var picturedata = getBase64($('#editpicture').attr('src'));
                 var namedata = $('#editname').val();
@@ -253,10 +236,11 @@ $(document).ready(
                     type: 'POST',
                     data: jsonEdit,
                     dataType: 'text',
-                    success: function (result) {
+                    success: function (result)
+                    {
                         getElements(stat);
                         alert(result);
-                        //console.log(document.status.toString());
+
                     }
                 });
 
@@ -314,9 +298,6 @@ $(document).ready(
 
 
         $(document).on('click', '#move_button', function () {
-            // var moveButton = document.getElementById('move_button');
-            //
-
 
                 var iddata = $('#editid').val();
                 var picturedata = $('#editpicture').val();
@@ -340,11 +321,10 @@ $(document).ready(
                     type: 'POST',
                     data: jsonEdit,
                     dataType: 'text',
-                    success: function (result) {
+                    success: function (result)
+                    {
                         getElements(stat);
-                        // console.log(jsonEdit);
                         alert(result);
-                        //console.log(document.status.toString());
                     }
                 });
 
@@ -366,6 +346,7 @@ function listOwner()
     });
 }
 
+
 function listSpareParts()
 {
 
@@ -374,9 +355,7 @@ function listSpareParts()
     {
         $.each(data, function (index, item)
         {
-            //$('#createsparePartIdList').append("<option class='active' value = '" + item.id + "'>" + item.name + "</option>");
             $('#createsparePartIdList').append("<option class='active' value = '" + item.id + "'><div><span>" + item.name + "</span>" + " <span>100</span></div></option>");
-            //$('#createsparePartIdList').append("<div class='input-group'>");
 
             $('#editsparePartIdList').append("<option class='active' value = '" + item.id + "'>" + item.name + "</option>");
         });
@@ -407,7 +386,7 @@ function getElements(stat)
     {
         getElementsListFinished();
         console.log(stat);
-        //hideMoveButton();
+
     }
 
 

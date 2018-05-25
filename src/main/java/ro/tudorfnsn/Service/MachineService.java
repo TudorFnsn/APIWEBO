@@ -131,7 +131,6 @@ public class MachineService
     {
         Machine newmachine = convertMachine.OneToModel(dtomachine);
 
-        //newmachine.setOwner(ownerRepository.findFirstById(dtomachine.getOwner_id()));
 
         Machine oldmachine = machineRepository.findFirstById(id);
 

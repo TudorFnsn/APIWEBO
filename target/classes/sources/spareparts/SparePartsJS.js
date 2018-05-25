@@ -26,7 +26,6 @@ function getElementsList() {
     });
 
     stat = "";
-    //document.getElementById('originId').style.display = 'visible';
 }
 
 function getElementsListRomania() {
@@ -77,12 +76,23 @@ function getElementsListGermany() {
 
 }
 
+function emptySparePart()
+{
+    $('#createpicture').attr('src', '');
+    $('#createname').val('');
+    $('#createseries').val('');
+    $('#createprice').val('');
+    $('#createquantity').val('');
+
+
+}
+
 
 $(document).ready(
     function ()
     {
         stat = "";
-        //listOrigin();
+
         getElements(stat);
 
         listOrigin();
@@ -113,7 +123,7 @@ $(document).ready(
                 url: apiUrl + elementsPath + '/deleteById/' + iddata,
                 type: 'DELETE',
                 success: function (result) {
-                    getElementsList();
+                    getElements(stat);
                     alert(result);
                 }, error: function (xhr, textStatus, errorThrown) {
                     alert(xhr.responseText);
@@ -126,7 +136,6 @@ $(document).ready(
 
             if(stat === 'ROMANIA' || stat === 'GERMANY')
             {
-                //document.getElementById('originId').style.display = 'none';
                 document.getElementById('originId').style.display = 'none';
                 console.log("Intra?");
             }
@@ -140,7 +149,6 @@ $(document).ready(
 
 
         $(document).on('click', '#add_button', function () {
-            // var iddata = $('#createid').val();
             var iddata = 1;
             var picturedata = getBase64($('#createpicture').attr('src'));
             var namedata = $('#createname').val();
@@ -153,7 +161,6 @@ $(document).ready(
             if(stat === 'ROMANIA' || stat === 'GERMANY')
             {
                 origindata = 'EMPTY';
-                //$('.originId').hide();
                 document.getElementById('originId').style.display = 'none';
                 console.log("Intra?");
             }
@@ -172,7 +179,9 @@ $(document).ready(
                 type: 'POST',
                 data: jsonCreate,
                 dataType: 'text',
-                success: function (result) {
+                success: function (result)
+                {
+                    emptySparePart();
                     getElementsList();
                     alert(result);
                 }
@@ -267,7 +276,6 @@ function getElements(stat)
     {
         getElementsList();
         console.log(stat);
-       // document.getElementById('originId').style.display = 'visible';
     }
 
     if(stat === "ROMANIA")
@@ -298,7 +306,7 @@ function listOrigin()
     $('#createorigin').append("<option value = 1>" + "GERMANY" + "</option>");
 
     //for editing
-    $('#editowner_id').append("<option class='active' value = 1>" + "ROMANIA" + "</option>");
-    $('#editowner_id').append("<option class='active' value = 0>" + "GERMANY" + "</option>");
+    $('#editorigin').append("<option class='active' value = 1>" + "ROMANIA" + "</option>");
+    $('#editorigin').append("<option class='active' value = 0>" + "GERMANY" + "</option>");
 }
 

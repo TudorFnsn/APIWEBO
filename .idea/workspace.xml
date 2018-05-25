@@ -2,29 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64569b9d-340b-41a5-af09-be2f8b93a22d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/pages/IndexPage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sources/index/IndexCSS.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sources/index/IndexJS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sources/index/IndexingJS.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Security/Success.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Security/Success.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Security/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/web/ViewConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/web/ViewConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Element/Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Element/Element.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Machine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Machine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/MachineService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/MachineService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/pages/EmployeesPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/EmployeesPage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/pages/MachinePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/MachinePage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/NewsPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/NewsPage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/pages/SparePartsPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/SparePartsPage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/pages/TaskPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/TaskPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/sources/machine/MachineJS.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sources/machine/MachineJS.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/EmployeesPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/EmployeesPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/MachinePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/MachinePage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/NewsPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/NewsPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/SparePartsPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/SparePartsPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/TaskPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/TaskPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Security/Success.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Security/Success.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Security/WebSecurityConfig$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Security/WebSecurityConfig$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Security/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/Security/WebSecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/web/ViewConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/web/ViewConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sources/employees/EmployeesJS.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sources/employees/EmployeesJS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sources/spareparts/SparePartsJS.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sources/spareparts/SparePartsJS.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -93,26 +79,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TaskVacationJS.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/sources/task/TaskVacationJS.js">
+      <file leaf-file-name="SparePartsJS.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/sources/spareparts/SparePartsJS.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1">
-              <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MachineJS.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/sources/machine/MachineJS.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="125" column="9" selection-start-line="125" selection-start-column="9" selection-end-line="125" selection-end-column="9" />
+            <state relative-caret-position="423">
+              <caret line="130" column="15" lean-forward="true" selection-start-line="130" selection-start-column="15" selection-end-line="130" selection-end-column="15" />
               <folding>
                 <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
                 <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
                 <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
-                <marker date="1527257224000" expanded="true" signature="935:957" ph="data:" />
-                <marker date="1527257224000" expanded="true" signature="935:958" ph="data:" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MachineJS.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/sources/machine/MachineJS.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="17" selection-end-column="1" />
+              <folding>
+                <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
+                <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
+                <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
+                <marker date="1527257553000" expanded="true" signature="788:810" ph="data:" />
+                <marker date="1527257553000" expanded="true" signature="788:811" ph="data:" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SparePartsPage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/pages/SparePartsPage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="198" column="103" selection-start-line="198" selection-start-column="103" selection-end-line="198" selection-end-column="103" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#0;n#table#0;n#form#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -121,10 +125,66 @@
       <file leaf-file-name="MachinePage.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/pages/MachinePage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1386">
-              <caret line="216" column="101" selection-start-line="216" selection-start-column="101" selection-end-line="216" selection-end-column="101" />
+            <state relative-caret-position="365">
+              <caret line="181" column="25" selection-start-line="181" selection-start-column="25" selection-end-line="181" selection-end-column="45" />
               <folding>
                 <element signature="n#style#0;n#tr#0;n#table#0;n#form#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#4;n#table#0;n#form#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmployeesJS.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/sources/employees/EmployeesJS.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="411">
+              <caret line="262" column="40" selection-start-line="262" selection-start-column="40" selection-end-line="262" selection-end-column="40" />
+              <folding>
+                <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
+                <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
+                <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
+                <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TaskPage.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/pages/TaskPage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="160" column="111" selection-start-line="160" selection-start-column="111" selection-end-line="160" selection-end-column="111" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#0;n#table#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#0;n#table#0;n#form#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmployeeController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/EmployeeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-773">
+              <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmployeesPage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/pages/EmployeesPage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1242">
+              <caret line="189" column="103" selection-start-line="189" selection-start-column="103" selection-end-line="189" selection-end-column="103" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#0;n#table#0;n#form#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -147,7 +207,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>edito</find>
       <find>my</find>
       <find>mySp</find>
       <find>table</find>
@@ -177,6 +236,7 @@
       <find>Start Date</find>
       <find>time</find>
       <find>edit</find>
+      <find>//</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -195,8 +255,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/ScheduleController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Converter/ConvertSchedule.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Employee.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/TaskRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Repository/VacationRepository.java" />
@@ -211,10 +269,8 @@
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/EmployeeService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/EmployeeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Converter/ConvertTask.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/sources/spareparts/SparePartsJS.js" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Task.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/SparePart.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Machine.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Vacation.java" />
         <option value="$PROJECT_DIR$/src/main/resources/sources/task/TaskJS.js" />
         <option value="$PROJECT_DIR$/src/main/resources/sources/task/TaskCSS.ts" />
@@ -225,7 +281,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/sources/task/TaskVacationJS.js" />
         <option value="$PROJECT_DIR$/src/main/resources/sources/task/TaskVacationCSS.css" />
         <option value="$PROJECT_DIR$/src/main/resources/sources/news/NewsCSS.css" />
-        <option value="$PROJECT_DIR$/src/main/resources/sources/employees/EmployeesJS.js" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/News.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTONews.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Converter/ConvertNews.java" />
@@ -235,17 +290,22 @@
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/web/ViewConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Security/Success.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Security/WebSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/pages/TaskPage.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/pages/SparePartsPage.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/pages/EmployeesPage.html" />
         <option value="$PROJECT_DIR$/src/main/resources/sources/index/IndexJS.js" />
         <option value="$PROJECT_DIR$/src/main/resources/sources/index/IndexingPage.js" />
         <option value="$PROJECT_DIR$/src/main/resources/pages/IndexPage.html" />
         <option value="$PROJECT_DIR$/src/main/resources/sources/index/IndexingJS.js" />
         <option value="$PROJECT_DIR$/src/main/resources/sources/index/IndexCSS.css" />
         <option value="$PROJECT_DIR$/src/main/resources/pages/NewsPage.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/pages/MachinePage.html" />
         <option value="$PROJECT_DIR$/src/main/resources/sources/machine/MachineJS.js" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/MachineService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Element/Element.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Machine.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/pages/MachinePage.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/pages/SparePartsPage.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/sources/spareparts/SparePartsJS.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/pages/EmployeesPage.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/sources/employees/EmployeesJS.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/pages/TaskPage.html" />
       </list>
     </option>
   </component>
@@ -664,12 +724,12 @@
       <workItem from="1526826120998" duration="5062000" />
       <workItem from="1526980456925" duration="1025000" />
       <workItem from="1526981577713" duration="25766000" />
-      <workItem from="1527156297246" duration="35572000" />
+      <workItem from="1527156297246" duration="38983000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="430675000" />
+    <option name="totallyTimeSpent" value="434086000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -704,10 +764,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.3287483" />
-      <window_info active="true" anchor="bottom" id="Run" order="12" sideWeight="0.47980613" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Run" order="12" sideWeight="0.47980613" visible="true" weight="0.17103449" />
       <window_info anchor="bottom" id="Spring" order="4" weight="0.32827586" />
-      <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.49676898" weight="0.31724137" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49190283" visible="true" weight="0.20274636" />
+      <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.49676898" weight="0.044137932" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49190283" visible="true" weight="0.20274636" />
       <window_info anchor="right" id="Bean Validation" order="4" weight="0.32956383" />
       <window_info id="Web" order="3" sideWeight="0.5080972" side_tool="true" weight="0.13327949" />
       <window_info anchor="bottom" id="Find" order="11" weight="0.32827586" />
@@ -734,41 +794,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/SparePart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="30" column="120" selection-start-line="30" selection-start-column="120" selection-end-line="30" selection-end-column="120" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Vacation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://7f0268cb-843f-457c-97e7-b49e017ac0ec/database/webomatic_db/schema/public/table/vacation">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://7f0268cb-843f-457c-97e7-b49e017ac0ec/database/webomatic_db/schema/public/table/task">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://7f0268cb-843f-457c-97e7-b49e017ac0ec/database/webomatic_db/schema/public/table/employee">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -790,13 +815,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/EmployeeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -858,56 +876,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/sources/employees/EmployeesCSS.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/spareparts/SparePartsJS.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="210" column="8" selection-start-line="210" selection-start-column="8" selection-end-line="213" selection-end-column="11" />
-          <folding>
-            <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
-            <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
-            <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/employees/EmployeesJS.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="136" column="8" lean-forward="true" selection-start-line="136" selection-start-column="8" selection-end-line="136" selection-end-column="8" />
-          <folding>
-            <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
-            <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
-            <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
-            <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Machine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Element/MechanicalElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Element/Element.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="25" selection-end-column="29" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/News.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1014,30 +982,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/pages/EmployeesPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/pages/LoginPage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-325" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/pages/SparePartsPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/sources/index/IndexJS.js">
@@ -1057,20 +1004,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="103">
           <caret line="92" column="53" selection-start-line="92" selection-start-column="53" selection-end-line="92" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/pages/TaskPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#tr#0;n#table#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#tr#0;n#table#0;n#form#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1105,26 +1038,159 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/pages/MachinePage.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Element/MechanicalElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1386">
-          <caret line="216" column="101" selection-start-line="216" selection-start-column="101" selection-end-line="216" selection-end-column="101" />
+        <state relative-caret-position="165">
+          <caret line="16" column="49" lean-forward="true" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Machine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
           <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://7f0268cb-843f-457c-97e7-b49e017ac0ec/database/webomatic_db/schema/public/table/machine_spare_parts_list">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+          <column-attributes>
+            <column name="ctid" enabled="false" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Model/Element/Element.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Service/MachineService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="132" selection-start-line="132" selection-end-line="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://7f0268cb-843f-457c-97e7-b49e017ac0ec/database/webomatic_db/schema/public/table/owner">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://7f0268cb-843f-457c-97e7-b49e017ac0ec/database/webomatic_db/schema/public/table/machine">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/MachineController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/pages/SparePartsPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="198" column="103" selection-start-line="198" selection-start-column="103" selection-end-line="198" selection-end-column="103" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#tr#0;n#table#0;n#form#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/machine/MachineJS.js">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/spareparts/SparePartsJS.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="125" column="9" selection-start-line="125" selection-start-column="9" selection-end-line="125" selection-end-column="9" />
+        <state relative-caret-position="423">
+          <caret line="130" column="15" lean-forward="true" selection-start-line="130" selection-start-column="15" selection-end-line="130" selection-end-column="15" />
           <folding>
             <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
             <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
             <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
-            <marker date="1527257224000" expanded="true" signature="935:957" ph="data:" />
-            <marker date="1527257224000" expanded="true" signature="935:958" ph="data:" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/pages/MachinePage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="181" column="25" selection-start-line="181" selection-start-column="25" selection-end-line="181" selection-end-column="45" />
+          <folding>
+            <element signature="n#style#0;n#tr#0;n#table#0;n#form#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#4;n#table#0;n#form#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/pages/EmployeesPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1242">
+          <caret line="189" column="103" selection-start-line="189" selection-start-column="103" selection-end-line="189" selection-end-column="103" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#table#0;n#form#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/tudorfnsn/Controller/EmployeeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-773">
+          <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/machine/MachineJS.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
+            <marker date="1527257553000" expanded="true" signature="788:810" ph="data:" />
+            <marker date="1527257553000" expanded="true" signature="788:811" ph="data:" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/employees/EmployeesJS.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="262" column="40" selection-start-line="262" selection-start-column="40" selection-end-line="262" selection-end-column="40" />
+          <folding>
+            <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/pages/TaskPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="160" column="111" selection-start-line="160" selection-start-column="111" selection-end-line="160" selection-end-column="111" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#table#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#table#0;n#form#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

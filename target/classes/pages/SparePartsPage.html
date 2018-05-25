@@ -20,11 +20,10 @@
 
     <!-- scripts -->
     <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
-    <!--<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>-->
+
     <script type="text/javascript" src="/sources/navbar/navbar.js"></script>
     <script src="/sources/spareparts/SparePartsJS.js"></script>
-    <!--<script src="/sources/machine/MachineCSS.css" type="text/css"></script>-->
-    <!--<script src="/sources/navbar/navbarCSS.css"></script>-->
+
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -67,7 +66,6 @@
                     <li><a onclick="getElementsList()">All Spare Parts</a></li>
                 </ul>
             </li>
-            <!--<li><a href="#">Bills</a></li>-->
             <li><a href="/employee">Employees</a></li>
             <li><a href="/taskvacation">Tasks & Vacations</a> </li>
             <li><a href="/news">News</a></li>
@@ -127,33 +125,25 @@
             <form id='add_input'>
                 <table class='table table-hover'>
                     <tr>
-                        <td>Id</td>
-                        <td><input id='createid' type='text' class='form-control' name="id">.</input></td>
-                    </tr>
-                    <tr>
                         <td>Picture</td>
                         <td><img id="createpicture" class="imgPic thumbnail" src="" onerror="this.src='/sources/images/User-Interface-Plus-icon.png'"></td>
                     </tr>
                     <tr>
                         <td>Name</td>
-                        <td><input id='createname' type='text' class='form-control' name="name">.</input></td>
+                        <td><input id='createname' type='text' class='form-control' name="name"> </input></td>
                     </tr>
                     <tr>
                         <td>Series</td>
-                        <td><input id='createseries' type='text' class='form-control' name="series">.</input></td>
+                        <td><input id='createseries' type='text' class='form-control' name="series"> </input></td>
                     </tr>
                     <tr>
                         <td>Price</td>
-                        <td><input id='createprice' type='text' class='form-control' name="price">.</input></td>
+                        <td><input id='createprice' type='text' class='form-control' name="price"> </input></td>
                     </tr>
                     <tr>
                         <td>Quantity</td>
-                        <td><input id='createquantity' type='text' class='form-control' name="quantity">.</input></td>
+                        <td><input id='createquantity' type='text' class='form-control' name="quantity"> </input></td>
                     </tr>
-                    <!--<tr id="originId">-->
-                        <!--<td>Origin</td>-->
-                        <!--<td><input id='createorigin' type='text' class='form-control' name="origin">.</input></td>-->
-                    <!--</tr>-->
                     <tr id="originId">
                         <td>Origin</td>
                         <td><select id='createorigin' name='origin' class='form-control'></select></td>
@@ -184,9 +174,9 @@
         <div class='modal-body'>
             <form id='edit_input'>
                 <table class='table table-hover'>
-                    <tr>
+                    <tr style="display: none">
                         <td>Id</td>
-                        <td><input id='editid' type='text' class='form-control' name="id">.</input></td>
+                        <td><input id='editid' type='text' class='form-control' name="id"> </input></td>
                     </tr>
                     <tr>
                         <td>Picture</td>
@@ -194,19 +184,19 @@
                     </tr>
                     <tr>
                         <td>Name</td>
-                        <td><input id='editname' type='text' class='form-control' name="name">.</input></td>
+                        <td><input id='editname' type='text' class='form-control' name="name"> </input></td>
                     </tr>
                     <tr>
                         <td>Series</td>
-                        <td><input id='editseries' type='text' class='form-control' name="series">.</input></td>
+                        <td><input id='editseries' type='text' class='form-control' name="series"> </input></td>
                     </tr>
                     <tr>
                         <td>Price</td>
-                        <td><input id='editprice' type='text' class='form-control' name="price">.</input></td>
+                        <td><input id='editprice' type='text' class='form-control' name="price"> </input></td>
                     </tr>
                     <tr>
                         <td>Quantity</td>
-                        <td><input id='editquantity' type='text' class='form-control' name="quantity">.</input></td>
+                        <td><input id='editquantity' type='text' class='form-control' name="quantity"> </input></td>
                     </tr>
                     <tr>
                         <td>Origin</td>
@@ -252,7 +242,6 @@
 <div class="navbar navbar-default navbar-fixed-bottom">
     <div class="container">
         <p class="navbar-text pull-left">© 2018 - Site Built By Tudor Fenesan
-            <!--<a href="http://webomatic.de/en/" target="_blank" >Webomatic</a>-->
         </p>
 
         <a href="http://webomatic.de/en/" class="navbar-btn btn-default btn-sm pull-right">

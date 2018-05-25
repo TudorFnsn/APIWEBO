@@ -20,11 +20,10 @@
 
     <!-- scripts -->
     <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
-    <!--<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>-->
+
     <script type="text/javascript" src="/sources/navbar/navbar.js"></script>
     <script src="/sources/machine/MachineJS.js"></script>
-    <!--<script src="/sources/machine/MachineCSS.css" type="text/css"></script>-->
-    <!--<script src="/sources/navbar/navbarCSS.css"></script>-->
+
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -38,6 +37,7 @@
 
 </head>
 <body>
+
 <!--*** Logo ***-->
 <div class="text-center" style="background-color:#a93231;height:110px;">
 
@@ -67,7 +67,6 @@
                 </ul>
             </li>
             <li><a href="/spareparts">Spare Parts</a></li>
-            <!--<li><a href="#">Bills</a></li>-->
             <li><a href="/employee">Employees</a></li>
             <li><a href="/taskvacation">Tasks & Vacations</a></li>
             <li><a href="/news">News</a></li>
@@ -147,12 +146,11 @@
                     </tr>
                     <tr>
                         <td>Arrival Date</td>
-                        <td><input id='createarrivalDate' type='text' class='form-control' name="arrivalDate">.</input>
+                        <td><input id='createarrivalDate' type='text' class='form-control' name="arrivalDate"> </input>
                         </td>
                     </tr>
                     <tr>
                         <td>Owner</td>
-                        <!--<td><input id='createowner_id' type='text' class='form-control' name="owner_id">.</input></td>-->
                         <td><select id='createowner_id' name='owner_id' class='form-control'></select></td>
                     </tr>
                     <tr>
@@ -183,7 +181,7 @@
                 <table class='table table-hover'>
                     <tr style="display: none">
                         <td>Id</td>
-                        <td><input id='editid' type='text' class='form-control' name="id">.</input></td>
+                        <td><input id='editid' type='text' class='form-control' name="id"> </input></td>
                     </tr>
                     <tr>
                         <td>Picture</td>
@@ -191,15 +189,15 @@
                     </tr>
                     <tr>
                         <td>Name</td>
-                        <td><input id='editname' type='text' class='form-control' name="name">.</input></td>
+                        <td><input id='editname' type='text' class='form-control' name="name"> </input></td>
                     </tr>
                     <tr>
                         <td>Series</td>
-                        <td><input id='editseries' type='text' class='form-control' name="series">.</input></td>
+                        <td><input id='editseries' type='text' class='form-control' name="series"> </input></td>
                     </tr>
-                    <tr>
+                    <tr style="display: none">
                         <td>Status</td>
-                        <td><input id='editstatus' type='text' class='form-control' name="status">.</input></td>
+                        <td><input id='editstatus' type='text' class='form-control' name="status"> </input></td>
                     </tr>
                     <tr>
                         <td>Spare Parts</td>
@@ -209,12 +207,12 @@
                     </tr>
                     <tr>
                         <td>Arrival Date</td>
-                        <td><input id='editarrivalDate' type='text' class='form-control' name="arrivalDate">.</input>
+                        <td><input id='editarrivalDate' type='text' class='form-control' name="arrivalDate"> </input>
                         </td>
                     </tr>
                     <tr>
                         <td>Owner</td>
-                        <td><select id='editowner_id' name='owner_id' class='form-control'></select>.</input></td>
+                        <td><select id='editowner_id' name='owner_id' class='form-control'></select> </input></td>
                     </tr>
                     <tr>
                         <td colspan='2' align='center'>
@@ -322,7 +320,6 @@
 <div class="navbar navbar-default navbar-fixed-bottom">
     <div class="container">
         <p class="navbar-text pull-left">© 2018 - Site Built By Tudor Fenesan
-            <!--<a href="http://webomatic.de/en/" target="_blank" >Webomatic</a>-->
         </p>
 
         <a href="http://webomatic.de/en/" class="navbar-btn btn-default btn-sm pull-right">
