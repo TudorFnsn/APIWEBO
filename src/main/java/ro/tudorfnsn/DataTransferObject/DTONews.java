@@ -16,10 +16,10 @@ public class DTONews
 {
     Long id;
     String title;
+    String picture;
     @JsonFormat(shape=JsonFormat.Shape.STRING, pattern="dd-MM-yyyy")
     Date startDate;
     @JsonFormat(shape=JsonFormat.Shape.STRING, pattern="dd-MM-yyyy")
     Date endDate;
-    //TextArea description;
-    String description;
+
 }

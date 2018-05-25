@@ -1,6 +1,7 @@
 package ro.tudorfnsn.Model;
 
 import lombok.*;
+import org.hibernate.annotations.Type;
 
 import javax.persistence.*;
 import java.awt.*;
@@ -23,6 +24,12 @@ public class News
     @Column
     private String title;
 
+    @Lob
+    @Type(type = "text")
+    @Basic(fetch = FetchType.LAZY)
+    @Column(length = 3000)
+    protected String picture;
+
     @Column
     @Temporal(TemporalType.DATE)
     private Date startDate;
@@ -31,15 +38,12 @@ public class News
     @Temporal(TemporalType.DATE)
     private Date endDate;
 
-    @Column
-    private String description;
     //private TextArea description;
 
-    public News(String title, Date startDate, Date endDate, String description)
+    public News(String title, Date startDate, Date endDate)
     {
         this.title = title;
         this.startDate = startDate;
         this.endDate = endDate;
-        this.description = description;
     }
 }

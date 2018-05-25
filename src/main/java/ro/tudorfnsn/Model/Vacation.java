@@ -22,7 +22,7 @@ public class Vacation
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    @ManyToOne(targetEntity = Employee.class, cascade = CascadeType.ALL)
+    @ManyToOne
     private Employee employee;
 
     @Column

@@ -4,5 +4,6 @@ public enum MotiveOfAbsence
 {
     PLEASURE,
     PERSONAL,
-    SICK
+    SICK,
+    EMPTY
 }

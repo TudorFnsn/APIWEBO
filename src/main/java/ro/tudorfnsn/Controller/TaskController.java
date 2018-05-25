@@ -3,6 +3,7 @@ package ro.tudorfnsn.Controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import ro.tudorfnsn.DataTransferObject.DTOTask;
+import ro.tudorfnsn.Enumerable.Completed;
 import ro.tudorfnsn.Model.Employee;
 import ro.tudorfnsn.Service.TaskService;
 
@@ -35,6 +36,7 @@ public class TaskController
     @RequestMapping(value = "/create", method = RequestMethod.POST)
     public void create(@RequestBody DTOTask dtoTask)
     {
+        dtoTask.setCompleted(Completed.NO);
         taskService.createTask(dtoTask);
     }
 

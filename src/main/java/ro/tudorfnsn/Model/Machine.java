@@ -43,7 +43,7 @@ public class Machine extends MechanicalElement
     */
 
     @ManyToMany(fetch = FetchType.LAZY, cascade = {CascadeType.PERSIST, CascadeType.MERGE})
-    @JoinTable(name = "machine_spare_parts_list", joinColumns = { @JoinColumn(name = "machine_id") }, inverseJoinColumns = { @JoinColumn(name = "spare_parts_list_id") })
+    @JoinTable(name = "machine_spare_parts_list", joinColumns = { @JoinColumn(name = "machine_id") }, inverseJoinColumns = { @JoinColumn(name = "spare_parts_id") })
     private List<SparePart> sparePartsList;
 
     @ManyToOne

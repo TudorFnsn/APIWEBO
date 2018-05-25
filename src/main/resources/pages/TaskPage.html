@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Webomatic</title>
+
+    <meta name='viewport' content='width=device-width, initial-scale=1'/>
+
+    <!-- links -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../sources/navbar/navbarCSS.css" >
+    <!--<link rel="stylesheet" href="/sources/task/TaskVacationCSS.css">-->
+
+
+
+    <!-- scripts -->
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <!--<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>-->
+    <script type="text/javascript" src="/sources/navbar/navbar.js"></script>
+    <script src="/sources/task/TaskVacationJS.js"></script>
+    <!--<script src="/sources/machine/MachineCSS.css" type="text/css"></script>-->
+    <!--<script src="/sources/navbar/navbarCSS.css"></script>-->
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+
+
+
+</head>
+<body>
+<!--*** Logo ***-->
+<div class="text-center" style="background-color:#a93231;height:110px;">
+
+    <img src="/sources/images/comeon.png" class="img-fluid" id="">
+
+</div>
+
+<!--*** Start Navbar ***-->
+<nav class="navbar navbar-default" id="navbar">
+    <div class="container-fluid">
+        <ul class="nav navbar-nav">
+            <li class="active">
+                <a href="#" class="navbar-brand">
+
+                    <span class="glyphicon glyphicon-home fa-lg" aria-hidden="true"></span>
+                </a>
+            </li>
+            <li><a href="/machine">Machines</a></li>
+            <li><a href="/spareparts">Spare Parts</a></li>
+            <li><a href="/employee">Employees</a></li>
+            <!--<li><a href="#">Bills</a></li>-->
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Tasks & Vacations
+                    <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a id="id1" onclick="visualizeTask()">Create Task</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a onclick="visualizeVacation()">Create Vacation</a></li>
+                </ul>
+            </li>
+            <li><a href="/news">News</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+                <a href="#">
+                    <span class="glyphicon glyphicon-user fa-lg"></span>
+                    ADMIN
+                </a>
+            </li>
+            <li><a><span class="glyphicon glyphicon-log-out" onclick="location.replace('/logout')"></span> Logout</a></li>
+        </ul>
+    </div>
+</nav>
+<!--*** End Navbar ***-->
+
+
+<!--*** Start Content ***-->
+
+<div id="taskContent" class="container-fluid" style="width: 50%">
+    <form id='add_input'>
+        <table class='table table-hover'>
+            <thead>
+            <h4 class="text-center">Add Task</h4>
+            </thead>
+            <tr style="display: none">
+                <td>Id</td>
+                <td><input id='createid' type='text' class='form-control' name="id">.</input></td>
+            </tr>
+            <tr>
+                <td>Employee</td>
+                <td><select id='createemployee_id' name='employee_id' class='form-control'></select></td>
+            </tr>
+            <tr>
+                <td>Date</td>
+                <td><input id='createdate' type='text' class='form-control' name="date">.</input>
+                </td>
+            </tr>
+            <tr>
+                <td>Start Hour</td>
+                <td><input id='createstartHour' type='text' class='form-control' name="startHour">.</input></td>
+            </tr>
+            <tr>
+                <td>End Hour</td>
+                <td><input id='createendHour' type='text' class='form-control' name="endHour">.</input></td>
+            </tr>
+            <tr>
+                <td>Description</td>
+                <td><input id='createdescription' type='text' class='form-control' name="description">.</input>
+                </td>
+            </tr>
+            <tr>
+                <td colspan='2' align='center'>
+                    <div class='form-group'>
+                        <button type='button' class='btn btn-primary' id='add_button_task' data-dismiss='modal'
+                                aria-label='Close'> Add
+                        </button>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+<div id="vacationContent"  class="container-fluid" style="width: 50%">
+    <form id='add_input_vacation'>
+        <table class='table table-hover'>
+            <thead>
+            <h4 class="text-center">Add Vacation</h4>
+            </thead>
+            <tr style="display: none">
+                <td>Id</td>
+                <td><input id='createVacationid' type='text' class='form-control' name="id">.</input></td>
+            </tr>
+            <tr>
+                <td>Employee</td>
+                <td><select id='createVacationemployee_id' name='employee_id' class='form-control'></select></td>
+            </tr>
+            <tr>
+                <td>Leave</td>
+                <td><input id='createVacationleave' type='text' class='form-control' name="leave">.</input>
+                </td>
+            </tr>
+            <tr>
+                <td>Arrival</td>
+                <td><input id='createVacationarrival' type='text' class='form-control' name="arrival">.</input></td>
+            </tr>
+            <tr>
+                <td>Motive</td>
+                <td><select id='createVacationmotive' name='motive' class='form-control'></select></td>
+            </tr>
+            <tr>
+                <td>Description</td>
+                <td><input id='createVacationdescription' type='text' class='form-control' name="description">.</input>
+                </td>
+            </tr>
+            <tr>
+                <td colspan='2' align='center'>
+                    <div class='form-group'>
+                        <button type='button' class='btn btn-primary' id='add_button_vacation' data-dismiss='modal'
+                                aria-label='Close'> Add
+                        </button>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+
+
+
+<!--*** End Content ***-->
+
+<!--*** Start Footer ***-->
+<div class="navbar navbar-default navbar-fixed-bottom">
+    <div class="container">
+        <p class="navbar-text pull-left">© 2018 - Site Built By Tudor Fenesan
+            <!--<a href="http://webomatic.de/en/" target="_blank" >Webomatic</a>-->
+        </p>
+
+        <a href="http://webomatic.de/en/" class="navbar-btn btn-default btn-sm pull-right">
+            <span class="glyphicon glyphicon-check"></span> Go to site: Webomatic </a>
+    </div>
+</div>
+<!--*** End Footer ***-->
+
+
+</body>
+</html>

@@ -7,6 +7,7 @@ import ro.tudorfnsn.DataTransferObject.DTONews;
 import ro.tudorfnsn.Model.News;
 import ro.tudorfnsn.Repository.NewsRepository;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -81,5 +82,21 @@ public class NewsService
         freshNews.setId(oldNews.getId());
 
         newsRepository.save(freshNews);
+    }
+
+    public List<String> getAllNewsPictures()
+    {
+        List<News> newsList = newsRepository.findAll();
+
+        List<DTONews> dtoNewsList = convertNews.ManyToDTO(newsList);
+
+        List<String> listPictures = new ArrayList<>();
+
+        for(DTONews dtoNews : dtoNewsList)
+        {
+            listPictures.add(dtoNews.getPicture());
+        }
+
+        return listPictures;
     }
 }

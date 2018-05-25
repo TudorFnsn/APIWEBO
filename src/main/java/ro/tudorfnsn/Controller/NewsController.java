@@ -79,6 +79,14 @@ public class NewsController
         newsService.update(id, dtoNews);
     }
 
+    @RequestMapping(value = "/getAllPictures", method = RequestMethod.GET)
+    public List<String> getAllPictures()
+    {
+        List<String> picturesList = newsService.getAllNewsPictures();
+
+        return picturesList;
+    }
+
 
 
 

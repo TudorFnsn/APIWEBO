@@ -127,11 +127,11 @@ $(document).ready(
             if(stat === 'ROMANIA' || stat === 'GERMANY')
             {
                 //document.getElementById('originId').style.display = 'none';
-                document.getElementById('originId').style.visibility = 'hidden';
+                document.getElementById('originId').style.display = 'none';
                 console.log("Intra?");
             }
             else {
-                document.getElementById('originId').style.visibility = 'visible';
+                document.getElementById('originId').style.display = '';
                 console.log("Vede?");
             }
 
@@ -157,7 +157,8 @@ $(document).ready(
                 document.getElementById('originId').style.display = 'none';
                 console.log("Intra?");
             }
-            else {
+            else
+                {
                 origindata = $('#createorigin').val();
             }
 

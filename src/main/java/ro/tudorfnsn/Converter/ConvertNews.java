@@ -18,9 +18,10 @@ public class ConvertNews implements ConverterInterface<News, DTONews>
 
         dtoNews.setId(news.getId());
         dtoNews.setTitle(news.getTitle());
+        dtoNews.setPicture(news.getPicture());
         dtoNews.setStartDate(news.getStartDate());
         dtoNews.setEndDate(news.getEndDate());
-        dtoNews.setDescription(news.getDescription());
+
 
         return dtoNews;
     }
@@ -42,9 +43,9 @@ public class ConvertNews implements ConverterInterface<News, DTONews>
         News news = new News();
 
         news.setTitle(dtoNews.getTitle());
+        news.setPicture(dtoNews.getPicture());
         news.setStartDate(dtoNews.getStartDate());
         news.setEndDate(dtoNews.getEndDate());
-        news.setDescription(dtoNews.getDescription());
 
         return news;
     }

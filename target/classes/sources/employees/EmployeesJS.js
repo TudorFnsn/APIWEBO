@@ -130,6 +130,12 @@ $(document).ready(
             $('#edit-item').modal('show');
         });
 
+        $(document).on('click', '#refresh_menu_button', function () {
+            $('#tableDTOEmployee tbody').empty();
+            getElementsList(stat);
+        });
+
+
         // $(document).on('click', '.confirm_item', function () {
         //     var iddata = ($(this).parent().parent()).find('.dataid').html();
         //     $('#editid').val(iddata);
@@ -149,15 +155,61 @@ $(document).ready(
         $(document).on('click', '.deleteMenu_item', function () {
             var iddata = ($(this).parent().parent()).find('.dataid').html();
             $.ajax({
-                url: apiUrl + elementsPath + '/' + iddata,
+                url: apiUrl + elementsPath + '/deleteById/' + iddata,
                 type: 'DELETE',
                 success: function (result) {
-                    getElementsList();
+                    getElementsList(stat);
                     alert(result);
                 }, error: function (xhr, textStatus, errorThrown) {
                     alert(xhr.responseText);
                 }
             });
+        });
+
+        $(document).on('click', '.deleteTaskMenu_item', function () {
+            var iddata = ($(this).parent().parent()).find('.dataid').html();
+            $.ajax({
+                url: apiUrl + tasksPath + '/deleteById/' + iddata,
+                type: 'DELETE',
+                success: function (result) {
+                    //getElementsList();
+                    $('#tasks-item').modal('toggle');
+                    alert(result);
+                }, error: function (xhr, textStatus, errorThrown) {
+                    alert(xhr.responseText);
+                }
+            });
+        });
+
+        $(document).on('click', '.deleteVacationMenu_item', function () {
+            var iddata = ($(this).parent().parent()).find('.dataid').html();
+            $.ajax({
+                url: apiUrl + vacationPath + '/deleteById/' + iddata,
+                type: 'DELETE',
+                success: function (result) {
+                    //getElementsList();
+                    $('#vacations-item').modal('toggle');
+                    alert(result);
+                }, error: function (xhr, textStatus, errorThrown) {
+                    alert(xhr.responseText);
+                }
+            });
+        });
+
+        $(document).on('click', '#add_menu_button', function () {
+
+            if(stat === 'MANAGEMENT' || stat === 'SALES' || stat === 'SERVICE')
+            {
+                //document.getElementById('originId').style.display = 'none';
+                //document.getElementById('departmentId').style.visibility = 'hidden';
+                document.getElementById('departmentId').style.display = 'none';
+                console.log("Intra?");
+            }
+            else {
+                document.getElementById('departmentId').style.visibility = 'visible';
+                console.log("Vede?");
+            }
+
         });
 
         $(document).on('click', '#add_button', function () {
@@ -172,10 +224,11 @@ $(document).ready(
             {
                 departmentdata = 'EMPTY';
 
-                document.getElementById('departmentId').style.display = 'none';
+                document.getElementById('departmentId').style.visibility = 'hidden';
             }
             else
             {
+                document.getElementById('originId').style.visibility = 'visible';
                 departmentdata = $('#createdepartment').val();
             }
 
@@ -220,26 +273,32 @@ $(document).ready(
             });
         });
 
-        $(document).on('click', '', function () {
+        $(document).on('click', '.confirm_item', function () {
             var iddata = ($(this).parent().parent()).find('.dataid').html();
+            var idemployeeId = ($(this).parent().parent()).find('.dataemployeeid').html();
             var datedata = ($(this).parent().parent()).find('.datadate').html();
             var descriptiondata = ($(this).parent().parent()).find('.datadescription').html();
             var starthourdata = ($(this).parent().parent()).find('.datastarthour').html();
             var endhourdata =($(this).parent().parent()).find('.dataendhour').html();
             var completeddata = 'YES';
 
-            var jsonEdit = '{"id":"' + iddata + '","picture":"' + picturedata + '","name":"' + namedata + '","department":"' + departmentdata + '","position":"' + positiondata + '"}';
+            var jsonEdit = '{"id":"' + iddata + '","employeeId":"' + idemployeeId + '","date":"' + datedata + '","startHour":"' + starthourdata + '","endhour":"' + endhourdata +'","description":"'+ descriptiondata +'","completed":"'+ completeddata +'"}';
+            console.log(jsonEdit);
             $.ajax({
                 headers: {
                     'Accept': 'application/json',
                     'Content-Type': 'application/json'
                 },
-                url: apiUrl + elementsPath + '/' + iddata,
+                url: apiUrl + tasksPath + '/update/' + iddata,
                 type: 'POST',
                 data: jsonEdit,
                 dataType: 'text',
                 success: function (result) {
-                    getElementsList();
+                    //getElementsList();
+                    //$('.taskShow_item').trigger('click');
+                    $('#tasks-item').modal('toggle');
+
+
                     alert(result);
                 }
             });
@@ -263,7 +322,7 @@ $(document).ready(
                 {
                     var row = '<tr>';
                     row = row + '<td class="dataid">' + item.id +'</td>';
-                    row = row + '<td class="dataemployeeid">' + item.employeeId +'</td>';
+                    row = row + '<td style="display: none" class="dataemployeeid">' + item.employeeId +'</td>';
                     row = row + '<td class="datadate">' + item.date +'</td>';
                     row = row + '<td class="datadescription">' + item.description +'</td>';
                     row = row + '<td class="datastarthour">' + item.startHour +'</td>';
@@ -272,7 +331,7 @@ $(document).ready(
 
                     if(item.completed === 'NO')
                     {
-                        row = row + '<td><button onclick="setToYes(($(this).parent().parent()).find(\'.dataid\').html())" class="btn btn-primary confirm_item"><span class="glyphicon active glyphicon-ok-circle" aria-hidden="true"></span></button></td>';
+                        row = row + '<td><button class="btn btn-primary confirm_item"><span class="glyphicon active glyphicon-ok-circle" aria-hidden="true"></span></button></td>';
                         console.log("Asta este on ready: " + item.completed);
                     }
                     else
@@ -281,6 +340,8 @@ $(document).ready(
                         //document.getElementById(".confirm_item").disabled = true;
                         row = row + '<td><button class="btn btn-primary confirm_item" disabled><span class="glyphicon active glyphicon-ok-circle" aria-hidden="true"></span></button></td>';
                     }
+
+                    row = row + '<td><button class="btn btn-danger remove-item deleteTaskMenu_item"><span class="glyphicon active glyphicon-trash" aria-hidden="true"></span></button></td>';
                     row = row + '</tr>';
                     $('#tableTasks tbody:last-child').append(row);
 
@@ -308,6 +369,7 @@ $(document).ready(
                     row = row + '<td class="datamotive">' + item.motive +'</td>';
                     row = row + '<td class="dataleave">' + item.leave +'</td>';
                     row = row + '<td class="dataarrival">' + item.arrival +'</td>';
+                    row = row + '<td><button class="btn btn-danger remove-item deleteVacationMenu_item"><span class="glyphicon active glyphicon-trash" aria-hidden="true"></span></button></td>';
                     row = row + '</tr>';
                     $('#tableVacations tbody:last-child').append(row);
 

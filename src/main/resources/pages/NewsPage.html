@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
     <link rel="stylesheet" href="../sources/navbar/navbarCSS.css" >
-    <link rel="stylesheet" href="/sources/employees/EmployeesCSS.css">
+    <link rel="stylesheet" href="/sources/news/NewsCSS.css">
 
 
 
@@ -22,7 +22,7 @@
     <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
     <!--<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>-->
     <script type="text/javascript" src="/sources/navbar/navbar.js"></script>
-    <script src="/sources/employees/EmployeesJS.js"></script>
+    <script src="/sources/news/NewsJS.js"></script>
     <!--<script src="/sources/machine/MachineCSS.css" type="text/css"></script>-->
     <!--<script src="/sources/navbar/navbarCSS.css"></script>-->
 
@@ -45,9 +45,6 @@
 
 </div>
 
-
-
-
 <!--*** Start Navbar ***-->
 <nav class="navbar navbar-default" id="navbar">
     <div class="container-fluid">
@@ -59,20 +56,10 @@
                 </a>
             </li>
             <li><a href="/machine">Machines</a></li>
-            <li><a href="/spareparts">Spare Parts</a></li>
-            <!--<li><a href="#">Bills</a></li>-->
-            <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Employees
-                    <span class="caret"></span>
-                </a>
-                <ul class="dropdown-menu">
-                    <li><a id="id1" onclick="getElementsListManagement()">Management Department</a></li>
-                    <li><a onclick="getElementsListSales()">Sales Department</a></li>
-                    <li><a onclick="getElementsListService()">Service Department</a></li>
-                </ul>
-            </li>
-            <li><a href="/taskvacation">Tasks & Vacations</a></li>
-            <li><a href="/news">News</a></li>
+            <li class="dropdown"><a href="/spareparts">Spare Parts</a></li>
+            <li><a href="/employee">Employees</a></li>
+            <li><a href="/taskvacation">Tasks & Vacations</a> </li>
+            <li><a href="#">News</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
             <li>
@@ -93,19 +80,17 @@
 <!--*** Main Table ***-->
 
 <div id='tableContainer'>
-    <table id='tableDTOEmployee' class='table table-boarded table-hover'>
+    <table id='tableDTONews' class='table table-boarded table-hover'>
         <thead>
         <tr>
             <th>Id</th>
+            <th>Title</th>
             <th>Picture</th>
-            <th>Name</th>
-            <th>Department</th>
-            <th>Position</th>
-            <th>Tasks</th>
-            <th>Vacations</th>
+            <th>Start Date</th>
+            <th>End Date</th>
             <th>
                 <button type='button' class='btn menuBtn btn-success' data-toggle='modal' data-target='#create-item'
-                        id='add_menu_button'>Add Employee
+                        id='add_menu_button'>Add Spare Part
                 </button>
             </th>
             <th>
@@ -133,21 +118,20 @@
                         <td><input id='createid' type='text' class='form-control' name="id">.</input></td>
                     </tr>
                     <tr>
+                        <td>Title</td>
+                        <td><input id='createtitle' type='text' class='form-control' name="title">.</input></td>
+                    </tr>
+                    <tr>
                         <td>Picture</td>
                         <td><img id="createpicture" class="imgPic thumbnail" src="" onerror="this.src='/sources/images/User-Interface-Plus-icon.png'"></td>
                     </tr>
                     <tr>
-                        <td>Name</td>
-                        <td><input id='createname' type='text' class='form-control' name="name">.</input></td>
-                    </tr>
-                    <tr id="departmentId">
-                        <td>Department</td>
-                        <td><select id='createdepartment' name='department' class='form-control'></select></td>
-                        </td>
+                        <td>Start Date</td>
+                        <td><input id='createstartDate' type='text' class='form-control' name="startDate">.</input></td>
                     </tr>
                     <tr>
-                        <td>Position</td>
-                        <td><input id='createposition' type='text' class='form-control' name="position">.</input></td>
+                        <td>End Date</td>
+                        <td><input id='createendDate' type='text' class='form-control' name="endDate">.</input></td>
                     </tr>
                     <tr>
                         <td colspan='2' align='center'>
@@ -180,20 +164,20 @@
                         <td><input id='editid' type='text' class='form-control' name="id">.</input></td>
                     </tr>
                     <tr>
+                        <td>Title</td>
+                        <td><input id='edittitle' type='text' class='form-control' name="title">.</input></td>
+                    </tr>
+                    <tr>
                         <td>Picture</td>
                         <td><img id="editpicture" class="imgPic thumbnail" src="" onerror="this.src='/sources/images/User-Interface-Plus-icon.png'"></td>
                     </tr>
                     <tr>
-                        <td>Name</td>
-                        <td><input id='editname' type='text' class='form-control' name="name">.</input></td>
+                        <td>Start Date</td>
+                        <td><input id='editstartDate' type='text' class='form-control' name="startDate">.</input></td>
                     </tr>
                     <tr>
-                        <td>Department</td>
-                        <td><input id='editdepartment' type='text' class='form-control' name="quantity">.</input></td>
-                    </tr>
-                    <tr>
-                        <td>Position</td>
-                        <td><input id='editposition' type='text' class='form-control' name="position">.</input></td>
+                        <td>End Date</td>
+                        <td><input id='editendDate' type='text' class='form-control' name="endDate">.</input></td>
                     </tr>
                     <tr>
                         <td colspan='2' align='center'>
@@ -210,72 +194,7 @@
     </div>
 </div>
 
-<!--*** Show Tasks ***-->
-<div class='modal modal-lg fade' id='tasks-item' tabindex='-1' role='dialog' aria-labelledby='myModalLabel'>
-    <div class='modal-content'>
-        <div class='modal-header'>
-            <button type='button' class='close' data-dismiss='modal' aria-label='Close'><span
-                    aria-hidden='true'>X</span></button>
-            <h4 class='modal-title' id='myTasksLabel'>Tasks</h4>
-        </div>
-        <div class='modal-body'>
-            <table id="tableTasks" class='table'>
-                <thead>
-                <tr>
-                    <th>Id</th>
-                    <th style="display: none">Employee Id</th>
-                    <th>Date</th>
-                    <th>Description</th>
-                    <th>Start Hour</th>
-                    <th>End Hour</th>
-                    <th>Is Completed</th>
-                    <th>Validation</th>
-                    <th>Delete</th>
-                </tr>
-                </thead>
-                <tbody></tbody>
-
-            </table>
-
-        </div>
-
-
-    </div>
-</div>
-
-<!--*** Show Vacations ***-->
-<div class='modal modal-lg fade' id='vacations-item' tabindex='-1' role='dialog' aria-labelledby='myModalLabel'>
-    <div class='modal-content'>
-        <div class='modal-header'>
-            <button type='button' class='close' data-dismiss='modal' aria-label='Close'><span
-                    aria-hidden='true'>X</span></button>
-            <h4 class='modal-title' id='myVacationsLabel'>Tasks</h4>
-        </div>
-        <div class='modal-body'>
-            <table id="tableVacations" class='table'>
-                <thead>
-                <tr>
-                    <th>Id</th>
-                    <th>Description</th>
-                    <th>Motive</th>
-                    <th>Leave Date</th>
-                    <th>Arrival Date</th>
-                    <th>Delete</th>
-                </tr>
-                </thead>
-                <tbody></tbody>
-
-            </table>
-
-        </div>
-
-
-    </div>
-</div>
-
-
-
-<!--*** Start Image Enhancer ***---->
+<!--*** Image Enhancer ***---->
 <div class='modal fade' id='showPicture-item' tabindex='-1' role='dialog' aria-labelledby='myModalLabel'>
     <div  class='modal-content'>
         <div class='modal-header'>
@@ -293,7 +212,6 @@
 </div>
 <br>
 <br>
-<!--*** End Image Enhancer ***-->
 
 <!--*** End Content ***-->
 
