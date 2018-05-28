@@ -37,7 +37,7 @@ public class ConvertTask implements ConverterInterface<Task, DTOTask>
 
 
 
-        dtoTask.setDescription(task.getDescription());
+        dtoTask.setDescriptions(task.getDescriptions());
 
         return dtoTask;
 
@@ -69,7 +69,7 @@ public class ConvertTask implements ConverterInterface<Task, DTOTask>
         task.setCompleted(dtoTask.getCompleted());
 
 
-        task.setDescription(dtoTask.getDescription());
+        task.setDescriptions(dtoTask.getDescriptions());
 
         return task;
 

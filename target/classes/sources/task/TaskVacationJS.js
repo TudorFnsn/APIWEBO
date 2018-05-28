@@ -136,7 +136,7 @@ $(document).ready(
             var endHourdata = $('#createendHour').val();
             var descriptiondata = $('#createdescription').val();
 
-            var jsonCreate = '{"id":"' + iddata + '","employeeId":"' + employee_iddata +'","date":"'+ datedata +'","startHour":"' + startHourdata + '","endHour":"' + endHourdata + '","description":"' + descriptiondata +'","completed":"' + 'NO' + '"}';
+            var jsonCreate = '{"id":"' + iddata + '","employeeId":"' + employee_iddata +'","date":"'+ datedata +'","startHour":"' + startHourdata + '","endHour":"' + endHourdata + '","descriptions":"' + descriptiondata +'","completed":"' + 'NO' + '"}';
             $.ajax({
                 headers: {
                     'Accept': 'application/json',
@@ -160,10 +160,9 @@ $(document).ready(
             var leavedata = $('#createVacationleave').val();
             var arrivaldata = $('#createVacationarrival').val();
             var motivedata = $('#createVacationmotive').val();
-            var descriptiondata = $('#createdescription').val();
+            var descriptiondata = $('#createVacationdescription').val();
 
-            var jsonCreate = '{"id":"' + iddata + '","employeeId":"' + employee_iddata +'","leave":"'+ leavedata +'","arrival":"' + arrivaldata + '","motive":"' + motivedata + '","description":"' + descriptiondata + '"}';
-            console.log("::::::::: "+jsonCreate);
+            var jsonCreate = '{"id":"' + iddata + '","employeeId":"' + employee_iddata +'","leave":"'+ leavedata +'","arrival":"' + arrivaldata + '","motive":"' + motivedata + '","descriptions":"' + descriptiondata + '"}';
             $.ajax({
                 headers: {
                     'Accept': 'application/json',

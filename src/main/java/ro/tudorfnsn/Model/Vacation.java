@@ -37,15 +37,15 @@ public class Vacation
     private MotiveOfAbsence motive;
 
     @Column
-    private String description;
+    private String descriptions;
 
-    public Vacation(Employee employee, Date leave, Date arrival, MotiveOfAbsence motive, String description)
+    public Vacation(Employee employee, Date leave, Date arrival, MotiveOfAbsence motive, String descriptions)
     {
 
         this.employee = employee;
         this.leave = leave;
         this.arrival = arrival;
         this.motive = motive;
-        this.description = description;
+        this.descriptions = descriptions;
     }
 }

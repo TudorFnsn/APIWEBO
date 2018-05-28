@@ -82,8 +82,8 @@
     <schema id="19" parent="7" name="public">
       <ObjectId>2200</ObjectId>
       <Comment>standard public schema</Comment>
-      <IntrospectionTimestamp>2018-05-28.16:32:16.950</IntrospectionTimestamp>
-      <IntrospectionStateNumber>3211</IntrospectionStateNumber>
+      <IntrospectionTimestamp>2018-05-28.23:01:51.012</IntrospectionTimestamp>
+      <IntrospectionStateNumber>3242</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -146,7 +146,7 @@
     </table>
     <table id="29" parent="19" name="employee">
       <ObjectId>25512</ObjectId>
-      <StateNumber>3211</StateNumber>
+      <StateNumber>3242</StateNumber>
     </table>
     <table id="30" parent="19" name="machine">
       <ObjectId>25520</ObjectId>
@@ -174,7 +174,7 @@
     </table>
     <table id="36" parent="19" name="task">
       <ObjectId>42115</ObjectId>
-      <StateNumber>3211</StateNumber>
+      <StateNumber>3230</StateNumber>
     </table>
     <table id="37" parent="19" name="user_role">
       <ObjectId>32775</ObjectId>
@@ -185,8 +185,8 @@
       <StateNumber>1854</StateNumber>
     </table>
     <table id="39" parent="19" name="vacation">
-      <ObjectId>42105</ObjectId>
-      <StateNumber>3208</StateNumber>
+      <ObjectId>42147</ObjectId>
+      <StateNumber>3242</StateNumber>
     </table>
     <column id="40" parent="27" name="id">
       <Position>1</Position>
@@ -629,18 +629,24 @@
       <StateNumber>3210</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <index id="110" parent="36" name="task_pkey">
+    <column id="110" parent="36" name="descriptions">
+      <Position>8</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <StateNumber>3230</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="111" parent="36" name="task_pkey">
       <ObjectId>42121</ObjectId>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="111" parent="36" name="task_pkey">
+    <key id="112" parent="36" name="task_pkey">
       <ObjectId>42122</ObjectId>
       <ColNames>id</ColNames>
       <UnderlyingIndexName>task_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="112" parent="36" name="fkmeqi2abtbehx871tag4op3hag">
+    <foreign-key id="113" parent="36" name="fkmeqi2abtbehx871tag4op3hag">
       <ObjectId>42123</ObjectId>
       <ColNames>employee_id</ColNames>
       <RefTableId>25512</RefTableId>
@@ -649,34 +655,34 @@
       <RefKeyName>employee_pkey</RefKeyName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="113" parent="37" name="user_id">
+    <column id="114" parent="37" name="user_id">
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>1851</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <column id="114" parent="37" name="role_id">
+    <column id="115" parent="37" name="role_id">
       <Position>2</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>1851</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <index id="115" parent="37" name="user_role_pkey">
+    <index id="116" parent="37" name="user_role_pkey">
       <ObjectId>32778</ObjectId>
       <ColNames>user_id
 role_id</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="116" parent="37" name="user_role_pkey">
+    <key id="117" parent="37" name="user_role_pkey">
       <ObjectId>32779</ObjectId>
       <ColNames>user_id
 role_id</ColNames>
       <UnderlyingIndexName>user_role_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="117" parent="37" name="fkj345gk1bovqvfame88rcx7yyx">
+    <foreign-key id="118" parent="37" name="fkj345gk1bovqvfame88rcx7yyx">
       <ObjectId>32793</ObjectId>
       <ColNames>user_id</ColNames>
       <RefTableId>32780</RefTableId>
@@ -685,7 +691,7 @@ role_id</ColNames>
       <RefKeyName>users_pkey</RefKeyName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <foreign-key id="118" parent="37" name="fka68196081fvovjhkek5m97n3y">
+    <foreign-key id="119" parent="37" name="fka68196081fvovjhkek5m97n3y">
       <ObjectId>32788</ObjectId>
       <ColNames>role_id</ColNames>
       <RefTableId>32770</RefTableId>
@@ -694,86 +700,86 @@ role_id</ColNames>
       <RefKeyName>role_pkey</RefKeyName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="119" parent="38" name="id">
+    <column id="120" parent="38" name="id">
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>1852</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <column id="120" parent="38" name="password">
+    <column id="121" parent="38" name="password">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <StateNumber>1852</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="121" parent="38" name="username">
+    <column id="122" parent="38" name="username">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <StateNumber>1852</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <index id="122" parent="38" name="users_pkey">
+    <index id="123" parent="38" name="users_pkey">
       <ObjectId>32786</ObjectId>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="123" parent="38" name="users_pkey">
+    <key id="124" parent="38" name="users_pkey">
       <ObjectId>32787</ObjectId>
       <ColNames>id</ColNames>
       <UnderlyingIndexName>users_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <column id="124" parent="39" name="id">
+    <column id="125" parent="39" name="id">
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>3207</StateNumber>
+      <StateNumber>3241</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <column id="125" parent="39" name="arrival">
+    <column id="126" parent="39" name="arrival">
       <Position>2</Position>
       <DataType>date|0s</DataType>
-      <StateNumber>3207</StateNumber>
+      <StateNumber>3241</StateNumber>
       <TypeId>1082</TypeId>
     </column>
-    <column id="126" parent="39" name="description">
+    <column id="127" parent="39" name="descriptions">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
-      <StateNumber>3207</StateNumber>
+      <StateNumber>3241</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="127" parent="39" name="leave">
+    <column id="128" parent="39" name="leave">
       <Position>4</Position>
       <DataType>date|0s</DataType>
-      <StateNumber>3207</StateNumber>
+      <StateNumber>3241</StateNumber>
       <TypeId>1082</TypeId>
     </column>
-    <column id="128" parent="39" name="motive">
+    <column id="129" parent="39" name="motive">
       <Position>5</Position>
       <DataType>integer|0s</DataType>
-      <StateNumber>3207</StateNumber>
+      <StateNumber>3241</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="129" parent="39" name="employee_id">
+    <column id="130" parent="39" name="employee_id">
       <Position>6</Position>
       <DataType>bigint|0s</DataType>
-      <StateNumber>3207</StateNumber>
+      <StateNumber>3241</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <index id="130" parent="39" name="vacation_pkey">
-      <ObjectId>42108</ObjectId>
+    <index id="131" parent="39" name="vacation_pkey">
+      <ObjectId>42150</ObjectId>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="131" parent="39" name="vacation_pkey">
-      <ObjectId>42109</ObjectId>
+    <key id="132" parent="39" name="vacation_pkey">
+      <ObjectId>42151</ObjectId>
       <ColNames>id</ColNames>
       <UnderlyingIndexName>vacation_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="132" parent="39" name="fk6qrwq18c5kq468gvsmwm43cgp">
-      <ObjectId>42110</ObjectId>
+    <foreign-key id="133" parent="39" name="fk6qrwq18c5kq468gvsmwm43cgp">
+      <ObjectId>42152</ObjectId>
       <ColNames>employee_id</ColNames>
       <RefTableId>25512</RefTableId>
       <RefColPositions>1</RefColPositions>

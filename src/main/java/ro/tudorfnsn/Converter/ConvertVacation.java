@@ -30,7 +30,7 @@ public class ConvertVacation implements ConverterInterface<Vacation, DTOVacation
         dtoVacation.setLeave(vacation.getLeave());
         dtoVacation.setArrival(vacation.getArrival());
         dtoVacation.setMotive(vacation.getMotive());
-        dtoVacation.setDescription(vacation.getDescription());
+        dtoVacation.setDescriptions(vacation.getDescriptions());
 
         return dtoVacation;
     }
@@ -56,7 +56,7 @@ public class ConvertVacation implements ConverterInterface<Vacation, DTOVacation
         vacation.setLeave(dtoVacation.getLeave());
         vacation.setArrival(dtoVacation.getArrival());
         vacation.setMotive(dtoVacation.getMotive());
-        vacation.setDescription(dtoVacation.getDescription());
+        vacation.setDescriptions(dtoVacation.getDescriptions());
 
         return vacation;
 

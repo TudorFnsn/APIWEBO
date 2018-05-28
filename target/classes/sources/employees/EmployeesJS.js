@@ -317,7 +317,7 @@ $(document).ready(
                     row = row + '<td class="dataid">' + item.id +'</td>';
                     row = row + '<td style="display: none" class="dataemployeeid">' + item.employeeId +'</td>';
                     row = row + '<td class="datadate">' + item.date +'</td>';
-                    row = row + '<td class="datadescription">' + item.description +'</td>';
+                    row = row + '<td class="datadescription">' + item.descriptions +'</td>';
                     row = row + '<td class="datastarthour">' + item.startHour +'</td>';
                     row = row + '<td class="dataendhour">' + item.endHour +'</td>';
                     row = row + '<td class="datacompleted">' + item.completed +'</td>';
@@ -357,7 +357,7 @@ $(document).ready(
                 {
                     var row = '<tr>';
                     row = row + '<td class="dataid">' + item.id +'</td>';
-                    row = row + '<td class="datadescription">' + item.description +'</td>';
+                    row = row + '<td class="datadescription">' + item.descriptions +'</td>';
                     row = row + '<td class="datamotive">' + item.motive +'</td>';
                     row = row + '<td class="dataleave">' + item.leave +'</td>';
                     row = row + '<td class="dataarrival">' + item.arrival +'</td>';

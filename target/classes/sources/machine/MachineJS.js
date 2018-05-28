@@ -6,6 +6,7 @@ var navbar;
 var sticky;
 var stat;
 
+// function for emptying inputs of add form after adding a new machine
 function emptyMachine()
 {
     $('#createpicture').attr('src', '');
@@ -17,6 +18,7 @@ function emptyMachine()
 
 }
 
+// function to list all machines with the status "IN_PROGRESS"
 function getElementsListIP() {
     $('#tableDTOMachine tbody').empty();
     $.getJSON(apiUrl + elementsPath + '/getByStatus/IN_PROGRESS', null, function (data) {
@@ -44,7 +46,7 @@ function getElementsListIP() {
 
 }
 
-
+// function to list all machines with the status "WAITING"
 function getElementsListWaiting() {
     $('#tableDTOMachine tbody').empty();
     $.getJSON(apiUrl + elementsPath + '/getByStatus/WAITING', null, function (data) {
@@ -69,6 +71,7 @@ function getElementsListWaiting() {
     console.log(stat);
 }
 
+// function to list all machines with the status "FINALIZED"
 function getElementsListFinished() {
     $('#tableDTOMachine tbody').empty();
     $.getJSON(apiUrl + elementsPath + '/getByStatus/FINALIZED', null, function (data) {
@@ -94,6 +97,7 @@ function getElementsListFinished() {
 
 }
 
+// function to validate the date : we cannot add a machine with an arrival date greater than the current date
 function validateDate()
 {
     var today = new Date();
@@ -126,6 +130,7 @@ $(document).ready(
         listSpareParts();
         getElements(stat);
 
+        // function for the POST HTTP request sent to the server in the form of JSON data containing all the necessary inputs to create an item
         $(document).on('click', '#add_button', function () {
 
             var iddata = 1;
@@ -160,6 +165,7 @@ $(document).ready(
 
 
 
+        // function which makes a HTTP GET request to the server for it to return the spare parts correspondent to the machine
         $(document).on('click', '.sparePartsShow_item', function () {
 
             var index = ($(this).parent().parent()).find('.dataid').html();
@@ -187,6 +193,8 @@ $(document).ready(
 
 
 
+
+        // function made to gather the information correspondent to the item which we want to make changes to (edit)
         $(document).on('click', '.editMenu_item', function () {
 
             if(stat === "FINALIZED")
@@ -217,6 +225,7 @@ $(document).ready(
             $('#edit-item').modal('show');
         });
 
+        // function which makes a HTTP DELETE request to the server, containing the id of the element we want to erase
         $(document).on('click', '.deleteMenu_item', function () {
             var iddata = ($(this).parent().parent()).find('.dataid').html();
             $.ajax({
@@ -232,6 +241,8 @@ $(document).ready(
         });
 
 
+
+        // function which uses the gathered information from above and makes a new POST REQUEAST with the altered data
         $(document).on('click', '#update_button', function () {
 
                 var iddata = $('#editid').val();
@@ -264,6 +275,7 @@ $(document).ready(
 
         });
 
+        // function which make a GET REQUEST expecting in return all the data of all the items
         $(document).on('click', '#refresh_menu_button', function () {
             $('#tableDTOMachine tbody').empty();
             getElements(stat);

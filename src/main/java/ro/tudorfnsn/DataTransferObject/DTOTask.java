@@ -22,7 +22,7 @@ public class DTOTask
     Date date;
     String startHour;
     String endHour;
-    String description;
+    String descriptions;
     Completed completed;
 
 

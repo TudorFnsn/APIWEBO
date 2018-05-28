@@ -37,18 +37,18 @@ public class Task
     private String endHour;
 
     @Column
-    private String description;
+    private String descriptions;
 
     @Column
     private Completed completed;
 
-    public Task(Employee employee, Date date, String startHour, String endHour, String description, Completed completed)
+    public Task(Employee employee, Date date, String startHour, String endHour, String descriptions, Completed completed)
     {
         this.employee = employee;
         this.date = date;
         this.startHour = startHour;
         this.endHour = endHour;
-        this.description = description;
+        this.descriptions = descriptions;
         this.completed = completed;
     }
 }

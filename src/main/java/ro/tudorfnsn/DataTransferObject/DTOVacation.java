@@ -22,5 +22,5 @@ public class DTOVacation
     @JsonFormat(shape=JsonFormat.Shape.STRING, pattern="yyyy-mm-dd")
     Date arrival;
     MotiveOfAbsence motive;
-    String description;
+    String descriptions;
 }
