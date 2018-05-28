@@ -23,6 +23,37 @@ function getElementsList() {
 
 }
 
+
+function validateDate()
+{
+    var today = new Date();
+    var dd = today.getDate();
+    var mm = today.getMonth()+1;
+    var yyyy = today.getFullYear();
+    if(dd<10){
+        dd='0'+dd
+    }
+    if(mm<10){
+        mm='0'+mm
+    }
+
+    today = yyyy+'-'+mm+'-'+dd;
+
+    $('#createstartDate').attr('min', today);
+
+    $('#editstartDate').attr('min', today);
+}
+
+function validateSecondaryDate()
+{
+    var minimum = $('#createstartDate');
+    $('#createendDate').attr('min', minimum.val());
+
+    $('#editendDate').attr('min', minimum.val());
+
+
+}
+
 $(document).ready(
     function ()
     {
@@ -30,7 +61,6 @@ $(document).ready(
 
 
         $(document).on('click', '#add_button', function () {
-            //var iddata = $('#createid').val();
             var iddata = 1;
             var titledata = $('#createtitle').val();
             var picturedata = getBase64($('#createpicture').attr('src'));
@@ -58,30 +88,6 @@ $(document).ready(
         });
 
 
-
-        $(document).on('click', '.sparePartsShow_item', function () {
-
-            var index = ($(this).parent().parent()).find('.dataid').html();
-            //console.log(index);
-
-            $('#tableSpareParts tbody').empty();
-            $.getJSON(apiUrl + elementsPath + '/sparePartsOf/' + index, null, function (data)
-            {
-                $.each(data, function (index, item)
-                {
-                    var row = '<tr>';
-                    row = row + '<td class="dataid">' + item.id +'</td>';
-                    row = row + '<td class="datapicture"><img class="imgPic" src="data:image/jpeg;base64,' + item.picture + '"></td>';
-                    row = row + '<td class="dataname">' + item.name +'</td>';
-                    row = row + '<td class="dataseries">' + item.series +'</td>';
-                    row = row + '</tr>';
-                    $('#tableSpareParts tbody:last-child').append(row);
-
-                })
-
-            });
-            $('#spareParts-item').modal('show');
-        });
 
 
 

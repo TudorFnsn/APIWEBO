@@ -74,8 +74,54 @@ function visualizeVacation()
 }
 
 
+function validateDateTask()
+{
+    var today = new Date();
+    var dd = today.getDate();
+    var mm = today.getMonth()+1;
+    var yyyy = today.getFullYear();
+    if(dd<10){
+        dd='0'+dd
+    }
+    if(mm<10){
+        mm='0'+mm
+    }
+
+    today = yyyy+'-'+mm+'-'+dd;
+
+    $('#createdate').attr('min', today);
+}
+
+function validateDateVacation()
+{
+    var today = new Date();
+    var dd = today.getDate();
+    var mm = today.getMonth()+1;
+    var yyyy = today.getFullYear();
+    if(dd<10){
+        dd='0'+dd
+    }
+    if(mm<10){
+        mm='0'+mm
+    }
+
+    today = yyyy+'-'+mm+'-'+dd;
+
+    $('#createVacationleave').attr('min', today);
+
+}
+
+
+function validateSecondaryDateVacation()
+{
+    var minimum = $('#createVacationleave');
+    $('#createVacationarrival').attr('min', minimum.val());
+}
+
+
 $(document).ready(
     function () {
+
 
         listEmployeeTask();
         listEmployeeVacation();
@@ -117,6 +163,7 @@ $(document).ready(
             var descriptiondata = $('#createdescription').val();
 
             var jsonCreate = '{"id":"' + iddata + '","employeeId":"' + employee_iddata +'","leave":"'+ leavedata +'","arrival":"' + arrivaldata + '","motive":"' + motivedata + '","description":"' + descriptiondata + '"}';
+            console.log("::::::::: "+jsonCreate);
             $.ajax({
                 headers: {
                     'Accept': 'application/json',

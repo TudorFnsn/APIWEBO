@@ -17,9 +17,9 @@ public class DTONews
     Long id;
     String title;
     String picture;
-    @JsonFormat(shape=JsonFormat.Shape.STRING, pattern="dd-MM-yyyy")
+    @JsonFormat(shape=JsonFormat.Shape.STRING, pattern="yyyy-mm-dd")
     Date startDate;
-    @JsonFormat(shape=JsonFormat.Shape.STRING, pattern="dd-MM-yyyy")
+    @JsonFormat(shape=JsonFormat.Shape.STRING, pattern="yyyy-mm-dd")
     Date endDate;
 
 }

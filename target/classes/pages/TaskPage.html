@@ -100,7 +100,7 @@
             </tr>
             <tr>
                 <td>Date</td>
-                <td><input id='createdate' type='text' class='form-control' name="date"> </input>
+                <td><input id='createdate' type='date' class='form-control' name="date" onclick="validateDateTask()"> </input>
                 </td>
             </tr>
             <tr>
@@ -145,12 +145,12 @@
             </tr>
             <tr>
                 <td>Leave</td>
-                <td><input id='createVacationleave' type='text' class='form-control' name="leave"> </input>
+                <td><input id='createVacationleave' type='date' class='form-control' onclick="validateDateVacation()" name="leave"> </input>
                 </td>
             </tr>
             <tr>
                 <td>Arrival</td>
-                <td><input id='createVacationarrival' type='text' class='form-control' name="arrival"> </input></td>
+                <td><input id='createVacationarrival' type='date'  class='form-control' onclick="validateSecondaryDateVacation()" name="arrival"> </input></td>
             </tr>
             <tr>
                 <td>Motive</td>

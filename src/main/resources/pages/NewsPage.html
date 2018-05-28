@@ -114,12 +114,8 @@
             <form id='add_input'>
                 <table class='table table-hover'>
                     <tr>
-                        <td>Id</td>
-                        <td><input id='createid' type='text' class='form-control' name="id">.</input></td>
-                    </tr>
-                    <tr>
                         <td>Title</td>
-                        <td><input id='createtitle' type='text' class='form-control' name="title">.</input></td>
+                        <td><input id='createtitle' type='text' class='form-control' name="title"> </input></td>
                     </tr>
                     <tr>
                         <td>Picture</td>
@@ -127,11 +123,11 @@
                     </tr>
                     <tr>
                         <td>Start Date</td>
-                        <td><input id='createstartDate' type='text' class='form-control' name="startDate">.</input></td>
+                        <td><input id='createstartDate' type='date' class='form-control' name="startDate" onclick="validateDate()"> </input></td>
                     </tr>
                     <tr>
                         <td>End Date</td>
-                        <td><input id='createendDate' type='text' class='form-control' name="endDate">.</input></td>
+                        <td><input id='createendDate' type='date' class='form-control' name="endDate" onclick="validateSecondaryDate()"> </input></td>
                     </tr>
                     <tr>
                         <td colspan='2' align='center'>
@@ -159,13 +155,13 @@
         <div class='modal-body'>
             <form id='edit_input'>
                 <table class='table table-hover'>
-                    <tr>
+                    <tr style="display: none">
                         <td>Id</td>
-                        <td><input id='editid' type='text' class='form-control' name="id">.</input></td>
+                        <td><input id='editid' type='text' class='form-control' name="id"> </input></td>
                     </tr>
                     <tr>
                         <td>Title</td>
-                        <td><input id='edittitle' type='text' class='form-control' name="title">.</input></td>
+                        <td><input id='edittitle' type='text' class='form-control' name="title"> </input></td>
                     </tr>
                     <tr>
                         <td>Picture</td>
@@ -173,11 +169,11 @@
                     </tr>
                     <tr>
                         <td>Start Date</td>
-                        <td><input id='editstartDate' type='text' class='form-control' name="startDate">.</input></td>
+                        <td><input id='editstartDate' type='date' class='form-control' name="startDate" onclick="validateDate()"> </input></td>
                     </tr>
                     <tr>
                         <td>End Date</td>
-                        <td><input id='editendDate' type='text' class='form-control' name="endDate">.</input></td>
+                        <td><input id='editendDate' type='date' class='form-control' name="endDate" onclick="validateSecondaryDate()"> </input></td>
                     </tr>
                     <tr>
                         <td colspan='2' align='center'>

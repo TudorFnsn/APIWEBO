@@ -18,7 +18,7 @@ public class DTOTask
     Long id;
     Long employeeId;
 
-    @JsonFormat(shape=JsonFormat.Shape.STRING, pattern="dd-MM-yyyy")
+    @JsonFormat(shape=JsonFormat.Shape.STRING, pattern="yyyy-mm-dd")
     Date date;
     String startHour;
     String endHour;

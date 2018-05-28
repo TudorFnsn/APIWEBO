@@ -22,7 +22,7 @@ public class DTOBill
     Integer timeSpentOn;
     List<Long> employeeIdList;
 
-    @JsonFormat(shape=JsonFormat.Shape.STRING, pattern="dd-MM-yyyy")
+    @JsonFormat(shape=JsonFormat.Shape.STRING, pattern="yyyy-mm-dd")
     Date date;
     Float finalPrice;
 }
