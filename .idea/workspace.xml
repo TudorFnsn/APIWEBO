@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64569b9d-340b-41a5-af09-be2f8b93a22d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7f0268cb-843f-457c-97e7-b49e017ac0ec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7f0268cb-843f-457c-97e7-b49e017ac0ec.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7f0268cb-843f-457c-97e7-b49e017ac0ec/storage_v2/_src_/database/webomatic_db._qCcMQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7f0268cb-843f-457c-97e7-b49e017ac0ec/storage_v2/_src_/database/webomatic_db._qCcMQ/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOBill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOBill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTONews.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTONews.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOVacation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/tudorfnsn/DataTransferObject/DTOVacation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/MachinePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/MachinePage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/NewsPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/NewsPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/TaskPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/TaskPage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/sources/machine/MachineJS.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sources/machine/MachineJS.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/sources/news/NewsJS.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sources/news/NewsJS.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/sources/task/TaskVacationJS.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sources/task/TaskVacationJS.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/TaskPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/TaskPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/DataTransferObject/DTOTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/tudorfnsn/DataTransferObject/DTOTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sources/task/TaskVacationJS.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sources/task/TaskVacationJS.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -99,26 +83,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MachineJS.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MachineJS.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/sources/machine/MachineJS.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="113" column="35" selection-start-line="113" selection-start-column="35" selection-end-line="113" selection-end-column="35" />
+            <state relative-caret-position="152">
+              <caret line="167" column="98" selection-start-line="167" selection-start-column="98" selection-end-line="167" selection-end-column="98" />
               <folding>
                 <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
                 <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
                 <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
-                <marker date="1527521687000" expanded="true" signature="788:810" ph="data:" />
-                <marker date="1527521687000" expanded="true" signature="788:811" ph="data:" />
+                <marker date="1527522676000" expanded="true" signature="922:944" ph="data:" />
+                <marker date="1527522676000" expanded="true" signature="922:945" ph="data:" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MachinePage.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MachinePage.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/pages/MachinePage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
+            <state relative-caret-position="335">
               <caret line="148" column="133" selection-start-line="148" selection-start-column="133" selection-end-line="148" selection-end-column="133" />
               <folding>
                 <element signature="n#style#0;n#tr#0;n#table#0;n#form#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -281,8 +265,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/sources/task/TaskVacationJS.js" />
         <option value="$PROJECT_DIR$/src/main/resources/sources/news/NewsJS.js" />
         <option value="$PROJECT_DIR$/src/main/resources/pages/NewsPage.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/sources/machine/MachineJS.js" />
         <option value="$PROJECT_DIR$/src/main/resources/pages/MachinePage.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/sources/machine/MachineJS.js" />
       </list>
     </option>
   </component>
@@ -720,12 +704,12 @@
       <workItem from="1526826120998" duration="5062000" />
       <workItem from="1526980456925" duration="1025000" />
       <workItem from="1526981577713" duration="25766000" />
-      <workItem from="1527156297246" duration="45479000" />
+      <workItem from="1527156297246" duration="46220000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="440582000" />
+    <option name="totallyTimeSpent" value="441323000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -760,10 +744,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.3287483" />
-      <window_info anchor="bottom" id="Run" order="12" sideWeight="0.4789984" visible="true" weight="0.23034483" />
+      <window_info active="true" anchor="bottom" id="Run" order="12" sideWeight="0.4789984" visible="true" weight="0.23034483" />
       <window_info anchor="bottom" id="Spring" order="4" weight="0.32827586" />
       <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.49676898" weight="0.14068966" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49190283" visible="true" weight="0.20274636" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49190283" visible="true" weight="0.20274636" />
       <window_info anchor="right" id="Bean Validation" order="4" weight="0.32956383" />
       <window_info id="Web" order="3" sideWeight="0.5080972" side_tool="true" weight="0.13327949" />
       <window_info anchor="bottom" id="Find" order="11" weight="0.32827586" />
@@ -1172,27 +1156,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/machine/MachineJS.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="113" column="35" selection-start-line="113" selection-start-column="35" selection-end-line="113" selection-end-column="35" />
-          <folding>
-            <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
-            <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
-            <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
-            <marker date="1527521687000" expanded="true" signature="788:810" ph="data:" />
-            <marker date="1527521687000" expanded="true" signature="788:811" ph="data:" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/pages/MachinePage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
+        <state relative-caret-position="335">
           <caret line="148" column="133" selection-start-line="148" selection-start-column="133" selection-end-line="148" selection-end-column="133" />
           <folding>
             <element signature="n#style#0;n#tr#0;n#table#0;n#form#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#tr#4;n#table#0;n#form#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sources/machine/MachineJS.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="167" column="98" selection-start-line="167" selection-start-column="98" selection-end-line="167" selection-end-column="98" />
+          <folding>
+            <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#td#0;n#!!top" expanded="true" />
+            <marker date="1527522676000" expanded="true" signature="922:944" ph="data:" />
+            <marker date="1527522676000" expanded="true" signature="922:945" ph="data:" />
           </folding>
         </state>
       </provider>

@@ -373,8 +373,8 @@ function listSpareParts()
     {
         $.each(data, function (index, item)
         {
-            $('#createsparePartIdList').append("<option class='active' value = '" + item.id + "'><div><span>" + item.name + "</span>" + " <span>100</span></div></option>");
 
+            $('#createsparePartIdList').append("<option class='active' value = '" + item.id + "'>" + item.name + "</option>");
             $('#editsparePartIdList').append("<option class='active' value = '" + item.id + "'>" + item.name + "</option>");
         });
     });
