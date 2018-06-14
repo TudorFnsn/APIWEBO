@@ -19,8 +19,7 @@ import java.util.List;
 @Getter
 @Setter
 @ToString
-public class Machine extends MechanicalElement
-{
+public class Machine extends MechanicalElement {
 
     @Column
     protected Status status;
@@ -31,14 +30,13 @@ public class Machine extends MechanicalElement
 
 
     @ManyToMany(fetch = FetchType.LAZY, cascade = {CascadeType.PERSIST, CascadeType.MERGE})
-    @JoinTable(name = "machine_spare_parts_list", joinColumns = { @JoinColumn(name = "machine_id") }, inverseJoinColumns = { @JoinColumn(name = "spare_parts_id") })
+    @JoinTable(name = "machine_spare_parts_list", joinColumns = {@JoinColumn(name = "machine_id")}, inverseJoinColumns = {@JoinColumn(name = "spare_parts_id")})
     private List<SparePart> sparePartsList;
 
     @ManyToOne
     private Owner owner;
 
-    public Machine(String picture, String name, String series, Status status, List<SparePart> sparePartsList, Owner owner, Date arrivalDate)
-    {
+    public Machine(String picture, String name, String series, Status status, List<SparePart> sparePartsList, Owner owner, Date arrivalDate) {
         super(picture, name, series);
 
         this.status = status;
@@ -47,6 +45,7 @@ public class Machine extends MechanicalElement
         this.arrivalDate = arrivalDate;
 
     }
+
 
     public Machine(String picture, String name, String series, Status status, List<SparePart> sparePartsList, Owner owner)
     {

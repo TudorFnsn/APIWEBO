@@ -25,7 +25,6 @@ public class DTOMachine
     String series;
     Status status;
     List<Long> sparePartIdList;
-
     @JsonFormat(shape=JsonFormat.Shape.STRING, pattern="yyyy-mm-dd")
     Date arrivalDate;
     Long owner_id;

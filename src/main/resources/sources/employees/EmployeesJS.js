@@ -125,8 +125,8 @@ $(document).ready(
         $(document).on('click', '.editMenu_item', function () {
             var iddata = ($(this).parent().parent()).find('.dataid').html();
             $('#editid').val(iddata);
-            var picturedata = ($(this).parent().parent()).find('.datapicture').html();
-            $('#editpicture').val(picturedata);
+            var picturedata = ($(this).parent().parent()).find('.imgPic').attr('src');
+            $('#editpicture').attr('src', picturedata);
             var namedata = ($(this).parent().parent()).find('.dataname').html();
             $('#editname').val(namedata);
             var departmentdata = ($(this).parent().parent()).find('.datadepartment').html();
@@ -244,18 +244,19 @@ $(document).ready(
 
         $(document).on('click', '#update_button', function () {
             var iddata = $('#editid').val();
-            var picturedata = $('#editpicture').val();
+            var picturedata = getBase64($('#editpicture').attr('src'));
             var namedata = $('#editname').val();
             var departmentdata = $('#editdepartment').val();
             var positiondata = $('#editposition').val();
 
             var jsonEdit = '{"id":"' + iddata + '","picture":"' + picturedata + '","name":"' + namedata + '","department":"' + departmentdata + '","position":"' + positiondata + '"}';
+            console.log(jsonEdit);
             $.ajax({
                 headers: {
                     'Accept': 'application/json',
                     'Content-Type': 'application/json'
                 },
-                url: apiUrl + elementsPath + '/' + iddata,
+                url: apiUrl + elementsPath + '/update/' + iddata,
                 type: 'POST',
                 data: jsonEdit,
                 dataType: 'text',

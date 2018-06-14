@@ -35,7 +35,4 @@ public abstract class Element
         this.name = name;
     }
 
-
-
-
 }

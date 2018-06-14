@@ -40,9 +40,7 @@ public class MachineService
     public void createMachineIP(DTOMachine dtoMachine)
     {
         Machine machine = convertMachine.OneToModel(dtoMachine);
-        //machine.setOwner(ownerRepository.findFirstById(dtoMachine.getOwner_id()));
         machine.setStatus(Status.IN_PROGRESS);
-        //machine.setArrivalDate(dtoMachine.getArrivalDate().getDate());
 
         machineRepository.save(machine);
     }

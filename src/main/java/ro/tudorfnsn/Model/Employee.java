@@ -25,12 +25,6 @@ public class Employee extends Element
     @Column
     private Department department;
 
-//    @OneToMany(cascade = CascadeType.DETACH, targetEntity = Task.class)
-//    private List<Task> tasks;
-//
-//    @OneToMany(cascade = CascadeType.DETACH, targetEntity = Vacation.class)
-//    private List<Vacation> vacations;
-
 
 
     public Employee(String picture, String name, Department department, String position)

@@ -16,7 +16,6 @@ import javax.persistence.InheritanceType;
 @ToString
 public abstract class MechanicalElement extends Element
 {
-
     @Column
     protected String series;
 
@@ -28,5 +27,4 @@ public abstract class MechanicalElement extends Element
         this.series = series;
 
     }
-
 }

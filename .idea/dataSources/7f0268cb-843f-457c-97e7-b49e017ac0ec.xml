@@ -82,8 +82,8 @@
     <schema id="19" parent="7" name="public">
       <ObjectId>2200</ObjectId>
       <Comment>standard public schema</Comment>
-      <IntrospectionTimestamp>2018-05-28.23:01:51.012</IntrospectionTimestamp>
-      <IntrospectionStateNumber>3242</IntrospectionStateNumber>
+      <IntrospectionTimestamp>2018-06-14.14:20:39.715</IntrospectionTimestamp>
+      <IntrospectionStateNumber>3281</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -137,20 +137,20 @@
       <DataType>bigint</DataType>
     </sequence>
     <table id="27" parent="19" name="bill">
-      <ObjectId>25504</ObjectId>
-      <StateNumber>1658</StateNumber>
+      <ObjectId>49152</ObjectId>
+      <StateNumber>3264</StateNumber>
     </table>
     <table id="28" parent="19" name="bill_employee_list">
-      <ObjectId>25509</ObjectId>
-      <StateNumber>1563</StateNumber>
+      <ObjectId>49157</ObjectId>
+      <StateNumber>3264</StateNumber>
     </table>
     <table id="29" parent="19" name="employee">
       <ObjectId>25512</ObjectId>
-      <StateNumber>3242</StateNumber>
+      <StateNumber>3281</StateNumber>
     </table>
     <table id="30" parent="19" name="machine">
       <ObjectId>25520</ObjectId>
-      <StateNumber>2727</StateNumber>
+      <StateNumber>3262</StateNumber>
     </table>
     <table id="31" parent="19" name="machine_spare_parts_list">
       <ObjectId>41652</ObjectId>
@@ -174,7 +174,7 @@
     </table>
     <table id="36" parent="19" name="task">
       <ObjectId>42115</ObjectId>
-      <StateNumber>3230</StateNumber>
+      <StateNumber>3278</StateNumber>
     </table>
     <table id="37" parent="19" name="user_role">
       <ObjectId>32775</ObjectId>
@@ -186,85 +186,84 @@
     </table>
     <table id="39" parent="19" name="vacation">
       <ObjectId>42147</ObjectId>
-      <StateNumber>3242</StateNumber>
+      <StateNumber>3281</StateNumber>
     </table>
     <column id="40" parent="27" name="id">
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>1546</StateNumber>
+      <StateNumber>3260</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <column id="41" parent="27" name="date">
       <Position>2</Position>
-      <DataType>timestamp|0s</DataType>
-      <StateNumber>1546</StateNumber>
-      <TypeId>1114</TypeId>
+      <DataType>date|0s</DataType>
+      <StateNumber>3260</StateNumber>
+      <TypeId>1082</TypeId>
     </column>
     <column id="42" parent="27" name="final_price">
       <Position>3</Position>
       <DataType>real|0s</DataType>
-      <StateNumber>1546</StateNumber>
+      <StateNumber>3260</StateNumber>
       <TypeId>700</TypeId>
     </column>
     <column id="43" parent="27" name="time_spent_on">
       <Position>4</Position>
       <DataType>integer|0s</DataType>
-      <StateNumber>1546</StateNumber>
+      <StateNumber>3260</StateNumber>
       <TypeId>23</TypeId>
     </column>
     <column id="44" parent="27" name="machine_id">
       <Position>5</Position>
       <DataType>bigint|0s</DataType>
-      <StateNumber>1546</StateNumber>
+      <StateNumber>3260</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <index id="45" parent="27" name="bill_pkey">
-      <ObjectId>25507</ObjectId>
+      <ObjectId>49155</ObjectId>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="46" parent="27" name="bill_pkey">
-      <ObjectId>25508</ObjectId>
+      <ObjectId>49156</ObjectId>
       <ColNames>id</ColNames>
       <UnderlyingIndexName>bill_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
     <foreign-key id="47" parent="27" name="fk2gd7urh97w1ukos5r4sx27j38">
-      <ObjectId>25641</ObjectId>
+      <ObjectId>49160</ObjectId>
       <ColNames>machine_id</ColNames>
       <RefTableId>25520</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>machine</RefTableName>
       <RefKeyName>machine_pkey</RefKeyName>
       <RefColNames>id</RefColNames>
-      <OnDelete>set-null</OnDelete>
     </foreign-key>
     <column id="48" parent="28" name="bill_id">
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>1547</StateNumber>
+      <StateNumber>3261</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <column id="49" parent="28" name="employee_list_id">
       <Position>2</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>1547</StateNumber>
+      <StateNumber>3261</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <foreign-key id="50" parent="28" name="fk4mspblddd3q5rmtql7ypjnolc">
-      <ObjectId>25591</ObjectId>
+      <ObjectId>49170</ObjectId>
       <ColNames>bill_id</ColNames>
-      <RefTableId>25504</RefTableId>
+      <RefTableId>49152</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>bill</RefTableName>
       <RefKeyName>bill_pkey</RefKeyName>
       <RefColNames>id</RefColNames>
     </foreign-key>
     <foreign-key id="51" parent="28" name="fkk1n52my3654wj388t3db5nni4">
-      <ObjectId>25586</ObjectId>
+      <ObjectId>49165</ObjectId>
       <ColNames>employee_list_id</ColNames>
       <RefTableId>25512</RefTableId>
       <RefColPositions>1</RefColPositions>
@@ -647,13 +646,15 @@
       <Primary>1</Primary>
     </key>
     <foreign-key id="113" parent="36" name="fkmeqi2abtbehx871tag4op3hag">
-      <ObjectId>42123</ObjectId>
+      <ObjectId>49187</ObjectId>
       <ColNames>employee_id</ColNames>
       <RefTableId>25512</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>employee</RefTableName>
       <RefKeyName>employee_pkey</RefKeyName>
       <RefColNames>id</RefColNames>
+      <OnDelete>cascade</OnDelete>
+      <OnUpdate>cascade</OnUpdate>
     </foreign-key>
     <column id="114" parent="37" name="user_id">
       <Position>1</Position>
@@ -779,13 +780,15 @@ role_id</ColNames>
       <Primary>1</Primary>
     </key>
     <foreign-key id="133" parent="39" name="fk6qrwq18c5kq468gvsmwm43cgp">
-      <ObjectId>42152</ObjectId>
+      <ObjectId>49192</ObjectId>
       <ColNames>employee_id</ColNames>
       <RefTableId>25512</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>employee</RefTableName>
       <RefKeyName>employee_pkey</RefKeyName>
       <RefColNames>id</RefColNames>
+      <OnDelete>cascade</OnDelete>
+      <OnUpdate>cascade</OnUpdate>
     </foreign-key>
   </database-model>
 </dataSource>

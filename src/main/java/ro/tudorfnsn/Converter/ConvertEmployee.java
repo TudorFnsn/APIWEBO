@@ -29,26 +29,12 @@ public class ConvertEmployee implements ConverterInterface<Employee, DTOEmployee
     {
         DTOEmployee dtoEmployee = new DTOEmployee();
 
-//        List<Long> taskListId = new ArrayList<>();
-//        List<Long> vacationListId = new ArrayList<>();
-//
-//        for(Task task : employee.getTasks())
-//        {
-//            taskListId.add(task.getId());
-//        }
-//
-//        for(Vacation vacation: employee.getVacations())
-//        {
-//            vacationListId.add(vacation.getId());
-//        }
 
         dtoEmployee.setId(employee.getId());
         dtoEmployee.setPicture(employee.getPicture());
         dtoEmployee.setName(employee.getName());
         dtoEmployee.setDepartment(employee.getDepartment());
         dtoEmployee.setPosition(employee.getPosition());
-        //dtoEmployee.setTaskListId(taskListId);
-        //dtoEmployee.setVacationListId(vacationListId);
 
         return dtoEmployee;
     }
@@ -57,10 +43,8 @@ public class ConvertEmployee implements ConverterInterface<Employee, DTOEmployee
     public List<DTOEmployee> ManyToDTO(List<Employee> employees)
     {
         List<DTOEmployee> dtoEmployeeList = new ArrayList<>();
-
         for(Employee employee: employees)
             dtoEmployeeList.add(OneToDTO(employee));
-
         return dtoEmployeeList;
     }
 
